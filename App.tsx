@@ -1,11 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
@@ -24,95 +17,118 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { AuthScreen } from './src/navigation/Navigation';
+import { AuthContext } from './src/services/Context';
+import { LoggedInUser, System, GenericQueryAll, GenericQueryWhere } from './src/databases/allSchemas';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
+  const initialLoginState = { isLoading: true, userToken: null, userName: null, isIntroDone: false }
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  useEffect(() => {
+
+    checkIntro();
+    checkLogIn();
+   
+  }, []);
+
+  const loginReducer = (prevState:any, action:any) => {
+    switch (action.type) {
+      case 'RETRIEVE_TOKEN':
+        return {
+          ...prevState,
+          userToken: action.token,
+          isLoading: false,
+          isIntroDone: action.intro
+        };
+      case 'LOGIN':
+        return {
+          ...prevState,
+          userToken: action.token,
+          userName: action.id,
+          isLoading: false,
+          isIntroDone: action.intro
+        };
+      case 'LOGOUT':
+        return {
+          ...prevState,
+          userToken: null,
+          userName: null,
+          isLoading: false,
+        };
+      case 'REGISTER':
+        return {
+          ...prevState,
+          userToken: action.token,
+          userName: action.id,
+          isLoading: false,
+        };
+      case 'INTRO':
+        return {
+          isIntroDone: action.intro
+        }
+    }
+  }
+
+  const authContext = React.useMemo(() => ({
+    signIn: () => {
+      dispatch({ type: 'LOGIN', id: 'name', token: 'token' });
+    },
+    signOut: () => {
+      dispatch({ type: 'LOGOUT', intro: true });
+    },
+    signUp: () => {
+
+    },
+    intro: () => {
+      dispatch({ type: 'INTRO', intro: true });
+    }
+  }), []);
+
+  const [loginState, dispatch] = React.useReducer(loginReducer, initialLoginState,);
+
+
+    /**
+   * check if the intro screen has been seen
+   */
+    const checkIntro = () => {
+      GenericQueryWhere(System, 'key == "INTRO" AND done == true').then((results:any) => {
+        if (results == undefined || results.length < 1) {
+        } else {
+          dispatch({type: 'INTRO', intro: results[0].done});
+        }
+      }).catch((error) => { });
+    }
+
+      /**
+   * check if the user is logged in then go to home page
+   */
+  const checkLogIn = () => {
+    GenericQueryAll(LoggedInUser).then((LoggedInUser:any) => {
+      if (LoggedInUser == undefined || LoggedInUser.length < 1) {
+      } else {
+        updateAppStatus(LoggedInUser);
+      }
+    }).catch((error) => { })
+  }
+
+  const updateAppStatus = (LoggedInUser:any)=>{
+    dispatch({ type: 'RETRIEVE_TOKEN', id: LoggedInUser[0].firstName, token: LoggedInUser[0].token, intro: true });
+  }
+  
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <AuthContext.Provider value={authContext} >
+      <AuthScreen/>
+    </AuthContext.Provider>
+//     <SafeAreaView>
+//       <ScrollView>
+// <Text>Testing</Text>
+//       </ScrollView>
+//     </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
