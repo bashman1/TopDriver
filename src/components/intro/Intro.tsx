@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, TouchableOpacity, Text, ScrollView, Appearance } from 'react-native';
+import { View, Image, TouchableOpacity,StatusBar, Text, ScrollView, Appearance } from 'react-native';
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
 
@@ -24,6 +24,12 @@ const Card = ({item}:any) => {
 
     return (
         <ScrollView style={{backgroundColor:'white'}}>
+                    <StatusBar
+                    animated={true}
+                    backgroundColor="#fff"
+                    barStyle={'dark-content'}
+                    showHideTransition={'none'}
+                    hidden={false} />
             <View style={styles.padding}>
                 <ScrollView  horizontal={true}>
                     { items.map(item => <Card key={item.id} item={item}/>)}

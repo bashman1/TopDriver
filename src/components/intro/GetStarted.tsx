@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, TouchableOpacity, Text, ScrollView, Appearance } from 'react-native';
+import { View, Image, TouchableOpacity, Text, ScrollView, Appearance, StatusBar } from 'react-native';
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
 import { getStarted } from '../../intro-data';
@@ -45,6 +45,7 @@ const Card = () => {
 
     return (
         <ScrollView style={{backgroundColor:'white'}}>
+  
             <View style={styles.padding}>
                 <ScrollView>
                 <Card/>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, TouchableOpacity, Text, ScrollView, Appearance } from 'react-native';
+import { View, Image, TouchableOpacity, Text, StatusBar, ScrollView, Appearance } from 'react-native';
 import { styles } from '../../styles/Styles';
 import { Dimensions } from "react-native";
 import {appColor} from '../../services/CommonService'
@@ -36,6 +36,12 @@ const Home = (props: any) => {
 
     return (
         <ScrollView>
+                <StatusBar
+                    animated={true}
+                    backgroundColor={appColor()}
+                    barStyle={'light-content'}
+                    showHideTransition={'none'}
+                    hidden={false} />
             <View style={styles.padding}>
                 <View style={styles.marginBottom}>
                     <View style={styles.gridContainer}>
