@@ -12,6 +12,7 @@
     "clean": "cd android && ./gradlew clean",
     "aab": "cd android && ./gradlew bundleRelease",
     "stop": "cd android && gradlew --stop",
+    "install": "adb -s 8QCNW21A09000005 install -r /home/bsh/Projects/ReactNative/TopDriverUg/android/app/build/outputs/apk/release/app-release.apk",
     "cleanCache": "cd android && ./gradlew cleanBuildCache",
     "test": "jest"
   },
