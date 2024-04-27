@@ -50,7 +50,7 @@ const IconDetailsPage = (props: any) => {
         <ScrollView>
             <View style={styles.padding}>
                 <View style={styles.marginBottom}>
-                    <View style={styles.card}>
+                    <View style={[styles.card,styles.iconDetails]}>
                         <Image style={styles.homeScreenIcon} key={selectedItems.id} source={selectedItems.img} />
                         <Text style={[styles.healthPalBlue, styles.textWrap, styles.fontWeightBold]}>{selectedItems.name}</Text>
                     </View>

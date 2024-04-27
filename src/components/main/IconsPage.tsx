@@ -58,18 +58,19 @@ const IconsPage = (props: any) => {
         <ScrollView>
             <View style={styles.padding}>
                 <View style={styles.marginBottom}>
-                    <View style={styles.gridContainer}>
+                    <View style={{flexDirection:'row',flex:1,alignItems:'center', flexWrap:'wrap', justifyContent:'center', columnGap:10, rowGap:10}}>
                         {
-                            selectedItems.map((element:any, i) => {
-                                return (
-                                    <View style={[styles.item, styles.padding]}>
-                                        <TouchableOpacity style={[styles.card, styles.itemCenter]} onPress={() => {goToDetails(element)}}>
-                                            <Image style={styles.homeScreenIcon} key={i} source={element.img} />
-                                            <Text style={[styles.healthPalBlue, styles.textWrap, styles.fontWeightBold]}>{element.name}</Text>
-                                        </TouchableOpacity>
+                            selectedItems.map((element:any, i) => 
+                                <TouchableOpacity style={[styles.cardNew,styles.gridItemNew]} onPress={() => {goToDetails(element)}}>
+                                    <View style={{justifyContent:'center',alignItems:'center', width:"100%"}}>
+                                        
+                                            <Image style={styles.homeScreenIconNew} key={i} source={element.img} />
+                                            <Text style={{textAlign:'center', paddingBottom:20,fontSize:12,width:'100%'}}>{element.name}</Text>
+                                       
                                     </View>
-                                )
-                            })
+                                    </TouchableOpacity>
+                                
+                            )
                         }
                     </View>
                 </View>
