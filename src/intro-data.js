@@ -99,22 +99,25 @@ export const menu=[
     { id: 2, component:"Home", param:"BASIC_THEORY", navigateTo:"details", indicator:'HOME_MENU', type: 'community', icon: "book", name: "Basic Theory" },
     { id: 3, component:"Home", param:"ROAD_MARKINGS", navigateTo:"icons", indicator:'HOME_MENU', type: 'community', icon: "white-balance-sunny", name: "Road Markings" },
     { id: 4, component:"Home", param:"TRAFFIC_SIGNALS", navigateTo:"icons", indicator:'HOME_MENU', type: 'community', icon: "traffic-light", name: "Traffic Signals" },
-    { id: 5, component:"Home", param:"EXERCISES", navigateTo:"quiz", indicator:'HOME_MENU', type: 'community', icon: "gavel", name: "Exercises" },
+    { id: 5, component:"Home", param:"QUIZ", navigateTo:"quiz", indicator:'HOME_MENU', type: 'community', icon: "gavel", name: "Quiz" },
     { id: 6, component:"Home", param:"SETTINGS", navigateTo:"settings", indicator:'HOME_MENU', type: 'ionic', icon: "settings-sharp", name: "Settings" },
     { id: 7, component:"IconsPage", param:"MANDATORY_SIGNS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Mandatory Signs" },
     { id: 8, component:"IconsPage", param:"WARNING_SIGNS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Warning Signs" },
     { id: 9, component:"IconsPage", param:"INFORMATION_SIGNS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Information Signs" },
     { id: 10, component:"IconsPage", param:"ROADWORKS_SIGNS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Roadworks Signs" },
-    { id: 11, component:"IconsPage", param:"TRANSERVE_MARKING", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Transerve Markings" },
+    { id: 11, component:"IconsPage", param:"TRANSERVE_MARKINGS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Transerve Markings" },
     { id: 12, component:"IconsPage", param:"OTHER_ROAD_MARKINGS", navigateTo:"", indicator:'ROAD_SIGNS', type: 'ionic', icon: "", name: "Other Road Markings" },
-
     { id: 12, component:"ItemList", param:"INTRODUCTION_TO_DRIVING", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Introduction to driving" },
     { id: 12, component:"ItemList", param:"BASIC_MECHANICS", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Basic Mechanics" },
     { id: 12, component:"ItemList", param:"DEFENSIVE_DRIVING", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Defensive Driving" },
     { id: 12, component:"ItemList", param:"ROADWORK_SIGNS", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Roadworks Signs" },
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Basic first aid" },
-
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Basic first aid" },
+    {id: 1, name:"Practice Quiz One (164 signs)",  indicator:"QUIZ", param:"PRACTICE_QUIZ_1", description:"Have you learnt all the different road signs and symbols, use this quiz to test yourself."},
+    {id: 2, name:"Practice Quiz Two A (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2A", description:"This quiz covers the general knowledge you should have as a licensed driver."},
+    {id: 2, name:"Practice Quiz Two B (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2B", description:"This quiz covers the general knowledge you should have as a licensed driver."},
+    {id: 2, name:"Practice Quiz Three A (32 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_3A", description:"This quiz covers some of different traffic signals and signs that you will meet on the road."},
+    {id: 2, name:"Practice Quiz Three B (45 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_3B", description:"This quiz covers some of different traffic signals and signs that you will meet on the road."},
 ]
 
 export const  iconImg=[
@@ -170,7 +173,6 @@ export const  iconImg=[
     { id: 50, indicator:'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/turnleftahead.png"), name: "Turn left ahead" },
     { id: 51, indicator:'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/turnrightahead.png"), name: "Turn right ahead" },
     { id: 52, indicator:'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/vehiclestravelstrightorturnright.png"), name: "Vehicle travel straight or turn" },
-
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/airport.png"), name: "Airpot" },
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/breakdownservice.png"), name: "Break down service" },
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/busstop.png"), name: "Bus stop" },
@@ -207,17 +209,13 @@ export const  iconImg=[
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/telephone.png"), name: "Telephone" },
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/workshop.png"), name: "Workshop" },
     { id: 52, indicator:'INFORMATION_SIGNS', img: require("./assets/information_signs/zebracrossing.png"), name: "Zebra Crossing" },
-
     { id: 52, indicator:'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/barricade.png"), name: "Barricade, No entry" },
     { id: 52, indicator:'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/changelane.png"), name: "Change Lane" },
     { id: 52, indicator:'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/laneclosed.png"), name: "Lane Closed" },
     { id: 52, indicator:'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/roadworks.png"), name: "Roadworks" },
     { id: 52, indicator:'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/trafficcontrolahead.png"), name: "Traffic control ahead" },
-
-
     { id: 52, indicator:'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/singleuncontrolled.png"), name: "Single Uncontrolled" },
     { id: 52, indicator:'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/stopline.png"), name: "Stop Line" },
-
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelaneguiding.png"), name: "Centre lane marking" },
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelinemarking.png"), name: "Centre lane marking" },
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/chevronmarkingdiverging.png"), name: "Chevron marking" },
@@ -247,7 +245,6 @@ export const  iconImg=[
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/solidline.png"), name: "Solid line-No crossing" },
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/speedlimitmarking.png"), name: "Speed limit marking" },
     { id: 52, indicator:'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/stop.png"), name: "Stop" },
-
     { id: 52, indicator:'ROAD_MARKINGS', img: require("./assets/road_markings/brokenline.png"), name: "Broken Driving Line (You may" },
     { id: 52, indicator:'ROAD_MARKINGS', img: require("./assets/road_markings/climbinglane.png"), name: "Climbing lane a) slow moving" },
     { id: 52, indicator:'ROAD_MARKINGS', img: require("./assets/road_markings/continousandbrokendividingline.png"), name: "Continous and broken driving" },
@@ -306,7 +303,6 @@ export const  iconImg=[
     { id: 99, indicator:'WARNING_SIGNS', img: require("./assets/warning_signs/unevenroadsurfaceahead.png"), name: "Uneven road surface ahead" },
     { id: 100, indicator:'WARNING_SIGNS', img: require("./assets/warning_signs/wildaninalscrossing.png"), name: "Game park ahead" },
     { id: 101, indicator:'WARNING_SIGNS', img: require("./assets/warning_signs/yintersectionahead.png"), name: "Y-intersection ahead" },
-
     { id: 102, indicator:'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/alternateright_bike.png"), name: "ht" },
     { id: 103, indicator:'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/ambulance.png"), name: "ht" },
     { id: 104, indicator:'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/arrowdirection.png"), name: "ht" },
@@ -342,5 +338,19 @@ export const  iconImg=[
     { id: 134, indicator:'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "ht" },
 
 ];
+
+
+
+export const quiz=[
+    {id:1, question:"Who is a driver?", 
+    indicator:"PRACTICE_QUIZ_2A",
+    answer:"A",
+    suggestions:[
+       {id:1, objective:"A", option: "A person who operates a vehicle with skills, has a valid license permit and follows the rules regulations of highway code"},
+       {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+       {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+       {id:4, objective:"D", option: "All of the above."},
+    ]},
+]
 
 
