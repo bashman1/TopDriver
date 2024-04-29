@@ -114,6 +114,9 @@ export const styles = StyleSheet.create(
         gridItem: {
             width: '48%',
         },
+        gridItemNew: {
+            width: '48%',
+        },
         card: {
             shadowColor: 'black',
             shadowOffset: { width: 0, height: 2 },
@@ -126,6 +129,22 @@ export const styles = StyleSheet.create(
             paddingLeft: 10,
             paddingRight: 10,
             borderRadius: 5
+        },
+        cardNew: {
+            shadowColor: 'black',
+            shadowOffset: { width: 0, height: 2 },
+            shadowRadius: 6,
+            shadowOpacity: 0.26,
+            elevation: 8,
+            backgroundColor: 'white',
+            paddingTop: 10,
+            paddingBottom: 10,
+            borderRadius: 5
+        },
+        iconDetails:{
+            alignItems:"center",
+            justifyContent:"center",
+            rowGap:10
         },
         cardWithoutPadding: {
             shadowColor: 'black',
@@ -244,6 +263,12 @@ export const styles = StyleSheet.create(
         homeScreenIcon: {
             height: 120,
             width: 120,
+        },
+        homeScreenIconNew: {
+            height: 120,
+            width: 120,
+            objectFit:"contain",
+            marginBottom:10
         },
         doctorsThumbnail: {
             width: 60,
@@ -492,6 +517,12 @@ export const styles = StyleSheet.create(
         },
         textWrap:{
             fontSize: 15,
+            textAlign: 'center',
+            flexWrap: 'wrap',
+            marginTop:10
+        },
+        textWrap:{
+            fontSize: 10,
             textAlign: 'center',
             flexWrap: 'wrap',
             marginTop:10

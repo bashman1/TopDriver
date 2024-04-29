@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, TouchableOpacity, Text, ScrollView, Appearance } from 'react-native';
+import { View, Image, TouchableOpacity, Text, ScrollView, Appearance, StatusBar } from 'react-native';
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
 import { getStarted } from '../../intro-data';
@@ -24,10 +24,11 @@ const Card = () => {
                     item.details.map(obj =>     
                         <View style={{flex:1}}>
                              <Text style={{textAlign:'center',paddingHorizontal:50, paddingBottom:20,fontSize:16,marginTop:40}}>{obj.detailsTitle}</Text>
+                             
                              <View style={{flexDirection:'row',flex:1,alignItems:'center'}}>
                                 {obj.iconsDescription.map(iconDes => 
-                                    <View style={{justifyContent:'center',alignItems:'center',flex:1}}>
-                                        <Image style={{flex:1,resizeMode: 'contain',width: 100,height:100,marginBottom:5}}  source={iconDes.img} />
+                                    <View style={{justifyContent:'center',alignItems:'center',flex:1, rowGap:10}}>
+                                        <Image style={{flex:1,resizeMode: 'contain',width: 100,height:100}}  source={iconDes.img} />
                                         <Text style={{flex:1,textAlign:'center', paddingBottom:20,fontSize:12,width:'100%'}}>{iconDes.text}</Text>
                                     </View>
                             )}
@@ -45,6 +46,7 @@ const Card = () => {
 
     return (
         <ScrollView style={{backgroundColor:'white'}}>
+  
             <View style={styles.padding}>
                 <ScrollView>
                 <Card/>
