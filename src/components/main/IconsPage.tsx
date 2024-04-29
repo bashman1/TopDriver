@@ -62,10 +62,10 @@ const IconsPage = (props: any) => {
                         {
                             selectedItems.map((element:any, i) => 
                                 <TouchableOpacity style={[styles.cardNew,styles.gridItemNew]} onPress={() => {goToDetails(element)}}>
-                                    <View style={{justifyContent:'center',alignItems:'center', width:"100%"}}>
+                                    <View style={{justifyContent:'center',alignItems:'center', width:"100%", height:160}}>
                                         
                                             <Image style={styles.homeScreenIconNew} key={i} source={element.img} />
-                                            <Text style={{textAlign:'center', paddingBottom:20,fontSize:12,width:'100%'}}>{element.name}</Text>
+                                            <Text style={{textAlign:'center', paddingBottom:20,fontSize:13,width:'100%'}}>{element.name}</Text>
                                        
                                     </View>
                                     </TouchableOpacity>
