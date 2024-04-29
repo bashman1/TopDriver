@@ -9,7 +9,7 @@ import {filter} from '../../services/CommonService';
 import {menu} from '../../intro-data';
 
 const screenWidth = Dimensions.get("window").width;
-const Home = (props: any) => {
+const Home = (props: any) => { 
 
     const [items, setItems] = useState([])
 
@@ -36,12 +36,9 @@ const Home = (props: any) => {
 
     return (
         <ScrollView>
-            <View style={styles.padding}>
-                <View style={styles.marginBottom}>
                     <View style={styles.gridContainer}>
                         {
-                            items.map((element) => {
-                                return (
+                            items.map((element) => 
                                     <View style={[styles.item, styles.padding]}>
                                         <TouchableOpacity style={[styles.card, styles.minWidth, styles.itemCenter]} onPress={() => { goToDetailsPage(element, element.navigateTo) }}>
                                             {element.type == 'ionic' ? (
@@ -52,12 +49,9 @@ const Home = (props: any) => {
                                             <Text style={[styles.healthPalBlue, styles.fontWeightBold, styles.fontSize15]}>{element.name}</Text>
                                         </TouchableOpacity>
                                     </View>
-                                )
-                            })
+                            )
                         }
                     </View>
-                </View>
-            </View>
         </ScrollView>
     )
 }

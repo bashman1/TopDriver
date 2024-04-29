@@ -137,8 +137,8 @@ export const styles = StyleSheet.create(
             shadowOpacity: 0.26,
             elevation: 8,
             backgroundColor: 'white',
-            paddingTop: 20,
-            paddingBottom: 20,
+            paddingTop: 10,
+            paddingBottom: 10,
             borderRadius: 5
         },
         iconDetails:{
@@ -267,7 +267,8 @@ export const styles = StyleSheet.create(
         homeScreenIconNew: {
             height: 120,
             width: 120,
-            objectFit:"cover"
+            objectFit:"contain",
+            marginBottom:10
         },
         doctorsThumbnail: {
             width: 60,
