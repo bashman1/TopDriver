@@ -265,8 +265,8 @@ export const styles = StyleSheet.create(
             width: 120,
         },
         homeScreenIconNew: {
-            height: 120,
-            width: 120,
+            height: 100,
+            width: 100,
             objectFit:"contain",
             marginBottom:10
         },
