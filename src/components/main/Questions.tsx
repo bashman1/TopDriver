@@ -5,6 +5,8 @@ import { Dimensions } from "react-native";
 import { appColor } from '../../services/CommonService'
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {menu, quiz} from '../../intro-data';
+import {filter} from '../../services/CommonService';
 
 const screenWidth = Dimensions.get("window").width;
 const Questions = (props: any) => {
@@ -25,15 +27,13 @@ const Questions = (props: any) => {
         // { id: 2, name: "Practice Quiz Three B (45 qns)", description: "This quiz covers some of different traffic signals and signs that you will meet on the road." },
     ])
 
-    const filterItems = (items, id) => {
-        let index = items.findIndex(element => element.id == id);
-        setSelectedItems(items[index]);
-        console.log()
+    const filterItems = () => {
+        setItems(filter(quiz, props.route.params.ind))
     }
 
     useEffect(() => {
-        filterItems(items, 1)
-    });
+        filterItems()
+    }, []);
 
     return (
         <ScrollView>
