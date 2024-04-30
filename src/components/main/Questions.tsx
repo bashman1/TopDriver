@@ -12,7 +12,7 @@ const screenWidth = Dimensions.get("window").width;
 const Questions = (props: any) => {
 
     const [selectedItems, setSelectedItems] = useState({})
-    const [items, setItems] = useState([])
+    const [items, setItems]:any = useState([])
     const [nextQtnIndex, setNextQtnIndex] = useState(0);
     const filterItems = () => {
         setItems(filter(quiz, props.route.params.ind))
@@ -22,11 +22,9 @@ const Questions = (props: any) => {
         filterItems()
     }, []);
     const showNextQtn = () => {
-        if(nextQtnIndex != items.length){
-            //populate correctAnswer /score
-            setNextQtnIndex(nextQtnIndex => nextQtnIndex + 1)
-            
-        }else{
+        setNextQtnIndex(nextQtnIndex => nextQtnIndex + 1)
+        
+        if(nextQtnIndex === (items[0].qtnsList.length - 1 )){
             setNextQtnIndex(0)
         }
         
