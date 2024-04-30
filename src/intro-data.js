@@ -113,6 +113,7 @@ export const menu=[
     { id: 12, component:"ItemList", param:"ROADWORK_SIGNS", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Roadworks Signs" },
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Basic first aid" },
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Basic first aid" },
+    
     {id: 1, name:"Practice Quiz One (164 signs)",  indicator:"QUIZ", param:"PRACTICE_QUIZ_1", description:"Have you learnt all the different road signs and symbols, use this quiz to test yourself."},
     {id: 2, name:"Practice Quiz Two A (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2A", description:"This quiz covers the general knowledge you should have as a licensed driver."},
     {id: 2, name:"Practice Quiz Two B (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2B", description:"This quiz covers the general knowledge you should have as a licensed driver."},
@@ -342,15 +343,73 @@ export const  iconImg=[
 
 
 export const quiz=[
-    {id:1, question:"Who is a driver?", 
+    {
+    id:1, 
+    indicator:"PRACTICE_QUIZ_1",
+    score:0,
+    qtnsList:[
+        {
+            qtnNo:"Q1.",
+            question:"Who is a driver?", 
+            correctAnswer:"A",
+            suggestions:[
+                {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+                {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+                {id:4, objective:"D", option: "All of the above."},
+            ],
+            selectedObjective:""
+    
+    },
+    {
+        qtnNo:"Q2.",
+        question:"Who is a driver?", 
+        correctAnswer:"A",
+        suggestions:[
+            {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+            {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+            {id:4, objective:"D", option: "All of the above."},
+        ],
+        selectedObjective:""
+
+}
+      
+    ]
+    },
+
+    {
+    id:2, 
     indicator:"PRACTICE_QUIZ_2A",
-    answer:"A",
-    suggestions:[
-       {id:1, objective:"A", option: "A person who operates a vehicle with skills, has a valid license permit and follows the rules regulations of highway code"},
-       {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
-       {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
-       {id:4, objective:"D", option: "All of the above."},
-    ]},
+    score:0,
+    qtnsList:[
+        {
+            qtnNo:"Q1.",
+            question:"Who is a driver?", 
+            correctAnswer:"A",
+            suggestions:[
+                {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+                {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+                {id:4, objective:"D", option: "All of the above."},
+            ],
+            selectedObjective:""
+    
+    },
+    {
+        qtnNo:"Q2.",
+        question:"What is the RULE of the road in Uganda?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Always keep right"},
+            {id:2, objective:"B", option: "Always keep left"},
+            {id:3, objective:"C", option: "Drive both sides"},
+            {id:4, objective:"D", option: "Non of the above."},
+        ],
+        selectedObjective:""
+
+}
+      
+    ]
+    },
 ]
+
 
 
