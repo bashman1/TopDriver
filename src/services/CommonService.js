@@ -132,3 +132,9 @@ export const appColor=()=>{
 export const filter=(array, filter)=>{
     return array.filter(element => element.indicator == filter);
 }
+
+export const findObj=(array, filter)=>{
+    console.log("------------------------------------------------------")
+    console.log(array.find(element => element.indicator == filter))
+    return array.find(element => element.indicator == filter);
+}

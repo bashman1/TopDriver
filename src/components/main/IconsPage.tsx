@@ -14,27 +14,27 @@ const IconsPage = (props: any) => {
     const [selectedItems, setSelectedItems] = useState([])
 
     const [items, setItems] = useState([
-        { id: 1, itemListId:1, type: 'community', icon: "car-key", name: "Road Signs", 
-        data:[
-            { id: 1, img: require("../../assets/mandatory_signs/compulsarycycletrack.png"), name: "Compulsory cycle track" },
-            { id: 2, img: require("../../assets/mandatory_signs/compulsarypedestrianfootpath.png"), name: "Compulsory pedestrian footpath" },
-            { id: 3, img: require("../../assets/mandatory_signs/compulsoryminimumspeed.png"), name: "Compulsory minimum speed" },
-            { id: 4, img: require("../../assets/mandatory_signs/compulsoryparkingforthedisabled.png"), name: "Compulsory parking for disabled" },
-            { id: 5, img: require("../../assets/mandatory_signs/compulsorytrackforcattle.png"), name: "Compulsory track for cattle" },
-            { id: 6, img: require("../../assets/mandatory_signs/directiontobefollowed.png"), name: "Direction to be followed" },
-            { id: 7, img: require("../../assets/mandatory_signs/dontdrinkanddrive.png"), name: "Don't drink and drive" },
-            { id: 8, img: require("../../assets/mandatory_signs/dontparkonpavements.png"), name: "Don't park on pavement" },
-            { id: 9, img: require("../../assets/mandatory_signs/donttextanddrive.png"), name: "Don't text and drive" },
-            { id: 10, img: require("../../assets/mandatory_signs/drivingvehicleslessthandistanceshownisprohibited.png"), name: "Driving vehicle less than " },
-            { id: 11, img: require("../../assets/mandatory_signs/endofcompulsoryminimumspeed.png"), name: "End of compulsory minimum speed" },
-            { id: 12, img: require("../../assets/mandatory_signs/endofprohibitions.png"), name: "End of prohibitions" },
-            { id: 13, img: require("../../assets/mandatory_signs/endofspeedlimit.png"), name: "End of speed limit" },
-            { id: 14, img: require("../../assets/mandatory_signs/entryforbbidenformotorcycles.png"), name: "Entry forbidden to motorcycle" },
-            { id: 15, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-            { id: 16, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-            { id: 17, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-            { id: 18, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-        ]},
+        // { id: 1, itemListId:1, type: 'community', icon: "car-key", name: "Road Signs", 
+        // data:[
+        //     { id: 1, img: require("../../assets/mandatory_signs/compulsarycycletrack.png"), name: "Compulsory cycle track" },
+        //     { id: 2, img: require("../../assets/mandatory_signs/compulsarypedestrianfootpath.png"), name: "Compulsory pedestrian footpath" },
+        //     { id: 3, img: require("../../assets/mandatory_signs/compulsoryminimumspeed.png"), name: "Compulsory minimum speed" },
+        //     { id: 4, img: require("../../assets/mandatory_signs/compulsoryparkingforthedisabled.png"), name: "Compulsory parking for disabled" },
+        //     { id: 5, img: require("../../assets/mandatory_signs/compulsorytrackforcattle.png"), name: "Compulsory track for cattle" },
+        //     { id: 6, img: require("../../assets/mandatory_signs/directiontobefollowed.png"), name: "Direction to be followed" },
+        //     { id: 7, img: require("../../assets/mandatory_signs/dontdrinkanddrive.png"), name: "Don't drink and drive" },
+        //     { id: 8, img: require("../../assets/mandatory_signs/dontparkonpavements.png"), name: "Don't park on pavement" },
+        //     { id: 9, img: require("../../assets/mandatory_signs/donttextanddrive.png"), name: "Don't text and drive" },
+        //     { id: 10, img: require("../../assets/mandatory_signs/drivingvehicleslessthandistanceshownisprohibited.png"), name: "Driving vehicle less than " },
+        //     { id: 11, img: require("../../assets/mandatory_signs/endofcompulsoryminimumspeed.png"), name: "End of compulsory minimum speed" },
+        //     { id: 12, img: require("../../assets/mandatory_signs/endofprohibitions.png"), name: "End of prohibitions" },
+        //     { id: 13, img: require("../../assets/mandatory_signs/endofspeedlimit.png"), name: "End of speed limit" },
+        //     { id: 14, img: require("../../assets/mandatory_signs/entryforbbidenformotorcycles.png"), name: "Entry forbidden to motorcycle" },
+        //     { id: 15, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
+        //     { id: 16, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
+        //     { id: 17, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
+        //     { id: 18, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
+        // ]},
 
         
     ])

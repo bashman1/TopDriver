@@ -17,6 +17,7 @@ import IconsPage from '../components/main/IconsPage'
 import { styles } from '../styles/Styles';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import LearnMore from '../components/intro/LearnMore';
+import TheoryDetails from '../components/main/TheoryDetails'
 
 
 
@@ -80,6 +81,7 @@ export const AuthScreen = () => {
                 <Stack.Screen name="IconDetailsPage" component={IconDetailsPage} options={({ navigation })=>navLayout("IconDetailsPage", navigation)}/>
                 <Stack.Screen name="QuizList" component={QuizList} options={({ navigation })=>navLayout("QuizList", navigation)}/>
                 <Stack.Screen name="Questions" component={Questions} options={({ navigation })=>navLayout("Questions", navigation)}/>
+                <Stack.Screen name="TheoryDetails" component={TheoryDetails} options={({ navigation })=>navLayout("TheoryDetails", navigation)} />
                 {/* <Stack.Screen name="ConsultMedicalWorker" component={Consultation}/> */}
             </Stack.Navigator>
         </NavigationContainer>
