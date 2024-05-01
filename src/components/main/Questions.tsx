@@ -37,8 +37,8 @@ const Questions = (props: any) => {
                         return (
                             <View>
                                         <View>
-                                            <Text style={styles.fontSize15}>{element.qtnsList[nextQtnIndex].qtnNo + ' ' + element.qtnsList[nextQtnIndex].question}</Text>
-                                            <Text style={styles.fontSize10}>Choose your answer from below</Text>
+                                            <Text style={styles.qtn}>{element.qtnsList[nextQtnIndex].qtnNo + ' ' + element.qtnsList[nextQtnIndex].question}</Text>
+                                            <Text style={styles.qtnChoose}>Choose your answer from below</Text>
 
                                             {element.qtnsList[nextQtnIndex].suggestions.map((sug:any) => 
                                                 <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => {showNextQtn()} }>

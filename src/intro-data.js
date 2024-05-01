@@ -625,6 +625,137 @@ export const quiz=[
         ],
         selectedObjective:""
 
+    },
+    {
+        qtnNo:"Q21.",
+        question:"Before driving a long distance at a fast speed or carrying a full car load, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Have a large meal and cup of coffee to stay alert."},
+            {id:2, objective:"B", option: "Check your tyre pressure, and if necessary, increase it to what the manufacturer recommends."},
+            {id:3, objective:"C", option: "Make sure you have a map so that you know where you are going."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q22.",
+        question:"If youare involved in an accident where your car needs to be towed away  but the police doesn't attend the crash scene?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Must report the accident to the police station nearest to where the accident."},
+            {id:2, objective:"B", option: "Do not report the accident to the police."},
+            {id:3, objective:"C", option: "Only need to report to the police if someone was injured."},
+        ],
+        selectedObjective:""
+
+    },{
+        qtnNo:"Q23.",
+        question:"When should you use your right hand indicator?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When you intend to slow down."},
+            {id:2, objective:"B", option: "When you are about to stop."},
+            {id:3, objective:"C", option: "When you intent to tuen right at anytime."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q24.",
+        question:"Are you permitted to tow a caravan with a person riding in the caravan?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Yes provided you do not exceed 60km/hr."},
+            {id:2, objective:"B", option: "No, not under any circumstances."},
+            {id:3, objective:"C", option: "Yes, if the person(s) in the caravan are over 12 years of age."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q25.",
+        question:"You are driving at night with your headlights on high beam. When should you dip your headlights?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When within 200 metres of an oncoming vehicle only."},
+            {id:2, objective:"B", option: "When within 200 metres of the vehicle a head or an oncoming one."},
+            {id:3, objective:"C", option: "Never, you are allowed to drive with your lights on high beam at all times."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q26.",
+        question:"If you see a sign indicating road repairs are going on, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Slow down immediatelyy and wait for instructions."},
+            {id:2, objective:"B", option: "Maintain the same speed."},
+            {id:3, objective:"C", option: "Slow down and watch for traffic controllers and instructions."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q27.",
+        question:"Whenn driving at sunset or dawn on a dark day, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Turn on your lights on low beam."},
+            {id:2, objective:"B", option: "Keep your sun glasses on to cut down heading glare."},
+            {id:3, objective:"C", option: "Turn on your hazard warning lights."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q28.",
+        question:"If you see a horse and rider on the road, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Sound your horn to warn the rider."},
+            {id:2, objective:"B", option: "Slow down and give them plenty of room."},
+            {id:3, objective:"C", option: "Speed up tp pass the horse."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q29.",
+        question:"If you vehicle is involved in an accident and a person is injured what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Render every assitance and take immediate steps to have an ambulance notified, then call the police."},
+            {id:2, objective:"B", option: "Only call the police if the accident also resulted in over 500 Gollars worth of propery damege."},
+            {id:3, objective:"C", option: "Report the accident to the police within seven days."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q30.",
+        question:"You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Put up with the discomfor; you should not adjust another person(s) seat."},
+            {id:2, objective:"B", option: "Ask your friend for a cushion to place behind your back."},
+            {id:3, objective:"C", option: "CAdjust the seat forward so its right for you."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q31.",
+        question:"You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Put up with the discomfor; you should not adjust another person(s) seat."},
+            {id:2, objective:"B", option: "Ask your friend for a cushion to place behind your back."},
+            {id:3, objective:"C", option: "CAdjust the seat forward so its right for you."},
+        ],
+        selectedObjective:""
+
     }
     ]
     },
