@@ -52,7 +52,7 @@ const IconDetailsPage = (props: any) => {
                 <View style={styles.marginBottom}>
                     <View style={[styles.card,styles.iconDetails]}>
                         <Image style={styles.homeScreenIcon} key={selectedItems.id} source={selectedItems.img} />
-                        <Text style={[styles.healthPalBlue, styles.textWrap, styles.fontWeightBold]}>{selectedItems.name}</Text>
+                        <Text style={{textAlign:'center', paddingBottom:10,fontSize:15,width:'100%', color:"black"}}>{selectedItems.name}</Text>
                     </View>
                     {/* <View style={styles.gridContainer}>
                         {
