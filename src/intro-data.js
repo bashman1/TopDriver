@@ -1528,4 +1528,67 @@ export const quiz = [
 ]
 
 
+export const theories=[
+    {
+        id:1,
+        indicator: 'GET_STARTED_WITH_DRIVING',
+        theory:[
+            {element: "header", content: "Driving definition"},
+            {element: "image", content: require("./assets/basic_theory/driving_car.png")},
+            {element: "paragraph", content: "Driving is the controlled operation and movement of a vehicle, including cars, motorcycles, trucks, buses, and bicycles. "},
+            {element: "paragraph", content: "One requires permission to drive on public highways which is granted based on a set of conditions being met."},
+            {element: "paragraph", content: "Drivers are required to follow the established road and traffic laws in the location they are driving. "},
+            {element: "header", content: "Who is a driver? "},
+            {element: "paragraph", content: "A driver is a person who operates a vehicle. He/She has skills and driving license that permits him or her to operate the vehicle while following the rules and regulations of the highway code. "},
+            {element: "paragraph", content: "A vehicle is a piece of mechanize equipment that can be used as a means of transport. It may be cars, trains, hand carts, animal-driven carts, trucks, buses, wagons, motorbikes, bicycles, boats, etc "},
+            {element: "paragraph", content: "Saloon cars include sedan, hatchback, coupe, wagon, and convertible while non- saloon cars are MPV, SUV, Pick-up truck and van.... Non-saloon cars have different base rates and progressive rates"},
+            {element: "header", content: "Why do people drive? "},
+            {element: "bullets", content: [
+                "It is an employment opportunity where people offer transportation services",
+                "To quicken transportation means",
+                "For sports purposes",
+                "Save time compared to walking"
+            ]},
+            {element: "header", content: "Driving skills"},
+            {element: "image", content: require("./assets/basic_theory/driving_skills.png")},
+            {element: "paragraph", content: "Driving in traffic is more than just knowing how to operate the mechanisms which control the vehicle; it requires knowing how to apply the rules of the road (which ensures safe and efficient sharing with  other users). "},
+            {element: "paragraph", content: "An effective driver also has an intuitive understanding of the basics of vehicle handling and can drive responsibly. "},
+            {element: "paragraph", content: "Driving skills required include physical skills to enable driver control direction,  acceleration, and deceleration whereas the mental skills enable driver to avoid or successfully handle an emergency driving situation cognitively. "},
+            {element: "header", content: "Physical Skills "},
+            {element: "bullets", content: [
+                "Proper hand placement and seating position ",
+                "Starting the vehicle's engine with the starting system ",
+                "Setting the transmission to the correct gearDepressing the  pedals with one's feet to accelerate, slow and stop the vehicle and if the vehicle is  equipped with a manual transmission, to modulate the clutch ",
+                "Steering the vehicle's direction with the steering wheel ",
+                "Applying brake pressure to slow or stop the vehicle ",
+                "Operating other important ancillary devices such as the indicators, headlights, parking brake and windshield wipers. ",
+                "Speed and Skid control",
+            ]},
+            {element: "header", content: "Mental Skills "},
+            {element: "bullets", content: [
+                "Observing the environment for road signs, driving conditions, and hazards",
+                "Awareness of surroundings, especially in heavy and city traffic",
+                " Making good and quick decisions based on factors such as road and traffic conditions ",
+                "Evasive maneuvering",
+                "Understanding vehicle dynamics",
+                "Left- and right-hand traffic ",
+            ]},
+            {element: "paragraph", content: "In some countries like Uganda, both practical and theoretical basic knowledge of the rules of the road is assessed with a driving test(s) and those who pass are issued with a driving license. "},
+            {element: "header", content: "Documents required while driving on the road"},
+            {element: "bullets", content: [
+                "Valid driving licence ",
+                "Valid car road licence ",
+                "Copy of car logbook card",
+                "Inspection certificate",
+            ]},
+            {element: "header", content: "Driving License"},
+            {element: "image", content: require("./assets/basic_theory/permit_specimen.png")},
+            {element: "image", content: require("./assets/basic_theory/permit_specimen_back.png")},
+            {element: "paragraph", content: "A driver's license is a legal authorization, or the official document confirming such an authorization, for a specific individual to operate one or more types of motorized vehicles-such as motorcycles, cars, trucks, or buses- on a public road. Such licenses are often plastic and the size of a credit card as shown in the image above"},
+            {element: "paragraph", content: "In Uganda, a learner is required to have a Learner Driving Licence (LDL) to have provisions of the Traffic and Road Safety Act, 1998 (as amended) 2020 (Cap 361) and is hereby authorized to undertake instructions from a licenced instructor. From here, a learner can obtain his or her driving licence after being assessed by the IOV"},
+        ]
+
+    }
+]
+
 
