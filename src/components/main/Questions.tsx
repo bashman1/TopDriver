@@ -44,7 +44,7 @@ const Questions = (props: any) => {
                                                 <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => {showNextQtn()} }>
                                                 
                                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                                    <Text style={[styles.fontWeightBold, styles.fontSize10]}>{sug.option}</Text>
+                                                    <Text style={[styles.fontWeightBold, styles.fontSize15]}>{sug.option}</Text>
         
                                                 </View>
                                             </TouchableOpacity>)}

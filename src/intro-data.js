@@ -379,21 +379,275 @@ export const quiz = [
                 ],
                 selectedObjective: ""
 
-            },
-            {
-                qtnNo: "Q2.",
-                question: "Who is a driver?",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
-                    { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
-                    { id: 4, objective: "D", option: "All of the above." },
-                ],
-                selectedObjective: ""
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
 
-            }
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
 
-        ]
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    }
+      
+    ]
     },
 
     {
@@ -752,32 +1006,524 @@ export const quiz = [
                 ],
                 selectedObjective: ""
 
-            },
-            {
-                qtnNo: "Q30.",
-                question: "You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Put up with the discomfor; you should not adjust another person(s) seat." },
-                    { id: 2, objective: "B", option: "Ask your friend for a cushion to place behind your back." },
-                    { id: 3, objective: "C", option: "CAdjust the seat forward so its right for you." },
-                ],
-                selectedObjective: ""
+    },
+    {
+        qtnNo:"Q31.",
+        question:"You are approaching the top of a hill on a narrow road, the safest procedure is to?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Keep to the left and slow down."},
+            {id:2, objective:"B", option: "Flash your headlights to warn oncoming traffic."},
+            {id:3, objective:"C", option: "Increase your speed and sound your horn."},
+            {id:4, objective:"D", option: "All of the Above."},
+        ],
+        selectedObjective:""
 
-            },
-            {
-                qtnNo: "Q31.",
-                question: "You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Put up with the discomfor; you should not adjust another person(s) seat." },
-                    { id: 2, objective: "B", option: "Ask your friend for a cushion to place behind your back." },
-                    { id: 3, objective: "C", option: "CAdjust the seat forward so its right for you." },
-                ],
-                selectedObjective: ""
+    },
+    {
+        qtnNo:"Q32.",
+        question:"When driving near parked vehicles, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Stop, if you se a car with its right-indicator on."},
+            {id:2, objective:"B", option: "Sound your horn and flash our headlights to warn drivers not to pull out."},
+            {id:3, objective:"C", option: "Check for parked vehicles with turn signals on, or children about to step out."},
+            
+        ],
+        selectedObjective:""
 
-            }
-        ]
+    },
+    {
+        qtnNo:"Q33.",
+        question:"On a single laned road, you are allowed to overtake another vehicle on its right except when?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "You are travelling at more than 80km/hr"},
+            {id:2, objective:"B", option: "The other vehicle is going slower than you."},
+            {id:3, objective:"C", option: "The other vehicle is turning right."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q34.",
+        question:"When entering or leaving a drive you must?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give way to bicycles, vehicles and pedestrians"},
+            {id:2, objective:"B", option: "Blow your horn to warn other road users."},
+            {id:3, objective:"C", option: "Stop and give way only to vehicles."},
+            {id:4, objective:"D", option: "Increase speed to overtake other vehicles."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q35.",
+        question:"A driver behind you signals their intention to overtake your car. What should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Speed up so that the driver will not have to overtake you"},
+            {id:2, objective:"B", option: "Signal the driver to remain behind you if it is travelling to fast.."},
+            {id:3, objective:"C", option: "Keep to the left and let the driver overtake you.."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q36.",
+        question:"If you are not sure you have enough distance to overtake a vehicle ahead, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Put the vehicle in a lower gear and speed up"},
+            {id:2, objective:"B", option: "Wait for a better opportunity with more distance to overtake."},
+            {id:3, objective:"C", option: "Sound your horn to signal the driver ahead to slow down."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q37.",
+        question:"If you are convicted for driving under the influence of alcohol, you could loose your drivers licence. You may also?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Be restricted to driving an automatic vehicle"},
+            {id:2, objective:"B", option: "Have a personal speed limit imposed on you."},
+            {id:3, objective:"C", option: "Be sent to prison."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q38.",
+        question:"If you are caught over speeding in a road works zone, you will?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Be liable for a speeding fine."},
+            {id:2, objective:"B", option: "Receive a warning letter in the mail."},
+            {id:3, objective:"C", option: "Not receive any penalty as road works speed limits are only advisory."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q39.",
+        question:"Which statement is true?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "You must give way to pedestrians only at marked crossings."},
+            {id:2, objective:"B", option: "Pedestrians have no special rights on the roads."},
+            {id:3, objective:"C", option: "You must give way to pedestrians if there is any danger of hitting them."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q40.",
+        question:"If elderly people or children are on the pedestrian crossing you will probably need to?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Drive around them so you dont hold up traffic."},
+            {id:2, objective:"B", option: "Wait extra time to allow them to cross safely"},
+            {id:3, objective:"C", option: "Sound your horn to hurry them up."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q41.",
+        question:"When driving near children playing or walking near the edge of the road?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Continue at same speed and drive around them."},
+            {id:2, objective:"B", option: "Slow down and be ready to make a safe stop."},
+            {id:3, objective:"C", option: "Sound your horn to warn them of your presence"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q42.",
+        question:"When driving in wet weather, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Drive in the middle of the road to avoid splashing pedestrians on the foot path."},
+            {id:2, objective:"B", option: "Watch out for pedestrians, who may hurry and take risks."},
+            {id:3, objective:"C", option: "Stop and help aged pedestrians acress the road."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q43.",
+        question:"If you hold a learner or provisional license class what is the Blood Alcohol Concentration limit?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Zero."},
+            {id:2, objective:"B", option: "0.02."},
+            {id:3, objective:"C", option: "0.05."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q44.",
+        question:"If you are taking several medications and you want to drive?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Ask your doctor if the combination of drugs will make it dangerous to drive."},
+            {id:2, objective:"B", option: "Drive carefully around your local streets to see if you are affected."},
+            {id:3, objective:"C", option: "Ask your passengers to let you know if you are not driving as well as you should."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q45.",
+        question:"Is it an offence to refuse to take a POLICE breath test?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "No, if you are a learner driver"},
+            {id:2, objective:"B", option: "No, if you say you havent been drinking alcohol"},
+            {id:3, objective:"C", option: "Yes always."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q46.",
+        question:"During pre-trip inspection, a daily walk-round check includes:",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Items which are checked when the driver is inside a vehicle"},
+            {id:2, objective:"B", option: "Items which are checked when the driver is outside a vehicle"},
+            {id:3, objective:"C", option: "Items which are checked when the driver is within a vehicle"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q47.",
+        question:"Which of the following actions does NOT damage the road?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Blocking the road drains"},
+            {id:2, objective:"B", option: "Letting waste water or farm water flow over the road"},
+            {id:3, objective:"C", option: "Under loading the vehicle"},
+            {id:4, objective:"D", option: "Spilling diesel or oil on the road"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q48.",
+        question:"When crossing at a Zebra crossing as a pedestrian you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "Walk straight across, but keep looking both ways and listen"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q50.",
+        question:'Which of the following statements clearly describes Group/ class "B" driving license in uganda?',
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "These are small cars"},
+            {id:2, objective:"B", option: "These are the small trucks that carry 2 tons of load and the small cars that carry 4 passengers"},
+            {id:3, objective:"C", option: "These are motor vehicles that carry up to 3500kg and carry not more than 7 passengers including the driver"},
+            {id:4, objective:"D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q51.",
+        question:"Orange/yellow warning lights on the dash board means:",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "The vehicle does not need to be serviced or repaired soon"},
+            {id:2, objective:"B", option: "The vehicle needs to be serviced or repaired soon."},
+            {id:3, objective:"C", option: "The vehicle needs to be serviced or repaired later"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q52.",
+        question:"Beaming your headlights in full at night is dangerous because",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "You cannot stop within the distance that you can see."},
+            {id:2, objective:"B", option: "Your headlights may become over worked and then stop working at all."},
+            {id:3, objective:"C", option: "You may blind oncoming traffic."},
+            {id:4, objective:"D", option: "You won't be able to see if it becomes foggy."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q53.",
+        question:"The disadvantage of not carrying out proper vehicle maintenance is",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "High vehicles operating cost"},
+            {id:2, objective:"B", option: "High possibility of road crash"},
+            {id:3, objective:"C", option:'Both "a" and "b" are correct'},
+            {id:4, objective:"D", option: "None of the above is correct"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q54.",
+        question:"You should avoid driving through deep puddles or flowing water. But if you must, which of these steps can help keep your brakes working",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Apply hard pressure on both the brake pedal and accelerator after coming out of the water."},
+            {id:2, objective:"B", option: "Gently pressing the brake pedal while driving through the water"},
+            {id:3, objective:"C", option: "Turning on your brake heater"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q55.",
+        question:"You are following a long vehicle approaching a crossroads. What should you do if the driver signals right but moves close to the left-hand pavement?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Warn the driver about the wrong signal."},
+            {id:2, objective:"B", option: "Wait behind the long vehicle."},
+            {id:3, objective:"C", option: "Report the driver to the police"},
+            {id:4, objective:"D", option: "Overtake on the right-hand side"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q57.",
+        question:"You are driving behind a large goods vehicle. What should you do if it signals left but steers to the right?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Slow down and let the vehicle turn"},
+            {id:2, objective:"B", option: "Overtake on the right of it"},
+            {id:3, objective:"C", option: "Drive on, keeping to the left"},
+            {id:4, objective:"D", option: "Hold your speed and sound your horn"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q58.",
+        question:"Water can be used to extinguish which of the following fires",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Tires"},
+            {id:2, objective:"B", option: "Keep in the middle of the road"},
+            {id:3, objective:"C", option: "Swing out to the right just before turning"},
+            {id:4, objective:"D", option: "Keep well to the left of the road"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q59.",
+        question:"Head lamps and parking lights are used",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "To illuminate the road ahead of the vehicle"},
+            {id:2, objective:"B", option: "To show your presence on the road"},
+            {id:3, objective:"C", option: 'Both "a" and "b" are correct'},
+            {id:4, objective:"D", option: "None of the above is correct"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q60.",
+        question:"Your mobile rings while you are driving your vehicle. When is it appropriate for you to accept the call?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Once you have parked your vehicle in a safe place."},
+            {id:2, objective:"B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped."},
+            {id:3, objective:"C", option: "If you are confident that your ability to drive will not be compromised by the distraction"},
+            {id:4, objective:"D", option: "While you are stuck in the traffic jam in the city"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q61.",
+        question:"When the engine coolant is unable to circulate, the engine will",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Consume less fuel"},
+            {id:2, objective:"B", option: "Be too cool"},
+            {id:3, objective:"C", option: "Consume the same amount of fuel"},
+            {id:4, objective:"D", option: "Be too hot"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q62.",
+        question:"A Red light on the dash board means:",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "The vehicle needs to take action immediately with repairs"},
+            {id:2, objective:"B", option: "The vehicle does not need to be repaired"},
+            {id:3, objective:"C", option: "Keep well to the left of the road"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q63.",
+        question:"How can you use your vehicles engine to control your speed?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "By changing to a lower gear"},
+            {id:2, objective:"B", option: "By selecting reverse gear"},
+            {id:3, objective:"C", option: "By changing to a higher gear"},
+            {id:4, objective:"D", option: "By selecting neutral"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q64.",
+        question:"If your brakes fail, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Pump the foot brake several times"},
+            {id:2, objective:"B", option: "Lightly apply the handbrake"},
+            {id:3, objective:"C", option: "Shift into lower gear to slow down the vehiclen"},
+            {id:4, objective:"D", option: "All the above"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q65.",
+        question:"Who has priority at a roundabout? Choose the best answer",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "The vehicles that are parked on the roundabout"},
+            {id:2, objective:"B", option: "Lightly apply the handbrake"},
+            {id:3, objective:"C", option: "You must give right of way to traffic already on a roundabout"},
+            {id:4, objective:"D", option: "None of the above"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q66.",
+        question:"What should you do if you are dazzled by another vehicle's headlights?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Slow down & stop if necessary."},
+            {id:2, objective:"B", option: "If the dazzle is from an oncoming vehicle, avoid it by looking towards its left edge until the vehicle has passed."},
+            {id:3, objective:"C", option: "Also dazzle back by putting on you full headlights"},
+            {id:4, objective:"D", option: "A and B are the correct answers."},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q67.",
+        question:"Before driving through a flooded area, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Stop the vehicle and check the tires"},
+            {id:2, objective:"B", option: "Test your brakes to see they are functioning normally"},
+            {id:3, objective:"C", option: "Stop the vehicle and dry your brakes"},
+            {id:4, objective:"D", option: "Check your exhaust"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q68.",
+        question:"The only effective way to deal with driver fatigue is to",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Give drivers plenty of time to see you and to stop before you start to cross."},
+            {id:2, objective:"B", option: "Prevent it by being well rested and taking regular breaks"},
+            {id:3, objective:"C", option: "Listen to the radio and open the windows"},
+            {id:4, objective:"D", option: "Drink plenty of strong, black coffee"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q69.",
+        question:"If your brakes fail, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Pump the foot brake several times"},
+            {id:2, objective:"B", option: "Lightly apply the handbrake"},
+            {id:3, objective:"C", option: "Shift into lower gear to slow down the vehicle"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q70.",
+        question:"When driving, when should you dip your headlights?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When meeting other traffic."},
+            {id:2, objective:"B", option: "When following close behind another vehicle."},
+            {id:3, objective:"C", option: "On continuously lit roads"},
+            {id:4, objective:"D", option: "All the above is true"},
+            
+        ],
+        selectedObjective:""
+
+    }
+    
+    ]
     },
 ]
 
