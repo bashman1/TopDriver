@@ -113,6 +113,7 @@ export const menu=[
     { id: 12, component:"ItemList", param:"ROADWORK_SIGNS", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Roadworks Signs" },
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'BASIC_THEORY', type: 'ionic', icon: "", name: "Basic first aid" },
     { id: 12, component:"ItemList", param:"BASIC_FIRST_AID", navigateTo:"", indicator:'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Basic first aid" },
+    
     {id: 1, name:"Practice Quiz One (164 signs)",  indicator:"QUIZ", param:"PRACTICE_QUIZ_1", description:"Have you learnt all the different road signs and symbols, use this quiz to test yourself."},
     {id: 2, name:"Practice Quiz Two A (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2A", description:"This quiz covers the general knowledge you should have as a licensed driver."},
     {id: 2, name:"Practice Quiz Two B (70 qns)", indicator:"QUIZ", param:"PRACTICE_QUIZ_2B", description:"This quiz covers the general knowledge you should have as a licensed driver."},
@@ -342,15 +343,423 @@ export const  iconImg=[
 
 
 export const quiz=[
-    {id:1, question:"Who is a driver?", 
+    {
+    id:1, 
+    indicator:"PRACTICE_QUIZ_1",
+    score:0,
+    qtnsList:[
+        {
+            qtnNo:"Q1.",
+            question:"Who is a driver?", 
+            correctAnswer:"A",
+            suggestions:[
+                {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+                {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+                {id:4, objective:"D", option: "All of the above."},
+            ],
+            selectedObjective:""
+    
+    },
+    {
+        qtnNo:"Q2.",
+        question:"Who is a driver?", 
+        correctAnswer:"A",
+        suggestions:[
+            {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+            {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+            {id:4, objective:"D", option: "All of the above."},
+        ],
+        selectedObjective:""
+
+}
+      
+    ]
+    },
+
+    {
+    id:2, 
     indicator:"PRACTICE_QUIZ_2A",
-    answer:"A",
-    suggestions:[
-       {id:1, objective:"A", option: "A person who operates a vehicle with skills, has a valid license permit and follows the rules regulations of highway code"},
-       {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
-       {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
-       {id:4, objective:"D", option: "All of the above."},
-    ]},
+    score:0,
+    qtnsList:[
+        {
+            qtnNo:"Q1.",
+            question:"Who is a driver?", 
+            correctAnswer:"A",
+            suggestions:[
+                {id:2, objective:"B", option: "A person who knows how operates a vehicle on the road."},
+                {id:3, objective:"C", option: "A person who is willing to learn how to operates a vehicle."},
+                {id:4, objective:"D", option: "All of the above."},
+            ],
+            selectedObjective:""
+    
+    },
+    {
+        qtnNo:"Q2.",
+        question:"What is the RULE of the road in Uganda?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Always keep right"},
+            {id:2, objective:"B", option: "Always keep left"},
+            {id:3, objective:"C", option: "Drive both sides"},
+            {id:4, objective:"D", option: "Non of the above."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q3.",
+        question:"On which side do we overtake another vehicle?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "In the Middle "},
+            {id:2, objective:"B", option: "Left Side"},
+            {id:3, objective:"C", option: "Right Side"},
+            {id:4, objective:"D", option: "Any Side"},
+        ],
+        selectedObjective:""
+
+    }, {
+        qtnNo:"Q4.",
+        question:"When can you overtake from the LEFT?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When the vehicle in front is turning right and there is space on the left. Bevery careful in such action."},
+            {id:2, objective:"B", option: "When there is an accident and the only place you can overtake is Left."},
+            {id:3, objective:"C", option: "Never Overtake ON the Left"},
+            {id:4, objective:"D", option: "1 and 2"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q5.",
+        question:"How many seconds does a yellow light last?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "2 - 5 seconds"},
+            {id:2, objective:"B", option: "4 - 7 seconds"},
+            {id:3, objective:"C", option: "3 - 6 seconds"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q6.",
+        question:"Who is a pedestrian?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "A person riding a motorcycle"},
+            {id:2, objective:"B", option: "Road users a foot"},
+            {id:3, objective:"C", option: "Anyone driving"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q7.",
+        question:"Name three documents which must ne valid before you are allowed to drive?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Valid driving license"},
+            {id:2, objective:"B", option: "valid insurance certificate"},
+            {id:3, objective:"C", option: "Valid vehicle inspection certificate"},
+            {id:3, objective:"D", option: "All of the Above"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q8.",
+        question:"What important tools must you carry when driving for a safari?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Spare tyre, Car jack, whistle"},
+            {id:2, objective:"B", option: "Car jack, Flash light, Spare tyre"},
+            {id:3, objective:"C", option: "Flash light, whistle"},
+            {id:3, objective:"D", option: "None of the Above"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q9.",
+        question:"How many eyes does a driver have?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Two"},
+            {id:2, objective:"B", option: "Four"},
+            {id:3, objective:"C", option: "Three"},
+            {id:3, objective:"D", option: "One"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q10.",
+        question:"If you get a flat tire while driving you should",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Turn on your hazard lights and drive a service station"},
+            {id:2, objective:"B", option: "Keep the steering wheel straight, slow down, and pull over"},
+            {id:3, objective:"C", option: "Speed up untill you find a sage exit"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q11.",
+        question:"What is a Clearway?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "All vehicles are free to go through"},
+            {id:2, objective:"B", option: "An area in which stopping and nparking is prohibited, (except by buses or tazxis) for a period indicated on the Clearway signpost"},
+            {id:3, objective:"C", option: "Speed up untill you find a safe place to park"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q12.",
+        question:"If you intend to turn left, are you required to give a signal",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "No, if arrows are marked on the roadway"},
+            {id:2, objective:"B", option: "No, if turning left from a lane marked left turn only"},
+            {id:3, objective:"C", option: "Yes, if turn signals are fitted to your vechicle"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q13.",
+        question:"Do you have any responsibilities when opening a vechicle door on a roadway?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "No, any following traffic must stop if the door interferes with its progress."},
+            {id:2, objective:"B", option: "No, there is no regulation to cover this situation."},
+            {id:3, objective:"C", option: "Yes, you must not open a door if you are likely to cause danger to road users or impede traffic."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q14.",
+        question:"Is it an offence to obstruct clear vision of your number plates",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Yes, but is is legal for a towbar or bicycle rack to cover the reat number plate."},
+            {id:2, objective:"B", option: "No, you are allowed to cover your numberb plates if you want to"},
+            {id:3, objective:"C", option: "Yes, at any time"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q15.",
+        question:"Before driving on a freeway, which of the following should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Take someting to calm your nervers before driving."},
+            {id:2, objective:"B", option: "Make sure your vechicle has enough fuel, oil, water and ther correct tyre pressure."},
+            {id:3, objective:"C", option: "Take your street directly in case you get lost"},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q16.",
+        question:"If you see a sign indicating road repairs are going on, you should -",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Maintain ther same speed."},
+            {id:2, objective:"B", option: "Slow down and watch for traffic controllers and instructions."},
+            {id:3, objective:"C", option: "Stop immediately and wait for instructions."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q17.",
+        question:"Are you required to carry your driver's licence with you every time you drive?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Yes."},
+            {id:2, objective:"B", option: "No it is only needed on long trips."},
+            {id:3, objective:"C", option: "No, being licensed is enough."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q18.",
+        question:"If you are driving towards a road works zone and a traffic controller displays a stop sign you must -",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Stop your vehicle and follow the directions of the traffic controller."},
+            {id:2, objective:"B", option: "Stop and then proceed if you think it is safe."},
+            {id:3, objective:"C", option: "Slow down and continue through the road works zone."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q19.",
+        question:"Do bicyle riders have the same rights and responsibilities as drivers and motorycyle riders? and a traffic controller displays a stop sign you must -",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "No, they must always ride on the footpath."},
+            {id:2, objective:"B", option: "Yes."},
+            {id:3, objective:"C", option: "Nno, they must give way to cards at all times when riding on the road."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q20.",
+        question:"Before getting our of your vehicle you must?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Check your seatbelt is back in place."},
+            {id:2, objective:"B", option: "Check your mirrors and blind spots for pedestrians, bicyles or others vehicles."},
+            {id:3, objective:"C", option: "Check your headlights are turned off."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q21.",
+        question:"Before driving a long distance at a fast speed or carrying a full car load, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Have a large meal and cup of coffee to stay alert."},
+            {id:2, objective:"B", option: "Check your tyre pressure, and if necessary, increase it to what the manufacturer recommends."},
+            {id:3, objective:"C", option: "Make sure you have a map so that you know where you are going."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q22.",
+        question:"If youare involved in an accident where your car needs to be towed away  but the police doesn't attend the crash scene?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Must report the accident to the police station nearest to where the accident."},
+            {id:2, objective:"B", option: "Do not report the accident to the police."},
+            {id:3, objective:"C", option: "Only need to report to the police if someone was injured."},
+        ],
+        selectedObjective:""
+
+    },{
+        qtnNo:"Q23.",
+        question:"When should you use your right hand indicator?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When you intend to slow down."},
+            {id:2, objective:"B", option: "When you are about to stop."},
+            {id:3, objective:"C", option: "When you intent to tuen right at anytime."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q24.",
+        question:"Are you permitted to tow a caravan with a person riding in the caravan?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Yes provided you do not exceed 60km/hr."},
+            {id:2, objective:"B", option: "No, not under any circumstances."},
+            {id:3, objective:"C", option: "Yes, if the person(s) in the caravan are over 12 years of age."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q25.",
+        question:"You are driving at night with your headlights on high beam. When should you dip your headlights?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "When within 200 metres of an oncoming vehicle only."},
+            {id:2, objective:"B", option: "When within 200 metres of the vehicle a head or an oncoming one."},
+            {id:3, objective:"C", option: "Never, you are allowed to drive with your lights on high beam at all times."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q26.",
+        question:"If you see a sign indicating road repairs are going on, you should?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Slow down immediatelyy and wait for instructions."},
+            {id:2, objective:"B", option: "Maintain the same speed."},
+            {id:3, objective:"C", option: "Slow down and watch for traffic controllers and instructions."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q27.",
+        question:"Whenn driving at sunset or dawn on a dark day, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Turn on your lights on low beam."},
+            {id:2, objective:"B", option: "Keep your sun glasses on to cut down heading glare."},
+            {id:3, objective:"C", option: "Turn on your hazard warning lights."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q28.",
+        question:"If you see a horse and rider on the road, what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Sound your horn to warn the rider."},
+            {id:2, objective:"B", option: "Slow down and give them plenty of room."},
+            {id:3, objective:"C", option: "Speed up tp pass the horse."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q29.",
+        question:"If you vehicle is involved in an accident and a person is injured what should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Render every assitance and take immediate steps to have an ambulance notified, then call the police."},
+            {id:2, objective:"B", option: "Only call the police if the accident also resulted in over 500 Gollars worth of propery damege."},
+            {id:3, objective:"C", option: "Report the accident to the police within seven days."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q30.",
+        question:"You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Put up with the discomfor; you should not adjust another person(s) seat."},
+            {id:2, objective:"B", option: "Ask your friend for a cushion to place behind your back."},
+            {id:3, objective:"C", option: "CAdjust the seat forward so its right for you."},
+        ],
+        selectedObjective:""
+
+    },
+    {
+        qtnNo:"Q31.",
+        question:"You borrowed a friends car and find that the positon of th drivers seat puts you a long way from teh sreeting wheen an controls. What should you do?",
+        correctAnswer:"A",
+        suggestions:[
+            {id:1, objective:"A", option: "Put up with the discomfor; you should not adjust another person(s) seat."},
+            {id:2, objective:"B", option: "Ask your friend for a cushion to place behind your back."},
+            {id:3, objective:"C", option: "CAdjust the seat forward so its right for you."},
+        ],
+        selectedObjective:""
+
+    }
+    ]
+    },
 ]
+
 
 

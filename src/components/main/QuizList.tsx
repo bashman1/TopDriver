@@ -5,7 +5,7 @@ import { Dimensions } from "react-native";
 import { appColor } from '../../services/CommonService'
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { menu, iconImg } from '../../intro-data';
+import { menu } from '../../intro-data';
 import { filter } from '../../services/CommonService';
 
 const screenWidth = Dimensions.get("window").width;

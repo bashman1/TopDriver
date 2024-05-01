@@ -123,7 +123,7 @@ export const styles = StyleSheet.create(
             shadowRadius: 6,
             shadowOpacity: 0.26,
             elevation: 8,
-            backgroundColor: 'white',
+            backgroundColor:"#f5d6d6",
             paddingTop: 20,
             paddingBottom: 20,
             paddingLeft: 10,
@@ -265,8 +265,8 @@ export const styles = StyleSheet.create(
             width: 120,
         },
         homeScreenIconNew: {
-            height: 120,
-            width: 120,
+            height: 100,
+            width: 100,
             objectFit:"contain",
             marginBottom:10
         },
@@ -353,8 +353,21 @@ export const styles = StyleSheet.create(
         fontSize5: {
             fontSize: 5
         },
+        fontSize15: {
+            fontSize: 25
+        },
         fontSize10: {
             fontSize: 10
+        },
+        qtn: {
+            fontSize: 25,
+            color:"black"
+        },
+        qtnChoose: {
+            fontSize: 15,
+            color:"black",
+            marginTop:10,
+            marginBottom:40,
         },
         fontSize12: {
             fontSize: 12
