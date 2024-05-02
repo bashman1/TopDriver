@@ -353,7 +353,7 @@ export const styles = StyleSheet.create(
         fontSize5: {
             fontSize: 5
         },
-        fontSize15: {
+    fontSize15: {
             fontSize: 25
         },
         fontSize10: {
