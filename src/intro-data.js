@@ -381,7 +381,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q2.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -395,7 +395,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q3.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -409,7 +409,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q4.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -423,7 +423,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q5.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -437,7 +437,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q6.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -451,7 +451,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q7.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -465,7 +465,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q8.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -479,7 +479,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q9.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -493,7 +493,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q10.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -507,7 +507,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q10.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -521,7 +521,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q11.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -535,7 +535,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q12.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -549,7 +549,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q13.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -563,7 +563,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q14.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -577,7 +577,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q15.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -591,7 +591,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q16.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -605,7 +605,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q17.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -619,7 +619,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q18.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -633,7 +633,7 @@ export const quiz = [
 
     },
     {
-        qtnNo:"Q48.",
+        qtnNo:"Q19.",
         question:"When crossing at a Zebra crossing as a pedestrian you should?",
         correctAnswer:"A",
         suggestions:[
@@ -2918,443 +2918,641 @@ export const quiz = [
         qtnsList:[
             {
                 qtnNo:"Q1.",
-                question:"What does the sign below indicate?", 
-                symbol:require("./assets/quiz_questions/red.png"),
+                question:"This road sign means?.", 
+                symbol:require("./assets/quiz_questions/nationalspeetlimit.png"),
                 correctAnswer:"A",
                 suggestions:[
-                    {id:2, objective:"B", option: "Means Get Ready"},
-                    {id:3, objective:"C", option: "Means Go"},
-                    {id:4, objective:"D", option: "Means Stop"},
-                    {id:5, objective:"E", option: "Means Turn Left"},
+                    {id:2, objective:"B", option: "No stopping"},
+                    {id:3, objective:"C", option: "No road access"},
+                    {id:4, objective:"D", option: "Keep clear"},
+                    {id:5, objective:"E", option: "National speed limit applies"},
                 ],
                 selectedObjective:""
         
         },
         {
             qtnNo:"Q2.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/green.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/goaheadonly.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Get Ready"},
-                {id:2, objective:"B", option: "Means Go"},
-                {id:3, objective:"C", option: "Means Stop"},
-                {id:4, objective:"D", option: "Means Turn Left"},
+                {id:1, objective:"A", option: "One-way street"},
+                {id:2, objective:"B", option: "Ahead only"},
+                {id:3, objective:"C", option: "Single lane"},
+                {id:4, objective:"D", option: "Stay in lane"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q3.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/orange.png"),
+            question:"From your side of the road, these lines mean.",
+            symbol:require("./assets/quiz_questions/overtaking_when_safe.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Get Ready"},
-                {id:2, objective:"B", option: "Means Go"},
-                {id:3, objective:"C", option: "Means Stop"},
-                {id:4, objective:"D", option: "Means Turn Left"},
+                {id:1, objective:"A", option: "You can overtake / cross the lines under specific circumstances"},
+                {id:2, objective:"B", option: "You must not overtake / cross the lines under any condition"},
+                {id:3, objective:"C", option: "Hazardous road, advisable not to overtake / cross the lines"},
             ],
             selectedObjective:""
     
         }, {
             qtnNo:"Q4.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/rightindicator.jpg"),
+            question:"What best describes this sign?.",
+            symbol:require("./assets/quiz_questions/lanecrossescarriageway.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means go slow"},
-                {id:2, objective:"B", option: "Means someone is turning right"},
-                {id:3, objective:"C", option: "Means Stop"},
-                {id:4, objective:"D", option: "Means someone is turning left"},
+                {id:1, objective:"A", option: "Road works, right lane leaves carriageway, maximum speed 30kph"},
+                {id:2, objective:"B", option: "Primary route road works, one lane crosses carriageway, 30kph advisory"},
+                {id:3, objective:"C", option: "Hazard ahead, move to lane on right, max speed 30kph"},
+                {id:4, objective:"D", option: "Motorway road works sign"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q5.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/turningleftgo.png"),
+            question:"What does the road sign ,mean?.",
+            symbol:require("./assets/quiz_questions/no_pedal_bike.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Stop"},
-                {id:2, objective:"B", option: "Means vehicles turning left are free to go"},
-                {id:3, objective:"C", option: "Means Go"},
+                {id:1, objective:"A", option: "Parking place for pedal cycles only"},
+                {id:2, objective:"B", option: "Pedal cycle route crossing or joining road ahead"},
+                {id:3, objective:"C", option: "Cyclists only"},
+                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q6.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/motorbikeslowdown.png"),
+            question:"White zigzag lines are used at?.",
+            symbol:require("./assets/quiz_questions/zigzagline.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Stop"},
-                {id:2, objective:"B", option: "Means turning right"},
-                {id:3, objective:"C", option: "Slow Down"},
+                {id:1, objective:"A", option: "Pedestrian crossings to warn motorists of the hazard ahead"},
+                {id:2, objective:"B", option: "Outside of schools to inform motorists not to park"},
+                {id:3, objective:"C", option: "Pedestrian crossings to inform motorists not to park"},
+                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q7.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/turnright_car.png"),
+            question:"This is a car dash board symbol, what does it represent?.",
+            symbol:require("./assets/quiz_questions/oil-pressure-warning-light.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Slow Down"},
-                {id:2, objective:"B", option: "We need to talk"},
-                {id:3, objective:"C", option: "Turn Right"},
+                {id:1, objective:"A", option: "Symbol indicates that there is an issue with your car's oil pressure system"},
+                {id:2, objective:"B", option: "Symbol indicates that there is an issue with your car radiator system."},
+                {id:3, objective:"C", option: "Symbol indicates that there is an issue with your engine"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q8.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/vehiclesfromfrontstop.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/one_way_traffic.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "No way through"},
-                {id:2, objective:"B", option: "Vehicles approaching from front should STOP"},
-                {id:3, objective:"C", option: "All vehicles should STOP"},
+                {id:1, objective:"A", option: "Road merging into single lane ahead"},
+                {id:2, objective:"B", option: "Motorway ahead Keep straight"},
+                {id:3, objective:"C", option: "Left or right turns prohibited"},
+                {id:3, objective:"C", option: "One-way traffic"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q9.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/redflashing.png"),
+            question:"Blue circular road signs mostly give:.",
+            symbol:require("./assets/quiz_questions/mandatory_information.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Means Stop"},
-                {id:2, objective:"B", option: "Railway Crossing Signal"},
-                {id:3, objective:"C", option: "Railway Line Ahead"},
+                {id:1, objective:"A", option: "Information"},
+                {id:2, objective:"B", option: "Directions"},
+                {id:3, objective:"C", option: "Warning of hazards"},
+                {id:3, objective:"C", option: "Postive and/or mandatory instruction."},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q10.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/policelight.png"),
+            question:"Q10. What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/minorroadfromleft.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Police Vehicle"},
-                {id:2, objective:"B", option: "Fire Brigade"},
-                {id:3, objective:"C", option: "Ambulance"},
+                {id:1, objective:"A", option: "Give way to traffic on right"},
+                {id:2, objective:"B", option: "Traffic merging from right"},
+                {id:3, objective:"C", option: "Joining major route ahead"},
+                {id:4, objective:"D", option: "Traffic merging from left"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q11.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/roadworks.png"),
+            question:"What does this sign mean?.",
+            symbol:require("./assets/quiz_questions/separates_opposite_flows.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Must obey the signs you find at all times."},
-                {id:2, objective:"B", option: "Only obey the sign when there are workers"},
-                {id:3, objective:"C", option: "Only obey the sign during working hours."},
+                {id:1, objective:"A", option: "Used to separate opposing flow lanes on a dual carriageway."},
+                {id:2, objective:"B", option: "Dedicated lane for motorcyclists only"},
+                {id:3, objective:"C", option: "Separates opposite flows of traffic, must not be crossed"},
+                {id:4, objective:"D", option: "Separates opposite flows of traffic, advisable not to cross"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q12.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/sidevehiclescome.png"),
+            question:"The above light on the dash board means..",
+            symbol:require("./assets/quiz_questions/abs-warning-light.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Vehicles approaching from the front should COME ON"},
-                {id:2, objective:"B", option: "Vehicles approaching from the side should COME"},
-                {id:3, objective:"C", option: "Vehicles approaching from the side should STOP"},
+                {id:1, objective:"A", option: "Check the vehicle traction system"},
+                {id:2, objective:"B", option: "Check the vehicle locking braking system"},
+                {id:3, objective:"C", option: "Check the vehicle anti-lock braking system"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q13.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/stop.png"),
+            question:"What does this signal mean?.",
+            symbol:require("./assets/quiz_questions/vehiclesfromfrontcome.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "It means slow down, defer to oncoming traffic, stop if necessary, and proceed when it's safe to do so."},
-                {id:2, objective:"B", option: "It means you need to stop."},
-                {id:3, objective:"C", option: "This sign is used to indicate a street that you can not turn right onto."},
-                {id:4, objective:"D", option: "It means do not park here."},
+                {id:1, objective:"A", option: "Traffic approaching from the front must stop."},
+                {id:2, objective:"B", option: "Traffic approaching from the front may proceed."},
+                {id:3, objective:"C", option: "Traffic approaching from behind must stop."},
+                {id:4, objective:"D", option: "Traffic approaching from the right may proceed."},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q14.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/roadjunctionahead.png"),
+            question:"What is this road sign warning drivers of?.",
+            symbol:require("./assets/quiz_questions/loosesurfaceroads.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Cross roads ahead"},
-                {id:2, objective:"B", option: "Level crossing with gate"},
-                {id:3, objective:"C", option: "Level crossing without gate"},
-                {id:4, objective:"D", option: "None of the Above"},
+                {id:1, objective:"A", option: "Roadworks ahead"},
+                {id:2, objective:"B", option: "Risk of aquaplaning"},
+                {id:3, objective:"C", option: "Loose chippings"},
+                {id:4, objective:"D", option: "Falling rocks"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q15.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/successivebendtotheleft.png"),
+            question:"What does this blue road sign mean?.",
+            symbol:require("./assets/quiz_questions/compulsarycycletrack.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Zig-Zag Road"},
-                {id:2, objective:"B", option: "Country Lane"},
-                {id:3, objective:"C", option: "Successive/Double bend to the left"},
-                {id:4, objective:"D", option: "Slippery Road"},
+                {id:1, objective:"A", option: "Route for pedal cycles only"},
+                {id:2, objective:"B", option: "Pedal cycle route crossing or joining road ahead"},
+                {id:3, objective:"C", option: "End of cycle route"},
+                {id:4, objective:"D", option: "Parking place for cycles only"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q16.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/slipperyroad.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/passeitherside.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Cross Winds."},
-                {id:2, objective:"B", option: "Risk of Ice"},
-                {id:2, objective:"B", option: "Slippery road"},
-                {id:2, objective:"B", option: "1 and 2"},
+                {id:1, objective:"A", option: "Road divides into two lanes"},
+                {id:2, objective:"B", option: "Choose your lane"},
+                {id:2, objective:"B", option: "Vehicles may pass either side to reach same destination"},
+                {id:2, objective:"B", option: "Stay in lane"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q17.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/cattlecrossingahead.png"),
+            question:"What is the meaning of this road sign?.",
+            symbol:require("./assets/quiz_questions/no_motorvehicle_permitted.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Cattle Crossing ahead"},
-                {id:2, objective:"B", option: "Farm Entrance ahead"},
-                {id:3, objective:"C", option: "No Vehicle Access"},
+                {id:1, objective:"A", option: "No overtaking"},
+                {id:2, objective:"B", option: "No motor vehicles permitted"},
+                {id:3, objective:"C", option: "Only cars and motorcycles permitted"},
+                {id:3, objective:"C", option: "No parking"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q18.",
-            question:"What does the sign below indicate",
-            symbol:require("./assets/quiz_questions/noentryforallvehicles.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/two-way-traffic-sign-on-route-crossing-ahead.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Please Stop"},
-                {id:2, objective:"B", option: "Do not Enter"},
-                {id:3, objective:"C", option: 'No Parking'},
-                {id:4, objective:"D", option: "No road markings"},
+                {id:1, objective:"A", option: "Road splits ahead"},
+                {id:2, objective:"B", option: "No left or right turns"},
+                {id:3, objective:"C", option: 'Two way traffic crossing one way road'},
+                {id:4, objective:"D", option: "One way traffic merges into two way traffic ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q19.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/pedestrianscrossing.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/twowaytrafficahead.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Pedestrians Crossing"},
-                {id:2, objective:"B", option: "School Cross Walk"},
-                {id:3, objective:"C", option: "School crosswalk ahead"},
-                {id:4, objective:"D", option: "No road markings"},
+                {id:1, objective:"A", option: "Two-way traffic straight ahead"},
+                {id:2, objective:"B", option: "Two-way traffic on route crossing ahead"},
+                {id:3, objective:"C", option: "Give way to oncoming vehicles"},
+                {id:4, objective:"D", option: "Dual carriageway ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q20.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/twowaytrafficahead.png"),
+            question:"which vehicle in the diagram should give way?.",
+            symbol:require("./assets/quiz_questions/pic1.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Divider ahead - keep right"},
-                {id:2, objective:"B", option: "Maintain Lanes"},
-                {id:3, objective:"C", option: 'Straight through only'},
-                {id:3, objective:"C", option: 'Two way traffic'},
+                {id:1, objective:"A", option: "Vehicle P"},
+                {id:2, objective:"B", option: "Maintain LanesVehicle 0"},
+                {id:3, objective:"C", option: 'Both Vehicles'},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q21.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/noturnleft.png"),
+            question:"What does this car dash board symbol represent?.",
+            symbol:require("./assets/quiz_questions/battery-warning-light.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "No Right Turn"},
-                {id:2, objective:"B", option: 'No Passing'},
-                {id:3, objective:"C", option: "No Left Turn"},
-                {id:4, objective:"D", option: "No U-Turn"},
+                {id:1, objective:"A", option: "This symbol signifies a problem with the vehicle's charging system"},
+                {id:2, objective:"B", option: "This symbol signifies a problem with the vehicle's discharging system"},
+                {id:3, objective:"C", option: "This symbol signifies a problem with the vehicle's heating system"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q22.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/trafficcontrolahead.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/priorityoveroncomingvehicles.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Traffic Control Signal ahead"},
-                {id:2, objective:"B", option: "Too much traffic"},
-                {id:3, objective:"C", option: "Not a though street"},
-                {id:4, objective:"D", option: "Divided road"},
+                {id:1, objective:"A", option: "One way traffic only"},
+                {id:2, objective:"B", option: "Priority over oncoming vehicles"},
+                {id:3, objective:"C", option: "Two way traffic ahead"},
+                {id:4, objective:"D", option: "Give priority to oncoming vehicles"},
             ],
             selectedObjective:""
     
         },{
             qtnNo:"Q23.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/soundingofhornsirensprohibited.png"),
+            question:"This warning sign is informing drivers of:-.",
+            symbol:require("./assets/quiz_questions/slipperyroad.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Do not use mobile phone when driving"},
-                {id:2, objective:"B", option: "Sounding of horn sirens prohibited"},
-                {id:3, objective:"C", option: "Compulsory sound horn"},
-                {id:3, objective:"D", option: "You may sound your horn"},
+                {id:1, objective:"A", option: "Wet conditions ahead"},
+                {id:2, objective:"B", option: "Uneven road surface ahead"},
+                {id:3, objective:"C", option: "Slippery road surface ahead"},
+                {id:3, objective:"D", option: "Harsh bends in the road ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q24.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
+            question:"What is the meaning of the Police sign provided above?.",
+            symbol:require("./assets/quiz_questions/frontandbehindstop.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Police Station"},
-                {id:2, objective:"B", option: "Railway Crossing without barriers"},
-                {id:3, objective:"C", option: "Bridge ahead"},
-                {id:4, objective:"D", option: "Guarded Railway Crossing"},
+                {id:1, objective:"A", option: "STOP Traffic approaching from the front"},
+                {id:2, objective:"B", option: "STOP Traffic approaching from behind"},
+                {id:3, objective:"C", option: "STOP traffic from the sides"},
+                {id:4, objective:"D", option: "STOP Traffic approaching from both front and behind"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q25.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/directiontobefollowed.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/giveproiritytooncoming.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "There is no road to the left"},
-                {id:2, objective:"B", option: "Keep left"},
-                {id:3, objective:"C", option: "None of these"},
-                {id:3, objective:"C", option: "Direction to be followed"},
+                {id:1, objective:"A", option: "One-way traffic only"},
+                {id:2, objective:"B", option: "Oncoming traffic must give way"},
+                {id:3, objective:"C", option: "Give priority to oncoming traffic"},
+                {id:3, objective:"C", option: "Two-way traffic ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q26.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/firstaid.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/railwaywithoutbarrier.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Hospital"},
-                {id:2, objective:"B", option: "First Aid"},
-                {id:3, objective:"C", option: "Stop"},
-                {id:4, objective:"D", option: "Junction ahead"},
+                {id:1, objective:"A", option: "Railway crossing without barrier"},
+                {id:2, objective:"B", option: "No through road"},
+                {id:3, objective:"C", option: "Emergency vehicles only"},
+                {id:4, objective:"D", option: "Do not cross"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q27.",
-            question:"What does the sign below indicate?",
+            question:"What is this road sign warning road users of?.",
             symbol:require("./assets/quiz_questions/roundabout.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Hospital"},
-                {id:2, objective:"B", option: "Round About"},
-                {id:3, objective:"C", option: "Stop"},
-                {id:3, objective:"C", option: "Junction ahead"},
+                {id:1, objective:"A", option: "Hump back bridges ahead"},
+                {id:2, objective:"B", option: "Steep hills ahead"},
+                {id:3, objective:"C", option: "Uneven road"},
+                {id:3, objective:"C", option: "Speed bumps in road"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q28.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/dontdrinkanddrive.png"),
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/stop_even_clear.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Dont text and drive"},
-                {id:2, objective:"B", option: "Dont Drive and Drink"},
-                {id:3, objective:"C", option: 'None of these'},
-                {id:4, objective:"D", option: 'Dont Drink and Drive'},
+                {id:1, objective:"A", option: "Stop even if it is clear"},
+                {id:2, objective:"B", option: "Stop only if traffic is approaching"},
+                {id:3, objective:"C", option: 'Give way only as stopping unnecessarily can be dangerous'},
+                {id:4, objective:"D", option: 'It is advisable to stop due to dangerous junction'},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q29.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/fillingstation.png"),
+            question:"Explain what this road sign means?.",
+            symbol:require("./assets/quiz_questions/overtakingofvehiclesisprohibited.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Workshop"},
-                {id:2, objective:"B", option: "No Road Through"},
-                {id:3, objective:"C", option: "Filling station"},
-                {id:4, objective:"D", option: "None of these"},
+                {id:1, objective:"A", option: "No double parking"},
+                {id:2, objective:"B", option: "No overtaking"},
+                {id:3, objective:"C", option: "Single File Traffic Only"},
+                {id:4, objective:"D", option: "Two traffic lanes ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q30.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/hotel.png"),
+            question:"What should a driver do when approaching traffic lights that change from green to amber?.",
+            symbol:require("./assets/quiz_questions/approachingtraffic.png"),
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Hospital"},
-                {id:2, objective:"B", option: "Hotel"},
-                {id:3, objective:"C", option: "Bed"},
-                {id:4, objective:"D", option: "None of these"},
+                {id:1, objective:"A", option: "Accelerate to clear the junction."},
+                {id:2, objective:"B", option: "Sound the horn while proceeding through the junction."},
+                {id:3, objective:"C", option: "Stop, unless it is unsafe to do SO."},
+                {id:4, objective:"D", option: "Stop the vehicle immediately"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q31.",
-            question:"What does the sign below indicate?",
-            symbol:require("./assets/quiz_questions/entryforbiddentoallbicycles.png"),
+            question:"What does the road sign mean?.",
+            symbol:require("./assets/quiz_questions/turnleftahead.png"),
             correctAnswer:"A",
             suggestions:[
                 {id:1, objective:"A", option: "No entry"},
-                {id:2, objective:"B", option: "Entry forbidden to all bicycles"},
-                {id:3, objective:"C", option: "Entry forbidden to all motorcycles"},
-                {id:4, objective:"D", option: "No entry for power driven vehicles"},
+                {id:2, objective:"B", option: "Keep left"},
+                {id:3, objective:"C", option: "Turn left ahead"},
+                {id:4, objective:"D", option: "One-way system on left ahead"},
             ],
             selectedObjective:""
     
         },
         {
             qtnNo:"Q32.",
-            symbol:require("./assets/quiz_questions/hazardahead.png"),
-            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/highwaycarriage.png"),
+            question:"Where would these road markings be located?.",
             correctAnswer:"A",
             suggestions:[
-                {id:1, objective:"A", option: "Information"},
-                {id:2, objective:"B", option: "Hazard ahead"},
-                {id:3, objective:"C", option: "For your information"},
-                {id:3, objective:"C", option: "None of the above"},
+                {id:1, objective:"A", option: "One-way streets"},
+                {id:2, objective:"B", option: "Level / railway crossings"},
+                {id:3, objective:"C", option: "Highway and dual carriageways"},
+                {id:3, objective:"C", option: "Zebra crossings"},
                 
             ],
             selectedObjective:""
     
         },
-        
+        {
+            qtnNo:"Q33.",
+            symbol:require("./assets/quiz_questions/44heightprohibited.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Vehicles over 4.4 metres (14 foot 6 inches) in length prohibited"},
+                {id:2, objective:"B", option: "Height restriction warning sign"},
+                {id:3, objective:"C", option: "Vehicles over 4.4 metres (14 foot 6 inches) in height prohibited"},
+                {id:3, objective:"C", option: "High winds! Risk to vehicles exceeding height shown"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q34.",
+            symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
+            question:"What is this sign warning road users of?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Railway crossing ahead with barrier or gate"},
+                {id:2, objective:"B", option: "Trams crossing ahead"},
+                {id:3, objective:"C", option: "Train station ahead"},
+                {id:3, objective:"C", option: "Railway crossing ahead without barrier or gate"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q35.",
+            symbol:require("./assets/quiz_questions/highwaycarriage.png"),
+            question:"Rectangular road signs provide.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Orders"},
+                {id:2, objective:"B", option: "Warnings"},
+                {id:3, objective:"C", option: "Information and directions"},
+                {id:3, objective:"C", option: "Details of a hazard ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q36.",
+            symbol:require("./assets/quiz_questions/sharpdeviation.png"),
+            question:"What does this chevron road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Sharp deviation in the road to the right"},
+                {id:2, objective:"B", option: "Keep to the right"},
+                {id:3, objective:"C", option: "Turn right only"},
+                {id:4, objective:"D", option: "Road closed! Traffic follow signs for diversion"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q37.",
+            symbol:require("./assets/quiz_questions/roadnarrowsbothsides.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road narrows both sides"},
+                {id:2, objective:"B", option: "End of dual carriageway"},
+                {id:3, objective:"C", option: "Two-way traffic ahead"},
+                {id:3, objective:"C", option: "Single lane ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q38.",
+            symbol:require("./assets/quiz_questions/bendright.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Keep right"},
+                {id:2, objective:"B", option: "Warning of a right-hand bend ahead"},
+                {id:3, objective:"C", option: "Turn right ahead"},
+                {id:3, objective:"C", option: "Junction on the right ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q39.",
+            symbol:require("./assets/quiz_questions/keepleft.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Turn left"},
+                {id:2, objective:"B", option: "Take the next exit"},
+                {id:3, objective:"C", option: "Services on left Keep left"},
+                {id:3, objective:"C", option: "Keep left"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q40.",
+            symbol:require("./assets/quiz_questions/lorryapproach.png"),
+            question:"What should you do as you approach this lorry?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Slow down and be prepared to wait"},
+                {id:2, objective:"B", option: "Make the lorry wait for you"},
+                {id:3, objective:"C", option: "Flash your lights at the lorry"},
+                {id:3, objective:"C", option: "Move to the right-hand side of the road"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q41.",
+            symbol:require("./assets/quiz_questions/carreverse.png"),
+            question:"What should you do if the vehicle starts reversing into the driveway?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Move to the opposite side of the road"},
+                {id:2, objective:"B", option: "Drive through as you have priority"},
+                {id:3, objective:"C", option: "Sound your horn and be prepared to stop"},
+                {id:3, objective:"C", option: "Speed up and drive through quickly"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q42.",
+            symbol:require("./assets/quiz_questions/childrencrossing.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Pedestrian crossing ahead"},
+                {id:2, objective:"B", option: "Sign warning pedestrians of busy road ahead"},
+                {id:3, objective:"C", option: "School crossing patrol ahead"},
+                {id:3, objective:"C", option: "Pedestrianized area - no vehicles permitted"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q43.",
+            symbol:require("./assets/quiz_questions/yellowlines.png"),
+            question:"The yellow criss-cross lines on roads inform?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "A motorist that the yellow box area must be kept clear at all times"},
+                {id:2, objective:"B", option: "May enter the yellow box only when their traffic light turns to green"},
+                {id:3, objective:"C", option: "Motorists they are entering a tram crossing area"},
+                {id:3, objective:"C", option: "keep the junction clear for crossing traffic, motorists must enter yellow box area if their exit is clear"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q44.",
+            symbol:require("./assets/quiz_questions/narrowbridgeahead.png"),
+            question:"what is the meaning of the above road sign?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "it is a warning sign that there is a narrow road ahead."},
+                {id:2, objective:"B", option: "It is a warning sign that there is a bridge ahead"},
+                {id:3, objective:"C", option: "It is a warning sign that there is a narrow bridge ahead"},
+                {id:4, objective:"D", option: "It is a warning sign that the road narrows on both sides ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q45.",
+            symbol:require("./assets/quiz_questions/approaching_roundabout.png"),
+            question:"Approaching a roundabout you see this line. You must.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Give way to traffic from the left"},
+                {id:2, objective:"B", option: "Stop at the line"},
+                {id:3, objective:"C", option: "Give way to traffic from the right"},
+                {id:3, objective:"C", option: "Continue ahead as other traffic must give way to you"},
+                
+            ],
+            selectedObjective:""
+    
+        },
         
         ]
     },
