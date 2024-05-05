@@ -2463,7 +2463,901 @@ export const quiz = [
         }
         
         ]
+    },
+    {
+        id:2, 
+        indicator:"PRACTICE_QUIZ_3A",
+        score:0,
+        qtnsList:[
+            {
+                qtnNo:"Q1.",
+                question:"What does the sign below indicate?", 
+                symbol:require("./assets/quiz_questions/red.png"),
+                correctAnswer:"A",
+                suggestions:[
+                    {id:2, objective:"B", option: "Means Get Ready"},
+                    {id:3, objective:"C", option: "Means Go"},
+                    {id:4, objective:"D", option: "Means Stop"},
+                    {id:5, objective:"E", option: "Means Turn Left"},
+                ],
+                selectedObjective:""
+        
         },
+        {
+            qtnNo:"Q2.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/green.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Get Ready"},
+                {id:2, objective:"B", option: "Means Go"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means Turn Left"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q3.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/orange.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Get Ready"},
+                {id:2, objective:"B", option: "Means Go"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means Turn Left"},
+            ],
+            selectedObjective:""
+    
+        }, {
+            qtnNo:"Q4.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/rightindicator.jpg"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means go slow"},
+                {id:2, objective:"B", option: "Means someone is turning right"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means someone is turning left"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q5.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/turningleftgo.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Means vehicles turning left are free to go"},
+                {id:3, objective:"C", option: "Means Go"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q6.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/motorbikeslowdown.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Means turning right"},
+                {id:3, objective:"C", option: "Slow Down"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q7.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/turnright_car.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Slow Down"},
+                {id:2, objective:"B", option: "We need to talk"},
+                {id:3, objective:"C", option: "Turn Right"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q8.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/vehiclesfromfrontstop.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No way through"},
+                {id:2, objective:"B", option: "Vehicles approaching from front should STOP"},
+                {id:3, objective:"C", option: "All vehicles should STOP"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q9.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/redflashing.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Railway Crossing Signal"},
+                {id:3, objective:"C", option: "Railway Line Ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q10.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/policelight.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Police Vehicle"},
+                {id:2, objective:"B", option: "Fire Brigade"},
+                {id:3, objective:"C", option: "Ambulance"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q11.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roadworks.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Must obey the signs you find at all times."},
+                {id:2, objective:"B", option: "Only obey the sign when there are workers"},
+                {id:3, objective:"C", option: "Only obey the sign during working hours."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q12.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/sidevehiclescome.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Vehicles approaching from the front should COME ON"},
+                {id:2, objective:"B", option: "Vehicles approaching from the side should COME"},
+                {id:3, objective:"C", option: "Vehicles approaching from the side should STOP"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q13.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/stop.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "It means slow down, defer to oncoming traffic, stop if necessary, and proceed when it's safe to do so."},
+                {id:2, objective:"B", option: "It means you need to stop."},
+                {id:3, objective:"C", option: "This sign is used to indicate a street that you can not turn right onto."},
+                {id:4, objective:"D", option: "It means do not park here."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q14.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roadjunctionahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cross roads ahead"},
+                {id:2, objective:"B", option: "Level crossing with gate"},
+                {id:3, objective:"C", option: "Level crossing without gate"},
+                {id:4, objective:"D", option: "None of the Above"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q15.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/successivebendtotheleft.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Zig-Zag Road"},
+                {id:2, objective:"B", option: "Country Lane"},
+                {id:3, objective:"C", option: "Successive/Double bend to the left"},
+                {id:4, objective:"D", option: "Slippery Road"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q16.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/slipperyroad.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cross Winds."},
+                {id:2, objective:"B", option: "Risk of Ice"},
+                {id:2, objective:"B", option: "Slippery road"},
+                {id:2, objective:"B", option: "1 and 2"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q17.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/cattlecrossingahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cattle Crossing ahead"},
+                {id:2, objective:"B", option: "Farm Entrance ahead"},
+                {id:3, objective:"C", option: "No Vehicle Access"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q18.",
+            question:"What does the sign below indicate",
+            symbol:require("./assets/quiz_questions/noentryforallvehicles.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Please Stop"},
+                {id:2, objective:"B", option: "Do not Enter"},
+                {id:3, objective:"C", option: 'No Parking'},
+                {id:4, objective:"D", option: "No road markings"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q19.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/pedestrianscrossing.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Pedestrians Crossing"},
+                {id:2, objective:"B", option: "School Cross Walk"},
+                {id:3, objective:"C", option: "School crosswalk ahead"},
+                {id:4, objective:"D", option: "No road markings"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q20.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/twowaytrafficahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Divider ahead - keep right"},
+                {id:2, objective:"B", option: "Maintain Lanes"},
+                {id:3, objective:"C", option: 'Straight through only'},
+                {id:3, objective:"C", option: 'Two way traffic'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q21.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/noturnleft.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No Right Turn"},
+                {id:2, objective:"B", option: 'No Passing'},
+                {id:3, objective:"C", option: "No Left Turn"},
+                {id:4, objective:"D", option: "No U-Turn"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q22.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/trafficcontrolahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Traffic Control Signal ahead"},
+                {id:2, objective:"B", option: "Too much traffic"},
+                {id:3, objective:"C", option: "Not a though street"},
+                {id:4, objective:"D", option: "Divided road"},
+            ],
+            selectedObjective:""
+    
+        },{
+            qtnNo:"Q23.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/soundingofhornsirensprohibited.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Do not use mobile phone when driving"},
+                {id:2, objective:"B", option: "Sounding of horn sirens prohibited"},
+                {id:3, objective:"C", option: "Compulsory sound horn"},
+                {id:3, objective:"D", option: "You may sound your horn"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q24.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Police Station"},
+                {id:2, objective:"B", option: "Railway Crossing without barriers"},
+                {id:3, objective:"C", option: "Bridge ahead"},
+                {id:4, objective:"D", option: "Guarded Railway Crossing"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q25.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/directiontobefollowed.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "There is no road to the left"},
+                {id:2, objective:"B", option: "Keep left"},
+                {id:3, objective:"C", option: "None of these"},
+                {id:3, objective:"C", option: "Direction to be followed"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q26.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/firstaid.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "First Aid"},
+                {id:3, objective:"C", option: "Stop"},
+                {id:4, objective:"D", option: "Junction ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q27.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roundabout.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "Round About"},
+                {id:3, objective:"C", option: "Stop"},
+                {id:3, objective:"C", option: "Junction ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q28.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/dontdrinkanddrive.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Dont text and drive"},
+                {id:2, objective:"B", option: "Dont Drive and Drink"},
+                {id:3, objective:"C", option: 'None of these'},
+                {id:4, objective:"D", option: 'Dont Drink and Drive'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q29.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/fillingstation.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Workshop"},
+                {id:2, objective:"B", option: "No Road Through"},
+                {id:3, objective:"C", option: "Filling station"},
+                {id:4, objective:"D", option: "None of these"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q30.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/hotel.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "Hotel"},
+                {id:3, objective:"C", option: "Bed"},
+                {id:4, objective:"D", option: "None of these"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q31.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/entryforbiddentoallbicycles.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No entry"},
+                {id:2, objective:"B", option: "Entry forbidden to all bicycles"},
+                {id:3, objective:"C", option: "Entry forbidden to all motorcycles"},
+                {id:4, objective:"D", option: "No entry for power driven vehicles"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q32.",
+            symbol:require("./assets/quiz_questions/hazardahead.png"),
+            question:"What does the sign below indicate?",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Information"},
+                {id:2, objective:"B", option: "Hazard ahead"},
+                {id:3, objective:"C", option: "For your information"},
+                {id:3, objective:"C", option: "None of the above"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        
+        
+        ]
+    },
+    {
+        id:3, 
+        indicator:"PRACTICE_QUIZ_3B",
+        score:0,
+        qtnsList:[
+            {
+                qtnNo:"Q1.",
+                question:"What does the sign below indicate?", 
+                symbol:require("./assets/quiz_questions/red.png"),
+                correctAnswer:"A",
+                suggestions:[
+                    {id:2, objective:"B", option: "Means Get Ready"},
+                    {id:3, objective:"C", option: "Means Go"},
+                    {id:4, objective:"D", option: "Means Stop"},
+                    {id:5, objective:"E", option: "Means Turn Left"},
+                ],
+                selectedObjective:""
+        
+        },
+        {
+            qtnNo:"Q2.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/green.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Get Ready"},
+                {id:2, objective:"B", option: "Means Go"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means Turn Left"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q3.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/orange.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Get Ready"},
+                {id:2, objective:"B", option: "Means Go"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means Turn Left"},
+            ],
+            selectedObjective:""
+    
+        }, {
+            qtnNo:"Q4.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/rightindicator.jpg"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means go slow"},
+                {id:2, objective:"B", option: "Means someone is turning right"},
+                {id:3, objective:"C", option: "Means Stop"},
+                {id:4, objective:"D", option: "Means someone is turning left"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q5.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/turningleftgo.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Means vehicles turning left are free to go"},
+                {id:3, objective:"C", option: "Means Go"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q6.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/motorbikeslowdown.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Means turning right"},
+                {id:3, objective:"C", option: "Slow Down"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q7.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/turnright_car.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Slow Down"},
+                {id:2, objective:"B", option: "We need to talk"},
+                {id:3, objective:"C", option: "Turn Right"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q8.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/vehiclesfromfrontstop.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No way through"},
+                {id:2, objective:"B", option: "Vehicles approaching from front should STOP"},
+                {id:3, objective:"C", option: "All vehicles should STOP"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q9.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/redflashing.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Means Stop"},
+                {id:2, objective:"B", option: "Railway Crossing Signal"},
+                {id:3, objective:"C", option: "Railway Line Ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q10.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/policelight.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Police Vehicle"},
+                {id:2, objective:"B", option: "Fire Brigade"},
+                {id:3, objective:"C", option: "Ambulance"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q11.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roadworks.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Must obey the signs you find at all times."},
+                {id:2, objective:"B", option: "Only obey the sign when there are workers"},
+                {id:3, objective:"C", option: "Only obey the sign during working hours."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q12.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/sidevehiclescome.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Vehicles approaching from the front should COME ON"},
+                {id:2, objective:"B", option: "Vehicles approaching from the side should COME"},
+                {id:3, objective:"C", option: "Vehicles approaching from the side should STOP"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q13.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/stop.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "It means slow down, defer to oncoming traffic, stop if necessary, and proceed when it's safe to do so."},
+                {id:2, objective:"B", option: "It means you need to stop."},
+                {id:3, objective:"C", option: "This sign is used to indicate a street that you can not turn right onto."},
+                {id:4, objective:"D", option: "It means do not park here."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q14.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roadjunctionahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cross roads ahead"},
+                {id:2, objective:"B", option: "Level crossing with gate"},
+                {id:3, objective:"C", option: "Level crossing without gate"},
+                {id:4, objective:"D", option: "None of the Above"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q15.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/successivebendtotheleft.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Zig-Zag Road"},
+                {id:2, objective:"B", option: "Country Lane"},
+                {id:3, objective:"C", option: "Successive/Double bend to the left"},
+                {id:4, objective:"D", option: "Slippery Road"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q16.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/slipperyroad.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cross Winds."},
+                {id:2, objective:"B", option: "Risk of Ice"},
+                {id:2, objective:"B", option: "Slippery road"},
+                {id:2, objective:"B", option: "1 and 2"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q17.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/cattlecrossingahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Cattle Crossing ahead"},
+                {id:2, objective:"B", option: "Farm Entrance ahead"},
+                {id:3, objective:"C", option: "No Vehicle Access"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q18.",
+            question:"What does the sign below indicate",
+            symbol:require("./assets/quiz_questions/noentryforallvehicles.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Please Stop"},
+                {id:2, objective:"B", option: "Do not Enter"},
+                {id:3, objective:"C", option: 'No Parking'},
+                {id:4, objective:"D", option: "No road markings"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q19.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/pedestrianscrossing.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Pedestrians Crossing"},
+                {id:2, objective:"B", option: "School Cross Walk"},
+                {id:3, objective:"C", option: "School crosswalk ahead"},
+                {id:4, objective:"D", option: "No road markings"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q20.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/twowaytrafficahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Divider ahead - keep right"},
+                {id:2, objective:"B", option: "Maintain Lanes"},
+                {id:3, objective:"C", option: 'Straight through only'},
+                {id:3, objective:"C", option: 'Two way traffic'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q21.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/noturnleft.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No Right Turn"},
+                {id:2, objective:"B", option: 'No Passing'},
+                {id:3, objective:"C", option: "No Left Turn"},
+                {id:4, objective:"D", option: "No U-Turn"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q22.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/trafficcontrolahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Traffic Control Signal ahead"},
+                {id:2, objective:"B", option: "Too much traffic"},
+                {id:3, objective:"C", option: "Not a though street"},
+                {id:4, objective:"D", option: "Divided road"},
+            ],
+            selectedObjective:""
+    
+        },{
+            qtnNo:"Q23.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/soundingofhornsirensprohibited.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Do not use mobile phone when driving"},
+                {id:2, objective:"B", option: "Sounding of horn sirens prohibited"},
+                {id:3, objective:"C", option: "Compulsory sound horn"},
+                {id:3, objective:"D", option: "You may sound your horn"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q24.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Police Station"},
+                {id:2, objective:"B", option: "Railway Crossing without barriers"},
+                {id:3, objective:"C", option: "Bridge ahead"},
+                {id:4, objective:"D", option: "Guarded Railway Crossing"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q25.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/directiontobefollowed.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "There is no road to the left"},
+                {id:2, objective:"B", option: "Keep left"},
+                {id:3, objective:"C", option: "None of these"},
+                {id:3, objective:"C", option: "Direction to be followed"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q26.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/firstaid.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "First Aid"},
+                {id:3, objective:"C", option: "Stop"},
+                {id:4, objective:"D", option: "Junction ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q27.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/roundabout.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "Round About"},
+                {id:3, objective:"C", option: "Stop"},
+                {id:3, objective:"C", option: "Junction ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q28.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/dontdrinkanddrive.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Dont text and drive"},
+                {id:2, objective:"B", option: "Dont Drive and Drink"},
+                {id:3, objective:"C", option: 'None of these'},
+                {id:4, objective:"D", option: 'Dont Drink and Drive'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q29.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/fillingstation.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Workshop"},
+                {id:2, objective:"B", option: "No Road Through"},
+                {id:3, objective:"C", option: "Filling station"},
+                {id:4, objective:"D", option: "None of these"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q30.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/hotel.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hospital"},
+                {id:2, objective:"B", option: "Hotel"},
+                {id:3, objective:"C", option: "Bed"},
+                {id:4, objective:"D", option: "None of these"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q31.",
+            question:"What does the sign below indicate?",
+            symbol:require("./assets/quiz_questions/entryforbiddentoallbicycles.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No entry"},
+                {id:2, objective:"B", option: "Entry forbidden to all bicycles"},
+                {id:3, objective:"C", option: "Entry forbidden to all motorcycles"},
+                {id:4, objective:"D", option: "No entry for power driven vehicles"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q32.",
+            symbol:require("./assets/quiz_questions/hazardahead.png"),
+            question:"What does the sign below indicate?",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Information"},
+                {id:2, objective:"B", option: "Hazard ahead"},
+                {id:3, objective:"C", option: "For your information"},
+                {id:3, objective:"C", option: "None of the above"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        
+        
+        ]
+    },
 ]
 
 
