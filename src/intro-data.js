@@ -113,7 +113,7 @@ export const menu = [
     // { id: 12, component: "ItemList", param: "ROADWORK_SIGNS", navigateTo: "", indicator: 'BASIC_THEORY', type: 'ionic', icon: "", name: "Roadworks Signs" },
     { id: 12, component: "TheoryDetails", param: "BASIC_FIRST_AID", navigateTo: "", indicator: 'BASIC_THEORY', type: 'ionic', icon: "", name: "Basic first aid" },
     { id: 12, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Get started with driving" },
-    { id: 12, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Rules of the road" },
+    { id: 12, component: "TheoryDetails", param: "RULES_OF_THE_ROAD", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Rules of the road" },
     { id: 12, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Important car parts" },
     { id: 12, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Steering wheel usage" },
     { id: 12, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Automatic and manual cars" },
@@ -2525,6 +2525,78 @@ export const theories=[
             {element: "image", content: require("./assets/basic_theory/permit_specimen_back.png")},
             {element: "paragraph", content: "A driver's license is a legal authorization, or the official document confirming such an authorization, for a specific individual to operate one or more types of motorized vehicles-such as motorcycles, cars, trucks, or buses- on a public road. Such licenses are often plastic and the size of a credit card as shown in the image above"},
             {element: "paragraph", content: "In Uganda, a learner is required to have a Learner Driving Licence (LDL) to have provisions of the Traffic and Road Safety Act, 1998 (as amended) 2020 (Cap 361) and is hereby authorized to undertake instructions from a licenced instructor. From here, a learner can obtain his or her driving licence after being assessed by the IOV"},
+        ]
+    },
+    {
+        id: 2,
+        indicator: 'RULES_OF_THE_ROAD',
+        theory:[
+            {element: "image", content: require("./assets/basic_theory/ruleofroad.png")},
+            {element: "paragraph", content: "The rule of the road in Uganda is to keep left. Other countries that keep left include kenya, South Africa, Australia, the Caribbean, India, Japan. With this, one should overtake another vehicle on the right hand side.Countries like Rwanda, Burundi, and the DRC keep right"},
+            {element: "header", content: "When can one overtake from the left?"},
+            {element: "bullets", content: [
+                "When a vehicle is turning right or making a U-turn from the centre of the road and is indicating right",
+                "When driving on a multi-lane road and the vehicle can be overtaken in a marked lane to the left of the vehicle",
+                "When the front vehicle is stationary or accident ahead where its the only option to pass from the left",
+            ]},
+            {element: "header", content: "Places where one should never overtake"},
+            {element: "bullets", content: [
+                " When approaching a sharp corner. You may not see oncoming vehicles",
+                " When approaching zebra crossing. You may knock down pedestrians crossing",
+                " When approaching brow of a hill. You may not see on coming vehicles",
+                " When approaching a junction. You may crash in the crossing train",
+                " When approaching a railway crossing. You need to first take note of the direction of the different vehicles",
+                " When approaching a humb bridge ahead.",
+                " When the road sign marks no overtaking area.",
+                " When the road is narrow.",
+            ]},
+            {element: "header", content: "When should one stop while on the road?"},
+            {element: "bullets", content: [
+                "At stop signs",
+                "When traffic light signals red",
+                "When you get an accident",
+                "When signaled by a uniformed traffic officer",
+                "School children crossing signals",
+                "At pedestrian crossing area",
+                "At the junction joining the main road",
+                "While joining a roundabout",
+            ]},
+            {element: "header", content: "Places where one shouldn't park"},
+            {element: "bullets", content: [
+                "On a bend or brow of a hill",
+                "On a bridge",
+                "On or near pedestrian crossing",
+                "On or near a junction",
+                "On a roundabout",
+                "On or near a railway crossing",
+                "On or near the bus station",
+                "While joining a roundabout",
+                "Entrances used by other vehicles",
+                "In the middle of the road",
+                "On pavement",
+                "At No parking signs or No stopping signs"
+            ]},
+            {element: "header", content: "Vehicles that should be given priority when driving"},
+            {element: "bullets", content: [
+                "Head of state or presidential convoy",
+                "Ambulance",
+                "Police patrol",
+                "Fire brigades"
+            ]},
+            {element: "header", content: "Places where you should not use the horn"},
+            {element: "image", content: require("./assets/mandatory_signs/soundingofhornsirensprohibited.png")},
+            {element: "bullets", content: [
+                "At no horn sign",
+                "Inside schools",
+                "In game parks",
+                "At courts of law",
+                " On a pedestrian crossing",
+                "Late hours of resident areas",
+                "When it is not necessary to use the horn",
+            ]},
+            // {element: "paragraph", content: "Driving"},
+            // {element: "paragraph", content: "Driving"},
+     
         ]
 
     }
