@@ -37,7 +37,11 @@ const Questions = (props: any) => {
                         return (
                             <View>
                                         <View>
-                                            <Text style={styles.qtn}>{element.qtnsList[nextQtnIndex].qtnNo + ' ' + element.qtnsList[nextQtnIndex].question}</Text>
+                                            <Text style={element.qtnsList[nextQtnIndex].symbol ? styles.qtn15 :styles.qtn  }>{element.qtnsList[nextQtnIndex].qtnNo + ' ' + element.qtnsList[nextQtnIndex].question}</Text>
+                                            <View style={{flex:1,justifyContent:'center', alignItems:"center"}}>
+                                                {element.qtnsList[nextQtnIndex].symbol && <Image style={{flex:1,resizeMode: 'contain',width: "50%",height:200}}  source={element.qtnsList[nextQtnIndex].symbol } />}
+                                            </View>
+                                            
                                             <Text style={styles.qtnChoose}>Choose your answer from below</Text>
 
                                             {element.qtnsList[nextQtnIndex].suggestions.map((sug:any) => 

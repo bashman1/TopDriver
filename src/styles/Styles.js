@@ -363,6 +363,11 @@ export const styles = StyleSheet.create(
             fontSize: 25,
             color:"black"
         },
+        qtn15: {
+            fontSize: 15,
+            color:"black",
+            fontWeight:'bold',
+        },
         qtnChoose: {
             fontSize: 15,
             color:"black",
