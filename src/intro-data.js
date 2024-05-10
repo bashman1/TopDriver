@@ -4495,24 +4495,235 @@ export const theories = [
             { element: "header", content: "STEP 6" },
             { element: "paragraph", content: "Put the cable clamps back." },
         ]
+    },
+    {
+        id: 19,
+        indicator: "DEFENSIVE_DRIVING",
+        theory: [
+            { element: "header", content: "Define defensive driving" },
+            { element: "paragraph", content: "Defensive driving is essentially driving in a manner that utilises safe driving strategies to enables motorists address identified hazards in a predictable manner." },
+            { element: "paragraph", content: "These strategies go beyond instruction on basic traffic laws and procedures." },
+            { element: "paragraph", content: "Defensive driving is where you drive to avoid road accidents in spite of the erroneous actions of other road users or the adverse driving conditions." },
+            { element: "paragraph", content: "Defensive driving is an advanced driving concept that secures you from being involved in accidents through a strong and safer attitude towards other road users." },
+            { element: "paragraph", content: "Defensive driving differs from basic driving because it is all about attitude change towards safety." },
+            { element: "paragraph", content: "The aim here is to avoid crashes as much as possible and it includes avoiding crashes, even those caused by the other road users" },
+            { element: "header", content: "Principals defensive driving" },
+            {
+                element: "bullets", content: [
+                    "Effective observation",
+                    "Good anticipation",
+                    "Control of yourself and the car",
+                    "Being prepared of the unexpected or predict happenings",
+                    "Decide and act"
+                ]
+            },
+            { element: "header", content: "Rules of defensive driving" },
+            { element: "header", content: "1. Pay Attention" },
+
+            { element: "paragraph", content: "Paying attention doesn't come naturally, however it can become a habit if you work at it." },
+            { element: "paragraph", content: "Make conscious, persistent choices NOT to eat while driving, or text while driving, or whatever you do that takes your attention off the road." },
+            { element: "paragraph", content: 'Make an effort to connect your mind to your eyes and work at consciously analyzing what you see while you drive. This is called "situational awareness."' },
+            { element: "header", content: "2. Trust NO ONE" },
+            { element: "paragraph", content: "On the road, you can never know what other drivers will do." },
+            { element: "paragraph", content: "While driving, keep an eye on the cars around you and leave yourself plenty of room." },
+            { element: "paragraph", content: "Anticipate the mistakes others might make so you can be ready to react quickly." },
+            { element: "header", content: "3. Yield Anyway" },
+            {element: "paragraph", content: "Right of way rules are often misunderstood, and there are situations where the rules may not be clear to everyone."},
+            {element: "paragraph", content: "If there is uncertainty about which vehicle should have the right of way, give the other driver the road."},
+            {element: "paragraph", content: "When it comes to driving safely, it's not the principle, but the outcome, that counts."},
+            { element: "header", content: "4. Don't Speed" },
+            {element: "paragraph", content: "Consider that speeding usually doesn't save much time."},
+            {element: "paragraph", content: 'Driving at a higher than reasonable speed increases your risk in two ways; it cuts your reaction time and results in more "stored" energy (that must be dissipated in any collision).'},
+            {element: "paragraph", content: "You should consider if the risks are worth the gain."},
+            {element: "paragraph", content: "A defensive driver chooses a speed matching traffic as closely as possible without exceeding speed limits."},
+            {element: "paragraph", content: "If traffic is moving at higher speed than you should go, keep to the right and out of the way."},
+            {element: "paragraph", content: "This is often a legal requirement as well, if you are traveling at a speed less than the flow of traffic."},
+            {element: "paragraph", content: "Also, don't neglect to maintain the correct following distance."},
+            { element: "header", content: "5. Don't Be Impaired" },
+            {element: "paragraph", content: "We all have the obligation to make sure we are able to drive safely whenever we operate our vehicle."},
+            {element: "paragraph", content: "Ask yourself,"},
+            {
+                element: "bullets", content: [
+                    "Am I safe to drive?",
+                    "Am I rested?",
+                    "Am I ill2",
+                    "Have I taken medications that might affect my abilities?",
+                    "Has enough time past since I had that alcoholic drink?",
+                    "Do I have my glasses on, if needed?",
+                ]
+            },
+            {element: "paragraph", content: "Only if you can answer yes to all these questions should you exercise your privilege to drive."},
+            { element: "header", content: "6. Wear Your Seat Belt" },
+            {element: "paragraph", content: "Seat belts are the most significant safety device ever invented."},
+            {element: "paragraph", content: "Seat belts do several things for you."},
+            {element: "paragraph", content: "They provide impact protection, they absorb crash forces, and they keep you from being thrown out of the vehicle."},
+            {element: "paragraph", content: 'They hold you in place while the vehicle collapses around your "safe" zone.'},
+            {element: "paragraph", content: "Belts help keep you in your place, in control, and better able to avoid a crash."},
+            { element: "header", content: "7. Don't Run Red" },
+            {element: "paragraph", content: "There are two basic types of red light runners-there's the daydreamer or distracted driver who just doesn't see it, and then there's the driver who's impatient and accelerates on the yellow signal instead of stopping and waiting the average 45 seconds of a signal cycle."},
+            {element: "paragraph", content: "Running red lights is too dangerous, both for you and for others, no matter how pressured or late you are."},
+            {element: "paragraph", content: "Pay attention to traffic lights, slow down and be patient."},
+            { element: "header", content: "8. Drive Precisely" },
+            {element: "paragraph", content: "Most everyone knows the basics of the traffic laws, however many drivers ignore them for the sake of expediency every day."},
+            {element: "paragraph", content: "Why is it important to follow all the little rules that don't seem to make much difference?"},
+            {element: "paragraph", content: "Traffic rules are in place to create the consistency and uniformity that allow us to predict with some degree of confidence what the other driver is going to do, thereby avoiding conflicts and collisions."},
+            { element: "header", content: "9. Create Space" },
+            {element: "paragraph", content: 'Guard your safety by actively creating space around your vehicle, never allowing yourself to get "boxed in."'},
+            {element: "paragraph", content: "Adequate space creates time and helps you avoid collisions."},
+            {element: "paragraph", content: "Maintain at least two seconds of following distance."},
+            {element: "paragraph", content: "Adjust your position in traffic as necessary to avoid driving in others' blind areas."},
+            {element: "paragraph", content: "Don't allow yourself to be tailgated- change lanes or adjust your speed to encourage tailgaters to pass you."},
+            { element: "header", content: "10. Always Signal Your Intentions" },
+            {element: "paragraph", content: "Be careful not to send the wrong message when you signal."},
+            {element: "paragraph", content: "For example, if you are approaching an intersection, and you intend to turn right immediately after the intersection into a service station, be careful not to signal too soon."},
+            {element: "paragraph", content: "Oncoming traffic may think you intend to turn at the intersection rather than beyond it, and they may turn left in front of you."},
+            {element: "paragraph", content: "Finally, always use your signal before you start a turn or a lane change."},
+            { element: "header", content: "11. Know Your Blind Spots" },
+            {element: "paragraph", content: "Where are your blind spots? It depends on the vehicle, but a car typically has blind areas at the sides near the rear of the vehicle, meaning you cannot see anything in these areas by looking in your correctly- adjusted mirrors."},
+            {element: "paragraph", content: "Other vehicles may be blind to anything that is directly behind."},
+            {element: "paragraph", content: "Vehicles in which the driver sits very high may have forward-quarter blind spots- they may not be able to see anything low to the ground in front or to the sides near the front."},
+            {element: "paragraph", content: "It is important to check your mirrors every 5 to 8 seconds while driving."},
+            {element: "paragraph", content: "At the same time, it's not enough just to check the mirrors."},
+            {element: "paragraph", content: "The blind areas on most vehicles are large enough to hide other vehicles."},
+            {element: "paragraph", content: "Mirrors may not reveal a vehicle that is changing lanes, so before you switch lanes be sure to turn your head to check for oncoming traffic"},
+            {element: "header", content: "12. Avoid Distractions"},
+            {element: "paragraph", content: 'When we assume our driving "duties," one of the most important is that we be responsible for our actions and the results of those actions.'},
+            {element: "paragraph", content: "In almost every case, a driver involved in a collision had an opportunity to avoid the collision-even when the other driver was responsible for the errors that led to the collision."},
+            {element: "paragraph", content: "Some of the most common driving distractions are;"},
+            {
+                element: "bullets", content: [
+                    "eating",
+                    "drinking",
+                    "applying make-up",
+                    "talking on cell phones",
+                    "adjusting the radio or changing CD's -dealing with rambunctious or misbehaving kids",
+                    "even just talking to passengers."
+                ]
+            },
+            {element: "header", content: "13. Be aware of Intersections"},
+            {element: "paragraph", content: "Intersections are one of the most dangerous areas for any driver."},
+            {element: "paragraph", content: "Over 80% of all city collisions that result in injury or death occur within signal-light intersections."},
+            {element: "paragraph", content: "The majority of collisions at controlled intersections happen within 4 seconds of a light change."},
+            {element: "paragraph", content: "To reduce your risk, slow down as you approach a green light and make sure to look left, then right, then left again."},
+
+            {element: "paragraph", content: "The first danger to you is the traffic approaching from your left."},
+            {element: "paragraph", content: 'If the intersection is a "blind" one - where you cant see the traffic on the cross street until they are very close, slow down even more.'},
+            {element: "header", content: "14. Slow Down in Rain or Snow"},
+            {element: "paragraph", content: "The first thing to do when the rain (or snow) starts to fall is slow down."},
+            {element: "paragraph", content: "The standard rule of thumb is to slow down by a third in the rain, and by at least half in the snow. Slow more if ice may be present."},
+            {element: "paragraph", content: "Make sure your tires are in great shape and that they are inflated properly."},
+            {element: "header", content: "15. Be a Safe Passer"},
+            {element: "paragraph", content: "If you decide to pass another vehicle, visually clear the road ahead and behind you first."},
+            {element: "paragraph", content: "On one-lane roads, make sure you have enough clear space ahead to pass without interfering with oncoming vehicles."},
+            {element: "paragraph", content: "Only pass when it is legal to do so."},
+            {element: "paragraph", content: "Do not tailgate prior to passing - maintain your following distance so you can see what's ahead."},
+            {element: "paragraph", content: "Furthermore, don't speed while passing."},
+            {element: "paragraph", content: "Make sure you give the overtaken vehicle enough clearance when returning to your lane -you should be able to see the front of the vehicle and its tires on the pavement in your mirrors."},
+            {element: "paragraph", content: "Finally, remember that not all no-passing zones are marked with solid yellow stripes or signs there are places where you are expected to know that passing is not allowed; some of these are near hill crests, approaching bridges, and approaching intersections."},
+            //{element: "paragraph", content: ""},
+        ]
+    },
+    {
+        id: 15,
+        indicator: "BASIC_FIRST_AID",
+        theory: [
+            {element: "header", content: "Definition of First Aid"},
+            {element: "paragraph", content: "It refers to a quick immediate assistance given to a casualty with an emergence or complication or illness using the available resources before taken for advanced treatment As the name suggests, it's the first few things you can do to help before the emergency services arrive."},
+            {element: "paragraph", content: "It's not a replacement for professional help, but a vital first step to reduce serious injuries and improve the patient's chances of survival."},
+            {element: "paragraph", content: "Using the right techniques in certain situations can make a huge difference to someone who's suffered an injury or become suddenly ill."},
+            {element: "header", content: "Why is first aid important?"},
+            {element: "paragraph", content: "Well, as a driver or rider, you're going to be spending time on the road."},
+            {element: "paragraph", content: "You'll be part of a busy network that's mostly very safe but where, occasionally, things go wrong."},
+            {element: "paragraph", content: "Accidents happen, your passengers can become ill and, if you find yourself in such a situation, it's better to know what to do to help than to have to guess."},
+            {element: "paragraph", content: "Also, if you're learning to drive or ride, or you're working towards a vocational driving qualification, you'll need to learn about first aid."},
+            {element: "paragraph", content: "It's covered in the theory tests for all categories and is a Driver CPC training requirement, so you'll need to know your stuff."},
+            {element: "header", content: "Basic First Aid Guide to help include;"},
+            {
+                element: "bullets", content: [
+                    "Call 999",
+                    "DO NOT put yourself in danger",
+                    "DO NOT move the casualties from their vehicles unless it is essential",
+                    "DO NOT give casualties anything to eat or drink",
+                    "Always carry a first aid kit in your vehicle. You can do a number of things to save a life, even if you have had no training.",
+                    "DO try to make them warm and as comfortable as you can, but avoid unnecessary movement.",
+                    "DO keep reassuring the casualty",
+                    "Always remember that the casualty may be suffering from shock If possible try not to leave the casualties alone or let them wander into the path of other traffic"
+                ]
+            },
+            {element: "paragraph", content: "If the casualty is unconscious or not breathing, follow the DR ABC code;"},
+            {
+                element: "bullets", content: [
+                    "D- Danger Check that you are not putting yourself in danger",
+                    "R- Response- Try to get a response by asking questions and gently shaking their shoulders.",
+                    "A- Airways - If they are unconscious check their airway is open and clear. To open the airway, place one hand on the forehand and gently tilt their head back, then lift the chin using 2 fingers only.",
+                    "B- Breathing Keeping the airway open, check to see if the breathing is normal. Look along their chest, and listen and feel for breath on your cheek for up to 10 seconds.",
+                    "C- Compressions - If they are not breathing, start chest compressions immediately.",
+                ]
+            },
+            {element: "paragraph", content: "How to perform compressions:"},
+            {
+                element: "bullets", content: [
+                    "Place one hand on the centre of their chest. Place the heel of your other hand on top of the first and interlock your fingers, keeping your fingers off their ribs.",
+                    "Lean directly over their chest and press down vertically about 5-6cm. Release the pressure, but don't remove your hands.",
+                    "Give compressions at a rate of 100-120 per minute until help arrives.",
+                ]
+            },
+            {element: "paragraph", content: "If the casualty's not breathing, you may want to give them mouth-to-mouth resuscitation as follow;"},
+            {
+                element: "bullets", content: [
+                    "Check and, if necessary, clear their mouth and airway.",
+                    "Gently tilt back their head as far as possible.",
+                    "Pinch their nostrils together.",
+                    "Place your mouth over theirs. Give two breaths, each lasting two seconds. Continue with cycles of 30 chest compressions and two breaths until help arrives",
+                ]
+            },
+            {element: "paragraph", content: "If the casualty's unconscious, but breathing, put them on their side in the recovery position, which looks like this:"},
+            { element: "image", content: require("./assets/basic_theory/firstaid1.png") },
+            {element: "header", content: "Airway"},
+            {element: "paragraph", content: "Make sure their airway's still open once you get the casualty into this position. Keep checking on them until the emergency services arrive."},
+            {element: "header", content: "Bleeding"},
+            {
+                element: "bullets", content: [
+                    "Check if there's anything in the wound (like glass.) If so, build up padding around it. If not, apply firm pressure over the wound to reduce the bleeding.",
+                    "As soon as you can, pad the wound and bandage it (using whatever clean material you can find).",
+                    "If a limb's bleeding, but not broken, raise it above the level of the heart to reduce the bleeding.",
+                    "Keep checking on the condition Shock of the patient-are they still conscious and breathing? - until help arrives."
+                ]
+            },
+            {element: "header", content: "Shock"},
+            {element: "paragraph", content: "In first aid terms, shock is not an emotion, but a medical condition, and it can be very serious."},
+            {element: "paragraph", content: "Symptoms include"},
+            {
+                element: "bullets", content: [
+                    "Paleness of the skin",
+                    "Clamminess of the skin",
+                    "Fast, shallow breathing",
+                    "Fast, weak pulse",
+                    "Yawning or sighing",
+                    "Confusion",
+                    "Loss of consciousness (in extreme cases)",
+                ]
+            },
+            {element: "paragraph", content: "This is what you can do to help a person who's suffering from shock;"},
+            {
+                element: "bullets", content: [
+                    "Do not give them anything to eat or drink. They may need surgery later so it'll be better if their stomach's empty.",
+                    'Lay them down with their legs raised, to increase blood flow to the head. Call for help. Explain that you think the person\'s in shock and why (heart attack. iniurv etc.)',
+                    "Loosen any tight clothing around the person's neck, chest or waist.",
+                    "Keep them warm, comfortable and calm.",
+                    "Keep checking their breathing, pulse and level of response.",
+                    "If they lose consciousness or stop breathing, be prepared to give chest compressions or mouth to mouth.",
+                ]
+            },
+            {element: "header", content: "Burn"},
+            {
+                element: "bullets", content: [
+                    "Cool the burn by dousing it with clean, cold water or similar non-toxic liquid for at least 10 to 20 minutes",
+                    "Do not try and remove anything sticking to the burn.",
+                ]
+            },
+        ]
     }
-
-    // {
-    //     id: 15,
-    //     indicator: "CHANGE_OIL",
-    //     theory: [
-    //         {element: "header", content: ""},
-    //         {element: "paragraph", content: ""},
-    //         {element: "header", content: ""},
-    //         {element: "paragraph", content: ""},
-    //         {element: "header", content: ""},
-    //         {element: "paragraph", content: ""},            
-    //         {element: "paragraph", content: "Driving"},
-    //         {element: "paragraph", content: "Driving"},
-    //         {element: "paragraph", content: "Driving"},
-    //     ]
-    // }
-
 ]
 
 
