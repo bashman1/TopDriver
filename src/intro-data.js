@@ -3041,7 +3041,7 @@ export const quiz = [
         },
         {
             qtnNo:"Q10.",
-            question:"Q10. What does this road sign mean?.",
+            question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/minorroadfromleft.png"),
             correctAnswer:"A",
             suggestions:[
