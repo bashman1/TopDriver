@@ -41,6 +41,13 @@ export const styles = StyleSheet.create(
             marginBottom: 20,
 
         },
+        marginBottomItemList: {
+            marginBottom:5
+        },
+        marginBottomCar: {
+            marginBottom: 10,
+
+        },
         screenLogo: {
             height: 100,
             width: '100%',
@@ -111,6 +118,15 @@ export const styles = StyleSheet.create(
             justifyContent: 'space-between',
             marginBottom: 10
         },
+        gridContainerHome: {
+            flex: 1,
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            alignItems: 'flex-start',
+            justifyContent: 'space-between',
+            marginBottom: 5,
+            paddingHorizontal:10
+        },
         gridItem: {
             width: '48%',
         },
@@ -129,6 +145,43 @@ export const styles = StyleSheet.create(
             paddingLeft: 10,
             paddingRight: 10,
             borderRadius: 5
+        },
+        cardTheories: {
+            shadowOpacity: 0.26,
+            backgroundColor:"white",
+            paddingTop: 20,
+            paddingBottom: 20,
+            paddingLeft: 10,
+            paddingRight: 10,
+        },
+        cardItemsList: {
+            shadowColor: 'black',
+            shadowOffset: { width: 0, height: 2 },
+            shadowRadius: 2,
+            shadowOpacity: 1,
+            elevation: 2,
+            backgroundColor:"white",
+            paddingTop: 20,
+            paddingBottom: 20,
+            paddingLeft: 10,
+            paddingRight: 10,
+            borderRadius: 5
+        },
+        cardHome: {
+            shadowColor: '#7f1416',
+            shadowOffset: { width: 0, height: 0 },
+            shadowRadius: 0,
+            shadowOpacity: 1,
+            elevation: 1,
+            backgroundColor:"#fef0e7",
+            paddingTop: 20,
+            paddingBottom: 20,
+            paddingLeft: 10,
+            paddingRight: 10,
+            borderRadius: 10,
+            androidShadow:{
+                elevation:10
+            }
         },
         cardNew: {
             shadowColor: 'black',
@@ -172,6 +225,13 @@ export const styles = StyleSheet.create(
 
         item: {
             width: '48%', // is 50% of container width
+        },
+        itemHome: {
+            width: '48%', // is 50% of container width
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            marginBottom: 10,
         },
 
         categoryItem: {
@@ -353,7 +413,10 @@ export const styles = StyleSheet.create(
         fontSize5: {
             fontSize: 5
         },
-    fontSize15: {
+        fontSize: {
+                fontSize: 30
+            },
+        fontSize15: {
             fontSize: 25
         },
         fontSize10: {
@@ -383,8 +446,15 @@ export const styles = StyleSheet.create(
         fontSize20: {
             fontSize: 20
         },
-        fontSize30: {
-            fontSize: 30
+        textColor: {
+            color: "black"
+        },
+        questCardContainer: { flex:1,flexDirection: 'row', alignItems: 'center', justifyContent:"space-between", paddingVertical:15, paddingRight:10, paddingLeft:20 },
+        paddingItemList: {
+            paddingVertical: 50
+        },
+        fontSize25: {
+            fontSize: 20
         },
         fontSize40: {
             fontSize: 40
@@ -471,6 +541,7 @@ export const styles = StyleSheet.create(
             alignItems: 'center',
             marginBottom: 10,
         },
+        
         itemName: {
             fontSize: 16,
             fontWeight: 'bold',
@@ -523,9 +594,14 @@ export const styles = StyleSheet.create(
         fontWeightBold:{
             fontWeight: 'bold',
         },
-        minWidth:{
+            minWidth:{
             minWidth: '44%',
             width: '44%',
+            minHeight:'13%'
+        },
+            minWidthHome:{
+            minWidth: '48%',
+            width: '48%',
             minHeight:'13%'
         },
         maxWidth:{
