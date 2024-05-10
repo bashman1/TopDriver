@@ -39,17 +39,17 @@ const TheoryDetails = (props: any) => {
     );
 
     return (
-        <ScrollView>
+        <ScrollView style={[styles.backgroundWhite]}>
             <View style={styles.padding}>
-                <View style={[styles.marginBottom, styles.card]}>
+                <View style={[styles.marginBottom, styles.cardTheories]}>
                     {
                        selectedItems.theory && selectedItems.theory.map((obj)=>{
                             return (
                                 <View>
                                 {obj.element=="header" && <Text style={[styles.healthPalBlue, styles.fontWeightBold, styles.fontSize20, styles.marginBottom]} key={obj.content}>{obj.content}</Text>}
-                                {obj.element=="image" &&  <Image style={styles.homeScreenIconNew} key={obj.content} source={obj.content} />}
-                                {obj.element=="paragraph" && <Text style={[ styles.fontSize15, styles.marginBottom]} key={obj.content}>{obj.content}</Text>}
-                                {obj.element=="bullets" && obj.content.map((data)=> { return (<Text style={styles.fontSize15} key={data}><IonIcon name="ellipse-outline" color={'#000'} size={12}/>   {data}</Text>)})}
+                                {obj.element=="image" &&  <Image style={{flex:1,resizeMode: 'contain',width: "96%",height:250, borderRadius:10, marginHorizontal:"1.5%"}} key={obj.content} source={obj.content} />}
+                                {obj.element=="paragraph" && <Text style={[ styles.fontSize25, styles.marginBottom, styles.textColor, styles.marginTop10]} key={obj.content}>{obj.content}</Text>}
+                                {obj.element=="bullets" && obj.content.map((data)=> { return (<Text style={[styles.fontSize25, styles.marginBottom10]} key={data}><IonIcon name="ellipse-outline" color={'#000'} size={12}/>   {data}</Text>)})}
                                 </View>
                             )
                         })

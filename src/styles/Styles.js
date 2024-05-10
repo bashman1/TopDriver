@@ -146,6 +146,14 @@ export const styles = StyleSheet.create(
             paddingRight: 10,
             borderRadius: 5
         },
+        cardTheories: {
+            shadowOpacity: 0.26,
+            backgroundColor:"white",
+            paddingTop: 20,
+            paddingBottom: 20,
+            paddingLeft: 10,
+            paddingRight: 10,
+        },
         cardItemsList: {
             shadowColor: 'black',
             shadowOffset: { width: 0, height: 2 },
@@ -405,7 +413,10 @@ export const styles = StyleSheet.create(
         fontSize5: {
             fontSize: 5
         },
-    fontSize15: {
+        fontSize: {
+                fontSize: 30
+            },
+        fontSize15: {
             fontSize: 25
         },
         fontSize10: {
@@ -442,8 +453,8 @@ export const styles = StyleSheet.create(
         paddingItemList: {
             paddingVertical: 50
         },
-        fontSize30: {
-            fontSize: 30
+        fontSize25: {
+            fontSize: 20
         },
         fontSize40: {
             fontSize: 40
