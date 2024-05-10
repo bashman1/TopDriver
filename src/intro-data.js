@@ -122,16 +122,16 @@ export const menu = [
     { id: 24, component: "TheoryDetails", param: "ROAD_OFFENSES_AND_PUNISHMENT", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Road offenses and punishment" },
     { id: 25, component: "TheoryDetails", param: "IMPORTANT_ROAD_SIGNS_CATEGORIES", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Important road signs/categories" },
     { id: 26, component: "TheoryDetails", param: "OTHER_IMPORTANT_ASPECT_ON_THE_ROAD", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Other important aspect on the road" },
-    { id: 27, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Introduction to simple mechanics" },
-    { id: 28, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Simple mechanics emergency tools" },
-    { id: 29, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "How to fix a car tire" },
-    { id: 30, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Jumpstart your car" },
-    { id: 31, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change oil" },
-    { id: 32, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace brake pads" },
-    { id: 34, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace air filter" },
-    { id: 35, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or tailights" },
-    { id: 36, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
-    { id: 37, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
+    { id: 27, component: "TheoryDetails", param: "INTRODUCTION_TO_SIMPLE_MECHANICS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Introduction to simple mechanics" },
+    { id: 28, component: "IconsPage", param: "SIMPLE_MECHANICS_EMERGENCY_TOOLS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Simple mechanics emergency tools" },
+    { id: 29, component: "TheoryDetails", param: "HOW_TO_FIX_A_CAR_TIRE", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "How to fix a car tire" },
+    { id: 30, component: "TheoryDetails", param: "HOW_TO_JUMPSTART_YOUR_CAR", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Jumpstart your car" },
+    { id: 31, component: "TheoryDetails", param: "CHANGE_OIL", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change oil" },
+    { id: 32, component: "TheoryDetails", param: "REPLACE_BRAKE_PADS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace brake pads" },
+    { id: 34, component: "TheoryDetails", param: "REPLACE_FILTER", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace air filter" },
+    { id: 35, component: "TheoryDetails", param: "REPLACE_HEADLIGHTS_OR_LIGHTS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or taillights" },
+    { id: 36, component: "TheoryDetails", param: "CHANGE_WIPER_BLADES", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
+    { id: 37, component: "TheoryDetails", param: "CHANGE_THE_BATTERY", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
     { id: 38, name: "Practice Quiz One (164 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
     { id: 39, name: "Practice Quiz Two A (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2A", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 40, name: "Practice Quiz Two B (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2B", description: "This quiz covers the general knowledge you should have as a licensed driver." },
@@ -355,6 +355,18 @@ export const iconImg = [
     { id: 132, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "ht" },
     { id: 133, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "ht" },
     { id: 134, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "ht" },
+
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
 
 ];
 
@@ -4287,10 +4299,220 @@ export const theories = [
                     "Heart related diseases due to over sitting with less exercise",
                 ]
             },
-            // {element: "paragraph", content: "Driving"},
-            // {element: "paragraph", content: "Driving"},
+
+        ]
+    },
+    {
+        id: 11,
+        indicator: "INTRODUCTION_TO_SIMPLE_MECHANICS",
+        theory: [
+            { element: "header", content: "Any driver on the road today should know some basic machanics. Why?" },
+            { element: "paragraph", content: "1. It can help you identify what could be the problem with your car before you take it to the garage. NOTE, it is very important to visit a mechanical doctor when you know what is wrong than going with blind minds." },
+            { element: "paragraph", content: "2. It can help you keep the life of your engine by not just driving even when it is overdue for servicing.3. It is important for drivers to know when you check the following:" },
+            { element: "paragraph", content: "- Power Steering Fluid -- Atleast twice a week" },
+            { element: "paragraph", content: "-Brake Fluid - Atleast once a week" },
+            { element: "paragraph", content: "-Water in the radiator - This should be done daily incase you move long distances" },
+            { element: "paragraph", content: "-Oil levels in the engine -- Check atleast every after two weeks." },
+            { element: "paragraph", content: "-Water in the batter -- Check atleast every after two weeks" },
+            { element: "paragraph", content: "- Indicators and Other lights - Should be checked often as failure for one not to work can easily cause an accident, however small it could be." },
+            { element: "paragraph", content: "With that, you will be safer on the road." },
+            { element: "header", content: "Parts of A Car" },
+            { element: "image", content: require("./assets/simple_mechanics/car_parts.png") },
+            { element: "header", content: "Some of the functions or use of these parts." },
+            { element: "header", content: "1. Radiator" },
+            { element: "paragraph", content: "It works as a cooling system. Top up with coolant mix with normal clean water." },
+            { element: "header", content: "2. Battery" },
+            { element: "paragraph", content: "Stores and supplies the current to all parts of the electric systems eg self starter. Top up with iodized water" },
+            { element: "header", content: "3. Fan" },
+            { element: "paragraph", content: "To cool water which circulates in the engine" },
+            { element: "header", content: "4. Sump guard" },
+            { element: "paragraph", content: "Keeps engine oil" },
+            { element: "header", content: "5. Oil filter" },
+            { element: "paragraph", content: "Filtering oil which goes to the engine when it is clean." },
+            { element: "header", content: "6. Fuel Pump" },
+            { element: "paragraph", content: "Lifting fuel from tank to combustion chambers." },
+            { element: "header", content: "7. Self Starter" },
+            { element: "paragraph", content: "For igniting the engine." },
+            { element: "header", content: "8. Gear Box" },
+            { element: "paragraph", content: "To engage the gears" },
+            { element: "header", content: "9. Distributor" },
+            { element: "paragraph", content: "Used to supply power to the spark plugs." },
+            { element: "header", content: "10. Alternator" },
+            { element: "paragraph", content: "This is power supply which chargers the battery" },
+            { element: "header", content: "11. Engine Oil" },
+            { element: "paragraph", content: "To lubricate, cooling & cleaning metals. Check using the engine oil-deep-stick." },
+            { element: "header", content: "12. Brake Fluid" },
+            { element: "paragraph", content: "To respond to the efficeincy of the brakes." },
+            { element: "header", content: "13. Spark Plus" },
+            { element: "paragraph", content: "Burning fuel and air in the combustion chambers." },
+            { element: "header", content: "14. Air Cleaner" },
+            { element: "paragraph", content: "To clean fresh air, this goes to the engine." },
+            { element: "header", content: "15. Power Steering Fluid" },
+            { element: "paragraph", content: "Goes through steering box to make the steering flexible or soften" },
+
+        ]
+
+    },
+    {
+        id: 12,
+        indicator: "HOW_TO_FIX_A_CAR_TIRE",
+        theory: [
+            { element: "header", content: "Changing a flat is one of the most important vehicle repair skills you can have. Getting a flat tyre is frustrating but replacing it with the spare tyre is not difficult.." },
+            { element: "header", content: "STEPS IN REPLACING CAR TYRES" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Move the car off the road, try as much as possible to put up hazard or warning plates." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Please put a chock before raising the tyre to avoid car being moved ahead or backwards." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Loosen the nuts before raising the jack. Car can fall off jack if you loosen them or harden them when raised." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "When loosening turn anticlockwise and when putting back, turn clockwise." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Make sure that your spare tyre is always in a good working condition - ALWAYS." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Any disturbances with wheel-caps and specialized tyres inquire and know how to fixyour tyre in 60 seconds." },
+            { element: "header", content: "STEP 7" },
+            { element: "paragraph", content: "After fixing, do not forget chocks or any of your tools." },
+
+        ]
+
+    },
+    {
+        id: 13,
+        indicator: "HOW_TO_JUMPSTART_YOUR_CAR",
+        theory: [
+            { element: "header", content: "You will probably need to know how to jumpstart your car at some point and it can save you a lot of time waiting for roadside assistance." },
+            { element: "header", content: "STEPS TO JUMPSTART YOUR CAR" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Put both vehicles in neutral and turn them off." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Attach a red clip to the positive terminal of the battery in your car and the other to the positive battery terminal of the other car." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Attach a black clip to the other car's negative battery terminal." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Attach the other black clip to an unpainted metal surface on your car." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Start the engine and do not turn your car off until you have driven it for a few minutes." },
+
+        ]
+
+    },
+    {
+        id: 14,
+        indicator: "CHANGE_OIL",
+        theory: [
+            { element: "header", content: "Clean oil helps your car run better and your engine last longer. Check your oil regularly and change it when required." },
+            { element: "header", content: "STEPS IN CHANGING THE OIL" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the drain plug." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Unscrew the oil filter and empty it." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Put the plug back." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Pour in the new oil." },
+
+        ]
+
+    },
+    {
+        id: 15,
+        indicator: "REPLACE_BRAKE_PADS",
+        theory: [
+            { element: "header", content: "Your brakes should always be in excellent condition to avoid risking an accident. Changing brake pads is similar to changing a flat tire." },
+            { element: "header", content: "STEPS IN REPLACING BRAKE PADS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Use a jack to lift the car." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Remove the tyres." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Remove the slider bolts." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Remove the old brake pads." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Put the new brake pads on and secure them with the slider bolts." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Put the tires back on." },
+        ]
+    },
+    {
+        id: 15,
+        indicator: "REPLACE_FILTER",
+        theory: [
+            { element: "header", content: "Air filters are often overlooked but protect your vehicle's engine from contaminants such as dust." },
+            { element: "header", content: "STEPS IN REPLACING AIR FILTERS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Open the hood and find the air filter box. It is the black box with a large hose coming out of its side." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Open the air filter box and take out the old filter." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Put the new one in and close the box." },
+
+        ]
+    },
+    {
+        id: 16,
+        indicator: "REPLACE_HEADLIGHTS_OR_LIGHTS",
+        theory: [
+            { element: "header", content: "A broken light on your car can be a safety hazard and get you a ticket. Fortunately, it is easy to fix yourself." },
+            { element: "header", content: "STEPS IN REPLACING LIGHTS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the screws connecting the frame of the light to the bracket." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Disconnect the wires powering the bulb." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Replace the old bulb with a new one and put everything back." },
+        ]
+    },
+    {
+        id: 17,
+        indicator: "CHANGE_WIPER_BLADES",
+        theory: [
+            { element: "header", content: "Windshield wiper blades are an often forgotten but very important vehicle safety feature. They should always be in perfect shape and you can easily replace them yourself." },
+            { element: "header", content: "STEPS TO CHANGE YOUR WIPER BLADES" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Lift the wiper up off the windshield and press the tab to take off the old wiper." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Put the new one on." },
+        ]
+    },
+    {
+        id: 18,
+        indicator: "CHANGE_THE_BATTERY",
+        theory: [
+            { element: "header", content: "Check your battery regularly and know how to replace it to avoid the hassle of your car not starting. Changing your car battery is easy." },
+            { element: "header", content: "STEPS IN CHANGING THE CAR BATTERY" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the covers." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Disconnect the negative cables and remove the clamp from the post." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Disconnect the positive cables and clamp." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Remove the screws." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Replace the old battery with a new one." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Put the cable clamps back." },
         ]
     }
+
+    // {
+    //     id: 15,
+    //     indicator: "CHANGE_OIL",
+    //     theory: [
+    //         {element: "header", content: ""},
+    //         {element: "paragraph", content: ""},
+    //         {element: "header", content: ""},
+    //         {element: "paragraph", content: ""},
+    //         {element: "header", content: ""},
+    //         {element: "paragraph", content: ""},            
+    //         {element: "paragraph", content: "Driving"},
+    //         {element: "paragraph", content: "Driving"},
+    //         {element: "paragraph", content: "Driving"},
+    //     ]
+    // }
+
 ]
 
 
