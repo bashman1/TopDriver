@@ -353,7 +353,7 @@ export const styles = StyleSheet.create(
         fontSize5: {
             fontSize: 5
         },
-        fontSize15: {
+    fontSize15: {
             fontSize: 25
         },
         fontSize10: {
@@ -362,6 +362,11 @@ export const styles = StyleSheet.create(
         qtn: {
             fontSize: 25,
             color:"black"
+        },
+        qtn15: {
+            fontSize: 15,
+            color:"black",
+            fontWeight:'bold',
         },
         qtnChoose: {
             fontSize: 15,
