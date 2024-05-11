@@ -21,6 +21,7 @@ const QuizList = (props: any) => {
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: props.route.params.header });
         filterItems();
     }, []);
 
@@ -30,7 +31,7 @@ const QuizList = (props: any) => {
                 {
                     items.map((element) => {
                         return (
-                            <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => { props.navigation.navigate("Questions", { ind: element.param }) }}>
+                            <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => { props.navigation.navigate("Questions", { ind: element.param, header:element.name }) }}>
                                 {/* <Text>{element.name}</Text> */}
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                     <Text style={[styles.fontWeightBold, styles.fontSize15]}>{element.name}</Text>

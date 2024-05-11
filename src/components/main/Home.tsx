@@ -16,13 +16,13 @@ const Home = (props: any) => {
 
     const goToDetailsPage = (element: { id: any; indicator?: string; type?: string; icon?: string; name?: string; }, direction: string) => {
         if (direction == 'details') {
-            props.navigation.navigate("ItemList", { id: element.id, ind: element.param })
+            props.navigation.navigate("ItemList", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'icons') {
-            props.navigation.navigate("IconsPage", { id: element.id, ind: element.param })
+            props.navigation.navigate("IconsPage", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'quiz') {
-            props.navigation.navigate("QuizList", { id: element.id, ind: element.param })
+            props.navigation.navigate("QuizList", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'settings') {
-            props.navigation.navigate("ItemList", { id: element.id, ind: element.param })
+            props.navigation.navigate("TheoryDetails", { id: element.id, ind: element.param, header:element.name })
         }
     }
 
@@ -32,6 +32,7 @@ const Home = (props: any) => {
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: 'Home' })
         getHomeMenu();
     }, []);
 

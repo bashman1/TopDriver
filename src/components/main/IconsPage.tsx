@@ -41,7 +41,7 @@ const IconsPage = (props: any) => {
 
     const goToDetails=(element)=>{
         // IconDetailsPage
-        props.navigation.navigate("IconDetailsPage", { id: element.id })
+        props.navigation.navigate("IconDetailsPage", { id: element.id, header:element.name })
     }
 
     const filterItems = () => {
@@ -51,6 +51,7 @@ const IconsPage = (props: any) => {
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: props.route.params.header });
         filterItems();
     }, []);
 

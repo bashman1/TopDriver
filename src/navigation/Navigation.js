@@ -34,9 +34,10 @@ export const navLayout = (header, navigation) => {
                 elevation: 0,
                 shadowOpacity: 0
             },
-            headerTintColor: '#fff',
+            headerTintColor: '#F47421',
             headerTitleStyle: {
                 fontWeight: 'bold',
+                color:'#F47421',
                 width: '100%',
                 textAlign: 'center',
             },

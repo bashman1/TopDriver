@@ -25,9 +25,9 @@ const TheoryDetails = (props: any) => {
     }
 
     useEffect(() => {
-        console.log(props.route.params.ind)
+        // console.log(props.route.params.ind)
   
-       
+        props.navigation.setOptions({ title: props.route.params.header });
     }, []);
 
     useFocusEffect(
@@ -46,10 +46,10 @@ const TheoryDetails = (props: any) => {
                        selectedItems.theory && selectedItems.theory.map((obj)=>{
                             return (
                                 <View>
-                                {obj.element=="header" && <Text style={[styles.healthPalBlue, styles.fontWeightBold, styles.fontSize20, styles.marginBottom]} key={obj.content}>{obj.content}</Text>}
+                                {obj.element=="header" && <Text style={[styles.healthPalBlue, styles.fontWeightBold, styles.fontSize20, styles.marginBottom10]} key={obj.content}>{obj.content}</Text>}
                                 {obj.element=="image" &&  <Image style={{flex:1,resizeMode: 'contain',width: "96%",height:250, borderRadius:10, marginHorizontal:"1.5%"}} key={obj.content} source={obj.content} />}
-                                {obj.element=="paragraph" && <Text style={[ styles.fontSize25, styles.marginBottom, styles.textColor, styles.marginTop10]} key={obj.content}>{obj.content}</Text>}
-                                {obj.element=="bullets" && obj.content.map((data)=> { return (<Text style={[styles.fontSize25, styles.marginBottom10]} key={data}><IonIcon name="ellipse-outline" color={'#000'} size={12}/>   {data}</Text>)})}
+                                {obj.element=="paragraph" && <Text style={[ styles.fontSize25, styles.marginBottom, styles.textColor, styles.marginTop10, styles.textJustified]} key={obj.content}>{obj.content}</Text>}
+                                {obj.element=="bullets" && obj.content.map((data)=> { return (<Text style={[styles.fontSize25, styles.marginBottom10, styles.textJustified]} key={data}><IonIcon name="ellipse-outline" color={'#000'} size={12}/>   {data}</Text>)})}
                                 </View>
                             )
                         })

@@ -22,13 +22,15 @@ const ItemList = (props: any) => {
 
     const navigateToNext=(element)=>{
         if(element.component == 'ItemList'){
-            props.navigation.push(element.component, { ind:element.param });
+
+            props.navigation.push(element.component, { ind:element.param, header:element.name });
         }else{
-            props.navigation.navigate(element.component, { id: element.id, ind:element.param })
+            props.navigation.navigate(element.component, { id: element.id, ind:element.param, header:element.name })
         }
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: props.route.params.header });
         filterItems()
     }, []);
 

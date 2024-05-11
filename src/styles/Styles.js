@@ -627,7 +627,11 @@ export const styles = StyleSheet.create(
         },
         introImg:{
             height:"100%"
+        },
+        textJustified:{
+            textAlign: 'justify'
         }
+
 
     }
 )
