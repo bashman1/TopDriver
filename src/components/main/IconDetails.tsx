@@ -43,6 +43,7 @@ const IconDetailsPage = (props: any) => {
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: props.route.params.header });
         filterItems(items, 1)
     });
 

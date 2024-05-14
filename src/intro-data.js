@@ -122,16 +122,16 @@ export const menu = [
     { id: 24, component: "TheoryDetails", param: "ROAD_OFFENSES_AND_PUNISHMENT", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Road offenses and punishment" },
     { id: 25, component: "TheoryDetails", param: "IMPORTANT_ROAD_SIGNS_CATEGORIES", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Important road signs/categories" },
     { id: 26, component: "TheoryDetails", param: "OTHER_IMPORTANT_ASPECT_ON_THE_ROAD", navigateTo: "", indicator: 'INTRODUCTION_TO_DRIVING', type: 'ionic', icon: "", name: "Other important aspect on the road" },
-    { id: 27, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Introduction to simple mechanics" },
-    { id: 28, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Simple mechanics emergency tools" },
-    { id: 29, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "How to fix a car tire" },
-    { id: 30, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Jumpstart your car" },
-    { id: 31, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change oil" },
-    { id: 32, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace brake pads" },
-    { id: 34, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace air filter" },
-    { id: 35, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or tailights" },
-    { id: 36, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
-    { id: 37, component: "TheoryDetails", param: "GET_STARTED_WITH_DRIVING", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
+    { id: 27, component: "TheoryDetails", param: "INTRODUCTION_TO_SIMPLE_MECHANICS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Introduction to simple mechanics" },
+    { id: 28, component: "IconsPage", param: "SIMPLE_MECHANICS_EMERGENCY_TOOLS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Simple mechanics emergency tools" },
+    { id: 29, component: "TheoryDetails", param: "HOW_TO_FIX_A_CAR_TIRE", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "How to fix a car tire" },
+    { id: 30, component: "TheoryDetails", param: "HOW_TO_JUMPSTART_YOUR_CAR", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Jumpstart your car" },
+    { id: 31, component: "TheoryDetails", param: "CHANGE_OIL", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change oil" },
+    { id: 32, component: "TheoryDetails", param: "REPLACE_BRAKE_PADS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace brake pads" },
+    { id: 34, component: "TheoryDetails", param: "REPLACE_FILTER", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace air filter" },
+    { id: 35, component: "TheoryDetails", param: "REPLACE_HEADLIGHTS_OR_LIGHTS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or taillights" },
+    { id: 36, component: "TheoryDetails", param: "CHANGE_WIPER_BLADES", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
+    { id: 37, component: "TheoryDetails", param: "CHANGE_THE_BATTERY", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
     { id: 38, name: "Practice Quiz One (164 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
     { id: 39, name: "Practice Quiz Two A (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2A", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 40, name: "Practice Quiz Two B (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2B", description: "This quiz covers the general knowledge you should have as a licensed driver." },
@@ -322,39 +322,51 @@ export const iconImg = [
     { id: 99, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/unevenroadsurfaceahead.png"), name: "Uneven road surface ahead" },
     { id: 100, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/wildaninalscrossing.png"), name: "Game park ahead" },
     { id: 101, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/yintersectionahead.png"), name: "Y-intersection ahead" },
-    { id: 102, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/alternateright_bike.png"), name: "ht" },
-    { id: 103, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/ambulance.png"), name: "ht" },
-    { id: 104, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/arrowdirection.png"), name: "ht" },
-    { id: 105, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/breakdownservice.png"), name: "ht" },
-    { id: 106, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/firebrigade.png"), name: "ht" },
-    { id: 107, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/frontandbehindstop.png"), name: "ht" },
-    { id: 108, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/green.png"), name: "ht" },
-    { id: 109, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/greenyescross.png"), name: "ht" },
-    { id: 110, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/leftindicator.png"), name: "ht" },
-    { id: 111, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbikeslowdown.png"), name: "ht" },
-    { id: 112, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurningright.png"), name: "ht" },
-    { id: 113, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurnleft.png"), name: "ht" },
-    { id: 114, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/orange.png"), name: "ht" },
-    { id: 115, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/policelight.png"), name: "ht" },
-    { id: 116, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/red.png"), name: "ht" },
-    { id: 117, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redflashing.png"), name: "ht" },
-    { id: 118, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redlights.png"), name: "ht" },
-    { id: 119, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rednocross.png"), name: "ht" },
-    { id: 120, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "ht" },
-    { id: 121, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "ht" },
-    { id: 122, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "ht" },
-    { id: 123, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "ht" },
-    { id: 124, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "ht" },
-    { id: 125, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "ht" },
-    { id: 126, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "ht" },
-    { id: 127, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "ht" },
-    { id: 128, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "ht" },
-    { id: 129, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "ht" },
-    { id: 130, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "ht" },
-    { id: 131, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "ht" },
-    { id: 132, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "ht" },
-    { id: 133, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "ht" },
-    { id: 134, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "ht" },
+    { id: 102, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/alternateright_bike.png"), name: "Alternate right turn" },
+    { id: 103, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/ambulance.png"), name: "Red signal light is used by" },
+    { id: 104, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/arrowdirection.png"), name: "Arrow signal applies to the" },
+    { id: 105, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/breakdownservice.png"), name: "Brake down service" },
+    { id: 106, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/firebrigade.png"), name: "Orange siagnal light is used by" },
+    { id: 107, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/frontandbehindstop.png"), name: "vehicles approaching from" },
+    { id: 108, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/green.png"), name: "Green - Go" },
+    { id: 109, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/greenyescross.png"), name: "Green means pedestrian may" },
+    { id: 110, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/leftindicator.png"), name: "Left indicator signal means one" },
+    { id: 111, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbikeslowdown.png"), name: "Slow down" },
+    { id: 112, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurningright.png"), name: "Turn right" },
+    { id: 113, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurnleft.png"), name: "Turn left" },
+    { id: 114, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/orange.png"), name: "Orange - Get ready" },
+    { id: 115, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/policelight.png"), name: "Red, white and blue signal lights" },
+    { id: 116, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/red.png"), name: "Red - Stop" },
+    { id: 117, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redflashing.png"), name: "Railway crossing signal/Red" },
+    { id: 118, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redlights.png"), name: "Red signal lights means to slow" },
+    { id: 119, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rednocross.png"), name: "Red means pedestrians must" },
+    { id: 120, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "Right indicator signal means one" },
+    { id: 121, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "Vehicles aproaching from" },
+    { id: 122, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "Slow down" },
+    { id: 123, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "Stop" },
+    { id: 124, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "Tax service" },
+    { id: 125, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "Turning left" },
+    { id: 126, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "Vihicles turning left are free to go" },
+    { id: 127, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "Turning right" },
+    { id: 128, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "Vihicles turning right are free to go" },
+    { id: 129, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "Turning left" },
+    { id: 130, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "Turning right" },
+    { id: 131, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "Vehicle approaching from" },
+    { id: 132, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "Vehicle approaching from" },
+    { id: 133, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "Vehicle approaching from" },
+    { id: 134, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "Vehicle approaching from" },
+
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
+    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
 
 ];
 
@@ -2925,633 +2937,633 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Keep clear" },
                     { id: 5, objective: "E", option: "National speed limit applies" },
                 ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q2.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/goaheadonly.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "One-way street" },
-                    { id: 2, objective: "B", option: "Ahead only" },
-                    { id: 3, objective: "C", option: "Single lane" },
-                    { id: 4, objective: "D", option: "Stay in lane" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q3.",
-                question: "From your side of the road, these lines mean.",
-                symbol: require("./assets/quiz_questions/overtaking_when_safe.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "You can overtake / cross the lines under specific circumstances" },
-                    { id: 2, objective: "B", option: "You must not overtake / cross the lines under any condition" },
-                    { id: 3, objective: "C", option: "Hazardous road, advisable not to overtake / cross the lines" },
-                ],
-                selectedObjective: ""
-
-            }, {
-                qtnNo: "Q4.",
-                question: "What best describes this sign?.",
-                symbol: require("./assets/quiz_questions/lanecrossescarriageway.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Road works, right lane leaves carriageway, maximum speed 30kph" },
-                    { id: 2, objective: "B", option: "Primary route road works, one lane crosses carriageway, 30kph advisory" },
-                    { id: 3, objective: "C", option: "Hazard ahead, move to lane on right, max speed 30kph" },
-                    { id: 4, objective: "D", option: "Motorway road works sign" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q5.",
-                question: "What does the road sign ,mean?.",
-                symbol: require("./assets/quiz_questions/no_pedal_bike.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Parking place for pedal cycles only" },
-                    { id: 2, objective: "B", option: "Pedal cycle route crossing or joining road ahead" },
-                    { id: 3, objective: "C", option: "Cyclists only" },
-                    { id: 3, objective: "C", option: "Riding of pedal cycles prohibited" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q6.",
-                question: "White zigzag lines are used at?.",
-                symbol: require("./assets/quiz_questions/zigzagline.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Pedestrian crossings to warn motorists of the hazard ahead" },
-                    { id: 2, objective: "B", option: "Outside of schools to inform motorists not to park" },
-                    { id: 3, objective: "C", option: "Pedestrian crossings to inform motorists not to park" },
-                    { id: 3, objective: "C", option: "Riding of pedal cycles prohibited" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q7.",
-                question: "This is a car dash board symbol, what does it represent?.",
-                symbol: require("./assets/quiz_questions/oil-pressure-warning-light.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Symbol indicates that there is an issue with your car's oil pressure system" },
-                    { id: 2, objective: "B", option: "Symbol indicates that there is an issue with your car radiator system." },
-                    { id: 3, objective: "C", option: "Symbol indicates that there is an issue with your engine" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q8.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/one_way_traffic.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Road merging into single lane ahead" },
-                    { id: 2, objective: "B", option: "Motorway ahead Keep straight" },
-                    { id: 3, objective: "C", option: "Left or right turns prohibited" },
-                    { id: 3, objective: "C", option: "One-way traffic" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q9.",
-                question: "Blue circular road signs mostly give:.",
-                symbol: require("./assets/quiz_questions/mandatory_information.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Information" },
-                    { id: 2, objective: "B", option: "Directions" },
-                    { id: 3, objective: "C", option: "Warning of hazards" },
-                    { id: 3, objective: "C", option: "Postive and/or mandatory instruction." },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q10.",
-                question: "Q10. What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/minorroadfromleft.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Give way to traffic on right" },
-                    { id: 2, objective: "B", option: "Traffic merging from right" },
-                    { id: 3, objective: "C", option: "Joining major route ahead" },
-                    { id: 4, objective: "D", option: "Traffic merging from left" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q11.",
-                question: "What does this sign mean?.",
-                symbol: require("./assets/quiz_questions/separates_opposite_flows.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Used to separate opposing flow lanes on a dual carriageway." },
-                    { id: 2, objective: "B", option: "Dedicated lane for motorcyclists only" },
-                    { id: 3, objective: "C", option: "Separates opposite flows of traffic, must not be crossed" },
-                    { id: 4, objective: "D", option: "Separates opposite flows of traffic, advisable not to cross" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q12.",
-                question: "The above light on the dash board means..",
-                symbol: require("./assets/quiz_questions/abs-warning-light.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Check the vehicle traction system" },
-                    { id: 2, objective: "B", option: "Check the vehicle locking braking system" },
-                    { id: 3, objective: "C", option: "Check the vehicle anti-lock braking system" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q13.",
-                question: "What does this signal mean?.",
-                symbol: require("./assets/quiz_questions/vehiclesfromfrontcome.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Traffic approaching from the front must stop." },
-                    { id: 2, objective: "B", option: "Traffic approaching from the front may proceed." },
-                    { id: 3, objective: "C", option: "Traffic approaching from behind must stop." },
-                    { id: 4, objective: "D", option: "Traffic approaching from the right may proceed." },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q14.",
-                question: "What is this road sign warning drivers of?.",
-                symbol: require("./assets/quiz_questions/loosesurfaceroads.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Roadworks ahead" },
-                    { id: 2, objective: "B", option: "Risk of aquaplaning" },
-                    { id: 3, objective: "C", option: "Loose chippings" },
-                    { id: 4, objective: "D", option: "Falling rocks" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q15.",
-                question: "What does this blue road sign mean?.",
-                symbol: require("./assets/quiz_questions/compulsarycycletrack.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Route for pedal cycles only" },
-                    { id: 2, objective: "B", option: "Pedal cycle route crossing or joining road ahead" },
-                    { id: 3, objective: "C", option: "End of cycle route" },
-                    { id: 4, objective: "D", option: "Parking place for cycles only" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q16.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/passeitherside.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Road divides into two lanes" },
-                    { id: 2, objective: "B", option: "Choose your lane" },
-                    { id: 2, objective: "B", option: "Vehicles may pass either side to reach same destination" },
-                    { id: 2, objective: "B", option: "Stay in lane" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q17.",
-                question: "What is the meaning of this road sign?.",
-                symbol: require("./assets/quiz_questions/no_motorvehicle_permitted.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "No overtaking" },
-                    { id: 2, objective: "B", option: "No motor vehicles permitted" },
-                    { id: 3, objective: "C", option: "Only cars and motorcycles permitted" },
-                    { id: 3, objective: "C", option: "No parking" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q18.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/two-way-traffic-sign-on-route-crossing-ahead.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Road splits ahead" },
-                    { id: 2, objective: "B", option: "No left or right turns" },
-                    { id: 3, objective: "C", option: 'Two way traffic crossing one way road' },
-                    { id: 4, objective: "D", option: "One way traffic merges into two way traffic ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q19.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/twowaytrafficahead.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Two-way traffic straight ahead" },
-                    { id: 2, objective: "B", option: "Two-way traffic on route crossing ahead" },
-                    { id: 3, objective: "C", option: "Give way to oncoming vehicles" },
-                    { id: 4, objective: "D", option: "Dual carriageway ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q20.",
-                question: "which vehicle in the diagram should give way?.",
-                symbol: require("./assets/quiz_questions/pic1.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Vehicle P" },
-                    { id: 2, objective: "B", option: "Maintain LanesVehicle 0" },
-                    { id: 3, objective: "C", option: 'Both Vehicles' },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q21.",
-                question: "What does this car dash board symbol represent?.",
-                symbol: require("./assets/quiz_questions/battery-warning-light.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "This symbol signifies a problem with the vehicle's charging system" },
-                    { id: 2, objective: "B", option: "This symbol signifies a problem with the vehicle's discharging system" },
-                    { id: 3, objective: "C", option: "This symbol signifies a problem with the vehicle's heating system" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q22.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/priorityoveroncomingvehicles.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "One way traffic only" },
-                    { id: 2, objective: "B", option: "Priority over oncoming vehicles" },
-                    { id: 3, objective: "C", option: "Two way traffic ahead" },
-                    { id: 4, objective: "D", option: "Give priority to oncoming vehicles" },
-                ],
-                selectedObjective: ""
-
-            }, {
-                qtnNo: "Q23.",
-                question: "This warning sign is informing drivers of:-.",
-                symbol: require("./assets/quiz_questions/slipperyroad.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Wet conditions ahead" },
-                    { id: 2, objective: "B", option: "Uneven road surface ahead" },
-                    { id: 3, objective: "C", option: "Slippery road surface ahead" },
-                    { id: 3, objective: "D", option: "Harsh bends in the road ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q24.",
-                question: "What is the meaning of the Police sign provided above?.",
-                symbol: require("./assets/quiz_questions/frontandbehindstop.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "STOP Traffic approaching from the front" },
-                    { id: 2, objective: "B", option: "STOP Traffic approaching from behind" },
-                    { id: 3, objective: "C", option: "STOP traffic from the sides" },
-                    { id: 4, objective: "D", option: "STOP Traffic approaching from both front and behind" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q25.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/giveproiritytooncoming.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "One-way traffic only" },
-                    { id: 2, objective: "B", option: "Oncoming traffic must give way" },
-                    { id: 3, objective: "C", option: "Give priority to oncoming traffic" },
-                    { id: 3, objective: "C", option: "Two-way traffic ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q26.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/railwaywithoutbarrier.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Railway crossing without barrier" },
-                    { id: 2, objective: "B", option: "No through road" },
-                    { id: 3, objective: "C", option: "Emergency vehicles only" },
-                    { id: 4, objective: "D", option: "Do not cross" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q27.",
-                question: "What is this road sign warning road users of?.",
-                symbol: require("./assets/quiz_questions/roundabout.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Hump back bridges ahead" },
-                    { id: 2, objective: "B", option: "Steep hills ahead" },
-                    { id: 3, objective: "C", option: "Uneven road" },
-                    { id: 3, objective: "C", option: "Speed bumps in road" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q28.",
-                question: "What does this road sign mean?.",
-                symbol: require("./assets/quiz_questions/stop_even_clear.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Stop even if it is clear" },
-                    { id: 2, objective: "B", option: "Stop only if traffic is approaching" },
-                    { id: 3, objective: "C", option: 'Give way only as stopping unnecessarily can be dangerous' },
-                    { id: 4, objective: "D", option: 'It is advisable to stop due to dangerous junction' },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q29.",
-                question: "Explain what this road sign means?.",
-                symbol: require("./assets/quiz_questions/overtakingofvehiclesisprohibited.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "No double parking" },
-                    { id: 2, objective: "B", option: "No overtaking" },
-                    { id: 3, objective: "C", option: "Single File Traffic Only" },
-                    { id: 4, objective: "D", option: "Two traffic lanes ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q30.",
-                question: "What should a driver do when approaching traffic lights that change from green to amber?.",
-                symbol: require("./assets/quiz_questions/approachingtraffic.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Accelerate to clear the junction." },
-                    { id: 2, objective: "B", option: "Sound the horn while proceeding through the junction." },
-                    { id: 3, objective: "C", option: "Stop, unless it is unsafe to do SO." },
-                    { id: 4, objective: "D", option: "Stop the vehicle immediately" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q31.",
-                question: "What does the road sign mean?.",
-                symbol: require("./assets/quiz_questions/turnleftahead.png"),
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "No entry" },
-                    { id: 2, objective: "B", option: "Keep left" },
-                    { id: 3, objective: "C", option: "Turn left ahead" },
-                    { id: 4, objective: "D", option: "One-way system on left ahead" },
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q32.",
-                symbol: require("./assets/quiz_questions/highwaycarriage.png"),
-                question: "Where would these road markings be located?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "One-way streets" },
-                    { id: 2, objective: "B", option: "Level / railway crossings" },
-                    { id: 3, objective: "C", option: "Highway and dual carriageways" },
-                    { id: 3, objective: "C", option: "Zebra crossings" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q33.",
-                symbol: require("./assets/quiz_questions/44heightprohibited.png"),
-                question: "What does this road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Vehicles over 4.4 metres (14 foot 6 inches) in length prohibited" },
-                    { id: 2, objective: "B", option: "Height restriction warning sign" },
-                    { id: 3, objective: "C", option: "Vehicles over 4.4 metres (14 foot 6 inches) in height prohibited" },
-                    { id: 3, objective: "C", option: "High winds! Risk to vehicles exceeding height shown" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q34.",
-                symbol: require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
-                question: "What is this sign warning road users of?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Railway crossing ahead with barrier or gate" },
-                    { id: 2, objective: "B", option: "Trams crossing ahead" },
-                    { id: 3, objective: "C", option: "Train station ahead" },
-                    { id: 3, objective: "C", option: "Railway crossing ahead without barrier or gate" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q35.",
-                symbol: require("./assets/quiz_questions/highwaycarriage.png"),
-                question: "Rectangular road signs provide.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Orders" },
-                    { id: 2, objective: "B", option: "Warnings" },
-                    { id: 3, objective: "C", option: "Information and directions" },
-                    { id: 3, objective: "C", option: "Details of a hazard ahead" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q36.",
-                symbol: require("./assets/quiz_questions/sharpdeviation.png"),
-                question: "What does this chevron road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Sharp deviation in the road to the right" },
-                    { id: 2, objective: "B", option: "Keep to the right" },
-                    { id: 3, objective: "C", option: "Turn right only" },
-                    { id: 4, objective: "D", option: "Road closed! Traffic follow signs for diversion" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q37.",
-                symbol: require("./assets/quiz_questions/roadnarrowsbothsides.png"),
-                question: "What does this road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Road narrows both sides" },
-                    { id: 2, objective: "B", option: "End of dual carriageway" },
-                    { id: 3, objective: "C", option: "Two-way traffic ahead" },
-                    { id: 3, objective: "C", option: "Single lane ahead" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q38.",
-                symbol: require("./assets/quiz_questions/bendright.png"),
-                question: "What does this road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Keep right" },
-                    { id: 2, objective: "B", option: "Warning of a right-hand bend ahead" },
-                    { id: 3, objective: "C", option: "Turn right ahead" },
-                    { id: 3, objective: "C", option: "Junction on the right ahead" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q39.",
-                symbol: require("./assets/quiz_questions/keepleft.png"),
-                question: "What does this road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Turn left" },
-                    { id: 2, objective: "B", option: "Take the next exit" },
-                    { id: 3, objective: "C", option: "Services on left Keep left" },
-                    { id: 3, objective: "C", option: "Keep left" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q40.",
-                symbol: require("./assets/quiz_questions/lorryapproach.png"),
-                question: "What should you do as you approach this lorry?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Slow down and be prepared to wait" },
-                    { id: 2, objective: "B", option: "Make the lorry wait for you" },
-                    { id: 3, objective: "C", option: "Flash your lights at the lorry" },
-                    { id: 3, objective: "C", option: "Move to the right-hand side of the road" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q41.",
-                symbol: require("./assets/quiz_questions/carreverse.png"),
-                question: "What should you do if the vehicle starts reversing into the driveway?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Move to the opposite side of the road" },
-                    { id: 2, objective: "B", option: "Drive through as you have priority" },
-                    { id: 3, objective: "C", option: "Sound your horn and be prepared to stop" },
-                    { id: 3, objective: "C", option: "Speed up and drive through quickly" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q42.",
-                symbol: require("./assets/quiz_questions/childrencrossing.png"),
-                question: "What does this road sign mean?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Pedestrian crossing ahead" },
-                    { id: 2, objective: "B", option: "Sign warning pedestrians of busy road ahead" },
-                    { id: 3, objective: "C", option: "School crossing patrol ahead" },
-                    { id: 3, objective: "C", option: "Pedestrianized area - no vehicles permitted" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q43.",
-                symbol: require("./assets/quiz_questions/yellowlines.png"),
-                question: "The yellow criss-cross lines on roads inform?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "A motorist that the yellow box area must be kept clear at all times" },
-                    { id: 2, objective: "B", option: "May enter the yellow box only when their traffic light turns to green" },
-                    { id: 3, objective: "C", option: "Motorists they are entering a tram crossing area" },
-                    { id: 3, objective: "C", option: "keep the junction clear for crossing traffic, motorists must enter yellow box area if their exit is clear" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q44.",
-                symbol: require("./assets/quiz_questions/narrowbridgeahead.png"),
-                question: "what is the meaning of the above road sign?.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "it is a warning sign that there is a narrow road ahead." },
-                    { id: 2, objective: "B", option: "It is a warning sign that there is a bridge ahead" },
-                    { id: 3, objective: "C", option: "It is a warning sign that there is a narrow bridge ahead" },
-                    { id: 4, objective: "D", option: "It is a warning sign that the road narrows on both sides ahead" },
-
-                ],
-                selectedObjective: ""
-
-            },
-            {
-                qtnNo: "Q45.",
-                symbol: require("./assets/quiz_questions/approaching_roundabout.png"),
-                question: "Approaching a roundabout you see this line. You must.",
-                correctAnswer: "A",
-                suggestions: [
-                    { id: 1, objective: "A", option: "Give way to traffic from the left" },
-                    { id: 2, objective: "B", option: "Stop at the line" },
-                    { id: 3, objective: "C", option: "Give way to traffic from the right" },
-                    { id: 3, objective: "C", option: "Continue ahead as other traffic must give way to you" },
-
-                ],
-                selectedObjective: ""
-
-            },
-
+                selectedObjective:""
+        
+        },
+        {
+            qtnNo:"Q2.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/goaheadonly.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "One-way street"},
+                {id:2, objective:"B", option: "Ahead only"},
+                {id:3, objective:"C", option: "Single lane"},
+                {id:4, objective:"D", option: "Stay in lane"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q3.",
+            question:"From your side of the road, these lines mean.",
+            symbol:require("./assets/quiz_questions/overtaking_when_safe.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "You can overtake / cross the lines under specific circumstances"},
+                {id:2, objective:"B", option: "You must not overtake / cross the lines under any condition"},
+                {id:3, objective:"C", option: "Hazardous road, advisable not to overtake / cross the lines"},
+            ],
+            selectedObjective:""
+    
+        }, {
+            qtnNo:"Q4.",
+            question:"What best describes this sign?.",
+            symbol:require("./assets/quiz_questions/lanecrossescarriageway.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road works, right lane leaves carriageway, maximum speed 30kph"},
+                {id:2, objective:"B", option: "Primary route road works, one lane crosses carriageway, 30kph advisory"},
+                {id:3, objective:"C", option: "Hazard ahead, move to lane on right, max speed 30kph"},
+                {id:4, objective:"D", option: "Motorway road works sign"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q5.",
+            question:"What does the road sign ,mean?.",
+            symbol:require("./assets/quiz_questions/no_pedal_bike.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Parking place for pedal cycles only"},
+                {id:2, objective:"B", option: "Pedal cycle route crossing or joining road ahead"},
+                {id:3, objective:"C", option: "Cyclists only"},
+                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q6.",
+            question:"White zigzag lines are used at?.",
+            symbol:require("./assets/quiz_questions/zigzagline.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Pedestrian crossings to warn motorists of the hazard ahead"},
+                {id:2, objective:"B", option: "Outside of schools to inform motorists not to park"},
+                {id:3, objective:"C", option: "Pedestrian crossings to inform motorists not to park"},
+                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q7.",
+            question:"This is a car dash board symbol, what does it represent?.",
+            symbol:require("./assets/quiz_questions/oil-pressure-warning-light.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Symbol indicates that there is an issue with your car's oil pressure system"},
+                {id:2, objective:"B", option: "Symbol indicates that there is an issue with your car radiator system."},
+                {id:3, objective:"C", option: "Symbol indicates that there is an issue with your engine"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q8.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/one_way_traffic.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road merging into single lane ahead"},
+                {id:2, objective:"B", option: "Motorway ahead Keep straight"},
+                {id:3, objective:"C", option: "Left or right turns prohibited"},
+                {id:3, objective:"C", option: "One-way traffic"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q9.",
+            question:"Blue circular road signs mostly give:.",
+            symbol:require("./assets/quiz_questions/mandatory_information.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Information"},
+                {id:2, objective:"B", option: "Directions"},
+                {id:3, objective:"C", option: "Warning of hazards"},
+                {id:3, objective:"C", option: "Postive and/or mandatory instruction."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q10.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/minorroadfromleft.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Give way to traffic on right"},
+                {id:2, objective:"B", option: "Traffic merging from right"},
+                {id:3, objective:"C", option: "Joining major route ahead"},
+                {id:4, objective:"D", option: "Traffic merging from left"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q11.",
+            question:"What does this sign mean?.",
+            symbol:require("./assets/quiz_questions/separates_opposite_flows.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Used to separate opposing flow lanes on a dual carriageway."},
+                {id:2, objective:"B", option: "Dedicated lane for motorcyclists only"},
+                {id:3, objective:"C", option: "Separates opposite flows of traffic, must not be crossed"},
+                {id:4, objective:"D", option: "Separates opposite flows of traffic, advisable not to cross"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q12.",
+            question:"The above light on the dash board means..",
+            symbol:require("./assets/quiz_questions/abs-warning-light.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Check the vehicle traction system"},
+                {id:2, objective:"B", option: "Check the vehicle locking braking system"},
+                {id:3, objective:"C", option: "Check the vehicle anti-lock braking system"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q13.",
+            question:"What does this signal mean?.",
+            symbol:require("./assets/quiz_questions/vehiclesfromfrontcome.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Traffic approaching from the front must stop."},
+                {id:2, objective:"B", option: "Traffic approaching from the front may proceed."},
+                {id:3, objective:"C", option: "Traffic approaching from behind must stop."},
+                {id:4, objective:"D", option: "Traffic approaching from the right may proceed."},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q14.",
+            question:"What is this road sign warning drivers of?.",
+            symbol:require("./assets/quiz_questions/loosesurfaceroads.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Roadworks ahead"},
+                {id:2, objective:"B", option: "Risk of aquaplaning"},
+                {id:3, objective:"C", option: "Loose chippings"},
+                {id:4, objective:"D", option: "Falling rocks"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q15.",
+            question:"What does this blue road sign mean?.",
+            symbol:require("./assets/quiz_questions/compulsarycycletrack.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Route for pedal cycles only"},
+                {id:2, objective:"B", option: "Pedal cycle route crossing or joining road ahead"},
+                {id:3, objective:"C", option: "End of cycle route"},
+                {id:4, objective:"D", option: "Parking place for cycles only"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q16.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/passeitherside.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road divides into two lanes"},
+                {id:2, objective:"B", option: "Choose your lane"},
+                {id:2, objective:"B", option: "Vehicles may pass either side to reach same destination"},
+                {id:2, objective:"B", option: "Stay in lane"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q17.",
+            question:"What is the meaning of this road sign?.",
+            symbol:require("./assets/quiz_questions/no_motorvehicle_permitted.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No overtaking"},
+                {id:2, objective:"B", option: "No motor vehicles permitted"},
+                {id:3, objective:"C", option: "Only cars and motorcycles permitted"},
+                {id:3, objective:"C", option: "No parking"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q18.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/two-way-traffic-sign-on-route-crossing-ahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road splits ahead"},
+                {id:2, objective:"B", option: "No left or right turns"},
+                {id:3, objective:"C", option: 'Two way traffic crossing one way road'},
+                {id:4, objective:"D", option: "One way traffic merges into two way traffic ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q19.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/twowaytrafficahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Two-way traffic straight ahead"},
+                {id:2, objective:"B", option: "Two-way traffic on route crossing ahead"},
+                {id:3, objective:"C", option: "Give way to oncoming vehicles"},
+                {id:4, objective:"D", option: "Dual carriageway ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q20.",
+            question:"which vehicle in the diagram should give way?.",
+            symbol:require("./assets/quiz_questions/pic1.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Vehicle P"},
+                {id:2, objective:"B", option: "Maintain LanesVehicle 0"},
+                {id:3, objective:"C", option: 'Both Vehicles'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q21.",
+            question:"What does this car dash board symbol represent?.",
+            symbol:require("./assets/quiz_questions/battery-warning-light.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "This symbol signifies a problem with the vehicle's charging system"},
+                {id:2, objective:"B", option: "This symbol signifies a problem with the vehicle's discharging system"},
+                {id:3, objective:"C", option: "This symbol signifies a problem with the vehicle's heating system"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q22.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/priorityoveroncomingvehicles.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "One way traffic only"},
+                {id:2, objective:"B", option: "Priority over oncoming vehicles"},
+                {id:3, objective:"C", option: "Two way traffic ahead"},
+                {id:4, objective:"D", option: "Give priority to oncoming vehicles"},
+            ],
+            selectedObjective:""
+    
+        },{
+            qtnNo:"Q23.",
+            question:"This warning sign is informing drivers of:-.",
+            symbol:require("./assets/quiz_questions/slipperyroad.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Wet conditions ahead"},
+                {id:2, objective:"B", option: "Uneven road surface ahead"},
+                {id:3, objective:"C", option: "Slippery road surface ahead"},
+                {id:3, objective:"D", option: "Harsh bends in the road ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q24.",
+            question:"What is the meaning of the Police sign provided above?.",
+            symbol:require("./assets/quiz_questions/frontandbehindstop.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "STOP Traffic approaching from the front"},
+                {id:2, objective:"B", option: "STOP Traffic approaching from behind"},
+                {id:3, objective:"C", option: "STOP traffic from the sides"},
+                {id:4, objective:"D", option: "STOP Traffic approaching from both front and behind"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q25.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/giveproiritytooncoming.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "One-way traffic only"},
+                {id:2, objective:"B", option: "Oncoming traffic must give way"},
+                {id:3, objective:"C", option: "Give priority to oncoming traffic"},
+                {id:3, objective:"C", option: "Two-way traffic ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q26.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/railwaywithoutbarrier.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Railway crossing without barrier"},
+                {id:2, objective:"B", option: "No through road"},
+                {id:3, objective:"C", option: "Emergency vehicles only"},
+                {id:4, objective:"D", option: "Do not cross"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q27.",
+            question:"What is this road sign warning road users of?.",
+            symbol:require("./assets/quiz_questions/roundabout.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Hump back bridges ahead"},
+                {id:2, objective:"B", option: "Steep hills ahead"},
+                {id:3, objective:"C", option: "Uneven road"},
+                {id:3, objective:"C", option: "Speed bumps in road"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q28.",
+            question:"What does this road sign mean?.",
+            symbol:require("./assets/quiz_questions/stop_even_clear.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Stop even if it is clear"},
+                {id:2, objective:"B", option: "Stop only if traffic is approaching"},
+                {id:3, objective:"C", option: 'Give way only as stopping unnecessarily can be dangerous'},
+                {id:4, objective:"D", option: 'It is advisable to stop due to dangerous junction'},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q29.",
+            question:"Explain what this road sign means?.",
+            symbol:require("./assets/quiz_questions/overtakingofvehiclesisprohibited.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No double parking"},
+                {id:2, objective:"B", option: "No overtaking"},
+                {id:3, objective:"C", option: "Single File Traffic Only"},
+                {id:4, objective:"D", option: "Two traffic lanes ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q30.",
+            question:"What should a driver do when approaching traffic lights that change from green to amber?.",
+            symbol:require("./assets/quiz_questions/approachingtraffic.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Accelerate to clear the junction."},
+                {id:2, objective:"B", option: "Sound the horn while proceeding through the junction."},
+                {id:3, objective:"C", option: "Stop, unless it is unsafe to do SO."},
+                {id:4, objective:"D", option: "Stop the vehicle immediately"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q31.",
+            question:"What does the road sign mean?.",
+            symbol:require("./assets/quiz_questions/turnleftahead.png"),
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "No entry"},
+                {id:2, objective:"B", option: "Keep left"},
+                {id:3, objective:"C", option: "Turn left ahead"},
+                {id:4, objective:"D", option: "One-way system on left ahead"},
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q32.",
+            symbol:require("./assets/quiz_questions/highwaycarriage.png"),
+            question:"Where would these road markings be located?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "One-way streets"},
+                {id:2, objective:"B", option: "Level / railway crossings"},
+                {id:3, objective:"C", option: "Highway and dual carriageways"},
+                {id:3, objective:"C", option: "Zebra crossings"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q33.",
+            symbol:require("./assets/quiz_questions/44heightprohibited.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Vehicles over 4.4 metres (14 foot 6 inches) in length prohibited"},
+                {id:2, objective:"B", option: "Height restriction warning sign"},
+                {id:3, objective:"C", option: "Vehicles over 4.4 metres (14 foot 6 inches) in height prohibited"},
+                {id:3, objective:"C", option: "High winds! Risk to vehicles exceeding height shown"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q34.",
+            symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
+            question:"What is this sign warning road users of?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Railway crossing ahead with barrier or gate"},
+                {id:2, objective:"B", option: "Trams crossing ahead"},
+                {id:3, objective:"C", option: "Train station ahead"},
+                {id:3, objective:"C", option: "Railway crossing ahead without barrier or gate"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q35.",
+            symbol:require("./assets/quiz_questions/highwaycarriage.png"),
+            question:"Rectangular road signs provide.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Orders"},
+                {id:2, objective:"B", option: "Warnings"},
+                {id:3, objective:"C", option: "Information and directions"},
+                {id:3, objective:"C", option: "Details of a hazard ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q36.",
+            symbol:require("./assets/quiz_questions/sharpdeviation.png"),
+            question:"What does this chevron road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Sharp deviation in the road to the right"},
+                {id:2, objective:"B", option: "Keep to the right"},
+                {id:3, objective:"C", option: "Turn right only"},
+                {id:4, objective:"D", option: "Road closed! Traffic follow signs for diversion"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q37.",
+            symbol:require("./assets/quiz_questions/roadnarrowsbothsides.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Road narrows both sides"},
+                {id:2, objective:"B", option: "End of dual carriageway"},
+                {id:3, objective:"C", option: "Two-way traffic ahead"},
+                {id:3, objective:"C", option: "Single lane ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q38.",
+            symbol:require("./assets/quiz_questions/bendright.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Keep right"},
+                {id:2, objective:"B", option: "Warning of a right-hand bend ahead"},
+                {id:3, objective:"C", option: "Turn right ahead"},
+                {id:3, objective:"C", option: "Junction on the right ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q39.",
+            symbol:require("./assets/quiz_questions/keepleft.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Turn left"},
+                {id:2, objective:"B", option: "Take the next exit"},
+                {id:3, objective:"C", option: "Services on left Keep left"},
+                {id:3, objective:"C", option: "Keep left"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q40.",
+            symbol:require("./assets/quiz_questions/lorryapproach.png"),
+            question:"What should you do as you approach this lorry?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Slow down and be prepared to wait"},
+                {id:2, objective:"B", option: "Make the lorry wait for you"},
+                {id:3, objective:"C", option: "Flash your lights at the lorry"},
+                {id:3, objective:"C", option: "Move to the right-hand side of the road"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q41.",
+            symbol:require("./assets/quiz_questions/carreverse.png"),
+            question:"What should you do if the vehicle starts reversing into the driveway?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Move to the opposite side of the road"},
+                {id:2, objective:"B", option: "Drive through as you have priority"},
+                {id:3, objective:"C", option: "Sound your horn and be prepared to stop"},
+                {id:3, objective:"C", option: "Speed up and drive through quickly"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q42.",
+            symbol:require("./assets/quiz_questions/childrencrossing.png"),
+            question:"What does this road sign mean?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Pedestrian crossing ahead"},
+                {id:2, objective:"B", option: "Sign warning pedestrians of busy road ahead"},
+                {id:3, objective:"C", option: "School crossing patrol ahead"},
+                {id:3, objective:"C", option: "Pedestrianized area - no vehicles permitted"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q43.",
+            symbol:require("./assets/quiz_questions/yellowlines.png"),
+            question:"The yellow criss-cross lines on roads inform?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "A motorist that the yellow box area must be kept clear at all times"},
+                {id:2, objective:"B", option: "May enter the yellow box only when their traffic light turns to green"},
+                {id:3, objective:"C", option: "Motorists they are entering a tram crossing area"},
+                {id:3, objective:"C", option: "keep the junction clear for crossing traffic, motorists must enter yellow box area if their exit is clear"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q44.",
+            symbol:require("./assets/quiz_questions/narrowbridgeahead.png"),
+            question:"what is the meaning of the above road sign?.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "it is a warning sign that there is a narrow road ahead."},
+                {id:2, objective:"B", option: "It is a warning sign that there is a bridge ahead"},
+                {id:3, objective:"C", option: "It is a warning sign that there is a narrow bridge ahead"},
+                {id:4, objective:"D", option: "It is a warning sign that the road narrows on both sides ahead"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        {
+            qtnNo:"Q45.",
+            symbol:require("./assets/quiz_questions/approaching_roundabout.png"),
+            question:"Approaching a roundabout you see this line. You must.",
+            correctAnswer:"A",
+            suggestions:[
+                {id:1, objective:"A", option: "Give way to traffic from the left"},
+                {id:2, objective:"B", option: "Stop at the line"},
+                {id:3, objective:"C", option: "Give way to traffic from the right"},
+                {id:3, objective:"C", option: "Continue ahead as other traffic must give way to you"},
+                
+            ],
+            selectedObjective:""
+    
+        },
+        
         ]
     },
 ]
@@ -4287,8 +4299,446 @@ export const theories = [
                     "Heart related diseases due to over sitting with less exercise",
                 ]
             },
-            // {element: "paragraph", content: "Driving"},
-            // {element: "paragraph", content: "Driving"},
+
+        ]
+    },
+    {
+        id: 11,
+        indicator: "INTRODUCTION_TO_SIMPLE_MECHANICS",
+        theory: [
+            { element: "header", content: "Any driver on the road today should know some basic machanics. Why?" },
+            { element: "paragraph", content: "1. It can help you identify what could be the problem with your car before you take it to the garage. NOTE, it is very important to visit a mechanical doctor when you know what is wrong than going with blind minds." },
+            { element: "paragraph", content: "2. It can help you keep the life of your engine by not just driving even when it is overdue for servicing.3. It is important for drivers to know when you check the following:" },
+            { element: "paragraph", content: "- Power Steering Fluid -- Atleast twice a week" },
+            { element: "paragraph", content: "-Brake Fluid - Atleast once a week" },
+            { element: "paragraph", content: "-Water in the radiator - This should be done daily incase you move long distances" },
+            { element: "paragraph", content: "-Oil levels in the engine -- Check atleast every after two weeks." },
+            { element: "paragraph", content: "-Water in the batter -- Check atleast every after two weeks" },
+            { element: "paragraph", content: "- Indicators and Other lights - Should be checked often as failure for one not to work can easily cause an accident, however small it could be." },
+            { element: "paragraph", content: "With that, you will be safer on the road." },
+            { element: "header", content: "Parts of A Car" },
+            { element: "image", content: require("./assets/simple_mechanics/car_parts.png") },
+            { element: "header", content: "Some of the functions or use of these parts." },
+            { element: "header", content: "1. Radiator" },
+            { element: "paragraph", content: "It works as a cooling system. Top up with coolant mix with normal clean water." },
+            { element: "header", content: "2. Battery" },
+            { element: "paragraph", content: "Stores and supplies the current to all parts of the electric systems eg self starter. Top up with iodized water" },
+            { element: "header", content: "3. Fan" },
+            { element: "paragraph", content: "To cool water which circulates in the engine" },
+            { element: "header", content: "4. Sump guard" },
+            { element: "paragraph", content: "Keeps engine oil" },
+            { element: "header", content: "5. Oil filter" },
+            { element: "paragraph", content: "Filtering oil which goes to the engine when it is clean." },
+            { element: "header", content: "6. Fuel Pump" },
+            { element: "paragraph", content: "Lifting fuel from tank to combustion chambers." },
+            { element: "header", content: "7. Self Starter" },
+            { element: "paragraph", content: "For igniting the engine." },
+            { element: "header", content: "8. Gear Box" },
+            { element: "paragraph", content: "To engage the gears" },
+            { element: "header", content: "9. Distributor" },
+            { element: "paragraph", content: "Used to supply power to the spark plugs." },
+            { element: "header", content: "10. Alternator" },
+            { element: "paragraph", content: "This is power supply which chargers the battery" },
+            { element: "header", content: "11. Engine Oil" },
+            { element: "paragraph", content: "To lubricate, cooling & cleaning metals. Check using the engine oil-deep-stick." },
+            { element: "header", content: "12. Brake Fluid" },
+            { element: "paragraph", content: "To respond to the efficeincy of the brakes." },
+            { element: "header", content: "13. Spark Plus" },
+            { element: "paragraph", content: "Burning fuel and air in the combustion chambers." },
+            { element: "header", content: "14. Air Cleaner" },
+            { element: "paragraph", content: "To clean fresh air, this goes to the engine." },
+            { element: "header", content: "15. Power Steering Fluid" },
+            { element: "paragraph", content: "Goes through steering box to make the steering flexible or soften" },
+
+        ]
+
+    },
+    {
+        id: 12,
+        indicator: "HOW_TO_FIX_A_CAR_TIRE",
+        theory: [
+            { element: "header", content: "Changing a flat is one of the most important vehicle repair skills you can have. Getting a flat tyre is frustrating but replacing it with the spare tyre is not difficult.." },
+            { element: "header", content: "STEPS IN REPLACING CAR TYRES" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Move the car off the road, try as much as possible to put up hazard or warning plates." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Please put a chock before raising the tyre to avoid car being moved ahead or backwards." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Loosen the nuts before raising the jack. Car can fall off jack if you loosen them or harden them when raised." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "When loosening turn anticlockwise and when putting back, turn clockwise." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Make sure that your spare tyre is always in a good working condition - ALWAYS." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Any disturbances with wheel-caps and specialized tyres inquire and know how to fixyour tyre in 60 seconds." },
+            { element: "header", content: "STEP 7" },
+            { element: "paragraph", content: "After fixing, do not forget chocks or any of your tools." },
+
+        ]
+
+    },
+    {
+        id: 13,
+        indicator: "HOW_TO_JUMPSTART_YOUR_CAR",
+        theory: [
+            { element: "header", content: "You will probably need to know how to jumpstart your car at some point and it can save you a lot of time waiting for roadside assistance." },
+            { element: "header", content: "STEPS TO JUMPSTART YOUR CAR" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Put both vehicles in neutral and turn them off." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Attach a red clip to the positive terminal of the battery in your car and the other to the positive battery terminal of the other car." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Attach a black clip to the other car's negative battery terminal." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Attach the other black clip to an unpainted metal surface on your car." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Start the engine and do not turn your car off until you have driven it for a few minutes." },
+
+        ]
+
+    },
+    {
+        id: 14,
+        indicator: "CHANGE_OIL",
+        theory: [
+            { element: "header", content: "Clean oil helps your car run better and your engine last longer. Check your oil regularly and change it when required." },
+            { element: "header", content: "STEPS IN CHANGING THE OIL" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the drain plug." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Unscrew the oil filter and empty it." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Put the plug back." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Pour in the new oil." },
+
+        ]
+
+    },
+    {
+        id: 15,
+        indicator: "REPLACE_BRAKE_PADS",
+        theory: [
+            { element: "header", content: "Your brakes should always be in excellent condition to avoid risking an accident. Changing brake pads is similar to changing a flat tire." },
+            { element: "header", content: "STEPS IN REPLACING BRAKE PADS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Use a jack to lift the car." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Remove the tyres." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Remove the slider bolts." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Remove the old brake pads." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Put the new brake pads on and secure them with the slider bolts." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Put the tires back on." },
+        ]
+    },
+    {
+        id: 15,
+        indicator: "REPLACE_FILTER",
+        theory: [
+            { element: "header", content: "Air filters are often overlooked but protect your vehicle's engine from contaminants such as dust." },
+            { element: "header", content: "STEPS IN REPLACING AIR FILTERS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Open the hood and find the air filter box. It is the black box with a large hose coming out of its side." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Open the air filter box and take out the old filter." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Put the new one in and close the box." },
+
+        ]
+    },
+    {
+        id: 16,
+        indicator: "REPLACE_HEADLIGHTS_OR_LIGHTS",
+        theory: [
+            { element: "header", content: "A broken light on your car can be a safety hazard and get you a ticket. Fortunately, it is easy to fix yourself." },
+            { element: "header", content: "STEPS IN REPLACING LIGHTS" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the screws connecting the frame of the light to the bracket." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Disconnect the wires powering the bulb." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Replace the old bulb with a new one and put everything back." },
+        ]
+    },
+    {
+        id: 17,
+        indicator: "CHANGE_WIPER_BLADES",
+        theory: [
+            { element: "header", content: "Windshield wiper blades are an often forgotten but very important vehicle safety feature. They should always be in perfect shape and you can easily replace them yourself." },
+            { element: "header", content: "STEPS TO CHANGE YOUR WIPER BLADES" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Lift the wiper up off the windshield and press the tab to take off the old wiper." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Put the new one on." },
+        ]
+    },
+    {
+        id: 18,
+        indicator: "CHANGE_THE_BATTERY",
+        theory: [
+            { element: "header", content: "Check your battery regularly and know how to replace it to avoid the hassle of your car not starting. Changing your car battery is easy." },
+            { element: "header", content: "STEPS IN CHANGING THE CAR BATTERY" },
+            { element: "header", content: "STEP 1" },
+            { element: "paragraph", content: "Remove the covers." },
+            { element: "header", content: "STEP 2" },
+            { element: "paragraph", content: "Disconnect the negative cables and remove the clamp from the post." },
+            { element: "header", content: "STEP 3" },
+            { element: "paragraph", content: "Disconnect the positive cables and clamp." },
+            { element: "header", content: "STEP 4" },
+            { element: "paragraph", content: "Remove the screws." },
+            { element: "header", content: "STEP 5" },
+            { element: "paragraph", content: "Replace the old battery with a new one." },
+            { element: "header", content: "STEP 6" },
+            { element: "paragraph", content: "Put the cable clamps back." },
+        ]
+    },
+    {
+        id: 19,
+        indicator: "DEFENSIVE_DRIVING",
+        theory: [
+            { element: "header", content: "Define defensive driving" },
+            { element: "paragraph", content: "Defensive driving is essentially driving in a manner that utilises safe driving strategies to enables motorists address identified hazards in a predictable manner." },
+            { element: "paragraph", content: "These strategies go beyond instruction on basic traffic laws and procedures." },
+            { element: "paragraph", content: "Defensive driving is where you drive to avoid road accidents in spite of the erroneous actions of other road users or the adverse driving conditions." },
+            { element: "paragraph", content: "Defensive driving is an advanced driving concept that secures you from being involved in accidents through a strong and safer attitude towards other road users." },
+            { element: "paragraph", content: "Defensive driving differs from basic driving because it is all about attitude change towards safety." },
+            { element: "paragraph", content: "The aim here is to avoid crashes as much as possible and it includes avoiding crashes, even those caused by the other road users" },
+            { element: "header", content: "Principals defensive driving" },
+            {
+                element: "bullets", content: [
+                    "Effective observation",
+                    "Good anticipation",
+                    "Control of yourself and the car",
+                    "Being prepared of the unexpected or predict happenings",
+                    "Decide and act"
+                ]
+            },
+            { element: "header", content: "Rules of defensive driving" },
+            { element: "header", content: "1. Pay Attention" },
+
+            { element: "paragraph", content: "Paying attention doesn't come naturally, however it can become a habit if you work at it." },
+            { element: "paragraph", content: "Make conscious, persistent choices NOT to eat while driving, or text while driving, or whatever you do that takes your attention off the road." },
+            { element: "paragraph", content: 'Make an effort to connect your mind to your eyes and work at consciously analyzing what you see while you drive. This is called "situational awareness."' },
+            { element: "header", content: "2. Trust NO ONE" },
+            { element: "paragraph", content: "On the road, you can never know what other drivers will do." },
+            { element: "paragraph", content: "While driving, keep an eye on the cars around you and leave yourself plenty of room." },
+            { element: "paragraph", content: "Anticipate the mistakes others might make so you can be ready to react quickly." },
+            { element: "header", content: "3. Yield Anyway" },
+            {element: "paragraph", content: "Right of way rules are often misunderstood, and there are situations where the rules may not be clear to everyone."},
+            {element: "paragraph", content: "If there is uncertainty about which vehicle should have the right of way, give the other driver the road."},
+            {element: "paragraph", content: "When it comes to driving safely, it's not the principle, but the outcome, that counts."},
+            { element: "header", content: "4. Don't Speed" },
+            {element: "paragraph", content: "Consider that speeding usually doesn't save much time."},
+            {element: "paragraph", content: 'Driving at a higher than reasonable speed increases your risk in two ways; it cuts your reaction time and results in more "stored" energy (that must be dissipated in any collision).'},
+            {element: "paragraph", content: "You should consider if the risks are worth the gain."},
+            {element: "paragraph", content: "A defensive driver chooses a speed matching traffic as closely as possible without exceeding speed limits."},
+            {element: "paragraph", content: "If traffic is moving at higher speed than you should go, keep to the right and out of the way."},
+            {element: "paragraph", content: "This is often a legal requirement as well, if you are traveling at a speed less than the flow of traffic."},
+            {element: "paragraph", content: "Also, don't neglect to maintain the correct following distance."},
+            { element: "header", content: "5. Don't Be Impaired" },
+            {element: "paragraph", content: "We all have the obligation to make sure we are able to drive safely whenever we operate our vehicle."},
+            {element: "paragraph", content: "Ask yourself,"},
+            {
+                element: "bullets", content: [
+                    "Am I safe to drive?",
+                    "Am I rested?",
+                    "Am I ill2",
+                    "Have I taken medications that might affect my abilities?",
+                    "Has enough time past since I had that alcoholic drink?",
+                    "Do I have my glasses on, if needed?",
+                ]
+            },
+            {element: "paragraph", content: "Only if you can answer yes to all these questions should you exercise your privilege to drive."},
+            { element: "header", content: "6. Wear Your Seat Belt" },
+            {element: "paragraph", content: "Seat belts are the most significant safety device ever invented."},
+            {element: "paragraph", content: "Seat belts do several things for you."},
+            {element: "paragraph", content: "They provide impact protection, they absorb crash forces, and they keep you from being thrown out of the vehicle."},
+            {element: "paragraph", content: 'They hold you in place while the vehicle collapses around your "safe" zone.'},
+            {element: "paragraph", content: "Belts help keep you in your place, in control, and better able to avoid a crash."},
+            { element: "header", content: "7. Don't Run Red" },
+            {element: "paragraph", content: "There are two basic types of red light runners-there's the daydreamer or distracted driver who just doesn't see it, and then there's the driver who's impatient and accelerates on the yellow signal instead of stopping and waiting the average 45 seconds of a signal cycle."},
+            {element: "paragraph", content: "Running red lights is too dangerous, both for you and for others, no matter how pressured or late you are."},
+            {element: "paragraph", content: "Pay attention to traffic lights, slow down and be patient."},
+            { element: "header", content: "8. Drive Precisely" },
+            {element: "paragraph", content: "Most everyone knows the basics of the traffic laws, however many drivers ignore them for the sake of expediency every day."},
+            {element: "paragraph", content: "Why is it important to follow all the little rules that don't seem to make much difference?"},
+            {element: "paragraph", content: "Traffic rules are in place to create the consistency and uniformity that allow us to predict with some degree of confidence what the other driver is going to do, thereby avoiding conflicts and collisions."},
+            { element: "header", content: "9. Create Space" },
+            {element: "paragraph", content: 'Guard your safety by actively creating space around your vehicle, never allowing yourself to get "boxed in."'},
+            {element: "paragraph", content: "Adequate space creates time and helps you avoid collisions."},
+            {element: "paragraph", content: "Maintain at least two seconds of following distance."},
+            {element: "paragraph", content: "Adjust your position in traffic as necessary to avoid driving in others' blind areas."},
+            {element: "paragraph", content: "Don't allow yourself to be tailgated- change lanes or adjust your speed to encourage tailgaters to pass you."},
+            { element: "header", content: "10. Always Signal Your Intentions" },
+            {element: "paragraph", content: "Be careful not to send the wrong message when you signal."},
+            {element: "paragraph", content: "For example, if you are approaching an intersection, and you intend to turn right immediately after the intersection into a service station, be careful not to signal too soon."},
+            {element: "paragraph", content: "Oncoming traffic may think you intend to turn at the intersection rather than beyond it, and they may turn left in front of you."},
+            {element: "paragraph", content: "Finally, always use your signal before you start a turn or a lane change."},
+            { element: "header", content: "11. Know Your Blind Spots" },
+            {element: "paragraph", content: "Where are your blind spots? It depends on the vehicle, but a car typically has blind areas at the sides near the rear of the vehicle, meaning you cannot see anything in these areas by looking in your correctly- adjusted mirrors."},
+            {element: "paragraph", content: "Other vehicles may be blind to anything that is directly behind."},
+            {element: "paragraph", content: "Vehicles in which the driver sits very high may have forward-quarter blind spots- they may not be able to see anything low to the ground in front or to the sides near the front."},
+            {element: "paragraph", content: "It is important to check your mirrors every 5 to 8 seconds while driving."},
+            {element: "paragraph", content: "At the same time, it's not enough just to check the mirrors."},
+            {element: "paragraph", content: "The blind areas on most vehicles are large enough to hide other vehicles."},
+            {element: "paragraph", content: "Mirrors may not reveal a vehicle that is changing lanes, so before you switch lanes be sure to turn your head to check for oncoming traffic"},
+            {element: "header", content: "12. Avoid Distractions"},
+            {element: "paragraph", content: 'When we assume our driving "duties," one of the most important is that we be responsible for our actions and the results of those actions.'},
+            {element: "paragraph", content: "In almost every case, a driver involved in a collision had an opportunity to avoid the collision-even when the other driver was responsible for the errors that led to the collision."},
+            {element: "paragraph", content: "Some of the most common driving distractions are;"},
+            {
+                element: "bullets", content: [
+                    "eating",
+                    "drinking",
+                    "applying make-up",
+                    "talking on cell phones",
+                    "adjusting the radio or changing CD's -dealing with rambunctious or misbehaving kids",
+                    "even just talking to passengers."
+                ]
+            },
+            {element: "header", content: "13. Be aware of Intersections"},
+            {element: "paragraph", content: "Intersections are one of the most dangerous areas for any driver."},
+            {element: "paragraph", content: "Over 80% of all city collisions that result in injury or death occur within signal-light intersections."},
+            {element: "paragraph", content: "The majority of collisions at controlled intersections happen within 4 seconds of a light change."},
+            {element: "paragraph", content: "To reduce your risk, slow down as you approach a green light and make sure to look left, then right, then left again."},
+
+            {element: "paragraph", content: "The first danger to you is the traffic approaching from your left."},
+            {element: "paragraph", content: 'If the intersection is a "blind" one - where you cant see the traffic on the cross street until they are very close, slow down even more.'},
+            {element: "header", content: "14. Slow Down in Rain or Snow"},
+            {element: "paragraph", content: "The first thing to do when the rain (or snow) starts to fall is slow down."},
+            {element: "paragraph", content: "The standard rule of thumb is to slow down by a third in the rain, and by at least half in the snow. Slow more if ice may be present."},
+            {element: "paragraph", content: "Make sure your tires are in great shape and that they are inflated properly."},
+            {element: "header", content: "15. Be a Safe Passer"},
+            {element: "paragraph", content: "If you decide to pass another vehicle, visually clear the road ahead and behind you first."},
+            {element: "paragraph", content: "On one-lane roads, make sure you have enough clear space ahead to pass without interfering with oncoming vehicles."},
+            {element: "paragraph", content: "Only pass when it is legal to do so."},
+            {element: "paragraph", content: "Do not tailgate prior to passing - maintain your following distance so you can see what's ahead."},
+            {element: "paragraph", content: "Furthermore, don't speed while passing."},
+            {element: "paragraph", content: "Make sure you give the overtaken vehicle enough clearance when returning to your lane -you should be able to see the front of the vehicle and its tires on the pavement in your mirrors."},
+            {element: "paragraph", content: "Finally, remember that not all no-passing zones are marked with solid yellow stripes or signs there are places where you are expected to know that passing is not allowed; some of these are near hill crests, approaching bridges, and approaching intersections."},
+            //{element: "paragraph", content: ""},
+        ]
+    },
+    {
+        id: 20,
+        indicator: "BASIC_FIRST_AID",
+        theory: [
+            {element: "header", content: "Definition of First Aid"},
+            {element: "paragraph", content: "It refers to a quick immediate assistance given to a casualty with an emergence or complication or illness using the available resources before taken for advanced treatment As the name suggests, it's the first few things you can do to help before the emergency services arrive."},
+            {element: "paragraph", content: "It's not a replacement for professional help, but a vital first step to reduce serious injuries and improve the patient's chances of survival."},
+            {element: "paragraph", content: "Using the right techniques in certain situations can make a huge difference to someone who's suffered an injury or become suddenly ill."},
+            {element: "header", content: "Why is first aid important?"},
+            {element: "paragraph", content: "Well, as a driver or rider, you're going to be spending time on the road."},
+            {element: "paragraph", content: "You'll be part of a busy network that's mostly very safe but where, occasionally, things go wrong."},
+            {element: "paragraph", content: "Accidents happen, your passengers can become ill and, if you find yourself in such a situation, it's better to know what to do to help than to have to guess."},
+            {element: "paragraph", content: "Also, if you're learning to drive or ride, or you're working towards a vocational driving qualification, you'll need to learn about first aid."},
+            {element: "paragraph", content: "It's covered in the theory tests for all categories and is a Driver CPC training requirement, so you'll need to know your stuff."},
+            {element: "header", content: "Basic First Aid Guide to help include;"},
+            {
+                element: "bullets", content: [
+                    "Call 999",
+                    "DO NOT put yourself in danger",
+                    "DO NOT move the casualties from their vehicles unless it is essential",
+                    "DO NOT give casualties anything to eat or drink",
+                    "Always carry a first aid kit in your vehicle. You can do a number of things to save a life, even if you have had no training.",
+                    "DO try to make them warm and as comfortable as you can, but avoid unnecessary movement.",
+                    "DO keep reassuring the casualty",
+                    "Always remember that the casualty may be suffering from shock If possible try not to leave the casualties alone or let them wander into the path of other traffic"
+                ]
+            },
+            {element: "paragraph", content: "If the casualty is unconscious or not breathing, follow the DR ABC code;"},
+            {
+                element: "bullets", content: [
+                    "D- Danger Check that you are not putting yourself in danger",
+                    "R- Response- Try to get a response by asking questions and gently shaking their shoulders.",
+                    "A- Airways - If they are unconscious check their airway is open and clear. To open the airway, place one hand on the forehand and gently tilt their head back, then lift the chin using 2 fingers only.",
+                    "B- Breathing Keeping the airway open, check to see if the breathing is normal. Look along their chest, and listen and feel for breath on your cheek for up to 10 seconds.",
+                    "C- Compressions - If they are not breathing, start chest compressions immediately.",
+                ]
+            },
+            {element: "paragraph", content: "How to perform compressions:"},
+            {
+                element: "bullets", content: [
+                    "Place one hand on the centre of their chest. Place the heel of your other hand on top of the first and interlock your fingers, keeping your fingers off their ribs.",
+                    "Lean directly over their chest and press down vertically about 5-6cm. Release the pressure, but don't remove your hands.",
+                    "Give compressions at a rate of 100-120 per minute until help arrives.",
+                ]
+            },
+            {element: "paragraph", content: "If the casualty's not breathing, you may want to give them mouth-to-mouth resuscitation as follow;"},
+            {
+                element: "bullets", content: [
+                    "Check and, if necessary, clear their mouth and airway.",
+                    "Gently tilt back their head as far as possible.",
+                    "Pinch their nostrils together.",
+                    "Place your mouth over theirs. Give two breaths, each lasting two seconds. Continue with cycles of 30 chest compressions and two breaths until help arrives",
+                ]
+            },
+            {element: "paragraph", content: "If the casualty's unconscious, but breathing, put them on their side in the recovery position, which looks like this:"},
+            { element: "image", content: require("./assets/basic_theory/firstaid1.png") },
+            {element: "header", content: "Airway"},
+            {element: "paragraph", content: "Make sure their airway's still open once you get the casualty into this position. Keep checking on them until the emergency services arrive."},
+            {element: "header", content: "Bleeding"},
+            {
+                element: "bullets", content: [
+                    "Check if there's anything in the wound (like glass.) If so, build up padding around it. If not, apply firm pressure over the wound to reduce the bleeding.",
+                    "As soon as you can, pad the wound and bandage it (using whatever clean material you can find).",
+                    "If a limb's bleeding, but not broken, raise it above the level of the heart to reduce the bleeding.",
+                    "Keep checking on the condition Shock of the patient-are they still conscious and breathing? - until help arrives."
+                ]
+            },
+            {element: "header", content: "Shock"},
+            {element: "paragraph", content: "In first aid terms, shock is not an emotion, but a medical condition, and it can be very serious."},
+            {element: "paragraph", content: "Symptoms include"},
+            {
+                element: "bullets", content: [
+                    "Paleness of the skin",
+                    "Clamminess of the skin",
+                    "Fast, shallow breathing",
+                    "Fast, weak pulse",
+                    "Yawning or sighing",
+                    "Confusion",
+                    "Loss of consciousness (in extreme cases)",
+                ]
+            },
+            {element: "paragraph", content: "This is what you can do to help a person who's suffering from shock;"},
+            {
+                element: "bullets", content: [
+                    "Do not give them anything to eat or drink. They may need surgery later so it'll be better if their stomach's empty.",
+                    'Lay them down with their legs raised, to increase blood flow to the head. Call for help. Explain that you think the person\'s in shock and why (heart attack. iniurv etc.)',
+                    "Loosen any tight clothing around the person's neck, chest or waist.",
+                    "Keep them warm, comfortable and calm.",
+                    "Keep checking their breathing, pulse and level of response.",
+                    "If they lose consciousness or stop breathing, be prepared to give chest compressions or mouth to mouth.",
+                ]
+            },
+            {element: "header", content: "Burn"},
+            {
+                element: "bullets", content: [
+                    "Cool the burn by dousing it with clean, cold water or similar non-toxic liquid for at least 10 to 20 minutes",
+                    "Do not try and remove anything sticking to the burn.",
+                ]
+            },
+        ]
+    },
+    {
+        id:21,
+        indicator:"SETTINGS",
+        theory: [
+            {element: "header", content: "About TopDriverUg"},
+            // {element: "paragraph", content: "Top Driver Ug, is a product of the topdriverug inc. the purpose of the product is to guide a learner from basics theories to advance in the driving guid "},
+            {element: "paragraph", content: "Introducing Top Driver Ug, the flagship product of TopDriverUG Inc., designed to revolutionize the journey of learning to drive. Tailored with precision and professionalism, this innovative application serves as a comprehensive guide, ushering learners through every stage of their driving education, from foundational theories to advanced techniques."},
+            {element: "paragraph", content: "At the heart of Top Driver Ug lies a commitment to excellence, offering users a seamless and intuitive interface to navigate the intricacies of the driving world with confidence and proficiency. With a wealth of meticulously curated content, learners embark on a structured curriculum that covers all essential aspects of safe and skilled driving."},
+            {element: "paragraph", content: "Beginners are introduced to fundamental theories, including traffic regulations, road signs, and vehicle mechanics, providing a solid groundwork upon which to build their expertise. Through engaging multimedia presentations, interactive quizzes, and real-world simulations, users absorb knowledge effectively, ensuring a thorough understanding of key concepts."},
+            {element: "paragraph", content: "As learners progress, Top Driver Ug seamlessly transitions into advanced modules, delving into complex maneuvers, defensive driving strategies, and situational awareness techniques. Expertly crafted tutorials and practical exercises empower users to hone their skills, mastering the art of driving with finesse and precision."},
+            {element: "paragraph", content: "One of the hallmark features of Top Driver Ug is its adaptive learning system, which personalizes the experience for each user based on their proficiency and preferences. Whether it's tailored practice sessions to reinforce weak areas or targeted assessments to gauge progress, the app dynamically adjusts to meet individual needs, fostering continuous improvement."},
+            {element: "paragraph", content: "Moreover, Top Driver Ug fosters a supportive community of learners, where users can connect, share insights, and seek advice from experienced drivers and instructors. Through collaborative forums, live webinars, and peer-to-peer mentoring, aspiring drivers benefit from a rich ecosystem of knowledge and encouragement, enhancing their learning journey."},
+            {element: "paragraph", content: "Above all, Top Driver Ug prioritizes safety, instilling in users a deep sense of responsibility and vigilance on the road. With emphasis on defensive driving techniques, hazard recognition, and emergency preparedness, the app equips learners with the tools to navigate challenging scenarios confidently, ensuring the well-being of themselves and others."},
+            {element: "paragraph", content: "In summary, Top Driver Ug stands as a pinnacle of excellence in driving education, setting the standard for comprehensive, professional, and user-centric learning experiences. From novices to seasoned drivers, this transformative app empowers individuals to embark on their driving journey with skill, confidence, and a commitment to safety."},
+            {element: "paragraph", content: "Designed and developed by Wamula Bashir 0758479763 and Akora Solomon  0778637224"},
         ]
     }
 ]

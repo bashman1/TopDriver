@@ -12,25 +12,7 @@ const screenWidth = Dimensions.get("window").width;
 const ItemList = (props: any) => {
  
     const [items, setItems] = useState([
-        // {
-        //     id: 1, icon: "", itemId: 1, data: [
-        //         { id: 1, icon: "", name: "Mandatory Signs" },
-        //         { id: 2, icon: "", name: "Warning Signs" },
-        //         { id: 2, icon: "", name: "Information Signs" },
-        //         { id: 2, icon: "", name: "Roadworks Signs" },
-        //         { id: 2, icon: "", name: "Transerve Markings" },
-        //         { id: 2, icon: "", name: "Other Road Markings" },
-        //     ]
-        // },
-        // {
-        //     id: 2, icon: "", itemId: 2, data: [
-        //         { id: 1, icon: "", name: "Introduction to driving" },
-        //         { id: 2, icon: "", name: "Basic Mechanics" },
-        //         { id: 2, icon: "", name: "Defensive Driving" },
-        //         { id: 2, icon: "", name: "Roadworks Signs" },
-        //         { id: 2, icon: "", name: "Basic first aid" },
-        //     ]
-        // }
+
     ]);
     const [selectedItems, setSelectedItems] = useState([])
 
@@ -40,27 +22,29 @@ const ItemList = (props: any) => {
 
     const navigateToNext=(element)=>{
         if(element.component == 'ItemList'){
-            props.navigation.push(element.component, { ind:element.param });
+
+            props.navigation.push(element.component, { ind:element.param, header:element.name });
         }else{
-            props.navigation.navigate(element.component, { id: element.id, ind:element.param })
+            props.navigation.navigate(element.component, { id: element.id, ind:element.param, header:element.name })
         }
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: props.route.params.header });
         filterItems()
     }, []);
 
     return (
-        <ScrollView>
+        <ScrollView style={[styles.backgroundWhite]}>
             <View style={styles.padding}>
                 <View>
                     {
                         selectedItems.map((element:any) => {
                             return (
-                                <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={()=>{ navigateToNext(element)}}>
-                                    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                        <Text style={[styles.fontWeightBold, styles.fontSize20]}>{element.name}</Text>
-                                        <IonIcon name="arrow-forward" color={'000'} size={25}/>
+                                <TouchableOpacity style={[styles.cardItemsList, styles.marginBottomItemList]} onPress={()=>{ navigateToNext(element)}}>
+                                    <View style={[styles.questCardContainer]}>
+                                        <Text style={[styles.fontWeightBold, styles.fontSize20,styles.textColor]}>{element.name}</Text>
+                                        <IonIcon name="arrow-forward" color={'black'} size={25}/>
                                     </View>
                                 </TouchableOpacity>
                             )

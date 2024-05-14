@@ -7,6 +7,7 @@ import IonIcon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { filter } from '../../services/CommonService';
 import { menu } from '../../intro-data';
+import carRacer from '../../assets/vehicle-360-exterior.png'
 
 const screenWidth = Dimensions.get("window").width;
 const Home = (props: any) => {
@@ -15,13 +16,13 @@ const Home = (props: any) => {
 
     const goToDetailsPage = (element: { id: any; indicator?: string; type?: string; icon?: string; name?: string; }, direction: string) => {
         if (direction == 'details') {
-            props.navigation.navigate("ItemList", { id: element.id, ind: element.param })
+            props.navigation.navigate("ItemList", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'icons') {
-            props.navigation.navigate("IconsPage", { id: element.id, ind: element.param })
+            props.navigation.navigate("IconsPage", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'quiz') {
-            props.navigation.navigate("QuizList", { id: element.id, ind: element.param })
+            props.navigation.navigate("QuizList", { id: element.id, ind: element.param, header:element.name })
         } else if (direction == 'settings') {
-            props.navigation.navigate("ItemList", { id: element.id, ind: element.param })
+            props.navigation.navigate("TheoryDetails", { id: element.id, ind: element.param, header:element.name })
         }
     }
 
@@ -31,11 +32,12 @@ const Home = (props: any) => {
     }
 
     useEffect(() => {
+        props.navigation.setOptions({ title: 'Home' })
         getHomeMenu();
     }, []);
 
     return (
-        <ScrollView>
+        <ScrollView style={{backgroundColor:"white"}}>
             <StatusBar
                 animated={true}
                 backgroundColor={appColor()}
@@ -44,11 +46,14 @@ const Home = (props: any) => {
                 hidden={false} />
             <View style={styles.padding}>
                 <View style={styles.marginBottom}>
-                    <View style={styles.gridContainer}>
+                    <View style={{flex:1, alignContent:"center", justifyContent:"center", marginBottom:10}}>
+                        <Image style={{flex:1,resizeMode: 'cover',width: "96%",height:190, borderRadius:10, marginHorizontal:"1.5%"}}  source={carRacer } />
+                    </View>
+                    <View style={styles.gridContainerHome}>
                         {
                             items.map((element) =>
-                                <View style={[styles.item, styles.padding]}>
-                                    <TouchableOpacity style={[styles.card, styles.minWidth, styles.itemCenter]} onPress={() => { goToDetailsPage(element, element.navigateTo) }}>
+                                <View style={[styles.itemHome]}>
+                                    <TouchableOpacity style={[styles.cardHome, styles.minWidthHome, styles.itemCenter]} onPress={() => { goToDetailsPage(element, element.navigateTo) }}>
                                         {element.type == 'ionic' ? (
                                             <IonIcon name={element.icon} color={appColor()} size={60} />
                                         ) : (
