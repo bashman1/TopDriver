@@ -630,6 +630,9 @@ export const styles = StyleSheet.create(
         },
         textJustified:{
             textAlign: 'justify'
+        },
+        paymentButtonText:{
+            
         }
 
 
