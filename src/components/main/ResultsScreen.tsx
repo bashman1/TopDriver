@@ -63,7 +63,7 @@ const ResultsScreen = ({ navigation, route }: any) => {
                  <View key={index} style={styles.questionContainer}>
                     <Text style={styles.questionText}>{item.qtnNo} - {item.question}</Text>
                     <Text style={[styles.answerText, wrongOption && { color: 'red' }, correctOption && { color: 'green' }]}>
-                        Your Answer: {correctOption ? correctOption.option : wrongOption.option}
+                        Ans -  {correctOption ? correctOption.option : wrongOption.option}
                     </Text>
 
                 </View>
@@ -109,7 +109,7 @@ const ResultsScreen = ({ navigation, route }: any) => {
                 index={-1}
             >
                 <BottomSheetScrollView contentContainerStyle={styles.contentContainer}>
-                <Text style={{color:"black", fontSize:30, fontWeight:"bold"}}>{selectedStatus === 'PASSED' ? 'Questions Passed' : 'Questions Failed' }</Text>
+                <Text style={{color:selectedStatus === 'PASSED' ? 'green' : 'red', fontSize:30, fontWeight:"bold", marginBottom:"10%", textAlign:"left"}}>{selectedStatus === 'PASSED' ? `Questions Passed (${passedCount}/${totalQuestions})` : `Questions Failed (${failedCount}/${totalQuestions})` }</Text>
                     {getDetailResults(selectedStatus).map(renderItem)}
                 </BottomSheetScrollView>
             </BottomSheet>

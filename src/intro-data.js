@@ -691,7 +691,7 @@ export const quiz = [
                 correctAnswer: "A",
                 suggestions: [
                     { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
-                    { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
+                    { id: 3, objective: "A", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
                 selectedObjective: "",
@@ -715,7 +715,7 @@ export const quiz = [
             {
                 qtnNo: "Q3.",
                 question: "On which side do we overtake another vehicle?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "In the Middle " },
                     { id: 2, objective: "B", option: "Left Side" },
@@ -728,7 +728,7 @@ export const quiz = [
             }, {
                 qtnNo: "Q4.",
                 question: "When can you overtake from the LEFT?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "When the vehicle in front is turning right and there is space on the left. Bevery careful in such action." },
                     { id: 2, objective: "B", option: "When there is an accident and the only place you can overtake is Left." },
@@ -755,7 +755,7 @@ export const quiz = [
             {
                 qtnNo: "Q6.",
                 question: "Who is a pedestrian?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "A person riding a motorcycle" },
                     { id: 2, objective: "B", option: "Road users a foot" },
