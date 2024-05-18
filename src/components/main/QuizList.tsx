@@ -12,12 +12,18 @@ const screenWidth = Dimensions.get("window").width;
 const QuizList = (props: any) => {
 
     const [selectedItems, setSelectedItems] = useState({})
-    const [items, setItems] = useState([
-
-    ])
+    const [items, setItems] = useState([])
 
     const filterItems = () => {
         setItems(filter(menu, props.route.params.ind));
+    }
+
+    const navigationConfig=(element, index)=>{
+        if(index==0){
+            props.navigation.navigate("QuizIcons", { ind: element.param, header:element.name }) 
+        }else{
+            props.navigation.navigate("Questions", { ind: element.param, header:element.name }) 
+        }
     }
 
     useEffect(() => {
@@ -29,9 +35,9 @@ const QuizList = (props: any) => {
         <ScrollView>
             <View style={styles.padding}>
                 {
-                    items.map((element) => {
+                    items.map((element, index) => {
                         return (
-                            <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => { props.navigation.navigate("Questions", { ind: element.param, header:element.name }) }}>
+                            <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => {navigationConfig(element, index) }}>
                                
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                     <Text style={[styles.fontWeightBold, styles.fontSize15]}>{element.name}</Text>

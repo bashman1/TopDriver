@@ -2,14 +2,44 @@ import React, { useState, useEffect } from 'react';
 import { View, Image, TouchableOpacity,StatusBar, Text, ScrollView, Appearance } from 'react-native';
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
+import { AuthContext } from '../../services/Context';
+import { LoggedInUser, System, GenericInsert, GenericQueryAll, GenericQueryWhere } from '../../databases/allSchemas';
+
+import BootSplash from "react-native-bootsplash";
 
 const Intro = (props: any) => {
     const [selectedItems, setSelectedItems] = useState([])
-
     const [items, setItems] = useState(introData)
 
+    const { intro } = React.useContext(AuthContext);
+
     useEffect(() => {
-    });
+
+      const init = async () => {};
+  
+      init().finally(async () => {
+        await BootSplash.hide({ fade: true });
+        console.log("BootSplash has been hidden successfully");
+      });
+    }, []);
+
+
+    const introDone=()=>{
+
+      let systemData = {
+        id:Math.floor(Date.now()/1000),
+        key: 'INTRO',
+        description: 'Introduction screens already seen.',
+        status: 'Active',
+        done: true,
+        createdOn: new Date(),
+      };
+
+      GenericInsert(System, systemData).then((result)=>{
+        intro()
+      }).catch((error)=>{alert(JSON.stringify(error))})
+      // props.navigation.navigate('GetStarted')
+    }
 
    
 const Card = ({item}:any) => {
@@ -34,7 +64,7 @@ const Card = ({item}:any) => {
                     { items.map(item => <Card key={item.id} item={item}/>)}
                 </ScrollView>
                 <View style={{paddingHorizontal:10}}>
-                    <TouchableOpacity style={styles.touchableButton} onPress={() => { props.navigation.navigate('GetStarted') }}>
+                    <TouchableOpacity style={styles.touchableButton} onPress={() => { introDone() }}>
                         <Text style={styles.healthPalWhite}>Get Started</Text>
                     </TouchableOpacity>
                 </View>

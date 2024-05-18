@@ -17,7 +17,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { AuthScreen } from './src/navigation/Navigation';
+import { AuthScreen, IntroScreen, MainScreen } from './src/navigation/Navigation';
 import { AuthContext } from './src/services/Context';
 import { LoggedInUser, System, GenericQueryAll, GenericQueryWhere } from './src/databases/allSchemas';
 
@@ -120,7 +120,16 @@ function App(): JSX.Element {
 
   return (
     <AuthContext.Provider value={authContext} >
-      <AuthScreen/>
+      {
+        (loginState.userToken != null)?(
+          <MainScreen />
+        ):(loginState.isIntroDone == true)?(
+          <AuthScreen />
+        ):(
+          <IntroScreen />
+        )
+      }
+      {/* <IntroScreen/> */}
     </AuthContext.Provider>
 //     <SafeAreaView>
 //       <ScrollView>
