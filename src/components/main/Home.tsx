@@ -33,17 +33,19 @@ const Home = (props: any) => {
     }
 
     useEffect(() => {
+
         const init = async () => {
             props.navigation.setOptions({ title: 'Home' })
-            getHomeMenu();
+            await getHomeMenu();
         };
     
         init().finally(async () => {
-          await BootSplash.hide({ fade: true });
-          console.log("BootSplash has been hidden successfully");
-        });
+            await BootSplash.hide({ fade: true });
+            console.log("BootSplash has been hidden successfully");
+          });
 
-    });
+
+    }, []);
 
     return (
         <ScrollView style={{backgroundColor:"white"}}>
