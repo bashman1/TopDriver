@@ -633,7 +633,38 @@ export const styles = StyleSheet.create(
         },
         paymentButtonText:{
             
+        },
+        modalContainer:{
+            flex: 1,
+            justifyContent: 'center',
+            alignItems: 'center',
+        },
+        modalCard:{
+            backgroundColor: 'white',
+            padding: 10,
+            alignItems: 'center',
+            borderRadius: 10,
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 1,
+            shadowRadius: 2,
+            width: '90%',
+            paddingTop: 30,
+            paddingBottom: 30,
+            elevation: 5,
+        },
+        modalImg:{
+            width: 100,
+            height: 100,
+            marginBottom: 10,
+        },
+        modalCloseButton:{
+            position: 'absolute',
+            top: 10,
+            right: 10,
+            zIndex: 1,
         }
+
 
 
     }

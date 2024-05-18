@@ -103,7 +103,7 @@ const LernMore = (props: any) => {
               onRedirect={handleOnRedirect}
               options={{
                 tx_ref: generateTransactionRef(10),
-                authorization: 'FLWPUBK_TEST-f81e077330c8d0fc3a09b2c0668a9bee-X',
+                authorization: 'FLWPUBK_TEST-df60c74914535e1eec791280afddbcf6-X',
                 // authorization: 'FLWPUBK-4ea57f63e0a191a65be991b7c19e720d-X',
                 customer: {
                   email: 'nendebosco7@gmail.com'

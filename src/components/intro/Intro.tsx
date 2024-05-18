@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Image, TouchableOpacity,StatusBar, Text, ScrollView, Appearance } from 'react-native';
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
+import BootSplash from "react-native-bootsplash";
 
 const Intro = (props: any) => {
     const [selectedItems, setSelectedItems] = useState([])
@@ -9,6 +10,16 @@ const Intro = (props: any) => {
     const [items, setItems] = useState(introData)
 
     useEffect(() => {
+
+      const init = async () => {
+        // …do multiple sync or async tasks
+      };
+  
+      init().finally(async () => {
+        await BootSplash.hide({ fade: true });
+        console.log("BootSplash has been hidden successfully");
+      });
+      
     });
 
    

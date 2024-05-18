@@ -12,6 +12,7 @@ import Questions from '../components/main/Questions'
 import ItemList from '../components/main/ItemList';
 import Intro from '../components/intro/Intro';
 import GetStarted from '../components/intro/GetStarted';
+import QuizIcons from '../components/main/QuizIcons';
 
 import IconsPage from '../components/main/IconsPage'
 import { styles } from '../styles/Styles';
@@ -83,7 +84,7 @@ export const AuthScreen = () => {
                 <Stack.Screen name="QuizList" component={QuizList} options={({ navigation })=>navLayout("QuizList", navigation)}/>
                 <Stack.Screen name="Questions" component={Questions} options={({ navigation })=>navLayout("Questions", navigation)}/>
                 <Stack.Screen name="TheoryDetails" component={TheoryDetails} options={({ navigation })=>navLayout("TheoryDetails", navigation)} />
-                {/* <Stack.Screen name="ConsultMedicalWorker" component={Consultation}/> */}
+                <Stack.Screen name="QuizIcons" component={QuizIcons} options={({ navigation })=>navLayout("QuizIcons", navigation)}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
