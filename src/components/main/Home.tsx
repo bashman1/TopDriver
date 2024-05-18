@@ -8,6 +8,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { filter } from '../../services/CommonService';
 import { menu } from '../../intro-data';
 import carRacer from '../../assets/vehicle-360-exterior.png'
+import BootSplash from "react-native-bootsplash";
 
 const screenWidth = Dimensions.get("window").width;
 const Home = (props: any) => {
@@ -32,9 +33,17 @@ const Home = (props: any) => {
     }
 
     useEffect(() => {
-        props.navigation.setOptions({ title: 'Home' })
-        getHomeMenu();
-    }, []);
+        const init = async () => {
+            props.navigation.setOptions({ title: 'Home' })
+            getHomeMenu();
+        };
+    
+        init().finally(async () => {
+          await BootSplash.hide({ fade: true });
+          console.log("BootSplash has been hidden successfully");
+        });
+
+    });
 
     return (
         <ScrollView style={{backgroundColor:"white"}}>
@@ -51,7 +60,7 @@ const Home = (props: any) => {
                     </View>
                     <View style={styles.gridContainerHome}>
                         {
-                            items.map((element) =>
+                            items.map((element, i) =>
                                 <View style={[styles.itemHome]}>
                                     <TouchableOpacity style={[styles.cardHome, styles.minWidthHome, styles.itemCenter]} onPress={() => { goToDetailsPage(element, element.navigateTo) }}>
                                         {element.type == 'ionic' ? (

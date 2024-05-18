@@ -3,13 +3,51 @@ import { View, Image, TouchableOpacity, Text, ScrollView, Appearance, StatusBar 
 import { styles } from '../../styles/Styles';
 import introData from '../../intro-data';
 import { getStarted } from '../../intro-data';
+import BootSplash from "react-native-bootsplash";
+
+
 const GetStarted = (props: any) => {
     const [selectedItems, setSelectedItems] = useState([])
 
     const [items, setItems] = useState(introData)
+    // const { signIn } = React.useContext(AuthContext);
 
     useEffect(() => {
-    });
+        const init = async () => {};
+
+        init().finally(async () => {
+            await BootSplash.hide({ fade: true });
+            console.log("BootSplash has been hidden successfully");
+        });
+
+    }, []);
+
+
+    const onSuccessfulPayment=()=>{
+        let userData = {
+            age: 18,
+            code: "paymentCode",
+            contact: "0700000000",
+            createdBy:1,
+            createdOn: new Date(),
+            email:"email@email.email",
+            firstName: "John",
+            lastName:"Doe",
+            status:"Active",
+            token:btoa(new Date().toISOString()),
+            updatedBy: null,
+            updatedOn: null,
+            userType:"Premium User",
+            tableId:Math.floor(Date.now() / 1000)
+        };
+        GenericInsert(LoggedInUser, userData).then((loggedInUser) => {
+            // createAlert('Response', JSON.stringify(loggedInUser))
+            signIn();
+        }).catch((error) => {
+            // createAlert('error', JSON.stringify(error))
+        })
+
+    }
 
    
 const Card = () => {

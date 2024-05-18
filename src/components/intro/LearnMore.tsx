@@ -8,11 +8,16 @@ import { PayWithFlutterwave } from 'flutterwave-react-native';
 import { FlutterwaveButton } from 'flutterwave-react-native';
 import { WebView } from 'react-native-webview';
 
+import { AuthContext } from '../../services/Context';
+import { LoggedInUser, System, GenericInsert, GenericQueryAll, GenericQueryWhere } from '../../databases/allSchemas';
+
+
 
 const LernMore = (props: any) => {
   const sheetRef = useRef<BottomSheet>(null);
 
   const [items, setItems] = useState(learnMoreData)
+  const { signIn } = React.useContext(AuthContext);
 
   useEffect(() => {
   });
@@ -29,9 +34,36 @@ const LernMore = (props: any) => {
     sheetRef.current?.snapToIndex(index);
   }, []);
 
-  //   const handleClosePress = useCallback(() => {
-  //     sheetRef.current?.close();
-  //   }, []);
+
+  /**
+   * On successful payment
+   */
+  const onSuccessfulPayment=()=>{
+    let userData = {
+        id: Math.floor(Date.now() / 1000),
+        age: 18,
+        code: "paymentCode",
+        contact: "0700000000",
+        createdBy:1,
+        createdOn: new Date(),
+        email:"email@email.email",
+        firstName: "John",
+        lastName:"Doe",
+        status:"Active",
+        token:(Math.floor(Date.now() / 1000)).toString(),
+        updatedBy: null,
+        updatedOn: null,
+        userType:"Premium User",
+        tableId:Math.floor(Date.now() / 1000)
+    };
+    GenericInsert(LoggedInUser, userData).then((loggedInUser) => {
+        // createAlert('Response', JSON.stringify(loggedInUser))
+        signIn();
+    }).catch((error) => {
+        console.log(error);
+        // createAlert('error', JSON.stringify(error))
+    })
+}
 
   // renders
   const renderBackdrop = useCallback(
@@ -55,6 +87,7 @@ const LernMore = (props: any) => {
 
   /* An example function called when transaction is completed successfully or canceled */
   const handleOnRedirect = (data: RedirectParams) => {
+    onSuccessfulPayment();
     console.log("************* the payment is successfully **************************************")
     // {"status": "successful", "transaction_id": "5124345", "tx_ref": "flw_tx_ref_nyNpycZSC7"}
     console.log(data);
@@ -108,7 +141,7 @@ const LernMore = (props: any) => {
                 customer: {
                   email: 'nendebosco7@gmail.com'
                 },
-                amount: 2000,
+                amount: 3500,
                 currency: 'UGX',
                 payment_options: 'card, mobilemoneyuganda'
               }}
@@ -118,13 +151,13 @@ const LernMore = (props: any) => {
 
             <Text style={{ fontSize: 20 }}>A one time Fee of 3,500/=</Text>
 
-            <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); props.navigation.navigate('Home') }}>
+            {/* <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); onSuccessfulPayment(); }}>
               <Text style={styles.healthPalWhite}>Pay with Mobile Money</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.touchableButtonCtm} onPress={() => handleSnapPress(1)}>
               <Text style={styles.healthPalWhite}>Enter Access Code</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
 
             <Text style={{ fontSize: 15, textAlign: "center", lineHeight: 20 }}>For more inquiries, contact 0778637224 / 0778637224 (Whatsapp)</Text>
           </View>
