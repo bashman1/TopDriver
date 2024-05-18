@@ -10,6 +10,7 @@ import IconDetailsPage from '../components/main/IconDetails';
 import QuizList from '../components/main/QuizList';
 import Questions from '../components/main/Questions'
 import ItemList from '../components/main/ItemList';
+import ResultsScreen from '../components/main/ResultsScreen';
 import Intro from '../components/intro/Intro';
 import GetStarted from '../components/intro/GetStarted';
 
@@ -76,6 +77,7 @@ export const AuthScreen = () => {
                 <Stack.Screen name="SignIn" component={SignIn} />
                 <Stack.Screen name="GetStarted" component={GetStarted} />
                 <Stack.Screen name="LearnMore" component={LearnMore} />
+                <Stack.Screen name="ResultsScreen" component={ResultsScreen} />
                 <Drawer.Screen name="Home" component={Home} options={({ navigation })=>navLayout("Home", navigation)} />
                 <Drawer.Screen name="ItemList" component={ItemList} options={({ navigation })=>navLayout("ItemList", navigation)} />
                 <Stack.Screen name="IconsPage" component={IconsPage} options={({ navigation })=>navLayout("IconsPage", navigation)}/>
