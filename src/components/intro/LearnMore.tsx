@@ -151,13 +151,13 @@ const LernMore = (props: any) => {
 
             <Text style={{ fontSize: 20 }}>A one time Fee of 3,500/=</Text>
 
-            {/* <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); onSuccessfulPayment(); }}>
+            <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); onSuccessfulPayment(); }}>
               <Text style={styles.healthPalWhite}>Pay with Mobile Money</Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.touchableButtonCtm} onPress={() => handleSnapPress(1)}>
               <Text style={styles.healthPalWhite}>Enter Access Code</Text>
-            </TouchableOpacity> */}
+            </TouchableOpacity>
 
             <Text style={{ fontSize: 15, textAlign: "center", lineHeight: 20 }}>For more inquiries, contact 0778637224 / 0778637224 (Whatsapp)</Text>
           </View>

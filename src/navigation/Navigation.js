@@ -74,15 +74,6 @@ export const AuthScreen = () => {
             <Stack.Navigator screenOptions={{ headerShown: false, navigationBarColor: '#fff' }}>
                 <Stack.Screen name="GetStarted" component={GetStarted} />
                 <Stack.Screen name="LearnMore" component={LearnMore} />
-                <Stack.Screen name="ResultsScreen" component={ResultsScreen} />
-                <Drawer.Screen name="Home" component={Home} options={({ navigation })=>navLayout("Home", navigation)} />
-                <Drawer.Screen name="ItemList" component={ItemList} options={({ navigation })=>navLayout("ItemList", navigation)} />
-                <Stack.Screen name="IconsPage" component={IconsPage} options={({ navigation })=>navLayout("IconsPage", navigation)}/>
-                <Stack.Screen name="IconDetailsPage" component={IconDetailsPage} options={({ navigation })=>navLayout("IconDetailsPage", navigation)}/>
-                <Stack.Screen name="QuizList" component={QuizList} options={({ navigation })=>navLayout("QuizList", navigation)}/>
-                <Stack.Screen name="Questions" component={Questions} options={({ navigation })=>navLayout("Questions", navigation)}/>
-                <Stack.Screen name="TheoryDetails" component={TheoryDetails} options={({ navigation })=>navLayout("TheoryDetails", navigation)} />
-                {/* <Stack.Screen name="ConsultMedicalWorker" component={Consultation}/> */}
             </Stack.Navigator>
         </NavigationContainer>
     );
@@ -94,6 +85,7 @@ export const MainScreen = () => {
         <NavigationContainer>
             <Stack.Navigator screenOptions={{ headerShown: false, navigationBarColor: '#fff' }}>
                 <Stack.Screen name="Home" component={Home} options={({ navigation }) => navLayout("Home", navigation)} />
+                <Stack.Screen name="ResultsScreen" component={ResultsScreen} />
                 <Stack.Screen name="ItemList" component={ItemList} options={({ navigation }) => navLayout("ItemList", navigation)} />
                 <Stack.Screen name="IconsPage" component={IconsPage} options={({ navigation }) => navLayout("IconsPage", navigation)} />
                 <Stack.Screen name="IconDetailsPage" component={IconDetailsPage} options={({ navigation }) => navLayout("IconDetailsPage", navigation)} />
