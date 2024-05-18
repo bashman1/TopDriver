@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { View, Image, TouchableOpacity, Text, StyleSheet } from 'react-native';
 import BottomSheet, { BottomSheetBackdrop, BottomSheetView, BottomSheetScrollView } from '@gorhom/bottom-sheet';
 import emoji from "../../assets/36807-4-sad-emoji-clipart.png";
+import happy from "../../assets/144618-emoji-happy-free-clipart-hd.png";
 
 const ResultsScreen = ({ navigation, route }: any) => {
     const { updatedItems } = route.params;
@@ -78,7 +79,7 @@ const ResultsScreen = ({ navigation, route }: any) => {
         <View style={{ flex: 1, backgroundColor: 'white', padding: 10 }}>
             <Image
                 style={styles.emoji}
-                source={emoji}
+                source={ scorePercentage > 50  ? happy : emoji}
             />
 
             <Text style={styles.scoreText}>Score {scorePercentage}%</Text>
