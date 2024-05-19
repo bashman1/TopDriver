@@ -38,7 +38,7 @@ const QuizList = (props: any) => {
                     items.map((element, index) => {
                         return (
                             <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => {navigationConfig(element, index) }}>
-                                {/* <Text>{element.name}</Text> */}
+                               
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                     <Text style={[styles.fontWeightBold, styles.fontSize15]}>{element.name}</Text>
 

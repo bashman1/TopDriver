@@ -10,6 +10,7 @@ import IconDetailsPage from '../components/main/IconDetails';
 import QuizList from '../components/main/QuizList';
 import Questions from '../components/main/Questions'
 import ItemList from '../components/main/ItemList';
+import ResultsScreen from '../components/main/ResultsScreen';
 import Intro from '../components/intro/Intro';
 import GetStarted from '../components/intro/GetStarted';
 import QuizIcons from '../components/main/QuizIcons';
@@ -84,6 +85,7 @@ export const MainScreen = () => {
         <NavigationContainer>
             <Stack.Navigator screenOptions={{ headerShown: false, navigationBarColor: '#fff' }}>
                 <Stack.Screen name="Home" component={Home} options={({ navigation }) => navLayout("Home", navigation)} />
+                <Stack.Screen name="ResultsScreen" component={ResultsScreen} />
                 <Stack.Screen name="ItemList" component={ItemList} options={({ navigation }) => navLayout("ItemList", navigation)} />
                 <Stack.Screen name="IconsPage" component={IconsPage} options={({ navigation }) => navLayout("IconsPage", navigation)} />
                 <Stack.Screen name="IconDetailsPage" component={IconDetailsPage} options={({ navigation }) => navLayout("IconDetailsPage", navigation)} />

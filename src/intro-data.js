@@ -383,11 +383,12 @@ export const quiz = [
                 question: "Who is a driver?",
                 correctAnswer: "A",
                 suggestions: [
-                    { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
+                    { id: 2, objective: "A", option: "A person who knows how operates a vehicle on the road." },
                     { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -401,7 +402,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -415,7 +417,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -429,7 +432,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -443,7 +447,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -457,7 +462,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -471,7 +477,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -485,7 +492,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -499,7 +507,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -513,7 +522,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -527,7 +537,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -541,7 +552,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -555,7 +567,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -569,7 +582,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "uu",
+                status:""
 
             },
             {
@@ -583,7 +597,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -597,7 +612,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -611,7 +627,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -625,7 +642,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -639,7 +657,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -653,7 +672,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -671,10 +691,11 @@ export const quiz = [
                 correctAnswer: "A",
                 suggestions: [
                     { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
-                    { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
+                    { id: 3, objective: "A", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -687,32 +708,35 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Drive both sides" },
                     { id: 4, objective: "D", option: "Non of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q3.",
                 question: "On which side do we overtake another vehicle?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "In the Middle " },
                     { id: 2, objective: "B", option: "Left Side" },
                     { id: 3, objective: "C", option: "Right Side" },
                     { id: 4, objective: "D", option: "Any Side" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
                 question: "When can you overtake from the LEFT?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "When the vehicle in front is turning right and there is space on the left. Bevery careful in such action." },
                     { id: 2, objective: "B", option: "When there is an accident and the only place you can overtake is Left." },
                     { id: 3, objective: "C", option: "Never Overtake ON the Left" },
                     { id: 4, objective: "D", option: "1 and 2" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -724,19 +748,21 @@ export const quiz = [
                     { id: 2, objective: "B", option: "4 - 7 seconds" },
                     { id: 3, objective: "C", option: "3 - 6 seconds" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q6.",
                 question: "Who is a pedestrian?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "A person riding a motorcycle" },
                     { id: 2, objective: "B", option: "Road users a foot" },
                     { id: 3, objective: "C", option: "Anyone driving" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -749,7 +775,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Valid vehicle inspection certificate" },
                     { id: 3, objective: "D", option: "All of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -762,7 +789,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Flash light, whistle" },
                     { id: 3, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -775,7 +803,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Three" },
                     { id: 3, objective: "D", option: "One" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -787,7 +816,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Keep the steering wheel straight, slow down, and pull over" },
                     { id: 3, objective: "C", option: "Speed up untill you find a sage exit" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -799,7 +829,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "An area in which stopping and nparking is prohibited, (except by buses or tazxis) for a period indicated on the Clearway signpost" },
                     { id: 3, objective: "C", option: "Speed up untill you find a safe place to park" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -811,7 +842,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No, if turning left from a lane marked left turn only" },
                     { id: 3, objective: "C", option: "Yes, if turn signals are fitted to your vechicle" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -823,7 +855,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No, there is no regulation to cover this situation." },
                     { id: 3, objective: "C", option: "Yes, you must not open a door if you are likely to cause danger to road users or impede traffic." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -835,7 +868,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No, you are allowed to cover your numberb plates if you want to" },
                     { id: 3, objective: "C", option: "Yes, at any time" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -847,7 +881,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Make sure your vechicle has enough fuel, oil, water and ther correct tyre pressure." },
                     { id: 3, objective: "C", option: "Take your street directly in case you get lost" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -859,7 +894,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Slow down and watch for traffic controllers and instructions." },
                     { id: 3, objective: "C", option: "Stop immediately and wait for instructions." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -871,7 +907,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No it is only needed on long trips." },
                     { id: 3, objective: "C", option: "No, being licensed is enough." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -883,7 +920,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Stop and then proceed if you think it is safe." },
                     { id: 3, objective: "C", option: "Slow down and continue through the road works zone." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -895,7 +933,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Yes." },
                     { id: 3, objective: "C", option: "Nno, they must give way to cards at all times when riding on the road." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -907,7 +946,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Check your mirrors and blind spots for pedestrians, bicyles or others vehicles." },
                     { id: 3, objective: "C", option: "Check your headlights are turned off." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -919,7 +959,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Check your tyre pressure, and if necessary, increase it to what the manufacturer recommends." },
                     { id: 3, objective: "C", option: "Make sure you have a map so that you know where you are going." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -931,7 +972,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Do not report the accident to the police." },
                     { id: 3, objective: "C", option: "Only need to report to the police if someone was injured." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
@@ -942,7 +984,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "When you are about to stop." },
                     { id: 3, objective: "C", option: "When you intent to tuen right at anytime." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -954,7 +997,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No, not under any circumstances." },
                     { id: 3, objective: "C", option: "Yes, if the person(s) in the caravan are over 12 years of age." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -966,7 +1010,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "When within 200 metres of the vehicle a head or an oncoming one." },
                     { id: 3, objective: "C", option: "Never, you are allowed to drive with your lights on high beam at all times." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -978,7 +1023,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Maintain the same speed." },
                     { id: 3, objective: "C", option: "Slow down and watch for traffic controllers and instructions." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -990,7 +1036,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Keep your sun glasses on to cut down heading glare." },
                     { id: 3, objective: "C", option: "Turn on your hazard warning lights." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1002,7 +1049,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Slow down and give them plenty of room." },
                     { id: 3, objective: "C", option: "Speed up tp pass the horse." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1014,7 +1062,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Only call the police if the accident also resulted in over 500 Gollars worth of propery damege." },
                     { id: 3, objective: "C", option: "Report the accident to the police within seven days." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1027,7 +1076,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Increase your speed and sound your horn." },
                     { id: 4, objective: "D", option: "All of the Above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1040,7 +1090,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Check for parked vehicles with turn signals on, or children about to step out." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1053,7 +1104,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The other vehicle is turning right." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1067,7 +1119,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Increase speed to overtake other vehicles." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1080,7 +1133,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Keep to the left and let the driver overtake you.." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1093,7 +1147,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Sound your horn to signal the driver ahead to slow down." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1106,7 +1161,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Be sent to prison." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1119,7 +1175,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Not receive any penalty as road works speed limits are only advisory." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1132,7 +1189,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "You must give way to pedestrians if there is any danger of hitting them." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1145,7 +1203,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Sound your horn to hurry them up." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1158,7 +1217,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Sound your horn to warn them of your presence" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1171,7 +1231,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stop and help aged pedestrians acress the road." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1184,7 +1245,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "0.05." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1197,7 +1259,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Ask your passengers to let you know if you are not driving as well as you should." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1210,7 +1273,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Yes always." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1223,7 +1287,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Items which are checked when the driver is within a vehicle" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1237,7 +1302,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Spilling diesel or oil on the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1251,7 +1317,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1265,7 +1332,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1278,7 +1346,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The vehicle needs to be serviced or repaired later" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1292,7 +1361,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You won't be able to see if it becomes foggy." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1306,7 +1376,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above is correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1320,7 +1391,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1334,7 +1406,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Overtake on the right-hand side" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1348,7 +1421,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Hold your speed and sound your horn" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1362,7 +1436,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Keep well to the left of the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1376,7 +1451,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above is correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1390,7 +1466,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "While you are stuck in the traffic jam in the city" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1404,7 +1481,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Be too hot" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1417,7 +1495,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Keep well to the left of the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1431,7 +1510,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "By selecting neutral" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1445,7 +1525,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1459,7 +1540,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1473,7 +1555,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "A and B are the correct answers." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1487,7 +1570,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Check your exhaust" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1501,7 +1585,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Drink plenty of strong, black coffee" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1515,7 +1600,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1529,7 +1615,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -1549,7 +1636,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "It makes your brain work slower" },
                     { id: 4, objective: "D", option: "it speeds your brain up so you can work better" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1562,7 +1650,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Your view of the road ahead will be restricted" },
                     { id: 4, objective: "D", option: "The driver in the front will not be seeing you in his mirrors" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1575,7 +1664,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Check that the parking brake is released" },
                     { id: 4, objective: "D", option: "Have the brakes checked immediately" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
@@ -1586,7 +1676,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "On the front wheels" },
                     { id: 3, objective: "C", option: "On all the four wheels" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1599,7 +1690,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Speed" },
                     { id: 3, objective: "C", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1611,7 +1703,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Turn on your headlights, slow down and double your following distance behind the vehicle in front" },
                     { id: 3, objective: "C", option: "Turn your headlights on high beam" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1624,7 +1717,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Neck injuries" },
                     { id: 3, objective: "D", option: "All of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1637,7 +1731,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Flash light, whistle" },
                     { id: 3, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1650,7 +1745,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "During heavy rain" },
                     { id: 3, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1662,7 +1758,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Check your mirrors, signal, check your blind spot and then proceed" },
                     { id: 3, objective: "C", option: "Check your mirrors, signal and then proceed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1675,7 +1772,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Driving license and Driving Permit" },
                     { id: 3, objective: "C", option: "Third party insurance certificate and Driving Permit" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1688,7 +1786,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The capacity to assess potential hazards and their potential impact." },
                     { id: 3, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1701,7 +1800,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Going in any direction you choose" },
                     { id: 3, objective: "C", option: "None of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1714,7 +1814,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Presidential Convey with Siren" },
                     { id: 4, objective: "D", option: "Fire tender with siren" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1725,7 +1826,8 @@ export const quiz = [
                     { id: 1, objective: "A", option: "True" },
                     { id: 2, objective: "B", option: "False" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1736,7 +1838,8 @@ export const quiz = [
                     { id: 1, objective: "A", option: "True" },
                     { id: 2, objective: "B", option: "False" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1749,7 +1852,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Defective vehicle, preventive maintenance improper maintenance" },
                     { id: 3, objective: "D", option: "Improper break down maintenance and average driving speed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1762,7 +1866,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Both "a" and "b"' },
                     { id: 4, objective: "D", option: "None of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1775,7 +1880,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Topping the acid level" },
                     { id: 3, objective: "C", option: "None of the above is correct" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1788,7 +1894,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'To prevent getting into the "blind stare."' },
                     { id: 3, objective: "C", option: 'All the above' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1801,7 +1908,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "All are following too close" },
                     { id: 4, objective: "D", option: "All of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1814,7 +1922,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Both A and B are correct" },
                     { id: 4, objective: "D", option: "When you are sick but doctor advised otherwise" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
@@ -1826,7 +1935,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 16 },
                     { id: 3, objective: "D", option: 11 },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1839,7 +1949,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "When youre approaching a one-way street" },
                     { id: 3, objective: "C", option: "When youre approaching bends and junctions" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1852,7 +1963,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Check your mirrors, signal, check your blind spot and then proceed" },
                     { id: 3, objective: "C", option: "Check your mirrors, signal and then proceed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1865,7 +1977,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Repeat the procedures several times focusing on each individual aspect of the inspection (safety, security, fluids, etc.)" },
                     { id: 3, objective: "C", option: "Assume that all safety-related features are tip-top)" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1878,7 +1991,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Use your 4-way flashers" },
                     { id: 3, objective: "C", option: "Give them the right of way" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1891,7 +2005,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Apply slight brake pressure to "dry out" brakes' },
                     { id: 3, objective: "C", option: 'All the above' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1904,7 +2019,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "At a roundabout" },
                     { id: 4, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1917,7 +2033,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "10 kmph" },
                     { id: 3, objective: "C", option: "20 kmph" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1930,7 +2047,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "A booklet checked and passed by the president for rules of road users." },
                     { id: 4, objective: "D", option: "A booklet checked and passed by the cabinet for rules of road users." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1943,7 +2061,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Drive onto the wrong side of the road and hope the other vehicle does not do the same" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1957,7 +2076,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You are going the right way." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1971,7 +2091,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both B and C" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1985,7 +2106,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of these" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1998,7 +2120,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Sound your horn to signal the driver ahead to slow down." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2012,7 +2135,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2026,7 +2150,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "none of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2038,7 +2163,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "False" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2052,7 +2178,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The tires to deflate." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2066,7 +2193,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "First pray then drive straight to home without making corners" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2080,7 +2208,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Reduce speed and use the vehicle to drive them away" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2094,7 +2223,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Stay behind and dont overtake" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2108,7 +2238,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2121,7 +2252,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Yes always." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2135,7 +2267,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2149,7 +2282,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and b are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2163,7 +2297,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and B are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2177,7 +2312,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Pedestrians, passengers, cyclists, motorcyclists, and drivers." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2191,7 +2327,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "During the rain" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2205,7 +2342,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stopping is prohibited" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2219,7 +2357,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Looking in the rear and side mirrors continually when driving." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2233,7 +2372,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "So that you can be easily seen by others" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2247,7 +2387,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Leaner Drivers with L plates" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2261,7 +2402,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "These are the usual saloon cars or my cars" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q56.",
@@ -2274,7 +2416,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You only enter the box junction when you can clear" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2288,7 +2431,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Drive slowly but steadily" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2302,7 +2446,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Improved passenger comfort" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2316,7 +2461,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2330,7 +2476,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2344,7 +2491,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "A and C are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2356,7 +2504,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "false" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2370,7 +2519,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and B are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2384,7 +2534,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2398,7 +2549,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Exhaust system" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2412,7 +2564,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Providing directions." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2426,7 +2579,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Check your exhaust" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2440,7 +2594,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2454,7 +2609,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Details of a hazard ahead" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2468,7 +2624,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Road closed! Traffic follow signs for diversion" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -2490,7 +2647,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Means Stop" },
                     { id: 5, objective: "E", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2504,7 +2662,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2518,7 +2677,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
@@ -2531,7 +2691,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means someone is turning left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2544,7 +2705,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Means vehicles turning left are free to go" },
                     { id: 3, objective: "C", option: "Means Go" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2557,7 +2719,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Means turning right" },
                     { id: 3, objective: "C", option: "Slow Down" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2570,7 +2733,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "We need to talk" },
                     { id: 3, objective: "C", option: "Turn Right" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2583,7 +2747,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Vehicles approaching from front should STOP" },
                     { id: 3, objective: "C", option: "All vehicles should STOP" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2596,7 +2761,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Railway Crossing Signal" },
                     { id: 3, objective: "C", option: "Railway Line Ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2609,7 +2775,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Fire Brigade" },
                     { id: 3, objective: "C", option: "Ambulance" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2622,7 +2789,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Only obey the sign when there are workers" },
                     { id: 3, objective: "C", option: "Only obey the sign during working hours." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2635,7 +2803,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Vehicles approaching from the side should COME" },
                     { id: 3, objective: "C", option: "Vehicles approaching from the side should STOP" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2649,7 +2818,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "This sign is used to indicate a street that you can not turn right onto." },
                     { id: 4, objective: "D", option: "It means do not park here." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2663,7 +2833,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Level crossing without gate" },
                     { id: 4, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2677,7 +2848,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Successive/Double bend to the left" },
                     { id: 4, objective: "D", option: "Slippery Road" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2691,7 +2863,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Slippery road" },
                     { id: 2, objective: "B", option: "1 and 2" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2704,7 +2877,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Farm Entrance ahead" },
                     { id: 3, objective: "C", option: "No Vehicle Access" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2718,7 +2892,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'No Parking' },
                     { id: 4, objective: "D", option: "No road markings" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2732,7 +2907,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "School crosswalk ahead" },
                     { id: 4, objective: "D", option: "No road markings" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2746,7 +2922,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Straight through only' },
                     { id: 3, objective: "C", option: 'Two way traffic' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2760,7 +2937,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "No Left Turn" },
                     { id: 4, objective: "D", option: "No U-Turn" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2774,7 +2952,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Not a though street" },
                     { id: 4, objective: "D", option: "Divided road" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
@@ -2787,7 +2966,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Compulsory sound horn" },
                     { id: 3, objective: "D", option: "You may sound your horn" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2801,7 +2981,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Bridge ahead" },
                     { id: 4, objective: "D", option: "Guarded Railway Crossing" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2815,7 +2996,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of these" },
                     { id: 3, objective: "C", option: "Direction to be followed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2829,7 +3011,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stop" },
                     { id: 4, objective: "D", option: "Junction ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2843,7 +3026,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stop" },
                     { id: 3, objective: "C", option: "Junction ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2857,7 +3041,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'None of these' },
                     { id: 4, objective: "D", option: 'Dont Drink and Drive' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2871,7 +3056,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Filling station" },
                     { id: 4, objective: "D", option: "None of these" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2885,7 +3071,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Bed" },
                     { id: 4, objective: "D", option: "None of these" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2899,7 +3086,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Entry forbidden to all motorcycles" },
                     { id: 4, objective: "D", option: "No entry for power driven vehicles" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2914,7 +3102,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
 
