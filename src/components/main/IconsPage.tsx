@@ -13,41 +13,14 @@ const IconsPage = (props: any) => {
 
     const [selectedItems, setSelectedItems] = useState([])
 
-    const [items, setItems] = useState([
-        // { id: 1, itemListId:1, type: 'community', icon: "car-key", name: "Road Signs", 
-        // data:[
-        //     { id: 1, img: require("../../assets/mandatory_signs/compulsarycycletrack.png"), name: "Compulsory cycle track" },
-        //     { id: 2, img: require("../../assets/mandatory_signs/compulsarypedestrianfootpath.png"), name: "Compulsory pedestrian footpath" },
-        //     { id: 3, img: require("../../assets/mandatory_signs/compulsoryminimumspeed.png"), name: "Compulsory minimum speed" },
-        //     { id: 4, img: require("../../assets/mandatory_signs/compulsoryparkingforthedisabled.png"), name: "Compulsory parking for disabled" },
-        //     { id: 5, img: require("../../assets/mandatory_signs/compulsorytrackforcattle.png"), name: "Compulsory track for cattle" },
-        //     { id: 6, img: require("../../assets/mandatory_signs/directiontobefollowed.png"), name: "Direction to be followed" },
-        //     { id: 7, img: require("../../assets/mandatory_signs/dontdrinkanddrive.png"), name: "Don't drink and drive" },
-        //     { id: 8, img: require("../../assets/mandatory_signs/dontparkonpavements.png"), name: "Don't park on pavement" },
-        //     { id: 9, img: require("../../assets/mandatory_signs/donttextanddrive.png"), name: "Don't text and drive" },
-        //     { id: 10, img: require("../../assets/mandatory_signs/drivingvehicleslessthandistanceshownisprohibited.png"), name: "Driving vehicle less than " },
-        //     { id: 11, img: require("../../assets/mandatory_signs/endofcompulsoryminimumspeed.png"), name: "End of compulsory minimum speed" },
-        //     { id: 12, img: require("../../assets/mandatory_signs/endofprohibitions.png"), name: "End of prohibitions" },
-        //     { id: 13, img: require("../../assets/mandatory_signs/endofspeedlimit.png"), name: "End of speed limit" },
-        //     { id: 14, img: require("../../assets/mandatory_signs/entryforbbidenformotorcycles.png"), name: "Entry forbidden to motorcycle" },
-        //     { id: 15, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-        //     { id: 16, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-        //     { id: 17, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-        //     { id: 18, img: require("../../assets/mandatory_signs/entryforbbidenforpoweroranimaldrivenvehicles.png"), name: "Entry forbidden for power" },
-        // ]},
-
-        
-    ])
+    const [items, setItems] = useState([])
 
     const goToDetails=(element)=>{
-        // IconDetailsPage
         props.navigation.navigate("IconDetailsPage", { id: element.id, header:element.name })
     }
 
     const filterItems = () => {
         setSelectedItems(filter(iconImg, props.route.params.ind));
-        // let index = items.findIndex(element => element.itemListId == id);
-        // setSelectedItems(items[index].data);
     }
 
     useEffect(() => {
@@ -65,11 +38,9 @@ const IconsPage = (props: any) => {
                                 <TouchableOpacity style={[styles.cardNew,styles.gridItemNew]} onPress={() => {goToDetails(element)}}>
                                     <View style={{justifyContent:'center',alignItems:'center', width:"100%", height:160, columnGap:10}}>
                                             <Image style={styles.homeScreenIconNew} key={i} source={element.img} />
-                                            <Text style={{textAlign:'center', paddingBottom:10,fontSize:15,width:'100%', color:"black", lineHeight:23, maxWidth:"80%"}}>{element.name}</Text>
-                                       
+                                            <Text style={{textAlign:'center', paddingBottom:10,fontSize:15,width:'100%', color:"black", lineHeight:23, maxWidth:"80%"}}>{element.name}</Text>  
                                     </View>
                                     </TouchableOpacity>
-                                
                             )
                         }
                     </View>
