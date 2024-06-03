@@ -38,17 +38,14 @@ const QuizList = (props: any) => {
                     items.map((element, index) => {
                         return (
                             <TouchableOpacity style={[styles.card, styles.marginBottom]} onPress={() => {navigationConfig(element, index) }}>
-                               
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                    <Text style={[styles.fontWeightBold, styles.fontSize15]}>{element.name}</Text>
-
+                                    <Text style={[styles.fontWeightBold, styles.fontSize15, {color:'#808080'}]}>{element.name}</Text>
                                 </View>
-                                <Text style={[styles.fontWeightBold, styles.fontSize12]}>{element.description}</Text>
+                                <Text style={[styles.fontWeightBold, styles.fontSize12, {color:'#808080'}]}>{element.description}</Text>
                             </TouchableOpacity>
                         )
                     })
                 }
-
             </View>
         </ScrollView>
     )

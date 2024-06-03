@@ -70,3 +70,7 @@ export const filter=(array, filter)=>{
 export const findObj=(array, filter)=>{
     return array.find(element => element.indicator == filter);
 }
+
+export const findObjParam=(array, param, filter)=>{
+    return array.find(element => element[param] == filter);
+}

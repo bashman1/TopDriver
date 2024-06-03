@@ -133,7 +133,7 @@ export const menu = [
     { id: 35, component: "TheoryDetails", param: "REPLACE_HEADLIGHTS_OR_LIGHTS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or taillights" },
     { id: 36, component: "TheoryDetails", param: "CHANGE_WIPER_BLADES", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
     { id: 37, component: "TheoryDetails", param: "CHANGE_THE_BATTERY", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
-    { id: 38, name: "Practice Quiz One (164 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
+    { id: 38, name: "Practice Quiz One (225 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
     { id: 39, name: "Practice Quiz Two A (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2A", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 40, name: "Practice Quiz Two B (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2B", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 41, name: "Practice Quiz Three A (32 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_3A", description: "This quiz covers some of different traffic signals and signs that you will meet on the road." },
@@ -341,34 +341,33 @@ export const iconImg = [
     { id: 197, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redflashing.png"), name: "Railway crossing signal/Red" },
     { id: 198, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redlights.png"), name: "Red signal lights means to slow" },
     { id: 199, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rednocross.png"), name: "Red means pedestrians must" },
-    { id: 120, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "Right indicator signal means one" },
-    { id: 121, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "Vehicles aproaching from" },
-    { id: 122, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "Slow down" },
-    { id: 123, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "Stop" },
-    { id: 124, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "Tax service" },
-    { id: 125, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "Turning left" },
-    { id: 126, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "Vihicles turning left are free to go" },
-    { id: 127, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "Turning right" },
-    { id: 128, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "Vihicles turning right are free to go" },
-    { id: 129, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "Turning left" },
-    { id: 130, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "Turning right" },
-    { id: 131, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "Vehicle approaching from" },
-    { id: 132, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "Vehicle approaching from" },
-    { id: 133, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "Vehicle approaching from" },
-    { id: 134, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "Vehicle approaching from" },
+    { id: 200, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "Right indicator signal means one" },
+    { id: 201, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "Vehicles aproaching from" },
+    { id: 202, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "Slow down" },
+    { id: 203, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "Stop" },
+    { id: 204, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "Tax service" },
+    { id: 205, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "Turning left" },
+    { id: 206, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "Vihicles turning left are free to go" },
+    { id: 207, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "Turning right" },
+    { id: 208, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "Vihicles turning right are free to go" },
+    { id: 209, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "Turning left" },
+    { id: 210, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "Turning right" },
+    { id: 211, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "Vehicle approaching from" },
+    { id: 212, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "Vehicle approaching from" },
+    { id: 213, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "Vehicle approaching from" },
+    { id: 214, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "Vehicle approaching from" },
 
-    { id: 135, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
-    { id: 136, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
-    { id: 137, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
-    { id: 138, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
-    { id: 139, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
-    { id: 140, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
-    { id: 141, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
-    { id: 142, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
-    { id: 143, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
-    { id: 144, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
-    { id: 145, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
-
+    { id: 215, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
+    { id: 216, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
+    { id: 217, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
+    { id: 218, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
+    { id: 219, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
+    { id: 220, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
+    { id: 221, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
+    { id: 222, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
+    { id: 223, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
+    { id: 224, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
+    { id: 225, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
 ];
 
 
@@ -382,10 +381,11 @@ export const quiz = [
             {
                 qtnNo: "Q1.",
                 question: "Who is a driver?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
-                    { id: 2, objective: "A", option: "A person who knows how operates a vehicle on the road." },
-                    { id: 2, objective: "B", option: "Any person who knows how to operate a vehicle on the road." },
+
+                    { id: 1, objective: "A", option: "A person who knows how operates a vehicle with skills, has a valid drivers license permit and follows the rules and reugulations of the highway code." },
+                    { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
                     { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
@@ -690,10 +690,12 @@ export const quiz = [
             {
                 qtnNo: "Q1.",
                 question: "Who is a driver?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
+
+                    { id: 1, objective: "A", option: "A person who knows how operates a vehicle with skills, has a valid drivers license permit and follows the rules and reugulations of the highway code." },
                     { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
-                    { id: 3, objective: "A", option: "A person who is willing to learn how to operates a vehicle." },
+                    { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
                 selectedObjective: "",
@@ -703,7 +705,7 @@ export const quiz = [
             {
                 qtnNo: "Q2.",
                 question: "What is the RULE of the road in Uganda?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Always keep right" },
                     { id: 2, objective: "B", option: "Always keep left" },
@@ -717,7 +719,7 @@ export const quiz = [
             {
                 qtnNo: "Q3.",
                 question: "On which side do we overtake another vehicle?",
-                correctAnswer: "B",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "In the Middle " },
                     { id: 2, objective: "B", option: "Left Side" },
@@ -730,7 +732,7 @@ export const quiz = [
             }, {
                 qtnNo: "Q4.",
                 question: "When can you overtake from the LEFT?",
-                correctAnswer: "C",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When the vehicle in front is turning right and there is space on the left. Bevery careful in such action." },
                     { id: 2, objective: "B", option: "When there is an accident and the only place you can overtake is Left." },
@@ -744,7 +746,7 @@ export const quiz = [
             {
                 qtnNo: "Q5.",
                 question: "How many seconds does a yellow light last?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "2 - 5 seconds" },
                     { id: 2, objective: "B", option: "4 - 7 seconds" },
@@ -770,7 +772,7 @@ export const quiz = [
             {
                 qtnNo: "Q7.",
                 question: "Name three documents which must ne valid before you are allowed to drive?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Valid driving license" },
                     { id: 2, objective: "B", option: "valid insurance certificate" },
@@ -784,7 +786,7 @@ export const quiz = [
             {
                 qtnNo: "Q8.",
                 question: "What important tools must you carry when driving for a safari?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Spare tyre, Car jack, whistle" },
                     { id: 2, objective: "B", option: "Car jack, Flash light, Spare tyre" },
@@ -798,7 +800,7 @@ export const quiz = [
             {
                 qtnNo: "Q9.",
                 question: "How many eyes does a driver have?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Two" },
                     { id: 2, objective: "B", option: "Four" },
@@ -812,7 +814,7 @@ export const quiz = [
             {
                 qtnNo: "Q10.",
                 question: "If you get a flat tire while driving you should",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Turn on your hazard lights and drive a service station" },
                     { id: 2, objective: "B", option: "Keep the steering wheel straight, slow down, and pull over" },
@@ -825,7 +827,7 @@ export const quiz = [
             {
                 qtnNo: "Q11.",
                 question: "What is a Clearway?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "All vehicles are free to go through" },
                     { id: 2, objective: "B", option: "An area in which stopping and nparking is prohibited, (except by buses or tazxis) for a period indicated on the Clearway signpost" },
@@ -838,7 +840,7 @@ export const quiz = [
             {
                 qtnNo: "Q12.",
                 question: "If you intend to turn left, are you required to give a signal",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, if arrows are marked on the roadway" },
                     { id: 2, objective: "B", option: "No, if turning left from a lane marked left turn only" },
@@ -851,7 +853,7 @@ export const quiz = [
             {
                 qtnNo: "Q13.",
                 question: "Do you have any responsibilities when opening a vechicle door on a roadway?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, any following traffic must stop if the door interferes with its progress." },
                     { id: 2, objective: "B", option: "No, there is no regulation to cover this situation." },
@@ -864,7 +866,7 @@ export const quiz = [
             {
                 qtnNo: "Q14.",
                 question: "Is it an offence to obstruct clear vision of your number plates",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Yes, but is is legal for a towbar or bicycle rack to cover the reat number plate." },
                     { id: 2, objective: "B", option: "No, you are allowed to cover your numberb plates if you want to" },
@@ -877,7 +879,7 @@ export const quiz = [
             {
                 qtnNo: "Q15.",
                 question: "Before driving on a freeway, which of the following should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Take someting to calm your nervers before driving." },
                     { id: 2, objective: "B", option: "Make sure your vechicle has enough fuel, oil, water and ther correct tyre pressure." },
@@ -890,7 +892,7 @@ export const quiz = [
             {
                 qtnNo: "Q16.",
                 question: "If you see a sign indicating road repairs are going on, you should -",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Maintain ther same speed." },
                     { id: 2, objective: "B", option: "Slow down and watch for traffic controllers and instructions." },
@@ -929,7 +931,7 @@ export const quiz = [
             {
                 qtnNo: "Q19.",
                 question: "Do bicyle riders have the same rights and responsibilities as drivers and motorycyle riders? and a traffic controller displays a stop sign you must -",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, they must always ride on the footpath." },
                     { id: 2, objective: "B", option: "Yes." },
@@ -942,7 +944,7 @@ export const quiz = [
             {
                 qtnNo: "Q20.",
                 question: "Before getting our of your vehicle you must?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Check your seatbelt is back in place." },
                     { id: 2, objective: "B", option: "Check your mirrors and blind spots for pedestrians, bicyles or others vehicles." },
@@ -955,7 +957,7 @@ export const quiz = [
             {
                 qtnNo: "Q21.",
                 question: "Before driving a long distance at a fast speed or carrying a full car load, you should?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Have a large meal and cup of coffee to stay alert." },
                     { id: 2, objective: "B", option: "Check your tyre pressure, and if necessary, increase it to what the manufacturer recommends." },
@@ -980,7 +982,7 @@ export const quiz = [
             }, {
                 qtnNo: "Q23.",
                 question: "When should you use your right hand indicator?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "When you intend to slow down." },
                     { id: 2, objective: "B", option: "When you are about to stop." },
@@ -993,7 +995,7 @@ export const quiz = [
             {
                 qtnNo: "Q24.",
                 question: "Are you permitted to tow a caravan with a person riding in the caravan?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Yes provided you do not exceed 60km/hr." },
                     { id: 2, objective: "B", option: "No, not under any circumstances." },
@@ -1006,7 +1008,7 @@ export const quiz = [
             {
                 qtnNo: "Q25.",
                 question: "You are driving at night with your headlights on high beam. When should you dip your headlights?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "When within 200 metres of an oncoming vehicle only." },
                     { id: 2, objective: "B", option: "When within 200 metres of the vehicle a head or an oncoming one." },
@@ -1019,7 +1021,7 @@ export const quiz = [
             {
                 qtnNo: "Q26.",
                 question: "If you see a sign indicating road repairs are going on, you should?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Slow down immediatelyy and wait for instructions." },
                     { id: 2, objective: "B", option: "Maintain the same speed." },
@@ -1031,7 +1033,7 @@ export const quiz = [
             },
             {
                 qtnNo: "Q27.",
-                question: "Whenn driving at sunset or dawn on a dark day, what should you do?",
+                question: "When driving at sunset or dawn on a dark day, what should you do?",
                 correctAnswer: "A",
                 suggestions: [
                     { id: 1, objective: "A", option: "Turn on your lights on low beam." },
@@ -1045,7 +1047,7 @@ export const quiz = [
             {
                 qtnNo: "Q28.",
                 question: "If you see a horse and rider on the road, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Sound your horn to warn the rider." },
                     { id: 2, objective: "B", option: "Slow down and give them plenty of room." },
@@ -1085,7 +1087,7 @@ export const quiz = [
             {
                 qtnNo: "Q32.",
                 question: "When driving near parked vehicles, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Stop, if you se a car with its right-indicator on." },
                     { id: 2, objective: "B", option: "Sound your horn and flash our headlights to warn drivers not to pull out." },
@@ -1099,7 +1101,7 @@ export const quiz = [
             {
                 qtnNo: "Q33.",
                 question: "On a single laned road, you are allowed to overtake another vehicle on its right except when?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You are travelling at more than 80km/hr" },
                     { id: 2, objective: "B", option: "The other vehicle is going slower than you." },
@@ -1128,7 +1130,7 @@ export const quiz = [
             {
                 qtnNo: "Q35.",
                 question: "A driver behind you signals their intention to overtake your car. What should you do?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Speed up so that the driver will not have to overtake you" },
                     { id: 2, objective: "B", option: "Signal the driver to remain behind you if it is travelling to fast.." },
@@ -1142,7 +1144,7 @@ export const quiz = [
             {
                 qtnNo: "Q36.",
                 question: "If you are not sure you have enough distance to overtake a vehicle ahead, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Put the vehicle in a lower gear and speed up" },
                     { id: 2, objective: "B", option: "Wait for a better opportunity with more distance to overtake." },
@@ -1156,7 +1158,7 @@ export const quiz = [
             {
                 qtnNo: "Q37.",
                 question: "If you are convicted for driving under the influence of alcohol, you could loose your drivers licence. You may also?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Be restricted to driving an automatic vehicle" },
                     { id: 2, objective: "B", option: "Have a personal speed limit imposed on you." },
@@ -1184,7 +1186,7 @@ export const quiz = [
             {
                 qtnNo: "Q39.",
                 question: "Which statement is true?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You must give way to pedestrians only at marked crossings." },
                     { id: 2, objective: "B", option: "Pedestrians have no special rights on the roads." },
@@ -1198,7 +1200,7 @@ export const quiz = [
             {
                 qtnNo: "Q40.",
                 question: "If elderly people or children are on the pedestrian crossing you will probably need to?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Drive around them so you dont hold up traffic." },
                     { id: 2, objective: "B", option: "Wait extra time to allow them to cross safely" },
@@ -1212,7 +1214,7 @@ export const quiz = [
             {
                 qtnNo: "Q41.",
                 question: "When driving near children playing or walking near the edge of the road?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Continue at same speed and drive around them." },
                     { id: 2, objective: "B", option: "Slow down and be ready to make a safe stop." },
@@ -1226,7 +1228,7 @@ export const quiz = [
             {
                 qtnNo: "Q42.",
                 question: "When driving in wet weather, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Drive in the middle of the road to avoid splashing pedestrians on the foot path." },
                     { id: 2, objective: "B", option: "Watch out for pedestrians, who may hurry and take risks." },
@@ -1268,7 +1270,7 @@ export const quiz = [
             {
                 qtnNo: "Q45.",
                 question: "Is it an offence to refuse to take a POLICE breath test?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, if you are a learner driver" },
                     { id: 2, objective: "B", option: "No, if you say you havent been drinking alcohol" },
@@ -1282,7 +1284,7 @@ export const quiz = [
             {
                 qtnNo: "Q46.",
                 question: "During pre-trip inspection, a daily walk-round check includes:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Items which are checked when the driver is inside a vehicle" },
                     { id: 2, objective: "B", option: "Items which are checked when the driver is outside a vehicle" },
@@ -1296,7 +1298,7 @@ export const quiz = [
             {
                 qtnNo: "Q47.",
                 question: "Which of the following actions does NOT damage the road?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Blocking the road drains" },
                     { id: 2, objective: "B", option: "Letting waste water or farm water flow over the road" },
@@ -1311,7 +1313,7 @@ export const quiz = [
             {
                 qtnNo: "Q48.",
                 question: "When crossing at a Zebra crossing as a pedestrian you should?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Give drivers plenty of time to see you and to stop before you start to cross." },
                     { id: 2, objective: "B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped." },
@@ -1326,12 +1328,12 @@ export const quiz = [
             {
                 qtnNo: "Q50.",
                 question: 'Which of the following statements clearly describes Group/ class "B" driving license in uganda?',
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "These are small cars" },
                     { id: 2, objective: "B", option: "These are the small trucks that carry 2 tons of load and the small cars that carry 4 passengers" },
                     { id: 3, objective: "C", option: "These are motor vehicles that carry up to 3500kg and carry not more than 7 passengers including the driver" },
-                    { id: 4, objective: "D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in" },
+                    { id: 4, objective: "D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in additional to the driver's seat" },
 
                 ],
                 selectedObjective: "",
@@ -1341,7 +1343,7 @@ export const quiz = [
             {
                 qtnNo: "Q51.",
                 question: "Orange/yellow warning lights on the dash board means:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "The vehicle does not need to be serviced or repaired soon" },
                     { id: 2, objective: "B", option: "The vehicle needs to be serviced or repaired soon." },
@@ -1355,7 +1357,7 @@ export const quiz = [
             {
                 qtnNo: "Q52.",
                 question: "Beaming your headlights in full at night is dangerous because",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You cannot stop within the distance that you can see." },
                     { id: 2, objective: "B", option: "Your headlights may become over worked and then stop working at all." },
@@ -1370,7 +1372,7 @@ export const quiz = [
             {
                 qtnNo: "Q53.",
                 question: "The disadvantage of not carrying out proper vehicle maintenance is",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "High vehicles operating cost" },
                     { id: 2, objective: "B", option: "High possibility of road crash" },
@@ -1385,7 +1387,7 @@ export const quiz = [
             {
                 qtnNo: "Q54.",
                 question: "You should avoid driving through deep puddles or flowing water. But if you must, which of these steps can help keep your brakes working",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Apply hard pressure on both the brake pedal and accelerator after coming out of the water." },
                     { id: 2, objective: "B", option: "Gently pressing the brake pedal while driving through the water" },
@@ -1400,7 +1402,7 @@ export const quiz = [
             {
                 qtnNo: "Q55.",
                 question: "You are following a long vehicle approaching a crossroads. What should you do if the driver signals right but moves close to the left-hand pavement?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Warn the driver about the wrong signal." },
                     { id: 2, objective: "B", option: "Wait behind the long vehicle." },
@@ -1432,7 +1434,7 @@ export const quiz = [
                 question: "Water can be used to extinguish which of the following fires",
                 correctAnswer: "A",
                 suggestions: [
-                    { id: 1, objective: "A", option: "Tires" },
+                    { id: 1, objective: "A", option: "Tires. This is because tires are class A fires which can be exitinguished by water" },
                     { id: 2, objective: "B", option: "Keep in the middle of the road" },
                     { id: 3, objective: "C", option: "Swing out to the right just before turning" },
                     { id: 4, objective: "D", option: "Keep well to the left of the road" },
@@ -1445,7 +1447,7 @@ export const quiz = [
             {
                 qtnNo: "Q59.",
                 question: "Head lamps and parking lights are used",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "To illuminate the road ahead of the vehicle" },
                     { id: 2, objective: "B", option: "To show your presence on the road" },
@@ -1475,7 +1477,7 @@ export const quiz = [
             {
                 qtnNo: "Q61.",
                 question: "When the engine coolant is unable to circulate, the engine will",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Consume less fuel" },
                     { id: 2, objective: "B", option: "Be too cool" },
@@ -1519,7 +1521,7 @@ export const quiz = [
             {
                 qtnNo: "Q64.",
                 question: "If your brakes fail, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Pump the foot brake several times" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1534,7 +1536,7 @@ export const quiz = [
             {
                 qtnNo: "Q65.",
                 question: "Who has priority at a roundabout? Choose the best answer",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "The vehicles that are parked on the roundabout" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1549,7 +1551,7 @@ export const quiz = [
             {
                 qtnNo: "Q66.",
                 question: "What should you do if you are dazzled by another vehicle's headlights?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Slow down & stop if necessary." },
                     { id: 2, objective: "B", option: "If the dazzle is from an oncoming vehicle, avoid it by looking towards its left edge until the vehicle has passed." },
@@ -1564,7 +1566,7 @@ export const quiz = [
             {
                 qtnNo: "Q67.",
                 question: "Before driving through a flooded area, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Stop the vehicle and check the tires" },
                     { id: 2, objective: "B", option: "Test your brakes to see they are functioning normally" },
@@ -1579,7 +1581,7 @@ export const quiz = [
             {
                 qtnNo: "Q68.",
                 question: "The only effective way to deal with driver fatigue is to",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Give drivers plenty of time to see you and to stop before you start to cross." },
                     { id: 2, objective: "B", option: "Prevent it by being well rested and taking regular breaks" },
@@ -1594,7 +1596,7 @@ export const quiz = [
             {
                 qtnNo: "Q69.",
                 question: "If your brakes fail, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Pump the foot brake several times" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1609,7 +1611,7 @@ export const quiz = [
             {
                 qtnNo: "Q70.",
                 question: "When driving, when should you dip your headlights?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When meeting other traffic." },
                     { id: 2, objective: "B", option: "When following close behind another vehicle." },
@@ -1712,7 +1714,7 @@ export const quiz = [
             {
                 qtnNo: "Q7.",
                 question: "In a collusion, what does a properly adjusted headrest prevent?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Back injuries." },
                     { id: 2, objective: "B", option: "Shoulder injuries" },

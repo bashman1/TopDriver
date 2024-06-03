@@ -42,7 +42,7 @@ export const styles = StyleSheet.create(
 
         },
         marginBottomItemList: {
-            marginBottom:5
+            marginBottom: 5
         },
         marginBottomCar: {
             marginBottom: 10,
@@ -125,7 +125,7 @@ export const styles = StyleSheet.create(
             alignItems: 'flex-start',
             justifyContent: 'space-between',
             marginBottom: 5,
-            paddingHorizontal:10
+            paddingHorizontal: 10
         },
         gridItem: {
             width: '48%',
@@ -139,7 +139,7 @@ export const styles = StyleSheet.create(
             shadowRadius: 6,
             shadowOpacity: 0.26,
             elevation: 8,
-            backgroundColor:"#f5d6d6",
+            backgroundColor: "#fef0e7",
             paddingTop: 20,
             paddingBottom: 20,
             paddingLeft: 10,
@@ -148,7 +148,7 @@ export const styles = StyleSheet.create(
         },
         cardTheories: {
             shadowOpacity: 0.26,
-            backgroundColor:"white",
+            backgroundColor: "white",
             paddingTop: 20,
             paddingBottom: 20,
             paddingLeft: 10,
@@ -160,7 +160,7 @@ export const styles = StyleSheet.create(
             shadowRadius: 2,
             shadowOpacity: 1,
             elevation: 2,
-            backgroundColor:"white",
+            backgroundColor: "white",
             paddingTop: 20,
             paddingBottom: 20,
             paddingLeft: 10,
@@ -173,14 +173,14 @@ export const styles = StyleSheet.create(
             shadowRadius: 0,
             shadowOpacity: 1,
             elevation: 1,
-            backgroundColor:"#fef0e7",
+            backgroundColor: "#fef0e7",
             paddingTop: 20,
             paddingBottom: 20,
             paddingLeft: 10,
             paddingRight: 10,
             borderRadius: 10,
-            androidShadow:{
-                elevation:10
+            androidShadow: {
+                elevation: 10
             }
         },
         cardNew: {
@@ -194,10 +194,10 @@ export const styles = StyleSheet.create(
             paddingBottom: 10,
             borderRadius: 5
         },
-        iconDetails:{
-            alignItems:"center",
-            justifyContent:"center",
-            rowGap:10
+        iconDetails: {
+            alignItems: "center",
+            justifyContent: "center",
+            rowGap: 10
         },
         cardWithoutPadding: {
             shadowColor: 'black',
@@ -324,11 +324,16 @@ export const styles = StyleSheet.create(
             height: 120,
             width: 120,
         },
+        homeScreenIcon2: {
+            height: 120,
+            width: 120,
+            objectFit: 'contain'
+        },
         homeScreenIconNew: {
             height: 100,
             width: 100,
-            objectFit:"contain",
-            marginBottom:10
+            objectFit: "contain",
+            marginBottom: 10
         },
         doctorsThumbnail: {
             width: 60,
@@ -393,9 +398,11 @@ export const styles = StyleSheet.create(
             height: 100,
         },
         pharmacyCatImg: {
-            height: 40,
-            width: 40,
-            overflow: 'hidden'
+            height: 120,
+            width: 120,
+            // alignItems:'center',
+            // overflow: 'hidden',
+            objectFit: 'contain'
         },
         padding10: {
             padding: 10
@@ -414,8 +421,8 @@ export const styles = StyleSheet.create(
             fontSize: 5
         },
         fontSize: {
-                fontSize: 30
-            },
+            fontSize: 30
+        },
         fontSize15: {
             fontSize: 25
         },
@@ -424,18 +431,18 @@ export const styles = StyleSheet.create(
         },
         qtn: {
             fontSize: 25,
-            color:"black"
+            color: "black"
         },
         qtn15: {
             fontSize: 15,
-            color:"black",
-            fontWeight:'bold',
+            color: "black",
+            fontWeight: 'bold',
         },
         qtnChoose: {
             fontSize: 15,
-            color:"black",
-            marginTop:10,
-            marginBottom:40,
+            color: "black",
+            marginTop: 10,
+            marginBottom: 40,
         },
         fontSize12: {
             fontSize: 12
@@ -449,7 +456,7 @@ export const styles = StyleSheet.create(
         textColor: {
             color: "black"
         },
-        questCardContainer: { flex:1,flexDirection: 'row', alignItems: 'center', justifyContent:"space-between", paddingVertical:15, paddingRight:10, paddingLeft:20 },
+        questCardContainer: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: "space-between", paddingVertical: 15, paddingRight: 10, paddingLeft: 20 },
         paddingItemList: {
             paddingVertical: 50
         },
@@ -541,7 +548,7 @@ export const styles = StyleSheet.create(
             alignItems: 'center',
             marginBottom: 10,
         },
-        
+
         itemName: {
             fontSize: 16,
             fontWeight: 'bold',
@@ -591,55 +598,55 @@ export const styles = StyleSheet.create(
             flex: 1,
             alignItems: 'center',
         },
-        fontWeightBold:{
+        fontWeightBold: {
             fontWeight: 'bold',
         },
-            minWidth:{
+        minWidth: {
             minWidth: '44%',
             width: '44%',
-            minHeight:'13%'
+            minHeight: '13%'
         },
-            minWidthHome:{
+        minWidthHome: {
             minWidth: '48%',
             width: '48%',
-            minHeight:'13%'
+            minHeight: '13%'
         },
-        maxWidth:{
+        maxWidth: {
             width: '44%',
             // maxWidth: '44%',
             // minHeight:'18%'
         },
-        textWrap:{
+        textWrap: {
             fontSize: 15,
             textAlign: 'center',
             flexWrap: 'wrap',
-            marginTop:10
+            marginTop: 10
         },
-        textWrap:{
+        textWrap: {
             fontSize: 10,
             textAlign: 'center',
             flexWrap: 'wrap',
-            marginTop:10
+            marginTop: 10
         },
         fullScreenSliderImg: {
             height: 240,
             width: 240,
         },
-        introImg:{
-            height:"100%"
+        introImg: {
+            height: "100%"
         },
-        textJustified:{
+        textJustified: {
             textAlign: 'justify'
         },
-        paymentButtonText:{
-            
+        paymentButtonText: {
+
         },
-        modalContainer:{
+        modalContainer: {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
         },
-        modalCard:{
+        modalCard: {
             backgroundColor: 'white',
             padding: 10,
             alignItems: 'center',
@@ -653,19 +660,44 @@ export const styles = StyleSheet.create(
             paddingBottom: 30,
             elevation: 5,
         },
-        modalImg:{
+        modalImg: {
             width: 100,
             height: 100,
             marginBottom: 10,
         },
-        modalCloseButton:{
+        modalCloseButton: {
             position: 'absolute',
             top: 10,
             right: 10,
             zIndex: 1,
+        },
+        inputContainer: {
+            width: '100%',
+            color: '#808080',
+            // padding: 16,
+        },
+        input: {
+            width: '100%',
+            backgroundColor: '#f0f0f0',
+            color: '#808080',
+            placeholderTextColor: '#808080',
+            padding: 10,
+            borderRadius: 5,
+        },
+        flatListIconContainer: {
+            flex: 1,
+            margin: 5,
+            backgroundColor: '#fff',
+            height: 140,
+            alignContent: 'center',
+            alignItems: 'center',
+            padding: 10,
+            shadowColor: 'black',
+            shadowOffset: { width: 0, height: 2 },
+            shadowRadius: 6,
+            shadowOpacity: 0.26,
+            elevation: 8,
+            borderRadius: 5
         }
-
-
-
     }
 )

@@ -45,8 +45,8 @@ const Intro = (props: any) => {
 const Card = ({item}:any) => {
     return (
       <View style={{flex:1, width:400,marginHorizontal:20, justifyContent:"center", alignItems:"center", paddingTop:20}}>
-        <Text style={[styles.title,{flex:1, textAlign:'center'}]}>{item.title}</Text>
-        <Text style={{textAlign:'center',paddingHorizontal:40, paddingBottom:20,fontSize:16}}>{item.description}</Text>
+        <Text style={[styles.title,{flex:1, textAlign:'center', color:'#808080'}]}>{item.title}</Text>
+        <Text style={{textAlign:'center',paddingHorizontal:40, paddingBottom:20,fontSize:16, color:'#808080'}}>{item.description}</Text>
         <Image style={{flex:1,resizeMode: 'contain',width: 400,height:470,marginBottom:30}}  source={item.img} />
       </View>
     );
