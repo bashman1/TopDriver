@@ -1634,11 +1634,11 @@ export const quiz = [
             {
                 qtnNo: "Q1.",
                 question: "Alcohol is a depressant, what does this mean?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 2, objective: "B", option: "It makes you calm down and think more clearly" },
                     { id: 3, objective: "C", option: "It makes your brain work slower" },
-                    { id: 4, objective: "D", option: "it speeds your brain up so you can work better" },
+                    { id: 4, objective: "A", option: "it speeds your brain up so you can work better" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1647,7 +1647,7 @@ export const quiz = [
             {
                 qtnNo: "Q2.",
                 question: "Why is it dangerous to travel too close to the vehicle ahead?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Your engine will overheat" },
                     { id: 2, objective: "B", option: "Your mirrors will need adjusting" },
@@ -1661,7 +1661,7 @@ export const quiz = [
             {
                 qtnNo: "Q3.",
                 question: "What should you do if your anti-lock brakes (ABS) warning light stays on?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Check the brake-fluid level" },
                     { id: 2, objective: "B", option: "Check the footbrake free play" },
@@ -1687,7 +1687,7 @@ export const quiz = [
             {
                 qtnNo: "Q5.",
                 question: "In wet weather when it comes hard for you to see, you should",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Reaction time" },
                     { id: 2, objective: "B", option: "Road condition" },
@@ -1701,7 +1701,7 @@ export const quiz = [
             {
                 qtnNo: "Q6.",
                 question: "In wet weather when it comes hard for you to see, you should",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Flash your headlights to warn other drivers." },
                     { id: 2, objective: "B", option: "Turn on your headlights, slow down and double your following distance behind the vehicle in front" },
@@ -1742,7 +1742,7 @@ export const quiz = [
             {
                 qtnNo: "Q9.",
                 question: "When can you put on the lights during the day?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "when its foggy." },
                     { id: 2, objective: "B", option: "when its misty" },
@@ -1774,7 +1774,7 @@ export const quiz = [
                     { id: 1, objective: "A", option: "Third party insurance certificate and Driving license" },
                     { id: 2, objective: "B", option: "Comprehensive insurance certificate and third party insurance" },
                     { id: 3, objective: "C", option: "Driving license and Driving Permit" },
-                    { id: 3, objective: "C", option: "Third party insurance certificate and Driving Permit" },
+                    { id: 3, objective: "D", option: "Third party insurance certificate and Driving Permit" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1783,10 +1783,10 @@ export const quiz = [
             {
                 qtnNo: "Q12.",
                 question: "A driver must acquire defensive driving skills which include:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "The knowledge of you and your vehicles capabilities and limitations" },
-                    { id: 2, objective: "B", option: "The ability to survey what is on and near the road" },
+                    { id: 2, objective: "B", option: "Check your mirrors, signal, check your blind spot and then procced." },
                     { id: 3, objective: "C", option: "The capacity to assess potential hazards and their potential impact." },
                     { id: 3, objective: "D", option: "All the above" },
                 ],
@@ -1797,12 +1797,12 @@ export const quiz = [
             {
                 qtnNo: "Q13.",
                 question: "If you are walking along a highway, always walk on the shoulder:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "With the traffic flow." },
                     { id: 2, objective: "B", option: "Facing the traffic flow" },
                     { id: 3, objective: "C", option: "Going in any direction you choose" },
-                    { id: 3, objective: "C", option: "None of the above" },
+                    { id: 3, objective: "D", option: "None of the above" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1837,7 +1837,7 @@ export const quiz = [
             {
                 qtnNo: "Q16.",
                 question: "If you adjust your mirrors properly you will not have to worry about blind spots",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "True" },
                     { id: 2, objective: "B", option: "False" },
@@ -1849,7 +1849,7 @@ export const quiz = [
             {
                 qtnNo: "Q17.",
                 question: "Factors contributing to a vehicles excessive fuel consumption are",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Preventive maintenance, bad driving behaviour" },
                     { id: 2, objective: "B", option: "Defective vehicle, improper maintenance and bad driving behaviour.." },
@@ -1863,7 +1863,7 @@ export const quiz = [
             {
                 qtnNo: "Q18.",
                 question: "The essential procedures to be followed in any vehicles crash or breakdown are:",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Stop immediately and turn off the engine" },
                     { id: 2, objective: "B", option: "Switch on your hazard warning lights" },
@@ -1877,12 +1877,12 @@ export const quiz = [
             {
                 qtnNo: "Q19.",
                 question: "Minor maintenance of a battery involves",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Measuring the voltage across terminals" },
                     { id: 2, objective: "B", option: "Checking of battery terminals, Battery mounting and post for corrosion." },
                     { id: 3, objective: "C", option: "Topping the acid level" },
-                    { id: 3, objective: "C", option: "None of the above is correct" },
+                    { id: 3, objective: "D", option: "None of the above is correct" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1891,12 +1891,12 @@ export const quiz = [
             {
                 qtnNo: "Q20.",
                 question: "A driver should check their mirrors and gauges ____",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Every 5 to 8 seconds." },
                     { id: 2, objective: "B", option: "To make sure another vehicle does't enter into the blind spot behind your vehicle." },
                     { id: 3, objective: "C", option: 'To prevent getting into the "blind stare."' },
-                    { id: 3, objective: "C", option: 'All the above' },
+                    { id: 3, objective: "D", option: 'All the above' },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1905,7 +1905,7 @@ export const quiz = [
             {
                 qtnNo: "Q21.",
                 question: "Chain reaction accidents occur because _______",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "The lead driver has an accident without time to apply their brakes, so the next vehicle has no warning." },
                     { id: 2, objective: "B", option: 'The second driver has failed to scan, check mirrors, and has fallen into a "blind stare."' },
@@ -1919,7 +1919,7 @@ export const quiz = [
             {
                 qtnNo: "Q22.",
                 question: "When are you not allowed to drive despite having the valid required documents?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "When sick and on medication" },
                     { id: 2, objective: "B", option: "When drank with alcohol" },
@@ -1946,12 +1946,12 @@ export const quiz = [
             {
                 qtnNo: "Q24.",
                 question: "When do windscreen pillars cause a serious obstruction to your view?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When youre driving on a motorway." },
                     { id: 2, objective: "B", option: "When youre driving on a dual carriageway" },
                     { id: 3, objective: "C", option: "When youre approaching a one-way street" },
-                    { id: 3, objective: "C", option: "When youre approaching bends and junctions" },
+                    { id: 3, objective: "D", option: "When youre approaching bends and junctions" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1960,12 +1960,12 @@ export const quiz = [
             {
                 qtnNo: "Q25.",
                 question: "When changing lanes, you should?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Signal and then proceed." },
                     { id: 2, objective: "B", option: "Check your mirrors and your blind spot and then proceed." },
                     { id: 3, objective: "C", option: "Check your mirrors, signal, check your blind spot and then proceed" },
-                    { id: 3, objective: "C", option: "Check your mirrors, signal and then proceed" },
+                    { id: 3, objective: "D", option: "Check your mirrors, signal and then proceed" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1974,12 +1974,12 @@ export const quiz = [
             {
                 qtnNo: "Q26.",
                 question: "When conducting a pre-trip inspection, it is better to:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Vary the way you do things so you don't get bored" },
                     { id: 2, objective: "B", option: "Use the same method every time for quicker and more accurate inspections" },
                     { id: 3, objective: "C", option: "Repeat the procedures several times focusing on each individual aspect of the inspection (safety, security, fluids, etc.)" },
-                    { id: 3, objective: "C", option: "Assume that all safety-related features are tip-top)" },
+                    { id: 3, objective: "D", option: "Assume that all safety-related features are tip-top)" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -1988,12 +1988,12 @@ export const quiz = [
             {
                 qtnNo: "Q27.",
                 question: "You see another driver driving in an unsafe manner.What is the most important thing that you can do to avoid being involved in an accident?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Flash your headlights" },
                     { id: 2, objective: "B", option: "Sound your horn" },
                     { id: 3, objective: "C", option: "Use your 4-way flashers" },
-                    { id: 3, objective: "C", option: "Give them the right of way" },
+                    { id: 3, objective: "D", option: "Give them the right of way" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2007,7 +2007,7 @@ export const quiz = [
                     { id: 1, objective: "A", option: "Your brakes may pull unevenly" },
                     { id: 2, objective: "B", option: "Brake effectiveness may be greatly reduced" },
                     { id: 3, objective: "C", option: 'Apply slight brake pressure to "dry out" brakes' },
-                    { id: 3, objective: "C", option: 'All the above' },
+                    { id: 3, objective: "D", option: 'All the above' },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2016,7 +2016,7 @@ export const quiz = [
             {
                 qtnNo: "Q29.",
                 question: "It is illegal to park",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "On a side walk" },
                     { id: 2, objective: "B", option: "On a bridge or in a tunnel" },
@@ -2030,12 +2030,12 @@ export const quiz = [
             {
                 qtnNo: "Q30.",
                 question: "Which is the maximum speed limit in town?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "30 kmph" },
                     { id: 2, objective: "B", option: "50 kmph" },
                     { id: 3, objective: "C", option: "10 kmph" },
-                    { id: 3, objective: "C", option: "20 kmph" },
+                    { id: 3, objective: "D", option: "20 kmph" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2087,7 +2087,7 @@ export const quiz = [
             {
                 qtnNo: "Q34.",
                 question: "The major cause of impatience on our road is choose the best answer",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Smooth and clear roads" },
                     { id: 2, objective: "B", option: "Poor journey planning" },
@@ -2102,12 +2102,12 @@ export const quiz = [
             {
                 qtnNo: "Q35.",
                 question: "Lines along the side of the road show you where the edge of the road is located. A ________ line indicates the right edge of the traffic lane on a road.",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Solid yellow" },
                     { id: 2, objective: "B", option: "Solid white." },
                     { id: 3, objective: "C", option: "Solid green" },
-                    { id: 3, objective: "C", option: "None of these" },
+                    { id: 3, objective: "D", option: "None of these" },
 
                 ],
                 selectedObjective: "",
@@ -2136,7 +2136,7 @@ export const quiz = [
                     { id: 1, objective: "A", option: "You should not accelerate" },
                     { id: 2, objective: "B", option: "You should not warn the driver overtaking you about the traffic police ahead." },
                     { id: 3, objective: "C", option: "You should not put double indication." },
-                    { id: 3, objective: "C", option: "None of the above" },
+                    { id: 3, objective: "D", option: "None of the above" },
 
                 ],
                 selectedObjective: "",
@@ -2179,7 +2179,7 @@ export const quiz = [
                     { id: 1, objective: "A", option: "The steering to pull on one side" },
                     { id: 2, objective: "B", option: "The steering to vibrate" },
                     { id: 3, objective: "C", option: "The brakes to fail." },
-                    { id: 3, objective: "C", option: "The tires to deflate." },
+                    { id: 3, objective: "D", option: "The tires to deflate." },
 
                 ],
                 selectedObjective: "",
@@ -2209,7 +2209,7 @@ export const quiz = [
                     { id: 1, objective: "A", option: "Voluntarily reduce speed or stop to yield" },
                     { id: 2, objective: "B", option: "Honk to drive them away" },
                     { id: 3, objective: "C", option: "Speed up and bypass" },
-                    { id: 3, objective: "C", option: "Reduce speed and use the vehicle to drive them away" },
+                    { id: 3, objective: "D", option: "Reduce speed and use the vehicle to drive them away" },
 
                 ],
                 selectedObjective: "",
@@ -2219,7 +2219,7 @@ export const quiz = [
             {
                 qtnNo: "Q43.",
                 question: "What should you do if you think the driver of the vehicle in front has forgotten to cancel their right indicator?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Flash your lights to alert the driver." },
                     { id: 2, objective: "B", option: "Sound your horn before overtaking." },
@@ -2263,7 +2263,7 @@ export const quiz = [
             {
                 qtnNo: "Q46.",
                 question: "Where does the law require you to stop?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "At the stop sign" },
                     { id: 2, objective: "B", option: "When ordered by the police" },
@@ -2278,7 +2278,7 @@ export const quiz = [
             {
                 qtnNo: "Q47.",
                 question: "Which are the common mistakes made when approaching a round about?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Approaching the roundabout with wrong lane and changing lanes on the roundabout" },
                     { id: 2, objective: "B", option: "Leaving the roundabout in the wrong lane and observing traffic from wrong side" },
@@ -2308,7 +2308,7 @@ export const quiz = [
             {
                 qtnNo: "Q49.",
                 question: 'The Highway Code explains how to use our roads safely. It has been written for',
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Passengers, cyclists, motorcyclists, and drivers." },
                     { id: 2, objective: "B", option: "Pedestrians, cyclists, motorcyclists, and drivers" },
@@ -2338,12 +2338,12 @@ export const quiz = [
             {
                 qtnNo: "Q51.",
                 question: "Q51. On a road designated as one way, which of the following holds true?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Parking is prohibited" },
                     { id: 2, objective: "B", option: "Overtaking is prohibited" },
                     { id: 3, objective: "C", option: "Should not drive in reverse gear" },
-                    { id: 3, objective: "C", option: "Stopping is prohibited" },
+                    { id: 3, objective: "D", option: "Stopping is prohibited" },
 
                 ],
                 selectedObjective: "",
@@ -2368,7 +2368,7 @@ export const quiz = [
             {
                 qtnNo: "Q53.",
                 question: "Youre in a built-up area at night and the road is well lit. Why should you use dipped headlights?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "So that you can see further along the road" },
                     { id: 2, objective: "B", option: "So that you can go at a much faster speed" },
@@ -2412,7 +2412,7 @@ export const quiz = [
             }, {
                 qtnNo: "Q56.",
                 question: "It is important to scan while driving so you can see everything that is happening on the road. What does scanning mean?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "You may enter the box junction if the green light has shown even though it wont clear." },
                     { id: 2, objective: "B", option: "The box junction works independent of the traffic lights" },
@@ -2474,7 +2474,7 @@ export const quiz = [
                 question: "Driving is a _______ not a right.",
                 correctAnswer: "A",
                 suggestions: [
-                    { id: 1, objective: "A", option: "Right" },
+                    { id: 1, objective: "A", option: "Improve grip on the road" },
                     { id: 2, objective: "B", option: "Privilege" },
                     { id: 3, objective: "C", option: "Law" },
                     { id: 4, objective: "D", option: "None of the above" },
@@ -2487,7 +2487,7 @@ export const quiz = [
             {
                 qtnNo: "Q61.",
                 question: "Which of these is an indication that your tyres require replacement ?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When the remaining tread depth is less than 1.6mm" },
                     { id: 2, objective: "B", option: "When the remaining tread depth is higher than the tread wear indicator bars" },
@@ -2515,7 +2515,7 @@ export const quiz = [
             {
                 qtnNo: "Q63.",
                 question: "When can you overtake on the left?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When you want to go straight ahead & the driver in front of you has moved out and signaled that they intend to turn right." },
                     { id: 2, objective: "B", option: "When traffic in both lanes is moving slowly & traffic in the left-hand lane is moving more quickly than the traffic in the right-hand lane" },
@@ -2545,7 +2545,7 @@ export const quiz = [
             {
                 qtnNo: "Q65.",
                 question: "Excessive or uneven tire wear can be caused by faults in which of the following",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Cooling system" },
                     { id: 2, objective: "B", option: "Gearbox" },
@@ -2560,7 +2560,7 @@ export const quiz = [
             {
                 qtnNo: "Q66.",
                 question: "What do signs containing a red circle generally mean?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Providing a warning" },
                     { id: 2, objective: "B", option: "Giving an order" },
@@ -2605,7 +2605,7 @@ export const quiz = [
             {
                 qtnNo: "Q69.",
                 question: "Rectangular road signs provide",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Orders" },
                     { id: 2, objective: "B", option: "Warnings" },
@@ -2644,12 +2644,12 @@ export const quiz = [
                 qtnNo: "Q1.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/red.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
-                    { id: 2, objective: "B", option: "Means Get Ready" },
-                    { id: 3, objective: "C", option: "Means Go" },
-                    { id: 4, objective: "D", option: "Means Stop" },
-                    { id: 5, objective: "E", option: "Means Turn Left" },
+                    { id: 2, objective: "A", option: "Means Get Ready" },
+                    { id: 3, objective: "B", option: "Means Go" },
+                    { id: 4, objective: "C", option: "Means Stop" },
+                    { id: 5, objective: "D", option: "Means Turn Left" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2659,7 +2659,7 @@ export const quiz = [
                 qtnNo: "Q2.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/green.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means Get Ready" },
                     { id: 2, objective: "B", option: "Means Go" },
@@ -2688,7 +2688,7 @@ export const quiz = [
                 qtnNo: "Q4.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/rightindicator.jpg"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means go slow" },
                     { id: 2, objective: "B", option: "Means someone is turning right" },
@@ -2703,7 +2703,7 @@ export const quiz = [
                 qtnNo: "Q5.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/turningleftgo.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means Stop" },
                     { id: 2, objective: "B", option: "Means vehicles turning left are free to go" },
@@ -2717,7 +2717,7 @@ export const quiz = [
                 qtnNo: "Q6.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/motorbikeslowdown.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means Stop" },
                     { id: 2, objective: "B", option: "Means turning right" },
@@ -2731,7 +2731,7 @@ export const quiz = [
                 qtnNo: "Q7.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/turnright_car.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means Slow Down" },
                     { id: 2, objective: "B", option: "We need to talk" },
@@ -2745,7 +2745,7 @@ export const quiz = [
                 qtnNo: "Q8.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/vehiclesfromfrontstop.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "No way through" },
                     { id: 2, objective: "B", option: "Vehicles approaching from front should STOP" },
@@ -2759,7 +2759,7 @@ export const quiz = [
                 qtnNo: "Q9.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/redflashing.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Means Stop" },
                     { id: 2, objective: "B", option: "Railway Crossing Signal" },
@@ -2801,7 +2801,7 @@ export const quiz = [
                 qtnNo: "Q12.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/sidevehiclescome.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Vehicles approaching from the front should COME ON" },
                     { id: 2, objective: "B", option: "Vehicles approaching from the side should COME" },
@@ -2815,7 +2815,7 @@ export const quiz = [
                 qtnNo: "Q13.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/stop.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "It means slow down, defer to oncoming traffic, stop if necessary, and proceed when it's safe to do so." },
                     { id: 2, objective: "B", option: "It means you need to stop." },
@@ -2845,7 +2845,7 @@ export const quiz = [
                 qtnNo: "Q15.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/successivebendtotheleft.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Zig-Zag Road" },
                     { id: 2, objective: "B", option: "Country Lane" },
@@ -2860,12 +2860,12 @@ export const quiz = [
                 qtnNo: "Q16.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/slipperyroad.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Cross Winds." },
                     { id: 2, objective: "B", option: "Risk of Ice" },
-                    { id: 2, objective: "B", option: "Slippery road" },
-                    { id: 2, objective: "B", option: "1 and 2" },
+                    { id: 2, objective: "C", option: "Slippery road" },
+                    { id: 2, objective: "D", option: "1 and 2" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2889,7 +2889,7 @@ export const quiz = [
                 qtnNo: "Q18.",
                 question: "What does the sign below indicate",
                 symbol: require("./assets/quiz_questions/noentryforallvehicles.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Please Stop" },
                     { id: 2, objective: "B", option: "Do not Enter" },
@@ -2919,12 +2919,12 @@ export const quiz = [
                 qtnNo: "Q20.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/twowaytrafficahead.png"),
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Divider ahead - keep right" },
                     { id: 2, objective: "B", option: "Maintain Lanes" },
                     { id: 3, objective: "C", option: 'Straight through only' },
-                    { id: 3, objective: "C", option: 'Two way traffic' },
+                    { id: 3, objective: "D", option: 'Two way traffic' },
                 ],
                 selectedObjective: "",
                 status:""
@@ -2934,7 +2934,7 @@ export const quiz = [
                 qtnNo: "Q21.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/noturnleft.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No Right Turn" },
                     { id: 2, objective: "B", option: 'No Passing' },
@@ -2963,7 +2963,7 @@ export const quiz = [
                 qtnNo: "Q23.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/soundingofhornsirensprohibited.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Do not use mobile phone when driving" },
                     { id: 2, objective: "B", option: "Sounding of horn sirens prohibited" },
@@ -2978,7 +2978,7 @@ export const quiz = [
                 qtnNo: "Q24.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Police Station" },
                     { id: 2, objective: "B", option: "Railway Crossing without barriers" },
@@ -2995,10 +2995,10 @@ export const quiz = [
                 symbol: require("./assets/quiz_questions/directiontobefollowed.png"),
                 correctAnswer: "A",
                 suggestions: [
-                    { id: 1, objective: "A", option: "There is no road to the left" },
+                    { id: 1, objective: "A", option: "Compulsory turn left" },
                     { id: 2, objective: "B", option: "Keep left" },
                     { id: 3, objective: "C", option: "None of these" },
-                    { id: 3, objective: "C", option: "Direction to be followed" },
+                    { id: 3, objective: "D", option: "Direction to be followed" },
                 ],
                 selectedObjective: "",
                 status:""
@@ -3008,7 +3008,7 @@ export const quiz = [
                 qtnNo: "Q26.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/firstaid.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Hospital" },
                     { id: 2, objective: "B", option: "First Aid" },
@@ -3023,7 +3023,7 @@ export const quiz = [
                 qtnNo: "Q27.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/roundabout.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Hospital" },
                     { id: 2, objective: "B", option: "Round About" },
@@ -3038,7 +3038,7 @@ export const quiz = [
                 qtnNo: "Q28.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/dontdrinkanddrive.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Dont text and drive" },
                     { id: 2, objective: "B", option: "Dont Drive and Drink" },
@@ -3053,7 +3053,7 @@ export const quiz = [
                 qtnNo: "Q29.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/fillingstation.png"),
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Workshop" },
                     { id: 2, objective: "B", option: "No Road Through" },
@@ -3068,7 +3068,7 @@ export const quiz = [
                 qtnNo: "Q30.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/hotel.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Hospital" },
                     { id: 2, objective: "B", option: "Hotel" },
@@ -3083,7 +3083,7 @@ export const quiz = [
                 qtnNo: "Q31.",
                 question: "What does the sign below indicate?",
                 symbol: require("./assets/quiz_questions/entryforbiddentoallbicycles.png"),
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "No entry" },
                     { id: 2, objective: "B", option: "Entry forbidden to all bicycles" },
@@ -3098,12 +3098,12 @@ export const quiz = [
                 qtnNo: "Q32.",
                 symbol: require("./assets/quiz_questions/hazardahead.png"),
                 question: "What does the sign below indicate?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Information" },
                     { id: 2, objective: "B", option: "Hazard ahead" },
                     { id: 3, objective: "C", option: "For your information" },
-                    { id: 3, objective: "C", option: "None of the above" },
+                    { id: 3, objective: "D", option: "None of the above" },
 
                 ],
                 selectedObjective: "",
@@ -3123,7 +3123,7 @@ export const quiz = [
                 qtnNo: "Q1.",
                 question: "This road sign means?.",
                 symbol: require("./assets/quiz_questions/nationalspeetlimit.png"),
-                correctAnswer: "A",
+                correctAnswer: "E",
                 suggestions: [
                     { id: 2, objective: "B", option: "No stopping" },
                     { id: 3, objective: "C", option: "No road access" },
@@ -3137,7 +3137,7 @@ export const quiz = [
             qtnNo:"Q2.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/goaheadonly.png"),
-            correctAnswer:"A",
+            correctAnswer:"B",
             suggestions:[
                 {id:1, objective:"A", option: "One-way street"},
                 {id:2, objective:"B", option: "Ahead only"},
@@ -3163,7 +3163,7 @@ export const quiz = [
             qtnNo:"Q4.",
             question:"What best describes this sign?.",
             symbol:require("./assets/quiz_questions/lanecrossescarriageway.png"),
-            correctAnswer:"A",
+            correctAnswer:"B",
             suggestions:[
                 {id:1, objective:"A", option: "Road works, right lane leaves carriageway, maximum speed 30kph"},
                 {id:2, objective:"B", option: "Primary route road works, one lane crosses carriageway, 30kph advisory"},
@@ -3177,12 +3177,12 @@ export const quiz = [
             qtnNo:"Q5.",
             question:"What does the road sign ,mean?.",
             symbol:require("./assets/quiz_questions/no_pedal_bike.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Parking place for pedal cycles only"},
                 {id:2, objective:"B", option: "Pedal cycle route crossing or joining road ahead"},
                 {id:3, objective:"C", option: "Cyclists only"},
-                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
+                {id:3, objective:"D", option: "Riding of pedal cycles prohibited"},
             ],
             selectedObjective:""
     
@@ -3191,12 +3191,12 @@ export const quiz = [
             qtnNo:"Q6.",
             question:"White zigzag lines are used at?.",
             symbol:require("./assets/quiz_questions/zigzagline.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Pedestrian crossings to warn motorists of the hazard ahead"},
                 {id:2, objective:"B", option: "Outside of schools to inform motorists not to park"},
                 {id:3, objective:"C", option: "Pedestrian crossings to inform motorists not to park"},
-                {id:3, objective:"C", option: "Riding of pedal cycles prohibited"},
+                {id:3, objective:"D", option: "Riding of pedal cycles prohibited"},
             ],
             selectedObjective:""
     
@@ -3218,12 +3218,12 @@ export const quiz = [
             qtnNo:"Q8.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/one_way_traffic.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Road merging into single lane ahead"},
                 {id:2, objective:"B", option: "Motorway ahead Keep straight"},
                 {id:3, objective:"C", option: "Left or right turns prohibited"},
-                {id:3, objective:"C", option: "One-way traffic"},
+                {id:3, objective:"D", option: "One-way traffic"},
             ],
             selectedObjective:""
     
@@ -3232,12 +3232,12 @@ export const quiz = [
             qtnNo:"Q9.",
             question:"Blue circular road signs mostly give:.",
             symbol:require("./assets/quiz_questions/mandatory_information.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Information"},
                 {id:2, objective:"B", option: "Directions"},
                 {id:3, objective:"C", option: "Warning of hazards"},
-                {id:3, objective:"C", option: "Postive and/or mandatory instruction."},
+                {id:3, objective:"D", option: "Postive and/or mandatory instruction."},
             ],
             selectedObjective:""
     
@@ -3246,7 +3246,7 @@ export const quiz = [
             qtnNo:"Q10.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/minorroadfromleft.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Give way to traffic on right"},
                 {id:2, objective:"B", option: "Traffic merging from right"},
@@ -3260,7 +3260,7 @@ export const quiz = [
             qtnNo:"Q11.",
             question:"What does this sign mean?.",
             symbol:require("./assets/quiz_questions/separates_opposite_flows.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Used to separate opposing flow lanes on a dual carriageway."},
                 {id:2, objective:"B", option: "Dedicated lane for motorcyclists only"},
@@ -3274,7 +3274,7 @@ export const quiz = [
             qtnNo:"Q12.",
             question:"The above light on the dash board means..",
             symbol:require("./assets/quiz_questions/abs-warning-light.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Check the vehicle traction system"},
                 {id:2, objective:"B", option: "Check the vehicle locking braking system"},
@@ -3287,7 +3287,7 @@ export const quiz = [
             qtnNo:"Q13.",
             question:"What does this signal mean?.",
             symbol:require("./assets/quiz_questions/vehiclesfromfrontcome.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Traffic approaching from the front must stop."},
                 {id:2, objective:"B", option: "Traffic approaching from the front may proceed."},
@@ -3301,7 +3301,7 @@ export const quiz = [
             qtnNo:"Q14.",
             question:"What is this road sign warning drivers of?.",
             symbol:require("./assets/quiz_questions/loosesurfaceroads.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Roadworks ahead"},
                 {id:2, objective:"B", option: "Risk of aquaplaning"},
@@ -3329,12 +3329,12 @@ export const quiz = [
             qtnNo:"Q16.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/passeitherside.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Road divides into two lanes"},
                 {id:2, objective:"B", option: "Choose your lane"},
-                {id:2, objective:"B", option: "Vehicles may pass either side to reach same destination"},
-                {id:2, objective:"B", option: "Stay in lane"},
+                {id:2, objective:"C", option: "Vehicles may pass either side to reach same destination"},
+                {id:2, objective:"D", option: "Stay in lane"},
             ],
             selectedObjective:""
     
@@ -3343,12 +3343,12 @@ export const quiz = [
             qtnNo:"Q17.",
             question:"What is the meaning of this road sign?.",
             symbol:require("./assets/quiz_questions/no_motorvehicle_permitted.png"),
-            correctAnswer:"A",
+            correctAnswer:"B",
             suggestions:[
                 {id:1, objective:"A", option: "No overtaking"},
                 {id:2, objective:"B", option: "No motor vehicles permitted"},
                 {id:3, objective:"C", option: "Only cars and motorcycles permitted"},
-                {id:3, objective:"C", option: "No parking"},
+                {id:3, objective:"D", option: "No parking"},
             ],
             selectedObjective:""
     
@@ -3357,7 +3357,7 @@ export const quiz = [
             qtnNo:"Q18.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/two-way-traffic-sign-on-route-crossing-ahead.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Road splits ahead"},
                 {id:2, objective:"B", option: "No left or right turns"},
@@ -3385,7 +3385,7 @@ export const quiz = [
             qtnNo:"Q20.",
             question:"which vehicle in the diagram should give way?.",
             symbol:require("./assets/quiz_questions/pic1.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Vehicle P"},
                 {id:2, objective:"B", option: "Maintain LanesVehicle 0"},
@@ -3411,7 +3411,7 @@ export const quiz = [
             qtnNo:"Q22.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/priorityoveroncomingvehicles.png"),
-            correctAnswer:"A",
+            correctAnswer:"B",
             suggestions:[
                 {id:1, objective:"A", option: "One way traffic only"},
                 {id:2, objective:"B", option: "Priority over oncoming vehicles"},
@@ -3424,7 +3424,7 @@ export const quiz = [
             qtnNo:"Q23.",
             question:"This warning sign is informing drivers of:-.",
             symbol:require("./assets/quiz_questions/slipperyroad.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Wet conditions ahead"},
                 {id:2, objective:"B", option: "Uneven road surface ahead"},
@@ -3438,7 +3438,7 @@ export const quiz = [
             qtnNo:"Q24.",
             question:"What is the meaning of the Police sign provided above?.",
             symbol:require("./assets/quiz_questions/frontandbehindstop.png"),
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "STOP Traffic approaching from the front"},
                 {id:2, objective:"B", option: "STOP Traffic approaching from behind"},
@@ -3452,12 +3452,12 @@ export const quiz = [
             qtnNo:"Q25.",
             question:"What does this road sign mean?.",
             symbol:require("./assets/quiz_questions/giveproiritytooncoming.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "One-way traffic only"},
                 {id:2, objective:"B", option: "Oncoming traffic must give way"},
                 {id:3, objective:"C", option: "Give priority to oncoming traffic"},
-                {id:3, objective:"C", option: "Two-way traffic ahead"},
+                {id:3, objective:"D", option: "Two-way traffic ahead"},
             ],
             selectedObjective:""
     
@@ -3480,12 +3480,12 @@ export const quiz = [
             qtnNo:"Q27.",
             question:"What is this road sign warning road users of?.",
             symbol:require("./assets/quiz_questions/roundabout.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Hump back bridges ahead"},
                 {id:2, objective:"B", option: "Steep hills ahead"},
                 {id:3, objective:"C", option: "Uneven road"},
-                {id:3, objective:"C", option: "Speed bumps in road"},
+                {id:3, objective:"D", option: "Speed bumps in road"},
             ],
             selectedObjective:""
     
@@ -3508,7 +3508,7 @@ export const quiz = [
             qtnNo:"Q29.",
             question:"Explain what this road sign means?.",
             symbol:require("./assets/quiz_questions/overtakingofvehiclesisprohibited.png"),
-            correctAnswer:"A",
+            correctAnswer:"B",
             suggestions:[
                 {id:1, objective:"A", option: "No double parking"},
                 {id:2, objective:"B", option: "No overtaking"},
@@ -3522,7 +3522,7 @@ export const quiz = [
             qtnNo:"Q30.",
             question:"What should a driver do when approaching traffic lights that change from green to amber?.",
             symbol:require("./assets/quiz_questions/approachingtraffic.png"),
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Accelerate to clear the junction."},
                 {id:2, objective:"B", option: "Sound the horn while proceeding through the junction."},
@@ -3550,12 +3550,12 @@ export const quiz = [
             qtnNo:"Q32.",
             symbol:require("./assets/quiz_questions/highwaycarriage.png"),
             question:"Where would these road markings be located?.",
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "One-way streets"},
                 {id:2, objective:"B", option: "Level / railway crossings"},
                 {id:3, objective:"C", option: "Highway and dual carriageways"},
-                {id:3, objective:"C", option: "Zebra crossings"},
+                {id:3, objective:"D", option: "Zebra crossings"},
                 
             ],
             selectedObjective:""
@@ -3565,12 +3565,12 @@ export const quiz = [
             qtnNo:"Q33.",
             symbol:require("./assets/quiz_questions/44heightprohibited.png"),
             question:"What does this road sign mean?.",
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Vehicles over 4.4 metres (14 foot 6 inches) in length prohibited"},
                 {id:2, objective:"B", option: "Height restriction warning sign"},
                 {id:3, objective:"C", option: "Vehicles over 4.4 metres (14 foot 6 inches) in height prohibited"},
-                {id:3, objective:"C", option: "High winds! Risk to vehicles exceeding height shown"},
+                {id:3, objective:"D", option: "High winds! Risk to vehicles exceeding height shown"},
                 
             ],
             selectedObjective:""
@@ -3580,12 +3580,12 @@ export const quiz = [
             qtnNo:"Q34.",
             symbol:require("./assets/quiz_questions/railwaycrossingwithoutbarriers.png"),
             question:"What is this sign warning road users of?.",
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Railway crossing ahead with barrier or gate"},
                 {id:2, objective:"B", option: "Trams crossing ahead"},
                 {id:3, objective:"C", option: "Train station ahead"},
-                {id:3, objective:"C", option: "Railway crossing ahead without barrier or gate"},
+                {id:3, objective:"D", option: "Railway crossing ahead without barrier or gate"},
                 
             ],
             selectedObjective:""
@@ -3595,12 +3595,12 @@ export const quiz = [
             qtnNo:"Q35.",
             symbol:require("./assets/quiz_questions/highwaycarriage.png"),
             question:"Rectangular road signs provide.",
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Orders"},
                 {id:2, objective:"B", option: "Warnings"},
                 {id:3, objective:"C", option: "Information and directions"},
-                {id:3, objective:"C", option: "Details of a hazard ahead"},
+                {id:3, objective:"D", option: "Details of a hazard ahead"},
                 
             ],
             selectedObjective:""
@@ -3630,7 +3630,7 @@ export const quiz = [
                 {id:1, objective:"A", option: "Road narrows both sides"},
                 {id:2, objective:"B", option: "End of dual carriageway"},
                 {id:3, objective:"C", option: "Two-way traffic ahead"},
-                {id:3, objective:"C", option: "Single lane ahead"},
+                {id:3, objective:"D", option: "Single lane ahead"},
                 
             ],
             selectedObjective:""
@@ -3655,12 +3655,12 @@ export const quiz = [
             qtnNo:"Q39.",
             symbol:require("./assets/quiz_questions/keepleft.png"),
             question:"What does this road sign mean?.",
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "Turn left"},
                 {id:2, objective:"B", option: "Take the next exit"},
                 {id:3, objective:"C", option: "Services on left Keep left"},
-                {id:3, objective:"C", option: "Keep left"},
+                {id:3, objective:"D", option: "Keep left"},
                 
             ],
             selectedObjective:""
@@ -3675,7 +3675,7 @@ export const quiz = [
                 {id:1, objective:"A", option: "Slow down and be prepared to wait"},
                 {id:2, objective:"B", option: "Make the lorry wait for you"},
                 {id:3, objective:"C", option: "Flash your lights at the lorry"},
-                {id:3, objective:"C", option: "Move to the right-hand side of the road"},
+                {id:3, objective:"D", option: "Move to the right-hand side of the road"},
                 
             ],
             selectedObjective:""
@@ -3685,12 +3685,12 @@ export const quiz = [
             qtnNo:"Q41.",
             symbol:require("./assets/quiz_questions/carreverse.png"),
             question:"What should you do if the vehicle starts reversing into the driveway?.",
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Move to the opposite side of the road"},
                 {id:2, objective:"B", option: "Drive through as you have priority"},
                 {id:3, objective:"C", option: "Sound your horn and be prepared to stop"},
-                {id:3, objective:"C", option: "Speed up and drive through quickly"},
+                {id:3, objective:"D", option: "Speed up and drive through quickly"},
                 
             ],
             selectedObjective:""
@@ -3700,12 +3700,12 @@ export const quiz = [
             qtnNo:"Q42.",
             symbol:require("./assets/quiz_questions/childrencrossing.png"),
             question:"What does this road sign mean?.",
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "Pedestrian crossing ahead"},
                 {id:2, objective:"B", option: "Sign warning pedestrians of busy road ahead"},
                 {id:3, objective:"C", option: "School crossing patrol ahead"},
-                {id:3, objective:"C", option: "Pedestrianized area - no vehicles permitted"},
+                {id:3, objective:"D", option: "Pedestrianized area - no vehicles permitted"},
                 
             ],
             selectedObjective:""
@@ -3715,12 +3715,12 @@ export const quiz = [
             qtnNo:"Q43.",
             symbol:require("./assets/quiz_questions/yellowlines.png"),
             question:"The yellow criss-cross lines on roads inform?.",
-            correctAnswer:"A",
+            correctAnswer:"D",
             suggestions:[
                 {id:1, objective:"A", option: "A motorist that the yellow box area must be kept clear at all times"},
                 {id:2, objective:"B", option: "May enter the yellow box only when their traffic light turns to green"},
                 {id:3, objective:"C", option: "Motorists they are entering a tram crossing area"},
-                {id:3, objective:"C", option: "keep the junction clear for crossing traffic, motorists must enter yellow box area if their exit is clear"},
+                {id:3, objective:"D", option: "keep the junction clear for crossing traffic, motorists must enter yellow box area if their exit is clear"},
                 
             ],
             selectedObjective:""
@@ -3730,7 +3730,7 @@ export const quiz = [
             qtnNo:"Q44.",
             symbol:require("./assets/quiz_questions/narrowbridgeahead.png"),
             question:"what is the meaning of the above road sign?.",
-            correctAnswer:"A",
+            correctAnswer:"C",
             suggestions:[
                 {id:1, objective:"A", option: "it is a warning sign that there is a narrow road ahead."},
                 {id:2, objective:"B", option: "It is a warning sign that there is a bridge ahead"},
@@ -3750,7 +3750,7 @@ export const quiz = [
                 {id:1, objective:"A", option: "Give way to traffic from the left"},
                 {id:2, objective:"B", option: "Stop at the line"},
                 {id:3, objective:"C", option: "Give way to traffic from the right"},
-                {id:3, objective:"C", option: "Continue ahead as other traffic must give way to you"},
+                {id:3, objective:"D", option: "Approaching round about"},
                 
             ],
             selectedObjective:""
