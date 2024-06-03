@@ -385,6 +385,7 @@ export const quiz = [
                 correctAnswer: "A",
                 suggestions: [
                     { id: 2, objective: "A", option: "A person who knows how operates a vehicle on the road." },
+                    { id: 2, objective: "B", option: "Any person who knows how to operate a vehicle on the road." },
                     { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
