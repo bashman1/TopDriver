@@ -61,11 +61,10 @@ const ResultsScreen = ({ navigation, route }: any) => {
             return (
                 <>
                  <View key={index} style={styles.questionContainer}>
-                    <Text style={styles.questionText}>{item.qtnNo} - {item.question}</Text>
+                    <Text style={[styles.questionText, {color:'#808080'}]}>{item.qtnNo} - {item.question}</Text>
                     <Text style={[styles.answerText, wrongOption && { color: 'red' }, correctOption && { color: 'green' }]}>
                         Ans -  {correctOption ? correctOption.option : wrongOption.option}
                     </Text>
-
                 </View>
                 </>
                

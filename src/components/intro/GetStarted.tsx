@@ -55,19 +55,19 @@ const Card = () => {
       <>
         {getStarted.map(item =>
             <View style={{flex:1, width:'100%'}}>
-                <Text style={[styles.title,{flex:1, textAlign:'center'}]}>{item.title}</Text>
-                <Text style={{textAlign:'center',paddingHorizontal:50, paddingBottom:20,fontSize:16}}>{item.description}</Text>
+                <Text style={[styles.title,{flex:1, textAlign:'center', color:'#808080'}]}>{item.title}</Text>
+                <Text style={{textAlign:'center',paddingHorizontal:50, paddingBottom:20,fontSize:16, color:'#808080'}}>{item.description}</Text>
                 <View>
                 {
                     item.details.map(obj =>     
                         <View style={{flex:1}}>
-                             <Text style={{textAlign:'center',paddingHorizontal:50, paddingBottom:20,fontSize:16,marginTop:40}}>{obj.detailsTitle}</Text>
+                             <Text style={{textAlign:'center',paddingHorizontal:50, paddingBottom:20,fontSize:16,marginTop:40, color:'#808080'}}>{obj.detailsTitle}</Text>
                              
                              <View style={{flexDirection:'row',flex:1,alignItems:'center'}}>
                                 {obj.iconsDescription.map(iconDes => 
                                     <View style={{justifyContent:'center',alignItems:'center',flex:1, rowGap:10}}>
                                         <Image style={{flex:1,resizeMode: 'contain',width: 100,height:100}}  source={iconDes.img} />
-                                        <Text style={{flex:1,textAlign:'center', paddingBottom:20,fontSize:12,width:'100%'}}>{iconDes.text}</Text>
+                                        <Text style={{flex:1,textAlign:'center', paddingBottom:20,fontSize:12,width:'100%', color:'#808080'}}>{iconDes.text}</Text>
                                     </View>
                             )}
                             </View>

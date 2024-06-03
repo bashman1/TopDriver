@@ -16,6 +16,7 @@
     "splash":"react-native generate-bootsplash  src/assets/Topdriverlogo.png --platforms=android,ios,web   --background=#7F1416  --logo-width=200  --assets-output=assets  --flavor=main --html=index.html",
     "icon": "npx icon-set-creator create -b '#ffffff' src/assets/appIcon.png",
     "cleanCache": "cd android && ./gradlew cleanBuildCache",
+    "cache": "npm start -- --reset-cache",
     "test": "jest"
   },
   "dependencies": {

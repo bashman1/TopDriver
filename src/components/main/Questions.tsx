@@ -88,7 +88,7 @@ const Questions = ({ navigation, route }: any) => {
                                     onPress={(event) => showNextQtn(event, sug.objective, element.qtnsList[nextQtnIndex].qtnNo)}
                                 >
                                     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                        <Text style={[styles.fontWeightBold, styles.fontSize15]}>{sug.option}</Text>
+                                        <Text style={[styles.fontWeightBold, styles.fontSize15, {color:'#808080'}]}>{sug.option}</Text>
                                     </View>
                                 </TouchableOpacity>
                             ))}
