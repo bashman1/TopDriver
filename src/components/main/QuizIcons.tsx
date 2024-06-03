@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, TouchableOpacity, Text, Button, ScrollView, Appearance } from 'react-native';
+import { View, Image, TouchableOpacity, FlatList, Text, Button, ScrollView, Appearance } from 'react-native';
 import { styles } from '../../styles/Styles';
 import { Dimensions } from "react-native";
 import { appColor } from '../../services/CommonService'
@@ -45,13 +45,39 @@ const QuizIcons = (props: any) => {
     }, []);
 
     return (
-        <ScrollView style={styles.backgroundWhite}>
+        <View style={styles.backgroundWhite}>
             <View style={styles.padding}>
                 <View style={styles.marginBottom10}>
                     <Text style={[styles.healthPalBlue, styles.title]}>Tap to see the answer</Text>
                 </View>
             </View>
-            <View style={styles.gridContainer}>
+
+
+
+            <FlatList
+                style={{ margin: 5 }}
+                data={items}
+                numColumns={2}
+                keyExtractor={(item, index) => item.id}
+                renderItem={({ item, index }) => (
+                    <TouchableOpacity key={item.id} style={styles.flatListIconContainer} onPress={() => { toggleModal(item) }}>
+                        <Image style={[styles.pharmacyCatImg, styles.marginBottom10]} key={index} source={item.img} />
+                    </TouchableOpacity>
+                )}
+            />
+
+
+            {/* <View style={styles.marginBottom}> */}
+
+            {/* <FlatList style={{ margin: 5 }}
+                    data={items}
+                    numColumns={3}
+                    keyExtractor={(item, index) => item.id}
+                    renderItem={(item, index) => <View key={item.id}><Text style={{ color:'#000' }}>{item.img}</Text></View>}
+                /> */}
+            {/* </View> */}
+
+            {/* <View style={styles.gridContainer}>
                 {
                     items.map((element: any, i) =>
                         <View style={[styles.categoryItem, styles.marginBottom10]}>
@@ -61,19 +87,19 @@ const QuizIcons = (props: any) => {
                         </View>
                     )
                 }
-            </View>
+            </View> */}
             <Modal isVisible={isModalVisible}>
                 <View style={styles.modalContainer}>
                     <View style={styles.modalCard}>
                         <Image style={styles.modalImg} source={selectedItem?.img} />
                         <Text style={[styles.healthPalBlue, styles.itemCenter]}>{selectedItem?.name}</Text>
                         <TouchableOpacity style={styles.modalCloseButton}>
-                            <IonIcon  name="close-sharp" color={'black'} onPress={() => { toggleModal({}) }} size={25} />
+                            <IonIcon name="close-sharp" color={'black'} onPress={() => { toggleModal({}) }} size={25} />
                         </TouchableOpacity>
                     </View>
                 </View>
             </Modal>
-        </ScrollView>
+        </View>
     )
 
 }

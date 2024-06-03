@@ -102,6 +102,7 @@ export const menu = [
     { id: 5, component: "Home", param: "QUIZ", navigateTo: "quiz", indicator: 'HOME_MENU', type: 'community', icon: "gavel", name: "Quiz" },
     { id: 6, component: "Home", param: "SETTINGS", navigateTo: "settings", indicator: 'HOME_MENU', type: 'ionic', icon: "settings-sharp", name: "Settings" },
     { id: 7, component: "IconsPage", param: "MANDATORY_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Mandatory Signs" },
+
     { id: 8, component: "IconsPage", param: "WARNING_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Warning Signs" },
     { id: 9, component: "IconsPage", param: "INFORMATION_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Information Signs" },
     { id: 10, component: "IconsPage", param: "ROADWORKS_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Roadworks Signs" },
@@ -132,7 +133,7 @@ export const menu = [
     { id: 35, component: "TheoryDetails", param: "REPLACE_HEADLIGHTS_OR_LIGHTS", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Replace headlights or taillights" },
     { id: 36, component: "TheoryDetails", param: "CHANGE_WIPER_BLADES", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change wiper blades" },
     { id: 37, component: "TheoryDetails", param: "CHANGE_THE_BATTERY", navigateTo: "", indicator: 'BASIC_MECHANICS', type: 'ionic', icon: "", name: "Change the battery" },
-    { id: 38, name: "Practice Quiz One (164 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
+    { id: 38, name: "Practice Quiz One (225 signs)", indicator: "QUIZ", param: "PRACTICE_QUIZ_1", description: "Have you learnt all the different road signs and symbols, use this quiz to test yourself." },
     { id: 39, name: "Practice Quiz Two A (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2A", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 40, name: "Practice Quiz Two B (70 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_2B", description: "This quiz covers the general knowledge you should have as a licensed driver." },
     { id: 41, name: "Practice Quiz Three A (32 qns)", indicator: "QUIZ", param: "PRACTICE_QUIZ_3A", description: "This quiz covers some of different traffic signals and signs that you will meet on the road." },
@@ -192,182 +193,181 @@ export const iconImg = [
     { id: 50, indicator: 'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/turnleftahead.png"), name: "Turn left ahead" },
     { id: 51, indicator: 'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/turnrightahead.png"), name: "Turn right ahead" },
     { id: 52, indicator: 'MANDATORY_SIGNS', img: require("./assets/mandatory_signs/vehiclestravelstrightorturnright.png"), name: "Vehicle travel straight or turn" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/airport.png"), name: "Airpot" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/breakdownservice.png"), name: "Break down service" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/busstop.png"), name: "Bus stop" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/campingorcaravansite.png"), name: "Camping or caravan site" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/campsite.png"), name: "Camp site" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/caravansite.png"), name: "Caravan site" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/controlledparkingzone.png"), name: "Controlled parking" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofextralane.png"), name: "End of Extra lane" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endoffreewaymotorway.png"), name: "End of freeway  motorway" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofmeterzone.png"), name: "End of meter zone" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofpriorityroad.png"), name: "End of priority road" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/ferry.png"), name: "Ferry" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/fillingstation.png"), name: "Filling station" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/firstaid.png"), name: "First Aid" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/freeway.png"), name: "Free motorway" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hospital.png"), name: "Hospital" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hotel.png"), name: "Hotel" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hump.png"), name: "Hump" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/information.png"), name: "Information" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/noroadthrough.png"), name: "No road through" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroad.png"), name: "No through road straight" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadontheleft.png"), name: "No through road on the left" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadontheright.png"), name: "No through road on the right" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadstraightahead.png"), name: "No through road straight ahead" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/onewayroad.png"), name: "One way road" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/parking.png"), name: "Parking" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/pedestrianscrossing.png"), name: "Pedestrians Crossing" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/policestation.png"), name: "Police station" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/priorityoveroncomingvehicles.png"), name: "Priority over coming vechicles" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/priorityroad.png"), name: "Priority Road" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/refreshment.png"), name: "Refreshment" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/restarea.png"), name: "Rest Area" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/restaurant.png"), name: "Restaurant" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/telephone.png"), name: "Telephone" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/workshop.png"), name: "Workshop" },
-    { id: 52, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/zebracrossing.png"), name: "Zebra Crossing" },
-    { id: 52, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/barricade.png"), name: "Barricade, No entry" },
-    { id: 52, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/changelane.png"), name: "Change Lane" },
-    { id: 52, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/laneclosed.png"), name: "Lane Closed" },
-    { id: 52, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/roadworks.png"), name: "Roadworks" },
-    { id: 52, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/trafficcontrolahead.png"), name: "Traffic control ahead" },
-    { id: 52, indicator: 'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/singleuncontrolled.png"), name: "Single Uncontrolled" },
-    { id: 52, indicator: 'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/stopline.png"), name: "Stop Line" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelaneguiding.png"), name: "Centre lane marking" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelinemarking.png"), name: "Centre lane marking" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/chevronmarkingdiverging.png"), name: "Chevron marking" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/chevronmarkingemerging.png"), name: "Chevron marking" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/deflectionarrowmoveinthedirectionofthearrow.png"), name: "Deflection arrow-move in" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/divergearrowaheadofleftturnlane.png"), name: "Diverge arrow ahad of left" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/divergearrowaheadofrightturnlane.png"), name: "Diverge arrow ahad of right" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way1.jpg"), name: "Give way to traffic" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way2.jpg"), name: "Give way to traffic" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way3.jpg"), name: "Give way to traffic" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way4.jpg"), name: "Stop line at signals or police" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way5.jpg"), name: "Stop line for pedestrians" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way6.jpg"), name: "Stop line for pedestrians" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way7.jpg"), name: "A borken white line marks" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way8.jpg"), name: "Longer broken white lines" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way9.jpg"), name: "Double solid white lines" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way10.jpg"), name: "If travelling in the left-hand" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/giveway.png"), name: "Give way" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadonly.png"), name: "Lane arrow ahead only" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadorturnleft.png"), name: "Lane arrow ahead or turn left" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadorturnright.png"), name: "Lane arrow ahead or turn right" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowturnleft.png"), name: "Lane arrow turn left" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowturnright.png"), name: "Lane arrow turn right" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanemarkingdualormulti.png"), name: "Lane marking Dual/Multi" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/parkingbay.png"), name: "Parking bay" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/Picture%201.png"), name: "Stop" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/solidline.png"), name: "Solid line-No crossing" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/speedlimitmarking.png"), name: "Speed limit marking" },
-    { id: 52, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/stop.png"), name: "Stop" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/brokenline.png"), name: "Broken Driving Line (You may" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/climbinglane.png"), name: "Climbing lane a) slow moving" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continousandbrokendividingline.png"), name: "Continous and broken driving" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continousdividingline.png"), name: "Continous Driving Line" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continuityline.png"), name: "Continuity Line (Marks the edge)" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/doublecontinousdividingline.png"), name: "Double Continuous" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/noparking.png"), name: "No parking Line" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/standardedgeline.png"), name: "Standard Edge line" },
-    { id: 52, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/zigzagline.png"), name: "ZIG ZAG Marking" },
-    { id: 53, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/beginningofdualcarriageroad.png"), name: "Road widens ahead" },
-    { id: 54, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/bendleft.png"), name: "Bend left" },
-    { id: 55, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/bendright.png"), name: "Bend right" },
-    { id: 56, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/carriagewaynarrowsbothsides.png"), name: "Carriage way narrows both" },
-    { id: 57, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/cattlecrossingahead.png"), name: "Cattle crossing ahead" },
-    { id: 58, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/childrencrossing.png"), name: "Children crossing" },
-    { id: 59, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/crossingwind.png"), name: "Crossing wind" },
-    { id: 60, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/cyclist.png"), name: "Cyclist" },
-    { id: 61, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/dangeroffallingrocksahead.png"), name: "Danger of falling rocks" },
-    { id: 62, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/electriccablesahead.png"), name: "Electric cable" },
-    { id: 63, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/endofdualcarriageroad.png"), name: "End of dual carriage road" },
-    { id: 64, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/ferryahead.png"), name: "Ferry ahead" },
-    { id: 65, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/give_way.png"), name: "Give way" },
-    { id: 66, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/hazardahead.png"), name: "Hazard ahead" },
-    { id: 67, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/humbbridgeahead.png"), name: "Hump bridge ahead" },
-    { id: 68, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/junctionahead.png"), name: "Junction ahead stop" },
-    { id: 69, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/junctionaheadofaccelerationlanewithroadfromtherigh.png"), name: "Junction ahead of acceleration" },
-    { id: 70, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/loosesurfaceroads.png"), name: "Loose surface road" },
-    { id: 71, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/lowflyingaircraftcrossingahead.png"), name: "Lower flying aircraft" },
+    { id: 53, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/airport.png"), name: "Airpot" },
+    { id: 54, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/breakdownservice.png"), name: "Break down service" },
+    { id: 55, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/busstop.png"), name: "Bus stop" },
+    { id: 56, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/campingorcaravansite.png"), name: "Camping or caravan site" },
+    { id: 57, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/campsite.png"), name: "Camp site" },
+    { id: 58, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/caravansite.png"), name: "Caravan site" },
+    { id: 59, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/controlledparkingzone.png"), name: "Controlled parking" },
+    { id: 60, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofextralane.png"), name: "End of Extra lane" },
+    { id: 61, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endoffreewaymotorway.png"), name: "End of freeway  motorway" },
+    { id: 62, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofmeterzone.png"), name: "End of meter zone" },
+    { id: 63, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/endofpriorityroad.png"), name: "End of priority road" },
+    { id: 64, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/ferry.png"), name: "Ferry" },
+    { id: 65, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/fillingstation.png"), name: "Filling station" },
+    { id: 66, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/firstaid.png"), name: "First Aid" },
+    { id: 67, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/freeway.png"), name: "Free motorway" },
+    { id: 68, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hospital.png"), name: "Hospital" },
+    { id: 69, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hotel.png"), name: "Hotel" },
+    { id: 70, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/hump.png"), name: "Hump" },
+    { id: 71, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/information.png"), name: "Information" },
+    { id: 72, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/noroadthrough.png"), name: "No road through" },
+    { id: 73, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroad.png"), name: "No through road straight" },
+    { id: 74, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadontheleft.png"), name: "No through road on the left" },
+    { id: 75, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadontheright.png"), name: "No through road on the right" },
+    { id: 76, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/nothroughroadstraightahead.png"), name: "No through road straight ahead" },
+    { id: 77, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/onewayroad.png"), name: "One way road" },
+    { id: 78, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/parking.png"), name: "Parking" },
+    { id: 79, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/pedestrianscrossing.png"), name: "Pedestrians Crossing" },
+    { id: 80, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/policestation.png"), name: "Police station" },
+    { id: 81, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/priorityoveroncomingvehicles.png"), name: "Priority over coming vechicles" },
+    { id: 82, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/priorityroad.png"), name: "Priority Road" },
+    { id: 83, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/refreshment.png"), name: "Refreshment" },
+    { id: 84, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/restarea.png"), name: "Rest Area" },
+    { id: 85, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/restaurant.png"), name: "Restaurant" },
+    { id: 86, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/telephone.png"), name: "Telephone" },
+    { id: 87, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/workshop.png"), name: "Workshop" },
+    { id: 88, indicator: 'INFORMATION_SIGNS', img: require("./assets/information_signs/zebracrossing.png"), name: "Zebra Crossing" },
+    { id: 89, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/barricade.png"), name: "Barricade, No entry" },
+    { id: 90, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/changelane.png"), name: "Change Lane" },
+    { id: 91, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/laneclosed.png"), name: "Lane Closed" },
+    { id: 92, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/roadworks.png"), name: "Roadworks" },
+    { id: 93, indicator: 'ROADWORKS_SIGNS', img: require("./assets/roadwork_signs/trafficcontrolahead.png"), name: "Traffic control ahead" },
+    { id: 94, indicator: 'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/singleuncontrolled.png"), name: "Single Uncontrolled" },
+    { id: 95, indicator: 'TRANSERVE_MARKINGS', img: require("./assets/transerve_markings/stopline.png"), name: "Stop Line" },
+    { id: 96, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelaneguiding.png"), name: "Centre lane marking" },
+    { id: 97, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/centrelinemarking.png"), name: "Centre lane marking" },
+    { id: 98, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/chevronmarkingdiverging.png"), name: "Chevron marking" },
+    { id: 99, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/chevronmarkingemerging.png"), name: "Chevron marking" },
+    { id: 100, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/deflectionarrowmoveinthedirectionofthearrow.png"), name: "Deflection arrow-move in" },
+    { id: 101, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/divergearrowaheadofleftturnlane.png"), name: "Diverge arrow ahad of left" },
+    { id: 102, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/divergearrowaheadofrightturnlane.png"), name: "Diverge arrow ahad of right" },
+    { id: 103, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way1.jpg"), name: "Give way to traffic" },
+    { id: 104, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way2.jpg"), name: "Give way to traffic" },
+    { id: 105, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way3.jpg"), name: "Give way to traffic" },
+    { id: 106, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way4.jpg"), name: "Stop line at signals or police" },
+    { id: 107, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way5.jpg"), name: "Stop line for pedestrians" },
+    { id: 108, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way6.jpg"), name: "Stop line for pedestrians" },
+    { id: 109, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way7.jpg"), name: "A borken white line marks" },
+    { id: 110, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way8.jpg"), name: "Longer broken white lines" },
+    { id: 111, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way9.jpg"), name: "Double solid white lines" },
+    { id: 112, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/give_way10.jpg"), name: "If travelling in the left-hand" },
+    { id: 113, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/giveway.png"), name: "Give way" },
+    { id: 114, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadonly.png"), name: "Lane arrow ahead only" },
+    { id: 115, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadorturnleft.png"), name: "Lane arrow ahead or turn left" },
+    { id: 116, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowaheadorturnright.png"), name: "Lane arrow ahead or turn right" },
+    { id: 117, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowturnleft.png"), name: "Lane arrow turn left" },
+    { id: 118, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanearrowturnright.png"), name: "Lane arrow turn right" },
+    { id: 119, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/lanemarkingdualormulti.png"), name: "Lane marking Dual/Multi" },
+    { id: 120, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/parkingbay.png"), name: "Parking bay" },
+    { id: 123, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/Picture%201.png"), name: "Stop" },
+    { id: 124, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/solidline.png"), name: "Solid line-No crossing" },
+    { id: 125, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/speedlimitmarking.png"), name: "Speed limit marking" },
+    { id: 126, indicator: 'OTHER_ROAD_MARKINGS', img: require("./assets/otherroadmarkings/stop.png"), name: "Stop" },
+    { id: 127, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/brokenline.png"), name: "Broken Driving Line (You may" },
+    { id: 128, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/climbinglane.png"), name: "Climbing lane a) slow moving" },
+    { id: 129, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continousandbrokendividingline.png"), name: "Continous and broken driving" },
+    { id: 130, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continousdividingline.png"), name: "Continous Driving Line" },
+    { id: 131, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/continuityline.png"), name: "Continuity Line (Marks the edge)" },
+    { id: 132, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/doublecontinousdividingline.png"), name: "Double Continuous" },
+    { id: 133, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/noparking.png"), name: "No parking Line" },
+    { id: 134, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/standardedgeline.png"), name: "Standard Edge line" },
+    { id: 135, indicator: 'ROAD_MARKINGS', img: require("./assets/road_markings/zigzagline.png"), name: "ZIG ZAG Marking" },
+    { id: 134, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/beginningofdualcarriageroad.png"), name: "Road widens ahead" },
+    { id: 135, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/bendleft.png"), name: "Bend left" },
+    { id: 136, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/bendright.png"), name: "Bend right" },
+    { id: 137, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/carriagewaynarrowsbothsides.png"), name: "Carriage way narrows both" },
+    { id: 138, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/cattlecrossingahead.png"), name: "Cattle crossing ahead" },
+    { id: 139, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/childrencrossing.png"), name: "Children crossing" },
+    { id: 140, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/crossingwind.png"), name: "Crossing wind" },
+    { id: 141, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/cyclist.png"), name: "Cyclist" },
+    { id: 142, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/dangeroffallingrocksahead.png"), name: "Danger of falling rocks" },
+    { id: 143, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/electriccablesahead.png"), name: "Electric cable" },
+    { id: 145, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/endofdualcarriageroad.png"), name: "End of dual carriage road" },
+    { id: 146, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/ferryahead.png"), name: "Ferry ahead" },
+    { id: 146, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/give_way.png"), name: "Give way" },
+    { id: 147, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/hazardahead.png"), name: "Hazard ahead" },
+    { id: 148, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/humbbridgeahead.png"), name: "Hump bridge ahead" },
+    { id: 149, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/junctionahead.png"), name: "Junction ahead stop" },
+    { id: 150, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/junctionaheadofaccelerationlanewithroadfromtherigh.png"), name: "Junction ahead of acceleration" },
+    { id: 151, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/loosesurfaceroads.png"), name: "Loose surface road" },
+    { id: 152, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/lowflyingaircraftcrossingahead.png"), name: "Lower flying aircraft" },
     // { id: 72, indicator:'WARNING_SIGNS', img: require("./assets/warning_signs/men_at_work.png"), name: "Road work ahead" },
-    { id: 73, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/minorroadfromleft.png"), name: "Minor road road left" },
-    { id: 74, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/minorroadfromright.png"), name: "Minor road right" },
-    { id: 75, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/narrowbridgeahead.png"), name: "Narrow bridge ahead" },
-    { id: 76, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/pedestrianscrossing.png"), name: "Pedestrians crossing" },
-    { id: 77, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/railwaycrossingwithbarriers.png"), name: "Railway crossing with barrier" },
-    { id: 78, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/railwaycrossingwithoutbarriers.png"), name: "Railway crossing without barrier" },
-    { id: 79, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/riverbank.png"), name: "River bank" },
-    { id: 80, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/riverbendcrossingahead.png"), name: "River bend crossing" },
-    { id: 81, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadjunctionahead.png"), name: "Road junction ahead" },
-    { id: 82, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadnarrowsfromleft.png"), name: "Narrow road left" },
-    { id: 83, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadnarrowsfromright.png"), name: "Narrow road right" },
-    { id: 84, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadwidensahead.png"), name: "Road widens ahead" },
-    { id: 85, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadworksahead.png"), name: "Road works ahead" },
-    { id: 86, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roundaboutahead.png"), name: "Round about" },
-    { id: 87, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/severebumpahead.png"), name: "Severe hump ahead" },
-    { id: 88, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/severedipahead.png"), name: "Severe dipa ahead" },
-    { id: 89, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/slipperyroad.png"), name: "Slippery road" },
-    { id: 90, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/steepascentahead.png"), name: "Steep ascent head" },
-    { id: 91, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/steepdecentahead.png"), name: "Steep descent head" },
-    { id: 92, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/stop.png"), name: "Stop" },
-    { id: 93, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/successivebendtotheleft.png"), name: "Successive bend left" },
-    { id: 94, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/successivebendtotheright.png"), name: "Successive bend right" },
-    { id: 95, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/t-junctionahead.png"), name: "T-junction ahead" },
-    { id: 96, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/trafficjam.png"), name: "Traffic jam" },
-    { id: 97, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/trafficlightsignalahead.png"), name: "Traffic lights ahead" },
-    { id: 98, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/twowaytrafficahead.png"), name: "Two way trafic head" },
-    { id: 99, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/unevenroadsurfaceahead.png"), name: "Uneven road surface ahead" },
-    { id: 100, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/wildaninalscrossing.png"), name: "Game park ahead" },
-    { id: 101, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/yintersectionahead.png"), name: "Y-intersection ahead" },
-    { id: 102, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/alternateright_bike.png"), name: "Alternate right turn" },
-    { id: 103, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/ambulance.png"), name: "Red signal light is used by" },
-    { id: 104, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/arrowdirection.png"), name: "Arrow signal applies to the" },
-    { id: 105, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/breakdownservice.png"), name: "Brake down service" },
-    { id: 106, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/firebrigade.png"), name: "Orange siagnal light is used by" },
-    { id: 107, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/frontandbehindstop.png"), name: "vehicles approaching from" },
-    { id: 108, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/green.png"), name: "Green - Go" },
-    { id: 109, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/greenyescross.png"), name: "Green means pedestrian may" },
-    { id: 110, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/leftindicator.png"), name: "Left indicator signal means one" },
-    { id: 111, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbikeslowdown.png"), name: "Slow down" },
-    { id: 112, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurningright.png"), name: "Turn right" },
-    { id: 113, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurnleft.png"), name: "Turn left" },
-    { id: 114, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/orange.png"), name: "Orange - Get ready" },
-    { id: 115, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/policelight.png"), name: "Red, white and blue signal lights" },
-    { id: 116, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/red.png"), name: "Red - Stop" },
-    { id: 117, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redflashing.png"), name: "Railway crossing signal/Red" },
-    { id: 118, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redlights.png"), name: "Red signal lights means to slow" },
-    { id: 119, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rednocross.png"), name: "Red means pedestrians must" },
-    { id: 120, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "Right indicator signal means one" },
-    { id: 121, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "Vehicles aproaching from" },
-    { id: 122, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "Slow down" },
-    { id: 123, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "Stop" },
-    { id: 124, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "Tax service" },
-    { id: 125, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "Turning left" },
-    { id: 126, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "Vihicles turning left are free to go" },
-    { id: 127, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "Turning right" },
-    { id: 128, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "Vihicles turning right are free to go" },
-    { id: 129, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "Turning left" },
-    { id: 130, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "Turning right" },
-    { id: 131, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "Vehicle approaching from" },
-    { id: 132, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "Vehicle approaching from" },
-    { id: 133, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "Vehicle approaching from" },
-    { id: 134, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "Vehicle approaching from" },
+    { id: 153, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/minorroadfromleft.png"), name: "Minor road road left" },
+    { id: 154, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/minorroadfromright.png"), name: "Minor road right" },
+    { id: 155, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/narrowbridgeahead.png"), name: "Narrow bridge ahead" },
+    { id: 156, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/pedestrianscrossing.png"), name: "Pedestrians crossing" },
+    { id: 157, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/railwaycrossingwithbarriers.png"), name: "Railway crossing with barrier" },
+    { id: 158, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/railwaycrossingwithoutbarriers.png"), name: "Railway crossing without barrier" },
+    { id: 159, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/riverbank.png"), name: "River bank" },
+    { id: 160, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/riverbendcrossingahead.png"), name: "River bend crossing" },
+    { id: 161, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadjunctionahead.png"), name: "Road junction ahead" },
+    { id: 162, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadnarrowsfromleft.png"), name: "Narrow road left" },
+    { id: 163, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadnarrowsfromright.png"), name: "Narrow road right" },
+    { id: 164, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadwidensahead.png"), name: "Road widens ahead" },
+    { id: 165, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roadworksahead.png"), name: "Road works ahead" },
+    { id: 166, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/roundaboutahead.png"), name: "Round about" },
+    { id: 167, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/severebumpahead.png"), name: "Severe hump ahead" },
+    { id: 168, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/severedipahead.png"), name: "Severe dipa ahead" },
+    { id: 169, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/slipperyroad.png"), name: "Slippery road" },
+    { id: 170, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/steepascentahead.png"), name: "Steep ascent head" },
+    { id: 171, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/steepdecentahead.png"), name: "Steep descent head" },
+    { id: 172, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/stop.png"), name: "Stop" },
+    { id: 173, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/successivebendtotheleft.png"), name: "Successive bend left" },
+    { id: 174, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/successivebendtotheright.png"), name: "Successive bend right" },
+    { id: 175, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/t-junctionahead.png"), name: "T-junction ahead" },
+    { id: 176, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/trafficjam.png"), name: "Traffic jam" },
+    { id: 177, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/trafficlightsignalahead.png"), name: "Traffic lights ahead" },
+    { id: 178, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/twowaytrafficahead.png"), name: "Two way trafic head" },
+    { id: 179, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/unevenroadsurfaceahead.png"), name: "Uneven road surface ahead" },
+    { id: 180, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/wildaninalscrossing.png"), name: "Game park ahead" },
+    { id: 181, indicator: 'WARNING_SIGNS', img: require("./assets/warning_signs/yintersectionahead.png"), name: "Y-intersection ahead" },
+    { id: 182, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/alternateright_bike.png"), name: "Alternate right turn" },
+    { id: 183, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/ambulance.png"), name: "Red signal light is used by" },
+    { id: 184, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/arrowdirection.png"), name: "Arrow signal applies to the" },
+    { id: 185, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/breakdownservice.png"), name: "Brake down service" },
+    { id: 186, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/firebrigade.png"), name: "Orange siagnal light is used by" },
+    { id: 187, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/frontandbehindstop.png"), name: "vehicles approaching from" },
+    { id: 188, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/green.png"), name: "Green - Go" },
+    { id: 189, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/greenyescross.png"), name: "Green means pedestrian may" },
+    { id: 190, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/leftindicator.png"), name: "Left indicator signal means one" },
+    { id: 191, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbikeslowdown.png"), name: "Slow down" },
+    { id: 192, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurningright.png"), name: "Turn right" },
+    { id: 193, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/motorbiketurnleft.png"), name: "Turn left" },
+    { id: 194, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/orange.png"), name: "Orange - Get ready" },
+    { id: 195, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/policelight.png"), name: "Red, white and blue signal lights" },
+    { id: 196, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/red.png"), name: "Red - Stop" },
+    { id: 197, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redflashing.png"), name: "Railway crossing signal/Red" },
+    { id: 198, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/redlights.png"), name: "Red signal lights means to slow" },
+    { id: 199, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rednocross.png"), name: "Red means pedestrians must" },
+    { id: 200, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/rightindicator.png"), name: "Right indicator signal means one" },
+    { id: 201, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/sidevehiclescome.png"), name: "Vehicles aproaching from" },
+    { id: 202, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/slowdown_car.png"), name: "Slow down" },
+    { id: 203, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/stop_bike.png"), name: "Stop" },
+    { id: 204, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/taxservice.png"), name: "Tax service" },
+    { id: 205, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleft_bike.png"), name: "Turning left" },
+    { id: 206, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningleftgo.png"), name: "Vihicles turning left are free to go" },
+    { id: 207, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningright_bike.png"), name: "Turning right" },
+    { id: 208, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turningrightgo.png"), name: "Vihicles turning right are free to go" },
+    { id: 209, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnleft_car.png"), name: "Turning left" },
+    { id: 210, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/turnright_car.png"), name: "Turning right" },
+    { id: 211, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesbehindstop.png"), name: "Vehicle approaching from" },
+    { id: 212, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfrombehindcome.png"), name: "Vehicle approaching from" },
+    { id: 213, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontcome.png"), name: "Vehicle approaching from" },
+    { id: 214, indicator: 'TRAFFIC_SIGNALS', img: require("./assets/traffic_signals/vehiclesfromfrontstop.png"), name: "Vehicle approaching from" },
 
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
-    { id: 134, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
-
+    { id: 215, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/first_aid.png"), name: "First aid kit" },
+    { id: 216, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/flashlight.png"), name: "Flash light" },
+    { id: 217, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/sparetire.png"), name: "Spare tire" },
+    { id: 218, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_jack.jpg"), name: "Car jack" },
+    { id: 219, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/jumper_cables.png"), name: "Jumper cable" },
+    { id: 220, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/tow_rope.png"), name: "Tow ropes" },
+    { id: 221, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/firestop.png"), name: "Fire extiguisher" },
+    { id: 222, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/car_repair.png"), name: "Gloves" },
+    { id: 223, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/spanner.png"), name: "Spanner" },
+    { id: 224, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/war_tri.png"), name: "Warning triangle" },
+    { id: 225, indicator: 'SIMPLE_MECHANICS_EMERGENCY_TOOLS', img: require("./assets/simple_mechanics/duct_tape.png"), name: "Duct tape" },
 ];
 
 
@@ -381,13 +381,16 @@ export const quiz = [
             {
                 qtnNo: "Q1.",
                 question: "Who is a driver?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
+
+                    { id: 1, objective: "A", option: "A person who knows how operates a vehicle with skills, has a valid drivers license permit and follows the rules and reugulations of the highway code." },
                     { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
                     { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -401,7 +404,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -415,7 +419,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -429,7 +434,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -443,7 +449,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -457,7 +464,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -471,7 +479,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -485,7 +494,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -499,7 +509,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -513,7 +524,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -527,7 +539,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -541,7 +554,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -555,7 +569,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -569,7 +584,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "uu",
+                status:""
 
             },
             {
@@ -583,7 +599,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -597,7 +614,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -611,7 +629,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -625,7 +644,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -639,7 +659,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -653,7 +674,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -668,198 +690,216 @@ export const quiz = [
             {
                 qtnNo: "Q1.",
                 question: "Who is a driver?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
+
+                    { id: 1, objective: "A", option: "A person who knows how operates a vehicle with skills, has a valid drivers license permit and follows the rules and reugulations of the highway code." },
                     { id: 2, objective: "B", option: "A person who knows how operates a vehicle on the road." },
                     { id: 3, objective: "C", option: "A person who is willing to learn how to operates a vehicle." },
                     { id: 4, objective: "D", option: "All of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q2.",
                 question: "What is the RULE of the road in Uganda?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Always keep right" },
                     { id: 2, objective: "B", option: "Always keep left" },
                     { id: 3, objective: "C", option: "Drive both sides" },
                     { id: 4, objective: "D", option: "Non of the above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q3.",
                 question: "On which side do we overtake another vehicle?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "In the Middle " },
                     { id: 2, objective: "B", option: "Left Side" },
                     { id: 3, objective: "C", option: "Right Side" },
                     { id: 4, objective: "D", option: "Any Side" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
                 question: "When can you overtake from the LEFT?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When the vehicle in front is turning right and there is space on the left. Bevery careful in such action." },
                     { id: 2, objective: "B", option: "When there is an accident and the only place you can overtake is Left." },
                     { id: 3, objective: "C", option: "Never Overtake ON the Left" },
                     { id: 4, objective: "D", option: "1 and 2" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q5.",
                 question: "How many seconds does a yellow light last?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "2 - 5 seconds" },
                     { id: 2, objective: "B", option: "4 - 7 seconds" },
                     { id: 3, objective: "C", option: "3 - 6 seconds" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q6.",
                 question: "Who is a pedestrian?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "A person riding a motorcycle" },
                     { id: 2, objective: "B", option: "Road users a foot" },
                     { id: 3, objective: "C", option: "Anyone driving" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q7.",
                 question: "Name three documents which must ne valid before you are allowed to drive?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Valid driving license" },
                     { id: 2, objective: "B", option: "valid insurance certificate" },
                     { id: 3, objective: "C", option: "Valid vehicle inspection certificate" },
                     { id: 3, objective: "D", option: "All of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q8.",
                 question: "What important tools must you carry when driving for a safari?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Spare tyre, Car jack, whistle" },
                     { id: 2, objective: "B", option: "Car jack, Flash light, Spare tyre" },
                     { id: 3, objective: "C", option: "Flash light, whistle" },
                     { id: 3, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q9.",
                 question: "How many eyes does a driver have?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Two" },
                     { id: 2, objective: "B", option: "Four" },
                     { id: 3, objective: "C", option: "Three" },
                     { id: 3, objective: "D", option: "One" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q10.",
                 question: "If you get a flat tire while driving you should",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Turn on your hazard lights and drive a service station" },
                     { id: 2, objective: "B", option: "Keep the steering wheel straight, slow down, and pull over" },
                     { id: 3, objective: "C", option: "Speed up untill you find a sage exit" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q11.",
                 question: "What is a Clearway?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "All vehicles are free to go through" },
                     { id: 2, objective: "B", option: "An area in which stopping and nparking is prohibited, (except by buses or tazxis) for a period indicated on the Clearway signpost" },
                     { id: 3, objective: "C", option: "Speed up untill you find a safe place to park" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q12.",
                 question: "If you intend to turn left, are you required to give a signal",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, if arrows are marked on the roadway" },
                     { id: 2, objective: "B", option: "No, if turning left from a lane marked left turn only" },
                     { id: 3, objective: "C", option: "Yes, if turn signals are fitted to your vechicle" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q13.",
                 question: "Do you have any responsibilities when opening a vechicle door on a roadway?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, any following traffic must stop if the door interferes with its progress." },
                     { id: 2, objective: "B", option: "No, there is no regulation to cover this situation." },
                     { id: 3, objective: "C", option: "Yes, you must not open a door if you are likely to cause danger to road users or impede traffic." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q14.",
                 question: "Is it an offence to obstruct clear vision of your number plates",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Yes, but is is legal for a towbar or bicycle rack to cover the reat number plate." },
                     { id: 2, objective: "B", option: "No, you are allowed to cover your numberb plates if you want to" },
                     { id: 3, objective: "C", option: "Yes, at any time" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q15.",
                 question: "Before driving on a freeway, which of the following should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Take someting to calm your nervers before driving." },
                     { id: 2, objective: "B", option: "Make sure your vechicle has enough fuel, oil, water and ther correct tyre pressure." },
                     { id: 3, objective: "C", option: "Take your street directly in case you get lost" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q16.",
                 question: "If you see a sign indicating road repairs are going on, you should -",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Maintain ther same speed." },
                     { id: 2, objective: "B", option: "Slow down and watch for traffic controllers and instructions." },
                     { id: 3, objective: "C", option: "Stop immediately and wait for instructions." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -871,7 +911,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "No it is only needed on long trips." },
                     { id: 3, objective: "C", option: "No, being licensed is enough." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -883,43 +924,47 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Stop and then proceed if you think it is safe." },
                     { id: 3, objective: "C", option: "Slow down and continue through the road works zone." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q19.",
                 question: "Do bicyle riders have the same rights and responsibilities as drivers and motorycyle riders? and a traffic controller displays a stop sign you must -",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, they must always ride on the footpath." },
                     { id: 2, objective: "B", option: "Yes." },
                     { id: 3, objective: "C", option: "Nno, they must give way to cards at all times when riding on the road." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q20.",
                 question: "Before getting our of your vehicle you must?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Check your seatbelt is back in place." },
                     { id: 2, objective: "B", option: "Check your mirrors and blind spots for pedestrians, bicyles or others vehicles." },
                     { id: 3, objective: "C", option: "Check your headlights are turned off." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q21.",
                 question: "Before driving a long distance at a fast speed or carrying a full car load, you should?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Have a large meal and cup of coffee to stay alert." },
                     { id: 2, objective: "B", option: "Check your tyre pressure, and if necessary, increase it to what the manufacturer recommends." },
                     { id: 3, objective: "C", option: "Make sure you have a map so that you know where you are going." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -931,78 +976,85 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Do not report the accident to the police." },
                     { id: 3, objective: "C", option: "Only need to report to the police if someone was injured." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
                 question: "When should you use your right hand indicator?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "When you intend to slow down." },
                     { id: 2, objective: "B", option: "When you are about to stop." },
                     { id: 3, objective: "C", option: "When you intent to tuen right at anytime." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q24.",
                 question: "Are you permitted to tow a caravan with a person riding in the caravan?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Yes provided you do not exceed 60km/hr." },
                     { id: 2, objective: "B", option: "No, not under any circumstances." },
                     { id: 3, objective: "C", option: "Yes, if the person(s) in the caravan are over 12 years of age." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q25.",
                 question: "You are driving at night with your headlights on high beam. When should you dip your headlights?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "When within 200 metres of an oncoming vehicle only." },
                     { id: 2, objective: "B", option: "When within 200 metres of the vehicle a head or an oncoming one." },
                     { id: 3, objective: "C", option: "Never, you are allowed to drive with your lights on high beam at all times." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q26.",
                 question: "If you see a sign indicating road repairs are going on, you should?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Slow down immediatelyy and wait for instructions." },
                     { id: 2, objective: "B", option: "Maintain the same speed." },
                     { id: 3, objective: "C", option: "Slow down and watch for traffic controllers and instructions." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q27.",
-                question: "Whenn driving at sunset or dawn on a dark day, what should you do?",
+                question: "When driving at sunset or dawn on a dark day, what should you do?",
                 correctAnswer: "A",
                 suggestions: [
                     { id: 1, objective: "A", option: "Turn on your lights on low beam." },
                     { id: 2, objective: "B", option: "Keep your sun glasses on to cut down heading glare." },
                     { id: 3, objective: "C", option: "Turn on your hazard warning lights." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q28.",
                 question: "If you see a horse and rider on the road, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Sound your horn to warn the rider." },
                     { id: 2, objective: "B", option: "Slow down and give them plenty of room." },
                     { id: 3, objective: "C", option: "Speed up tp pass the horse." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1014,7 +1066,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Only call the police if the accident also resulted in over 500 Gollars worth of propery damege." },
                     { id: 3, objective: "C", option: "Report the accident to the police within seven days." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1027,33 +1080,36 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Increase your speed and sound your horn." },
                     { id: 4, objective: "D", option: "All of the Above." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q32.",
                 question: "When driving near parked vehicles, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Stop, if you se a car with its right-indicator on." },
                     { id: 2, objective: "B", option: "Sound your horn and flash our headlights to warn drivers not to pull out." },
                     { id: 3, objective: "C", option: "Check for parked vehicles with turn signals on, or children about to step out." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q33.",
                 question: "On a single laned road, you are allowed to overtake another vehicle on its right except when?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You are travelling at more than 80km/hr" },
                     { id: 2, objective: "B", option: "The other vehicle is going slower than you." },
                     { id: 3, objective: "C", option: "The other vehicle is turning right." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1067,46 +1123,50 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Increase speed to overtake other vehicles." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q35.",
                 question: "A driver behind you signals their intention to overtake your car. What should you do?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Speed up so that the driver will not have to overtake you" },
                     { id: 2, objective: "B", option: "Signal the driver to remain behind you if it is travelling to fast.." },
                     { id: 3, objective: "C", option: "Keep to the left and let the driver overtake you.." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q36.",
                 question: "If you are not sure you have enough distance to overtake a vehicle ahead, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Put the vehicle in a lower gear and speed up" },
                     { id: 2, objective: "B", option: "Wait for a better opportunity with more distance to overtake." },
                     { id: 3, objective: "C", option: "Sound your horn to signal the driver ahead to slow down." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q37.",
                 question: "If you are convicted for driving under the influence of alcohol, you could loose your drivers licence. You may also?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Be restricted to driving an automatic vehicle" },
                     { id: 2, objective: "B", option: "Have a personal speed limit imposed on you." },
                     { id: 3, objective: "C", option: "Be sent to prison." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1119,59 +1179,64 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Not receive any penalty as road works speed limits are only advisory." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q39.",
                 question: "Which statement is true?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You must give way to pedestrians only at marked crossings." },
                     { id: 2, objective: "B", option: "Pedestrians have no special rights on the roads." },
                     { id: 3, objective: "C", option: "You must give way to pedestrians if there is any danger of hitting them." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q40.",
                 question: "If elderly people or children are on the pedestrian crossing you will probably need to?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Drive around them so you dont hold up traffic." },
                     { id: 2, objective: "B", option: "Wait extra time to allow them to cross safely" },
                     { id: 3, objective: "C", option: "Sound your horn to hurry them up." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q41.",
                 question: "When driving near children playing or walking near the edge of the road?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Continue at same speed and drive around them." },
                     { id: 2, objective: "B", option: "Slow down and be ready to make a safe stop." },
                     { id: 3, objective: "C", option: "Sound your horn to warn them of your presence" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q42.",
                 question: "When driving in wet weather, you should?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Drive in the middle of the road to avoid splashing pedestrians on the foot path." },
                     { id: 2, objective: "B", option: "Watch out for pedestrians, who may hurry and take risks." },
                     { id: 3, objective: "C", option: "Stop and help aged pedestrians acress the road." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1184,7 +1249,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "0.05." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1197,39 +1263,42 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Ask your passengers to let you know if you are not driving as well as you should." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q45.",
                 question: "Is it an offence to refuse to take a POLICE breath test?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "No, if you are a learner driver" },
                     { id: 2, objective: "B", option: "No, if you say you havent been drinking alcohol" },
                     { id: 3, objective: "C", option: "Yes always." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q46.",
                 question: "During pre-trip inspection, a daily walk-round check includes:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Items which are checked when the driver is inside a vehicle" },
                     { id: 2, objective: "B", option: "Items which are checked when the driver is outside a vehicle" },
                     { id: 3, objective: "C", option: "Items which are checked when the driver is within a vehicle" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q47.",
                 question: "Which of the following actions does NOT damage the road?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Blocking the road drains" },
                     { id: 2, objective: "B", option: "Letting waste water or farm water flow over the road" },
@@ -1237,13 +1306,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Spilling diesel or oil on the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q48.",
                 question: "When crossing at a Zebra crossing as a pedestrian you should?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Give drivers plenty of time to see you and to stop before you start to cross." },
                     { id: 2, objective: "B", option: "Drivers are required by law to stop, once you have stepped onto the crossing, but do not cross until they have stopped." },
@@ -1251,40 +1321,43 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q50.",
                 question: 'Which of the following statements clearly describes Group/ class "B" driving license in uganda?',
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "These are small cars" },
                     { id: 2, objective: "B", option: "These are the small trucks that carry 2 tons of load and the small cars that carry 4 passengers" },
                     { id: 3, objective: "C", option: "These are motor vehicles that carry up to 3500kg and carry not more than 7 passengers including the driver" },
-                    { id: 4, objective: "D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in" },
+                    { id: 4, objective: "D", option: "Motor vehicles, having a permissible maximum mass not exceeding 3500kg and not more than 8 seats in additional to the driver's seat" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q51.",
                 question: "Orange/yellow warning lights on the dash board means:",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "The vehicle does not need to be serviced or repaired soon" },
                     { id: 2, objective: "B", option: "The vehicle needs to be serviced or repaired soon." },
                     { id: 3, objective: "C", option: "The vehicle needs to be serviced or repaired later" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q52.",
                 question: "Beaming your headlights in full at night is dangerous because",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "You cannot stop within the distance that you can see." },
                     { id: 2, objective: "B", option: "Your headlights may become over worked and then stop working at all." },
@@ -1292,13 +1365,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You won't be able to see if it becomes foggy." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q53.",
                 question: "The disadvantage of not carrying out proper vehicle maintenance is",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "High vehicles operating cost" },
                     { id: 2, objective: "B", option: "High possibility of road crash" },
@@ -1306,13 +1380,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above is correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q54.",
                 question: "You should avoid driving through deep puddles or flowing water. But if you must, which of these steps can help keep your brakes working",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Apply hard pressure on both the brake pedal and accelerator after coming out of the water." },
                     { id: 2, objective: "B", option: "Gently pressing the brake pedal while driving through the water" },
@@ -1320,13 +1395,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q55.",
                 question: "You are following a long vehicle approaching a crossroads. What should you do if the driver signals right but moves close to the left-hand pavement?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Warn the driver about the wrong signal." },
                     { id: 2, objective: "B", option: "Wait behind the long vehicle." },
@@ -1334,7 +1410,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Overtake on the right-hand side" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1348,7 +1425,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Hold your speed and sound your horn" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1356,19 +1434,20 @@ export const quiz = [
                 question: "Water can be used to extinguish which of the following fires",
                 correctAnswer: "A",
                 suggestions: [
-                    { id: 1, objective: "A", option: "Tires" },
+                    { id: 1, objective: "A", option: "Tires. This is because tires are class A fires which can be exitinguished by water" },
                     { id: 2, objective: "B", option: "Keep in the middle of the road" },
                     { id: 3, objective: "C", option: "Swing out to the right just before turning" },
                     { id: 4, objective: "D", option: "Keep well to the left of the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q59.",
                 question: "Head lamps and parking lights are used",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "To illuminate the road ahead of the vehicle" },
                     { id: 2, objective: "B", option: "To show your presence on the road" },
@@ -1376,7 +1455,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above is correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1390,13 +1470,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "While you are stuck in the traffic jam in the city" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q61.",
                 question: "When the engine coolant is unable to circulate, the engine will",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Consume less fuel" },
                     { id: 2, objective: "B", option: "Be too cool" },
@@ -1404,7 +1485,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Be too hot" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1417,7 +1499,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Keep well to the left of the road" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1431,13 +1514,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "By selecting neutral" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q64.",
                 question: "If your brakes fail, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Pump the foot brake several times" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1445,13 +1529,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q65.",
                 question: "Who has priority at a roundabout? Choose the best answer",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "The vehicles that are parked on the roundabout" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1459,13 +1544,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q66.",
                 question: "What should you do if you are dazzled by another vehicle's headlights?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Slow down & stop if necessary." },
                     { id: 2, objective: "B", option: "If the dazzle is from an oncoming vehicle, avoid it by looking towards its left edge until the vehicle has passed." },
@@ -1473,13 +1559,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "A and B are the correct answers." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q67.",
                 question: "Before driving through a flooded area, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Stop the vehicle and check the tires" },
                     { id: 2, objective: "B", option: "Test your brakes to see they are functioning normally" },
@@ -1487,13 +1574,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Check your exhaust" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q68.",
                 question: "The only effective way to deal with driver fatigue is to",
-                correctAnswer: "A",
+                correctAnswer: "B",
                 suggestions: [
                     { id: 1, objective: "A", option: "Give drivers plenty of time to see you and to stop before you start to cross." },
                     { id: 2, objective: "B", option: "Prevent it by being well rested and taking regular breaks" },
@@ -1501,13 +1589,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Drink plenty of strong, black coffee" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q69.",
                 question: "If your brakes fail, what should you do?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "Pump the foot brake several times" },
                     { id: 2, objective: "B", option: "Lightly apply the handbrake" },
@@ -1515,13 +1604,14 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q70.",
                 question: "When driving, when should you dip your headlights?",
-                correctAnswer: "A",
+                correctAnswer: "D",
                 suggestions: [
                     { id: 1, objective: "A", option: "When meeting other traffic." },
                     { id: 2, objective: "B", option: "When following close behind another vehicle." },
@@ -1529,7 +1619,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above is true" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -1549,7 +1640,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "It makes your brain work slower" },
                     { id: 4, objective: "D", option: "it speeds your brain up so you can work better" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1562,7 +1654,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Your view of the road ahead will be restricted" },
                     { id: 4, objective: "D", option: "The driver in the front will not be seeing you in his mirrors" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1575,7 +1668,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Check that the parking brake is released" },
                     { id: 4, objective: "D", option: "Have the brakes checked immediately" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
@@ -1586,7 +1680,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "On the front wheels" },
                     { id: 3, objective: "C", option: "On all the four wheels" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1599,7 +1694,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Speed" },
                     { id: 3, objective: "C", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1611,20 +1707,22 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Turn on your headlights, slow down and double your following distance behind the vehicle in front" },
                     { id: 3, objective: "C", option: "Turn your headlights on high beam" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
                 qtnNo: "Q7.",
                 question: "In a collusion, what does a properly adjusted headrest prevent?",
-                correctAnswer: "A",
+                correctAnswer: "C",
                 suggestions: [
                     { id: 1, objective: "A", option: "Back injuries." },
                     { id: 2, objective: "B", option: "Shoulder injuries" },
                     { id: 3, objective: "C", option: "Neck injuries" },
                     { id: 3, objective: "D", option: "All of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1637,7 +1735,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Flash light, whistle" },
                     { id: 3, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1650,7 +1749,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "During heavy rain" },
                     { id: 3, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1662,7 +1762,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Check your mirrors, signal, check your blind spot and then proceed" },
                     { id: 3, objective: "C", option: "Check your mirrors, signal and then proceed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1675,7 +1776,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Driving license and Driving Permit" },
                     { id: 3, objective: "C", option: "Third party insurance certificate and Driving Permit" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1688,7 +1790,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The capacity to assess potential hazards and their potential impact." },
                     { id: 3, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1701,7 +1804,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Going in any direction you choose" },
                     { id: 3, objective: "C", option: "None of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1714,7 +1818,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Presidential Convey with Siren" },
                     { id: 4, objective: "D", option: "Fire tender with siren" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1725,7 +1830,8 @@ export const quiz = [
                     { id: 1, objective: "A", option: "True" },
                     { id: 2, objective: "B", option: "False" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1736,7 +1842,8 @@ export const quiz = [
                     { id: 1, objective: "A", option: "True" },
                     { id: 2, objective: "B", option: "False" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1749,7 +1856,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Defective vehicle, preventive maintenance improper maintenance" },
                     { id: 3, objective: "D", option: "Improper break down maintenance and average driving speed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1762,7 +1870,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Both "a" and "b"' },
                     { id: 4, objective: "D", option: "None of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1775,7 +1884,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Topping the acid level" },
                     { id: 3, objective: "C", option: "None of the above is correct" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1788,7 +1898,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'To prevent getting into the "blind stare."' },
                     { id: 3, objective: "C", option: 'All the above' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1801,7 +1912,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "All are following too close" },
                     { id: 4, objective: "D", option: "All of the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1814,7 +1926,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Both A and B are correct" },
                     { id: 4, objective: "D", option: "When you are sick but doctor advised otherwise" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
@@ -1826,7 +1939,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 16 },
                     { id: 3, objective: "D", option: 11 },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1839,7 +1953,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "When youre approaching a one-way street" },
                     { id: 3, objective: "C", option: "When youre approaching bends and junctions" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1852,7 +1967,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Check your mirrors, signal, check your blind spot and then proceed" },
                     { id: 3, objective: "C", option: "Check your mirrors, signal and then proceed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1865,7 +1981,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Repeat the procedures several times focusing on each individual aspect of the inspection (safety, security, fluids, etc.)" },
                     { id: 3, objective: "C", option: "Assume that all safety-related features are tip-top)" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1878,7 +1995,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Use your 4-way flashers" },
                     { id: 3, objective: "C", option: "Give them the right of way" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1891,7 +2009,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Apply slight brake pressure to "dry out" brakes' },
                     { id: 3, objective: "C", option: 'All the above' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1904,7 +2023,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "At a roundabout" },
                     { id: 4, objective: "D", option: "All the above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1917,7 +2037,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "10 kmph" },
                     { id: 3, objective: "C", option: "20 kmph" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1930,7 +2051,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "A booklet checked and passed by the president for rules of road users." },
                     { id: 4, objective: "D", option: "A booklet checked and passed by the cabinet for rules of road users." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1943,7 +2065,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Drive onto the wrong side of the road and hope the other vehicle does not do the same" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1957,7 +2080,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You are going the right way." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1971,7 +2095,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both B and C" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1985,7 +2110,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of these" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -1998,7 +2124,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Sound your horn to signal the driver ahead to slow down." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2012,7 +2139,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2026,7 +2154,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "none of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2038,7 +2167,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "False" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2052,7 +2182,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "The tires to deflate." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2066,7 +2197,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "First pray then drive straight to home without making corners" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2080,7 +2212,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Reduce speed and use the vehicle to drive them away" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2094,7 +2227,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Stay behind and dont overtake" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2108,7 +2242,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2121,7 +2256,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Yes always." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2135,7 +2271,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "All the above are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2149,7 +2286,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and b are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2163,7 +2301,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and B are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2177,7 +2316,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Pedestrians, passengers, cyclists, motorcyclists, and drivers." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2191,7 +2331,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "During the rain" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2205,7 +2346,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stopping is prohibited" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2219,7 +2361,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Looking in the rear and side mirrors continually when driving." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2233,7 +2376,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "So that you can be easily seen by others" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2247,7 +2391,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Leaner Drivers with L plates" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2261,7 +2406,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "These are the usual saloon cars or my cars" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q56.",
@@ -2274,7 +2420,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "You only enter the box junction when you can clear" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2288,7 +2435,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Drive slowly but steadily" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2302,7 +2450,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Improved passenger comfort" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2316,7 +2465,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2330,7 +2480,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2344,7 +2495,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "A and C are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2356,7 +2508,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "false" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2370,7 +2523,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Both A and B are correct" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2384,7 +2538,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2398,7 +2553,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Exhaust system" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2412,7 +2568,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Providing directions." },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2426,7 +2583,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Check your exhaust" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2440,7 +2598,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2454,7 +2613,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Details of a hazard ahead" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2468,7 +2628,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Road closed! Traffic follow signs for diversion" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }
 
@@ -2490,7 +2651,8 @@ export const quiz = [
                     { id: 4, objective: "D", option: "Means Stop" },
                     { id: 5, objective: "E", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2504,7 +2666,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2518,7 +2681,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means Turn Left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q4.",
@@ -2531,7 +2695,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Means Stop" },
                     { id: 4, objective: "D", option: "Means someone is turning left" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2544,7 +2709,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Means vehicles turning left are free to go" },
                     { id: 3, objective: "C", option: "Means Go" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2557,7 +2723,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Means turning right" },
                     { id: 3, objective: "C", option: "Slow Down" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2570,7 +2737,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "We need to talk" },
                     { id: 3, objective: "C", option: "Turn Right" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2583,7 +2751,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Vehicles approaching from front should STOP" },
                     { id: 3, objective: "C", option: "All vehicles should STOP" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2596,7 +2765,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Railway Crossing Signal" },
                     { id: 3, objective: "C", option: "Railway Line Ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2609,7 +2779,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Fire Brigade" },
                     { id: 3, objective: "C", option: "Ambulance" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2622,7 +2793,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Only obey the sign when there are workers" },
                     { id: 3, objective: "C", option: "Only obey the sign during working hours." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2635,7 +2807,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Vehicles approaching from the side should COME" },
                     { id: 3, objective: "C", option: "Vehicles approaching from the side should STOP" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2649,7 +2822,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "This sign is used to indicate a street that you can not turn right onto." },
                     { id: 4, objective: "D", option: "It means do not park here." },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2663,7 +2837,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Level crossing without gate" },
                     { id: 4, objective: "D", option: "None of the Above" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2677,7 +2852,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Successive/Double bend to the left" },
                     { id: 4, objective: "D", option: "Slippery Road" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2691,7 +2867,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Slippery road" },
                     { id: 2, objective: "B", option: "1 and 2" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2704,7 +2881,8 @@ export const quiz = [
                     { id: 2, objective: "B", option: "Farm Entrance ahead" },
                     { id: 3, objective: "C", option: "No Vehicle Access" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2718,7 +2896,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'No Parking' },
                     { id: 4, objective: "D", option: "No road markings" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2732,7 +2911,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "School crosswalk ahead" },
                     { id: 4, objective: "D", option: "No road markings" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2746,7 +2926,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'Straight through only' },
                     { id: 3, objective: "C", option: 'Two way traffic' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2760,7 +2941,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "No Left Turn" },
                     { id: 4, objective: "D", option: "No U-Turn" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2774,7 +2956,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Not a though street" },
                     { id: 4, objective: "D", option: "Divided road" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             }, {
                 qtnNo: "Q23.",
@@ -2787,7 +2970,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Compulsory sound horn" },
                     { id: 3, objective: "D", option: "You may sound your horn" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2801,7 +2985,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Bridge ahead" },
                     { id: 4, objective: "D", option: "Guarded Railway Crossing" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2815,7 +3000,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of these" },
                     { id: 3, objective: "C", option: "Direction to be followed" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2829,7 +3015,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stop" },
                     { id: 4, objective: "D", option: "Junction ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2843,7 +3030,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Stop" },
                     { id: 3, objective: "C", option: "Junction ahead" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2857,7 +3045,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: 'None of these' },
                     { id: 4, objective: "D", option: 'Dont Drink and Drive' },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2871,7 +3060,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Filling station" },
                     { id: 4, objective: "D", option: "None of these" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2885,7 +3075,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Bed" },
                     { id: 4, objective: "D", option: "None of these" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2899,7 +3090,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "Entry forbidden to all motorcycles" },
                     { id: 4, objective: "D", option: "No entry for power driven vehicles" },
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
             {
@@ -2914,7 +3106,8 @@ export const quiz = [
                     { id: 3, objective: "C", option: "None of the above" },
 
                 ],
-                selectedObjective: ""
+                selectedObjective: "",
+                status:""
 
             },
 

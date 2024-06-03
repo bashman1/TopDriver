@@ -14,8 +14,9 @@
     "stop": "cd android && gradlew --stop",
     "install": "adb -s 8QCNW21A09000005 install -r /home/bsh/Projects/ReactNative/TopDriverUg/android/app/build/outputs/apk/release/app-release.apk",
     "splash":"react-native generate-bootsplash  src/assets/Topdriverlogo.png --platforms=android,ios,web   --background=#7F1416  --logo-width=200  --assets-output=assets  --flavor=main --html=index.html",
-    "icon": "npx icon-set-creator create src/assets/appIcon.png",
+    "icon": "npx icon-set-creator create -b '#ffffff' src/assets/appIcon.png",
     "cleanCache": "cd android && ./gradlew cleanBuildCache",
+    "cache": "npm start -- --reset-cache",
     "test": "jest"
   },
   "dependencies": {
