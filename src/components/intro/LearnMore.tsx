@@ -10,6 +10,7 @@ import { WebView } from 'react-native-webview';
 
 import { AuthContext } from '../../services/Context';
 import { LoggedInUser, System, GenericInsert, GenericQueryAll, GenericQueryWhere } from '../../databases/allSchemas';
+import {createAlert} from "../../services/CommonService";
 
 
 
@@ -19,6 +20,7 @@ const LernMore = (props: any) => {
   const [items, setItems] = useState(learnMoreData)
   const [accessToken, setAccessToken] = useState(false);
   const { signIn } = React.useContext(AuthContext);
+  const [loginToken, setLoginToken]=useState(null);
 
 
   useEffect(() => {
@@ -109,6 +111,15 @@ const LernMore = (props: any) => {
     return `flw_tx_ref_${result}`;
   };
 
+  const loginWithAccessToken =()=>{
+      console.log(loginToken)
+      if (loginToken == "viQdPUD05E"){
+          onSuccessfulPayment();
+      }else{
+          createAlert('Process Failed', 'Invalid access token')
+      }
+  }
+
   return (
     <View style={{ flex: 1, backgroundColor: 'white', padding: 10 }}>
       {items.map(item =>
@@ -141,19 +152,34 @@ const LernMore = (props: any) => {
                 currency: 'UGX',
                 payment_options: 'card, mobilemoneyuganda'
               }}
+
+              customButton={(props) => (
+                // <TouchableOpacity
+                //   style={styles.paymentButton}
+                //   onPress={props.onPress}
+                //   isBusy={props.isInitializing}
+                //   disabled={props.disabled}>
+                //     <Text style={styles.paymentButtonText}>Pay $500</Text>
+                // </TouchableOpacity>
+
+<TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={props.onPress} isBusy={props.isInitializing} disabled={props.disabled}>
+<Text style={styles.healthPalWhite}>Pay with Mobile Money</Text>
+</TouchableOpacity>
+              )}
+              
             />
             <Text style={{ fontSize: 20, color:'#808080', }}>A one time Fee of 3,000/=</Text>
-            <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); onSuccessfulPayment(); }}>
+            {/* <TouchableOpacity style={[styles.touchableButtonCtm, styles.touchbCtmPymnt]} onPress={() => { handleSnapPress(1); onSuccessfulPayment(); }}>
               <Text style={styles.healthPalWhite}>Pay with Mobile Money</Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             {
               accessToken ? (
                 <View style={styles.inputContainer}>
                               <Text style={{ fontSize: 10, color:'#808080', }}>ACCESS TOKEN</Text>
                   <View style={[styles.marginBottom, styles.inputContainer]}>
-                    <TextInput style={styles.input} ></TextInput>
+                    <TextInput style={styles.input} onChangeText={(loginToken:any)=>setLoginToken(loginToken)}></TextInput>
                   </View>
-                  <TouchableOpacity style={[styles.touchableButtonCtm, styles.marginBottom]} onPress={() => { }}>
+                  <TouchableOpacity style={[styles.touchableButtonCtm, styles.marginBottom]} onPress={() => {loginWithAccessToken() }}>
                     <Text style={styles.healthPalWhite}>Submit</Text>
                   </TouchableOpacity>
                   <TouchableOpacity style={styles.touchableButtonCtm} onPress={() => { toggleAccessToken(false) }}>
