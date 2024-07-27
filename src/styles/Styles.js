@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { color } from 'react-native-reanimated';
 import { FullWindowOverlay } from 'react-native-screens';
+import { appColor } from '../services/CommonService'
 // import { Dimensions } from 'react-native'
 // import {useWindowDimensions} from 'react-native';
 
@@ -11,6 +12,7 @@ export const styles = StyleSheet.create(
         healthPalBlue: {
             // color: '#263776',
             color: '#800000',
+            color: appColor(),
         },
         healthPalBlueBackground: {
             // backgroundColor: '#263776',  

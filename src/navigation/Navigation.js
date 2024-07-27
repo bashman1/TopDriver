@@ -19,7 +19,8 @@ import IconsPage from '../components/main/IconsPage'
 import { styles } from '../styles/Styles';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import LearnMore from '../components/intro/LearnMore';
-import TheoryDetails from '../components/main/TheoryDetails'
+import TheoryDetails from '../components/main/TheoryDetails';
+import { appColor, appColor2 } from '../services/CommonService'
 
 
 
@@ -32,14 +33,14 @@ export const navLayout = (header, navigation) => {
             headerShown: true,
             title: header,
             headerStyle: {
-                backgroundColor: '#800000',
+                backgroundColor: appColor(),
                 elevation: 0,
                 shadowOpacity: 0
             },
-            headerTintColor: '#F47421',
+            headerTintColor: appColor2(),
             headerTitleStyle: {
                 fontWeight: 'bold',
-                color: '#F47421',
+                color: appColor2(),
                 width: '100%',
                 textAlign: 'center',
             },

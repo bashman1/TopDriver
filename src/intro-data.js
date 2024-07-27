@@ -4,19 +4,19 @@ const introData = [
         id: 1,
         title: "Road Signs & Symbols",
         description: "They help ensure all road users are safe from potential driving hazards",
-        img: require("./assets/introduction_signs/road_signs.jpg"),
+        img: require("./assets/introduction_signs/topdriver15.jpg"),
     },
     {
         id: 2,
         title: "Road Safety Precautions",
         description: "Means, methods and measures aimed at reducing the likelihood road accidents",
-        img: require("./assets/introduction_signs/road_rules.jpg"),
+        img: require("./assets/introduction_signs/topdriver1.jpg"),
     },
     {
         id: 2,
         title: "Practice Quizzes & Test",
         description: "Now get your order delivered at your door steps",
-        img: require("./assets/introduction_signs/exam.jpeg"),
+        img: require("./assets/introduction_signs/topdriver8.jpg"),
     }
 ]
 
@@ -89,18 +89,18 @@ export const getStarted = [
 export const learnMoreData = [
     {
         id: 1,
-        img: require("./assets/basic.png")
+        img: require("./assets/topdriver15.jpg")
 
     }
 ]
 
 export const menu = [
-    { id: 1, component: "Home", param: "ROAD_SIGNS", navigateTo: "details", indicator: 'HOME_MENU', type: 'community', icon: "car-key", name: "Road Signs" },
-    { id: 2, component: "Home", param: "BASIC_THEORY", navigateTo: "details", indicator: 'HOME_MENU', type: 'community', icon: "book", name: "Basic Theory" },
-    { id: 3, component: "Home", param: "ROAD_MARKINGS", navigateTo: "icons", indicator: 'HOME_MENU', type: 'community', icon: "white-balance-sunny", name: "Road Markings" },
+    { id: 1, component: "Home", param: "ROAD_SIGNS", navigateTo: "details", indicator: 'HOME_MENU', type: 'ionic', icon: "trail-sign", name: "Road Signs" },
+    { id: 2, component: "Home", param: "BASIC_THEORY", navigateTo: "details", indicator: 'HOME_MENU', type: 'ionic', icon: "book-sharp", name: "Basic Theory" },
+    { id: 3, component: "Home", param: "ROAD_MARKINGS", navigateTo: "icons", indicator: 'HOME_MENU', type: 'community', icon: "road-variant", name: "Road Markings" },
     { id: 4, component: "Home", param: "TRAFFIC_SIGNALS", navigateTo: "icons", indicator: 'HOME_MENU', type: 'community', icon: "traffic-light", name: "Traffic Signals" },
-    { id: 5, component: "Home", param: "QUIZ", navigateTo: "quiz", indicator: 'HOME_MENU', type: 'community', icon: "gavel", name: "Quiz" },
-    { id: 6, component: "Home", param: "SETTINGS", navigateTo: "settings", indicator: 'HOME_MENU', type: 'ionic', icon: "settings-sharp", name: "Settings" },
+    { id: 5, component: "Home", param: "QUIZ", navigateTo: "quiz", indicator: 'HOME_MENU', type: 'community', icon: "frequently-asked-questions", name: "Quiz" },
+    { id: 6, component: "Home", param: "SETTINGS", navigateTo: "settings", indicator: 'HOME_MENU', type: 'community', icon: "information-variant", name: "About App" },
     { id: 7, component: "IconsPage", param: "MANDATORY_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Mandatory Signs" },
 
     { id: 8, component: "IconsPage", param: "WARNING_SIGNS", navigateTo: "", indicator: 'ROAD_SIGNS', type: 'ionic', icon: "", name: "Warning Signs" },

@@ -60,7 +60,13 @@ export const logout = (props) => {
 
 
 export const appColor=()=>{
-    return '#800000';
+    // return '#800000';
+    return '#F96302';
+}
+
+export const appColor2=()=>{
+    // return '#101A20';
+    return '#fff';
 }
 
 export const filter=(array, filter)=>{

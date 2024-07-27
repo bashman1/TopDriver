@@ -6,6 +6,7 @@ import { getStarted } from '../../intro-data';
 import BootSplash from "react-native-bootsplash";
 
 
+
 const GetStarted = (props: any) => {
     const [selectedItems, setSelectedItems] = useState([])
 
